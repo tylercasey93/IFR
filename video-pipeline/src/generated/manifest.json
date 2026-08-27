@@ -1,0 +1,5459 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "musicSrc": "audio/music-loop.wav",
+  "lessons": [
+    {
+      "id": "01-craft-clearance",
+      "index": 0,
+      "title": "Copy Any Clearance: CRAFT",
+      "topicArea": "clearances",
+      "hook": "ATC talks at 200 words a minute. Here's how you win.",
+      "references": {
+        "acs": [
+          "IR.III.A"
+        ],
+        "faa": {
+          "source": "AIM 4-4-3",
+          "title": "Clearance Items"
+        }
+      },
+      "scenes": [
+        {
+          "id": "scene-01",
+          "kind": "title",
+          "narration": "Alright kid, thirty seconds on the clock. Clearance delivery talks fast. You write faster — because you know what's coming.",
+          "onScreenText": [
+            "Copy Any Clearance",
+            "CRAFT"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 264,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Alright kid, thirty seconds on the",
+              "startFrame": 5,
+              "endFrame": 74
+            },
+            {
+              "text": "clock. Clearance delivery talks fast.",
+              "startFrame": 74,
+              "endFrame": 149
+            },
+            {
+              "text": "You write faster —",
+              "startFrame": 149,
+              "endFrame": 186
+            },
+            {
+              "text": "because you know what's coming.",
+              "startFrame": 186,
+              "endFrame": 249
+            }
+          ]
+        },
+        {
+          "id": "scene-02",
+          "kind": "bullets",
+          "narration": "Every IFR clearance comes in the same order. C, R, A, F, T. Clearance limit. Route. Altitude. Frequency. Transponder. The FAA loves a good acronym almost as much as I love coffee.",
+          "onScreenText": [
+            "C — Clearance limit",
+            "R — Route",
+            "A — Altitude",
+            "F — Frequency",
+            "T — Transponder"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "neutral",
+            "position": "left"
+          },
+          "durationInFrames": 408,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Every IFR clearance comes in the",
+              "startFrame": 5,
+              "endFrame": 77
+            },
+            {
+              "text": "same order. C,",
+              "startFrame": 77,
+              "endFrame": 109
+            },
+            {
+              "text": "R, A, F,",
+              "startFrame": 109,
+              "endFrame": 127
+            },
+            {
+              "text": "T. Clearance limit.",
+              "startFrame": 127,
+              "endFrame": 170
+            },
+            {
+              "text": "Route. Altitude. Frequency.",
+              "startFrame": 170,
+              "endFrame": 231
+            },
+            {
+              "text": "Transponder. The FAA loves a good",
+              "startFrame": 231,
+              "endFrame": 305
+            },
+            {
+              "text": "acronym almost as much as I",
+              "startFrame": 305,
+              "endFrame": 366
+            },
+            {
+              "text": "love coffee.",
+              "startFrame": 366,
+              "endFrame": 393
+            }
+          ]
+        },
+        {
+          "id": "scene-03",
+          "kind": "bullets",
+          "narration": "So before you even key the mic, write C R A F T down the page. Now you're not scribbling a mystery novel — you're filling in blanks.",
+          "onScreenText": [
+            "Write CRAFT before you call",
+            "Then just fill in the blanks"
+          ],
+          "duke": {
+            "pose": "point",
+            "expression": "grin",
+            "position": "right"
+          },
+          "durationInFrames": 360,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "So before you even key the",
+              "startFrame": 5,
+              "endFrame": 74
+            },
+            {
+              "text": "mic, write C R A F",
+              "startFrame": 74,
+              "endFrame": 122
+            },
+            {
+              "text": "T down the page.",
+              "startFrame": 122,
+              "endFrame": 165
+            },
+            {
+              "text": "Now you're not scribbling a mystery",
+              "startFrame": 165,
+              "endFrame": 258
+            },
+            {
+              "text": "novel — you're filling in blanks.",
+              "startFrame": 258,
+              "endFrame": 345
+            }
+          ]
+        },
+        {
+          "id": "scene-04",
+          "kind": "bullets",
+          "narration": "One trap: 'cleared as filed' still comes with an altitude, a frequency, and a squawk. Read it all back. ATC grades on participation.",
+          "onScreenText": [
+            "\"Cleared as filed\" ≠ done",
+            "Read back the full clearance"
+          ],
+          "duke": {
+            "pose": "armsCrossed",
+            "expression": "eyebrowRaise",
+            "position": "left"
+          },
+          "durationInFrames": 300,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "One trap: 'cleared as filed' still",
+              "startFrame": 5,
+              "endFrame": 79
+            },
+            {
+              "text": "comes with an altitude,",
+              "startFrame": 79,
+              "endFrame": 129
+            },
+            {
+              "text": "a frequency, and a squawk.",
+              "startFrame": 129,
+              "endFrame": 186
+            },
+            {
+              "text": "Read it all back.",
+              "startFrame": 186,
+              "endFrame": 223
+            },
+            {
+              "text": "ATC grades on participation.",
+              "startFrame": 223,
+              "endFrame": 285
+            }
+          ]
+        },
+        {
+          "id": "scene-05",
+          "kind": "recap",
+          "narration": "Clearance limit, route, altitude, frequency, transponder. CRAFT. Learn it cold, kid — it's the one craft project that keeps you out of a mountain.",
+          "onScreenText": [
+            "CRAFT",
+            "Same order. Every time."
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 312,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Clearance limit, route,",
+              "startFrame": 5,
+              "endFrame": 53
+            },
+            {
+              "text": "altitude, frequency, transponder.",
+              "startFrame": 53,
+              "endFrame": 121
+            },
+            {
+              "text": "CRAFT. Learn it cold,",
+              "startFrame": 121,
+              "endFrame": 164
+            },
+            {
+              "text": "kid — it's the one craft",
+              "startFrame": 164,
+              "endFrame": 214
+            },
+            {
+              "text": "project that keeps you out of",
+              "startFrame": 214,
+              "endFrame": 274
+            },
+            {
+              "text": "a mountain.",
+              "startFrame": 274,
+              "endFrame": 297
+            }
+          ]
+        },
+        {
+          "id": "scene-06",
+          "kind": "sources",
+          "narration": "Don't take my word for it. A I M four dash four dash three. Go read it.",
+          "onScreenText": [
+            "ACS: IR.III.A",
+            "AIM 4-4-3 — Clearance Items"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "neutral",
+            "position": "corner"
+          },
+          "durationInFrames": 228,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Don't take my word for it.",
+              "startFrame": 5,
+              "endFrame": 83
+            },
+            {
+              "text": "A I M four dash four",
+              "startFrame": 83,
+              "endFrame": 143
+            },
+            {
+              "text": "dash three. Go read it.",
+              "startFrame": 143,
+              "endFrame": 213
+            }
+          ]
+        }
+      ],
+      "durationInFrames": 1872
+    },
+    {
+      "id": "02-alternate-123",
+      "index": 1,
+      "title": "The 1-2-3 Rule: When You Need an Alternate",
+      "topicArea": "regs",
+      "hook": "Do you legally need an alternate today? Count to three.",
+      "references": {
+        "acs": [
+          "IR.I.C"
+        ],
+        "faa": {
+          "source": "14 CFR 91.169",
+          "title": "IFR flight plan: information required"
+        }
+      },
+      "scenes": [
+        {
+          "id": "scene-01",
+          "kind": "title",
+          "narration": "Thirty seconds, kid. Alternate airports. The FAA wants a plan B — and they wrote a nursery rhyme for it. One, two, three.",
+          "onScreenText": [
+            "Alternates",
+            "The 1-2-3 Rule"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 300,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Thirty seconds, kid.",
+              "startFrame": 5,
+              "endFrame": 53
+            },
+            {
+              "text": "Alternate airports. The FAA wants a",
+              "startFrame": 53,
+              "endFrame": 137
+            },
+            {
+              "text": "plan B —",
+              "startFrame": 137,
+              "endFrame": 156
+            },
+            {
+              "text": "and they wrote a nursery rhyme",
+              "startFrame": 156,
+              "endFrame": 228
+            },
+            {
+              "text": "for it. One,",
+              "startFrame": 228,
+              "endFrame": 257
+            },
+            {
+              "text": "two, three.",
+              "startFrame": 257,
+              "endFrame": 285
+            }
+          ]
+        },
+        {
+          "id": "scene-02",
+          "kind": "diagram",
+          "narration": "One hour before to one hour after your E T A: if the forecast shows at least two thousand foot ceilings AND three miles visibility... no alternate required.",
+          "onScreenText": [
+            "±1 hour of ETA",
+            "≥ 2,000 ft ceiling",
+            "≥ 3 SM visibility"
+          ],
+          "diagram": {
+            "type": "timeline",
+            "props": {
+              "variant": "eta-window"
+            }
+          },
+          "duke": {
+            "pose": "point",
+            "expression": "neutral",
+            "position": "corner"
+          },
+          "durationInFrames": 360,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "One hour before to one hour",
+              "startFrame": 5,
+              "endFrame": 65
+            },
+            {
+              "text": "after your E T A:",
+              "startFrame": 65,
+              "endFrame": 103
+            },
+            {
+              "text": "if the forecast shows at least",
+              "startFrame": 103,
+              "endFrame": 170
+            },
+            {
+              "text": "two thousand foot ceilings AND three",
+              "startFrame": 170,
+              "endFrame": 251
+            },
+            {
+              "text": "miles visibility... no alternate required.",
+              "startFrame": 251,
+              "endFrame": 345
+            }
+          ]
+        },
+        {
+          "id": "scene-03",
+          "kind": "bullets",
+          "narration": "Anything worse than one, two, three — you file an alternate. And that alternate has its own homework: at your E T A, six hundred and two for a precision approach, eight hundred and two for non-precision.",
+          "onScreenText": [
+            "Worse than 1-2-3? File one.",
+            "Alternate mins at ETA:",
+            "Precision: 600 – 2",
+            "Non-precision: 800 – 2"
+          ],
+          "duke": {
+            "pose": "armsCrossed",
+            "expression": "squint",
+            "position": "left"
+          },
+          "durationInFrames": 468,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Anything worse than one,",
+              "startFrame": 5,
+              "endFrame": 60
+            },
+            {
+              "text": "two, three —",
+              "startFrame": 60,
+              "endFrame": 87
+            },
+            {
+              "text": "you file an alternate.",
+              "startFrame": 87,
+              "endFrame": 137
+            },
+            {
+              "text": "And that alternate has its own",
+              "startFrame": 137,
+              "endFrame": 206
+            },
+            {
+              "text": "homework: at your E T A,",
+              "startFrame": 206,
+              "endFrame": 261
+            },
+            {
+              "text": "six hundred and two for a",
+              "startFrame": 261,
+              "endFrame": 318
+            },
+            {
+              "text": "precision approach, eight hundred and two",
+              "startFrame": 318,
+              "endFrame": 412
+            },
+            {
+              "text": "for non-precision.",
+              "startFrame": 412,
+              "endFrame": 453
+            }
+          ]
+        },
+        {
+          "id": "scene-04",
+          "kind": "bullets",
+          "narration": "No instrument approach at the alternate? Then the weather there has to let you descend from the M E A and land visually. Good luck explaining that plan to your examiner.",
+          "onScreenText": [
+            "No IAP at alternate?",
+            "Must descend from MEA & land VFR"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "eyebrowRaise",
+            "position": "right"
+          },
+          "durationInFrames": 396,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "No instrument approach at the alternate?",
+              "startFrame": 5,
+              "endFrame": 97
+            },
+            {
+              "text": "Then the weather there has to",
+              "startFrame": 97,
+              "endFrame": 163
+            },
+            {
+              "text": "let you descend from the M",
+              "startFrame": 163,
+              "endFrame": 223
+            },
+            {
+              "text": "E A and land visually.",
+              "startFrame": 223,
+              "endFrame": 273
+            },
+            {
+              "text": "Good luck explaining that plan to",
+              "startFrame": 273,
+              "endFrame": 349
+            },
+            {
+              "text": "your examiner.",
+              "startFrame": 349,
+              "endFrame": 381
+            }
+          ]
+        },
+        {
+          "id": "scene-05",
+          "kind": "recap",
+          "narration": "One hour either side. Two thousand. Three miles. Miss any of them, bring a plan B. I always file one anyway — clouds read forecasts even worse than students do.",
+          "onScreenText": [
+            "1 hour · 2,000 ft · 3 SM",
+            "When in doubt: file it"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "grin",
+            "position": "center"
+          },
+          "durationInFrames": 384,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "One hour either side.",
+              "startFrame": 5,
+              "endFrame": 55
+            },
+            {
+              "text": "Two thousand. Three miles.",
+              "startFrame": 55,
+              "endFrame": 116
+            },
+            {
+              "text": "Miss any of them,",
+              "startFrame": 116,
+              "endFrame": 156
+            },
+            {
+              "text": "bring a plan B.",
+              "startFrame": 156,
+              "endFrame": 191
+            },
+            {
+              "text": "I always file one anyway —",
+              "startFrame": 191,
+              "endFrame": 252
+            },
+            {
+              "text": "clouds read forecasts even worse than",
+              "startFrame": 252,
+              "endFrame": 339
+            },
+            {
+              "text": "students do.",
+              "startFrame": 339,
+              "endFrame": 369
+            }
+          ]
+        },
+        {
+          "id": "scene-06",
+          "kind": "sources",
+          "narration": "Chapter and verse: ninety-one point one sixty-nine. Read it before the examiner does.",
+          "onScreenText": [
+            "ACS: IR.I.C",
+            "14 CFR 91.169 — IFR flight plan"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "neutral",
+            "position": "corner"
+          },
+          "durationInFrames": 180,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Chapter and verse:",
+              "startFrame": 5,
+              "endFrame": 40
+            },
+            {
+              "text": "ninety-one point one sixty-nine.",
+              "startFrame": 40,
+              "endFrame": 102
+            },
+            {
+              "text": "Read it before the examiner does.",
+              "startFrame": 102,
+              "endFrame": 165
+            }
+          ]
+        }
+      ],
+      "durationInFrames": 2088
+    },
+    {
+      "id": "03-holding-entries",
+      "index": 2,
+      "title": "Holding Entries Without the Headache",
+      "topicArea": "holding",
+      "hook": "Cleared to hold. Which entry? You've got until the fix to decide.",
+      "references": {
+        "acs": [
+          "IR.III.B"
+        ],
+        "faa": {
+          "source": "AIM 5-3-8",
+          "title": "Holding"
+        }
+      },
+      "scenes": [
+        {
+          "id": "scene-01",
+          "kind": "title",
+          "narration": "Alright kid, thirty seconds. Holding entries. Three ways in, one line to memorize, zero excuses.",
+          "onScreenText": [
+            "Holding Entries",
+            "Direct · Parallel · Teardrop"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 204,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Alright kid, thirty seconds.",
+              "startFrame": 5,
+              "endFrame": 60
+            },
+            {
+              "text": "Holding entries. Three ways in,",
+              "startFrame": 60,
+              "endFrame": 121
+            },
+            {
+              "text": "one line to memorize,",
+              "startFrame": 121,
+              "endFrame": 163
+            },
+            {
+              "text": "zero excuses.",
+              "startFrame": 163,
+              "endFrame": 189
+            }
+          ]
+        },
+        {
+          "id": "scene-02",
+          "kind": "diagram",
+          "narration": "Picture the hold. Now draw one line across the fix, seventy degrees off the inbound course. That line slices the sky into three entry sectors.",
+          "onScreenText": [
+            "The 70° line",
+            "3 sectors, 3 entries"
+          ],
+          "diagram": {
+            "type": "holdingPattern",
+            "props": {
+              "stage": "sectors",
+              "inboundCourse": 270
+            }
+          },
+          "duke": {
+            "pose": "point",
+            "expression": "neutral",
+            "position": "corner"
+          },
+          "durationInFrames": 324,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Picture the hold.",
+              "startFrame": 5,
+              "endFrame": 42
+            },
+            {
+              "text": "Now draw one line across the",
+              "startFrame": 42,
+              "endFrame": 104
+            },
+            {
+              "text": "fix, seventy degrees off the inbound",
+              "startFrame": 104,
+              "endFrame": 183
+            },
+            {
+              "text": "course. That line slices the sky",
+              "startFrame": 183,
+              "endFrame": 253
+            },
+            {
+              "text": "into three entry sectors.",
+              "startFrame": 253,
+              "endFrame": 309
+            }
+          ]
+        },
+        {
+          "id": "scene-03",
+          "kind": "diagram",
+          "narration": "Coming from the big slice — about a hundred and eighty degrees of it — fly direct. Cross the fix, turn outbound, done. Direct is the FAA's gift to you. Accept it.",
+          "onScreenText": [
+            "Direct entry",
+            "The big slice (~180°)"
+          ],
+          "diagram": {
+            "type": "holdingPattern",
+            "props": {
+              "stage": "entry",
+              "entryHighlight": "direct",
+              "inboundCourse": 270
+            }
+          },
+          "duke": {
+            "pose": "stand",
+            "expression": "grin",
+            "position": "corner"
+          },
+          "durationInFrames": 408,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Coming from the big slice —",
+              "startFrame": 5,
+              "endFrame": 72
+            },
+            {
+              "text": "about a hundred and eighty degrees",
+              "startFrame": 72,
+              "endFrame": 157
+            },
+            {
+              "text": "of it —",
+              "startFrame": 157,
+              "endFrame": 174
+            },
+            {
+              "text": "fly direct. Cross the fix,",
+              "startFrame": 174,
+              "endFrame": 239
+            },
+            {
+              "text": "turn outbound, done.",
+              "startFrame": 239,
+              "endFrame": 289
+            },
+            {
+              "text": "Direct is the FAA's gift to",
+              "startFrame": 289,
+              "endFrame": 356
+            },
+            {
+              "text": "you. Accept it.",
+              "startFrame": 356,
+              "endFrame": 393
+            }
+          ]
+        },
+        {
+          "id": "scene-04",
+          "kind": "diagram",
+          "narration": "Arriving through the narrow seventy degree sliver? Teardrop. Cross the fix, cut thirty degrees into the protected side, then turn back inbound. From the wide wedge: parallel. Track the course outbound, then turn back around into the hold.",
+          "onScreenText": [
+            "Teardrop: the narrow 70° sliver",
+            "Parallel: the wide 110° wedge"
+          ],
+          "diagram": {
+            "type": "holdingPattern",
+            "props": {
+              "stage": "entry",
+              "entryHighlight": "teardrop",
+              "inboundCourse": 270
+            }
+          },
+          "duke": {
+            "pose": "point",
+            "expression": "squint",
+            "position": "corner"
+          },
+          "durationInFrames": 480,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Arriving through the narrow seventy degree",
+              "startFrame": 5,
+              "endFrame": 89
+            },
+            {
+              "text": "sliver? Teardrop. Cross the fix,",
+              "startFrame": 89,
+              "endFrame": 153
+            },
+            {
+              "text": "cut thirty degrees into the protected",
+              "startFrame": 153,
+              "endFrame": 227
+            },
+            {
+              "text": "side, then turn back inbound.",
+              "startFrame": 227,
+              "endFrame": 285
+            },
+            {
+              "text": "From the wide wedge:",
+              "startFrame": 285,
+              "endFrame": 325
+            },
+            {
+              "text": "parallel. Track the course outbound,",
+              "startFrame": 325,
+              "endFrame": 397
+            },
+            {
+              "text": "then turn back around into the",
+              "startFrame": 397,
+              "endFrame": 457
+            },
+            {
+              "text": "hold.",
+              "startFrame": 457,
+              "endFrame": 465
+            }
+          ]
+        },
+        {
+          "id": "scene-05",
+          "kind": "recap",
+          "narration": "Big slice direct, narrow sliver teardrop, wide wedge parallel. And relax — the entry isn't graded by geometry, kid. Stay in protected airspace and nobody gets hurt.",
+          "onScreenText": [
+            "Big slice → Direct",
+            "70° sliver → Teardrop",
+            "110° wedge → Parallel"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "neutral",
+            "position": "center"
+          },
+          "durationInFrames": 348,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Big slice direct,",
+              "startFrame": 5,
+              "endFrame": 40
+            },
+            {
+              "text": "narrow sliver teardrop,",
+              "startFrame": 40,
+              "endFrame": 88
+            },
+            {
+              "text": "wide wedge parallel.",
+              "startFrame": 88,
+              "endFrame": 130
+            },
+            {
+              "text": "And relax —",
+              "startFrame": 130,
+              "endFrame": 153
+            },
+            {
+              "text": "the entry isn't graded by geometry,",
+              "startFrame": 153,
+              "endFrame": 226
+            },
+            {
+              "text": "kid. Stay in protected airspace and",
+              "startFrame": 226,
+              "endFrame": 299
+            },
+            {
+              "text": "nobody gets hurt.",
+              "startFrame": 299,
+              "endFrame": 333
+            }
+          ]
+        },
+        {
+          "id": "scene-06",
+          "kind": "sources",
+          "narration": "Homework: A I M five dash three dash eight. It's a page-turner.",
+          "onScreenText": [
+            "ACS: IR.III.B",
+            "AIM 5-3-8 — Holding"
+          ],
+          "duke": {
+            "pose": "armsCrossed",
+            "expression": "deadpan",
+            "position": "corner"
+          },
+          "durationInFrames": 168,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Homework: A I M five dash",
+              "startFrame": 5,
+              "endFrame": 66
+            },
+            {
+              "text": "three dash eight.",
+              "startFrame": 66,
+              "endFrame": 107
+            },
+            {
+              "text": "It's a page-turner.",
+              "startFrame": 107,
+              "endFrame": 153
+            }
+          ]
+        }
+      ],
+      "durationInFrames": 1932
+    },
+    {
+      "id": "04-lost-comms",
+      "index": 3,
+      "title": "Lost Comms: AVEF & MEA",
+      "topicArea": "emergencies",
+      "hook": "The radio just died in the clouds. What now?",
+      "references": {
+        "acs": [
+          "IR.VII.A"
+        ],
+        "faa": {
+          "source": "14 CFR 91.185",
+          "title": "IFR operations: Two-way radio communications failure"
+        }
+      },
+      "scenes": [
+        {
+          "id": "scene-01",
+          "kind": "title",
+          "narration": "Thirty seconds, kid. Your radio quits in I M C. The reg is ninety-one one eighty-five, and it answers two questions: where do I go, and how high.",
+          "onScreenText": [
+            "Lost Comms in IMC",
+            "14 CFR 91.185"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 360,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Thirty seconds, kid.",
+              "startFrame": 5,
+              "endFrame": 54
+            },
+            {
+              "text": "Your radio quits in I M",
+              "startFrame": 54,
+              "endFrame": 110
+            },
+            {
+              "text": "C. The reg is ninety-one one",
+              "startFrame": 110,
+              "endFrame": 178
+            },
+            {
+              "text": "eighty-five, and it answers two questions:",
+              "startFrame": 178,
+              "endFrame": 280
+            },
+            {
+              "text": "where do I go,",
+              "startFrame": 280,
+              "endFrame": 314
+            },
+            {
+              "text": "and how high.",
+              "startFrame": 314,
+              "endFrame": 345
+            }
+          ]
+        },
+        {
+          "id": "scene-02",
+          "kind": "bullets",
+          "narration": "First — if you break out into V F R, stay V F R and land. Reg's over, lesson's over, go buy a handheld radio.",
+          "onScreenText": [
+            "VFR conditions?",
+            "Stay VFR. Land. Done."
+          ],
+          "duke": {
+            "pose": "point",
+            "expression": "neutral",
+            "position": "left"
+          },
+          "durationInFrames": 324,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "First — if you break out",
+              "startFrame": 5,
+              "endFrame": 74
+            },
+            {
+              "text": "into V F R,",
+              "startFrame": 74,
+              "endFrame": 106
+            },
+            {
+              "text": "stay V F R and land.",
+              "startFrame": 106,
+              "endFrame": 164
+            },
+            {
+              "text": "Reg's over, lesson's over,",
+              "startFrame": 164,
+              "endFrame": 239
+            },
+            {
+              "text": "go buy a handheld radio.",
+              "startFrame": 239,
+              "endFrame": 309
+            }
+          ]
+        },
+        {
+          "id": "scene-03",
+          "kind": "diagram",
+          "narration": "Still in the soup? Route: A V E F. Fly what you were Assigned. Being vectored? Go direct to what the Vector was for. Otherwise what ATC said to Expect. Last resort — what you Filed.",
+          "onScreenText": [
+            "Route: AVEF",
+            "Assigned → Vectored → Expected → Filed"
+          ],
+          "diagram": {
+            "type": "routeAltitude",
+            "props": {
+              "variant": "route"
+            }
+          },
+          "duke": {
+            "pose": "point",
+            "expression": "squint",
+            "position": "corner"
+          },
+          "durationInFrames": 456,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Still in the soup?",
+              "startFrame": 5,
+              "endFrame": 50
+            },
+            {
+              "text": "Route: A V E F.",
+              "startFrame": 50,
+              "endFrame": 88
+            },
+            {
+              "text": "Fly what you were Assigned.",
+              "startFrame": 88,
+              "endFrame": 156
+            },
+            {
+              "text": "Being vectored? Go direct to what",
+              "startFrame": 156,
+              "endFrame": 239
+            },
+            {
+              "text": "the Vector was for.",
+              "startFrame": 239,
+              "endFrame": 287
+            },
+            {
+              "text": "Otherwise what ATC said to Expect.",
+              "startFrame": 287,
+              "endFrame": 372
+            },
+            {
+              "text": "Last resort —",
+              "startFrame": 372,
+              "endFrame": 405
+            },
+            {
+              "text": "what you Filed.",
+              "startFrame": 405,
+              "endFrame": 441
+            }
+          ]
+        },
+        {
+          "id": "scene-04",
+          "kind": "diagram",
+          "narration": "Altitude: fly the HIGHEST of three, for each route segment. Minimum enroute altitude, what you were told to Expect, or what you were Assigned. Highest. The rocks don't negotiate.",
+          "onScreenText": [
+            "Altitude: highest of",
+            "MEA · Expected · Assigned"
+          ],
+          "diagram": {
+            "type": "routeAltitude",
+            "props": {
+              "variant": "altitude"
+            }
+          },
+          "duke": {
+            "pose": "armsCrossed",
+            "expression": "eyebrowRaise",
+            "position": "corner"
+          },
+          "durationInFrames": 372,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Altitude: fly the HIGHEST of three,",
+              "startFrame": 5,
+              "endFrame": 76
+            },
+            {
+              "text": "for each route segment.",
+              "startFrame": 76,
+              "endFrame": 123
+            },
+            {
+              "text": "Minimum enroute altitude,",
+              "startFrame": 123,
+              "endFrame": 174
+            },
+            {
+              "text": "what you were told to Expect,",
+              "startFrame": 174,
+              "endFrame": 233
+            },
+            {
+              "text": "or what you were Assigned.",
+              "startFrame": 233,
+              "endFrame": 286
+            },
+            {
+              "text": "Highest. The rocks don't negotiate.",
+              "startFrame": 286,
+              "endFrame": 357
+            }
+          ]
+        },
+        {
+          "id": "scene-05",
+          "kind": "recap",
+          "narration": "V F R? Land. I M C? Route A V E F, altitude highest of M E A, expected, assigned. Squawk seventy-six hundred and keep flying the airplane — it doesn't know the radio's dead.",
+          "onScreenText": [
+            "Route: AVEF",
+            "Altitude: highest of MEA/E/A",
+            "Squawk 7600"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "neutral",
+            "position": "center"
+          },
+          "durationInFrames": 444,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "V F R?",
+              "startFrame": 5,
+              "endFrame": 20
+            },
+            {
+              "text": "Land. I M C?",
+              "startFrame": 20,
+              "endFrame": 50
+            },
+            {
+              "text": "Route A V E F,",
+              "startFrame": 50,
+              "endFrame": 86
+            },
+            {
+              "text": "altitude highest of M E A,",
+              "startFrame": 86,
+              "endFrame": 152
+            },
+            {
+              "text": "expected, assigned. Squawk seventy-six hundred and",
+              "startFrame": 152,
+              "endFrame": 279
+            },
+            {
+              "text": "keep flying the airplane —",
+              "startFrame": 279,
+              "endFrame": 345
+            },
+            {
+              "text": "it doesn't know the radio's dead.",
+              "startFrame": 345,
+              "endFrame": 429
+            }
+          ]
+        },
+        {
+          "id": "scene-06",
+          "kind": "sources",
+          "narration": "It's all in ninety-one one eighty-five. Two paragraphs. Memorize both.",
+          "onScreenText": [
+            "ACS: IR.VII.A",
+            "14 CFR 91.185 — Two-way radio failure"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "deadpan",
+            "position": "corner"
+          },
+          "durationInFrames": 144,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "It's all in ninety-one one eighty-five.",
+              "startFrame": 5,
+              "endFrame": 75
+            },
+            {
+              "text": "Two paragraphs. Memorize both.",
+              "startFrame": 75,
+              "endFrame": 129
+            }
+          ]
+        }
+      ],
+      "durationInFrames": 2100
+    },
+    {
+      "id": "05-currency-66hit",
+      "index": 4,
+      "title": "IFR Currency: 6-6-HIT",
+      "topicArea": "regs",
+      "hook": "Legal to file IFR today? Let's check your math.",
+      "references": {
+        "acs": [
+          "IR.I.A"
+        ],
+        "faa": {
+          "source": "14 CFR 61.57(c)-(d)",
+          "title": "Recent flight experience: Instrument"
+        }
+      },
+      "scenes": [
+        {
+          "id": "scene-01",
+          "kind": "title",
+          "narration": "Thirty seconds, kid. Instrument currency. The rating never expires — your privileges do. Meet six, six, H I T.",
+          "onScreenText": [
+            "IFR Currency",
+            "6 - 6 - HIT"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 252,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Thirty seconds, kid.",
+              "startFrame": 5,
+              "endFrame": 49
+            },
+            {
+              "text": "Instrument currency. The rating never expires",
+              "startFrame": 49,
+              "endFrame": 147
+            },
+            {
+              "text": "— your privileges do.",
+              "startFrame": 147,
+              "endFrame": 193
+            },
+            {
+              "text": "Meet six, six,",
+              "startFrame": 193,
+              "endFrame": 224
+            },
+            {
+              "text": "H I T.",
+              "startFrame": 224,
+              "endFrame": 237
+            }
+          ]
+        },
+        {
+          "id": "scene-02",
+          "kind": "bullets",
+          "narration": "Within the preceding SIX calendar months: SIX instrument approaches, plus Holding, plus Intercepting and Tracking courses with nav systems. That's the H, the I, and the T.",
+          "onScreenText": [
+            "6 calendar months",
+            "6 approaches",
+            "Holding",
+            "Intercepting & Tracking"
+          ],
+          "duke": {
+            "pose": "point",
+            "expression": "neutral",
+            "position": "left"
+          },
+          "durationInFrames": 348,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Within the preceding SIX calendar months:",
+              "startFrame": 5,
+              "endFrame": 86
+            },
+            {
+              "text": "SIX instrument approaches,",
+              "startFrame": 86,
+              "endFrame": 137
+            },
+            {
+              "text": "plus Holding, plus Intercepting and Tracking",
+              "startFrame": 137,
+              "endFrame": 224
+            },
+            {
+              "text": "courses with nav systems.",
+              "startFrame": 224,
+              "endFrame": 273
+            },
+            {
+              "text": "That's the H,",
+              "startFrame": 273,
+              "endFrame": 299
+            },
+            {
+              "text": "the I, and the T.",
+              "startFrame": 299,
+              "endFrame": 333
+            }
+          ]
+        },
+        {
+          "id": "scene-03",
+          "kind": "diagram",
+          "narration": "Blow past six months without it? You get six more months to fix it — with a safety pilot or in a sim. But you can't file I F R while you're catching up.",
+          "onScreenText": [
+            "Months 7–12: the grace period",
+            "Regain with safety pilot / sim",
+            "No IFR until current"
+          ],
+          "diagram": {
+            "type": "timeline",
+            "props": {
+              "variant": "currency"
+            }
+          },
+          "duke": {
+            "pose": "armsCrossed",
+            "expression": "squint",
+            "position": "corner"
+          },
+          "durationInFrames": 432,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Blow past six months without it?",
+              "startFrame": 5,
+              "endFrame": 95
+            },
+            {
+              "text": "You get six more months to",
+              "startFrame": 95,
+              "endFrame": 168
+            },
+            {
+              "text": "fix it —",
+              "startFrame": 168,
+              "endFrame": 191
+            },
+            {
+              "text": "with a safety pilot or in",
+              "startFrame": 191,
+              "endFrame": 262
+            },
+            {
+              "text": "a sim. But you can't file",
+              "startFrame": 262,
+              "endFrame": 333
+            },
+            {
+              "text": "I F R while you're catching",
+              "startFrame": 333,
+              "endFrame": 409
+            },
+            {
+              "text": "up.",
+              "startFrame": 409,
+              "endFrame": 417
+            }
+          ]
+        },
+        {
+          "id": "scene-04",
+          "kind": "bullets",
+          "narration": "Past twelve months total? Now it's an instrument proficiency check with an instructor. That's not a punishment, kid. The punishment is what the clouds had planned.",
+          "onScreenText": [
+            "Beyond 12 months:",
+            "IPC required (61.57(d))"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "eyebrowRaise",
+            "position": "right"
+          },
+          "durationInFrames": 336,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Past twelve months total?",
+              "startFrame": 5,
+              "endFrame": 55
+            },
+            {
+              "text": "Now it's an instrument proficiency check",
+              "startFrame": 55,
+              "endFrame": 135
+            },
+            {
+              "text": "with an instructor.",
+              "startFrame": 135,
+              "endFrame": 173
+            },
+            {
+              "text": "That's not a punishment,",
+              "startFrame": 173,
+              "endFrame": 221
+            },
+            {
+              "text": "kid. The punishment is what the",
+              "startFrame": 221,
+              "endFrame": 283
+            },
+            {
+              "text": "clouds had planned.",
+              "startFrame": 283,
+              "endFrame": 321
+            }
+          ]
+        },
+        {
+          "id": "scene-05",
+          "kind": "recap",
+          "narration": "Six approaches, holding, intercepting, tracking, every six months. Then a six-month grace window, then an I P C. Currency is cheaper than humility. Barely.",
+          "onScreenText": [
+            "6-6-HIT",
+            "Grace: 6 months",
+            "Then: IPC"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "grin",
+            "position": "center"
+          },
+          "durationInFrames": 312,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Six approaches, holding,",
+              "startFrame": 5,
+              "endFrame": 52
+            },
+            {
+              "text": "intercepting, tracking, every six months.",
+              "startFrame": 52,
+              "endFrame": 132
+            },
+            {
+              "text": "Then a six-month grace window,",
+              "startFrame": 132,
+              "endFrame": 190
+            },
+            {
+              "text": "then an I P C.",
+              "startFrame": 190,
+              "endFrame": 217
+            },
+            {
+              "text": "Currency is cheaper than humility.",
+              "startFrame": 217,
+              "endFrame": 283
+            },
+            {
+              "text": "Barely.",
+              "startFrame": 283,
+              "endFrame": 297
+            }
+          ]
+        },
+        {
+          "id": "scene-06",
+          "kind": "sources",
+          "narration": "Sixty-one fifty-seven, paragraphs c and d. Read it, then go log some approaches.",
+          "onScreenText": [
+            "ACS: IR.I.A",
+            "14 CFR 61.57(c)-(d) — Instrument experience"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "neutral",
+            "position": "corner"
+          },
+          "durationInFrames": 180,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Sixty-one fifty-seven, paragraphs c and d.",
+              "startFrame": 5,
+              "endFrame": 91
+            },
+            {
+              "text": "Read it, then go log some",
+              "startFrame": 91,
+              "endFrame": 142
+            },
+            {
+              "text": "approaches.",
+              "startFrame": 142,
+              "endFrame": 165
+            }
+          ]
+        }
+      ],
+      "durationInFrames": 1860
+    },
+    {
+      "id": "06-approach-brief",
+      "index": 5,
+      "title": "Brief a Plate Like a Pro",
+      "topicArea": "approaches",
+      "hook": "Ten miles out is a terrible place to meet your approach plate.",
+      "references": {
+        "acs": [
+          "IR.VI.A",
+          "IR.VI.B"
+        ],
+        "faa": {
+          "source": "FAA-H-8083-16B Ch. 4",
+          "title": "Instrument Procedures Handbook — Approaches"
+        }
+      },
+      "scenes": [
+        {
+          "id": "scene-01",
+          "kind": "title",
+          "narration": "Thirty seconds, kid. Briefing an approach plate. Top to bottom, same order every time — like reading a menu, except the special is granite.",
+          "onScreenText": [
+            "The Approach Brief",
+            "Top to bottom. Every time."
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 312,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Thirty seconds, kid.",
+              "startFrame": 5,
+              "endFrame": 49
+            },
+            {
+              "text": "Briefing an approach plate.",
+              "startFrame": 49,
+              "endFrame": 108
+            },
+            {
+              "text": "Top to bottom,",
+              "startFrame": 108,
+              "endFrame": 139
+            },
+            {
+              "text": "same order every time —",
+              "startFrame": 139,
+              "endFrame": 189
+            },
+            {
+              "text": "like reading a menu,",
+              "startFrame": 189,
+              "endFrame": 233
+            },
+            {
+              "text": "except the special is granite.",
+              "startFrame": 233,
+              "endFrame": 297
+            }
+          ]
+        },
+        {
+          "id": "scene-02",
+          "kind": "diagram",
+          "narration": "Start at the top briefing strip: frequencies, final approach course, runway. Then the notes — that's where the plate hides the fine print.",
+          "onScreenText": [
+            "1. Briefing strip: freqs, course, runway",
+            "2. Notes: read the fine print"
+          ],
+          "diagram": {
+            "type": "approachPlateProfile",
+            "props": {
+              "highlight": "top"
+            }
+          },
+          "duke": {
+            "pose": "point",
+            "expression": "neutral",
+            "position": "corner"
+          },
+          "durationInFrames": 300,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Start at the top briefing strip:",
+              "startFrame": 5,
+              "endFrame": 72
+            },
+            {
+              "text": "frequencies, final approach course,",
+              "startFrame": 72,
+              "endFrame": 145
+            },
+            {
+              "text": "runway. Then the notes —",
+              "startFrame": 145,
+              "endFrame": 195
+            },
+            {
+              "text": "that's where the plate hides the",
+              "startFrame": 195,
+              "endFrame": 262
+            },
+            {
+              "text": "fine print.",
+              "startFrame": 262,
+              "endFrame": 285
+            }
+          ]
+        },
+        {
+          "id": "scene-03",
+          "kind": "diagram",
+          "narration": "Then the plan view for the big picture, and the profile view for the step-downs: final approach fix, glidepath, and where the missed begins.",
+          "onScreenText": [
+            "3. Plan view: the big picture",
+            "4. Profile: FAF, stepdowns, missed point"
+          ],
+          "diagram": {
+            "type": "approachPlateProfile",
+            "props": {
+              "highlight": "profile"
+            }
+          },
+          "duke": {
+            "pose": "point",
+            "expression": "squint",
+            "position": "corner"
+          },
+          "durationInFrames": 312,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Then the plan view for the",
+              "startFrame": 5,
+              "endFrame": 61
+            },
+            {
+              "text": "big picture, and the profile view",
+              "startFrame": 61,
+              "endFrame": 132
+            },
+            {
+              "text": "for the step-downs:",
+              "startFrame": 132,
+              "endFrame": 173
+            },
+            {
+              "text": "final approach fix,",
+              "startFrame": 173,
+              "endFrame": 214
+            },
+            {
+              "text": "glidepath, and where the missed begins.",
+              "startFrame": 214,
+              "endFrame": 297
+            }
+          ]
+        },
+        {
+          "id": "scene-04",
+          "kind": "bullets",
+          "narration": "Finish with minimums and the missed approach — out loud. If you can't say the missed from memory at the fix, kid, you briefed a bedtime story, not an approach.",
+          "onScreenText": [
+            "5. Minimums: DA or MDA + vis",
+            "6. Missed: say it out loud"
+          ],
+          "duke": {
+            "pose": "armsCrossed",
+            "expression": "eyebrowRaise",
+            "position": "left"
+          },
+          "durationInFrames": 384,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Finish with minimums and the missed",
+              "startFrame": 5,
+              "endFrame": 88
+            },
+            {
+              "text": "approach — out loud.",
+              "startFrame": 88,
+              "endFrame": 135
+            },
+            {
+              "text": "If you can't say the missed",
+              "startFrame": 135,
+              "endFrame": 199
+            },
+            {
+              "text": "from memory at the fix,",
+              "startFrame": 199,
+              "endFrame": 253
+            },
+            {
+              "text": "kid, you briefed a bedtime story,",
+              "startFrame": 253,
+              "endFrame": 331
+            },
+            {
+              "text": "not an approach.",
+              "startFrame": 331,
+              "endFrame": 369
+            }
+          ]
+        },
+        {
+          "id": "scene-05",
+          "kind": "recap",
+          "narration": "Strip, notes, plan, profile, minimums, missed. Brief it before the approach environment briefs you.",
+          "onScreenText": [
+            "Strip → Notes → Plan",
+            "→ Profile → Mins → Missed"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "neutral",
+            "position": "center"
+          },
+          "durationInFrames": 192,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Strip, notes, plan,",
+              "startFrame": 5,
+              "endFrame": 39
+            },
+            {
+              "text": "profile, minimums, missed.",
+              "startFrame": 39,
+              "endFrame": 86
+            },
+            {
+              "text": "Brief it before the approach environment",
+              "startFrame": 86,
+              "endFrame": 158
+            },
+            {
+              "text": "briefs you.",
+              "startFrame": 158,
+              "endFrame": 177
+            }
+          ]
+        },
+        {
+          "id": "scene-06",
+          "kind": "sources",
+          "narration": "Instrument Procedures Handbook, chapter four. The FAA wrote four hundred pages so you'd read six.",
+          "onScreenText": [
+            "ACS: IR.VI.A / IR.VI.B",
+            "FAA-H-8083-16B Ch. 4 — Approaches"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "deadpan",
+            "position": "corner"
+          },
+          "durationInFrames": 204,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Instrument Procedures Handbook,",
+              "startFrame": 5,
+              "endFrame": 65
+            },
+            {
+              "text": "chapter four. The FAA wrote four",
+              "startFrame": 65,
+              "endFrame": 127
+            },
+            {
+              "text": "hundred pages so you'd read six.",
+              "startFrame": 127,
+              "endFrame": 189
+            }
+          ]
+        }
+      ],
+      "durationInFrames": 1704
+    },
+    {
+      "id": "07-ils-basics",
+      "index": 6,
+      "title": "The ILS in Plain English",
+      "topicArea": "approaches",
+      "hook": "Two needles, one runway, zero visibility. Meet the ILS.",
+      "references": {
+        "acs": [
+          "IR.VI.B"
+        ],
+        "faa": {
+          "source": "AIM 1-1-9",
+          "title": "Instrument Landing System (ILS)"
+        }
+      },
+      "scenes": [
+        {
+          "id": "scene-01",
+          "kind": "title",
+          "narration": "Thirty seconds, kid. The I L S — the precision approach that's been saving bacon since before I had this mustache.",
+          "onScreenText": [
+            "The ILS",
+            "Precision since 1938"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 276,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Thirty seconds, kid.",
+              "startFrame": 5,
+              "endFrame": 52
+            },
+            {
+              "text": "The I L S —",
+              "startFrame": 52,
+              "endFrame": 78
+            },
+            {
+              "text": "the precision approach that's been saving",
+              "startFrame": 78,
+              "endFrame": 173
+            },
+            {
+              "text": "bacon since before I had this",
+              "startFrame": 173,
+              "endFrame": 240
+            },
+            {
+              "text": "mustache.",
+              "startFrame": 240,
+              "endFrame": 261
+            }
+          ]
+        },
+        {
+          "id": "scene-02",
+          "kind": "diagram",
+          "narration": "Two beams. The localizer gives you left and right — it's four times more sensitive than a V O R, so fly it with pressure, not heroics. The glideslope gives you up and down, usually a three degree slide to the runway.",
+          "onScreenText": [
+            "Localizer: lateral (sensitive!)",
+            "Glideslope: vertical (~3°)"
+          ],
+          "diagram": {
+            "type": "approachPlateProfile",
+            "props": {
+              "highlight": "ils"
+            }
+          },
+          "duke": {
+            "pose": "point",
+            "expression": "neutral",
+            "position": "corner"
+          },
+          "durationInFrames": 528,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Two beams. The localizer gives you",
+              "startFrame": 5,
+              "endFrame": 88
+            },
+            {
+              "text": "left and right —",
+              "startFrame": 88,
+              "endFrame": 127
+            },
+            {
+              "text": "it's four times more sensitive than",
+              "startFrame": 127,
+              "endFrame": 212
+            },
+            {
+              "text": "a V O R,",
+              "startFrame": 212,
+              "endFrame": 232
+            },
+            {
+              "text": "so fly it with pressure,",
+              "startFrame": 232,
+              "endFrame": 291
+            },
+            {
+              "text": "not heroics. The glideslope gives you",
+              "startFrame": 291,
+              "endFrame": 381
+            },
+            {
+              "text": "up and down,",
+              "startFrame": 381,
+              "endFrame": 410
+            },
+            {
+              "text": "usually a three degree slide to",
+              "startFrame": 410,
+              "endFrame": 486
+            },
+            {
+              "text": "the runway.",
+              "startFrame": 486,
+              "endFrame": 513
+            }
+          ]
+        },
+        {
+          "id": "scene-03",
+          "kind": "diagram",
+          "narration": "Fly both needles centered and a standard Category One I L S takes you to a decision altitude two hundred feet above the touchdown zone, with as little as a half mile visibility.",
+          "onScreenText": [
+            "Standard CAT I mins:",
+            "DA: 200 ft HAT",
+            "Vis: as low as ½ SM (RVR 1800)"
+          ],
+          "diagram": {
+            "type": "altimeterMinimums",
+            "props": {
+              "da": 200
+            }
+          },
+          "duke": {
+            "pose": "armsCrossed",
+            "expression": "squint",
+            "position": "corner"
+          },
+          "durationInFrames": 420,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Fly both needles centered and a",
+              "startFrame": 5,
+              "endFrame": 77
+            },
+            {
+              "text": "standard Category One I L S",
+              "startFrame": 77,
+              "endFrame": 140
+            },
+            {
+              "text": "takes you to a decision altitude",
+              "startFrame": 140,
+              "endFrame": 214
+            },
+            {
+              "text": "two hundred feet above the touchdown",
+              "startFrame": 214,
+              "endFrame": 298
+            },
+            {
+              "text": "zone, with as little as a",
+              "startFrame": 298,
+              "endFrame": 356
+            },
+            {
+              "text": "half mile visibility.",
+              "startFrame": 356,
+              "endFrame": 405
+            }
+          ]
+        },
+        {
+          "id": "scene-04",
+          "kind": "bullets",
+          "narration": "At D A you decide: runway environment in sight, land. Not in sight? Missed approach. There's no 'take a peek' option, kid. The glideslope doesn't care about your dinner reservation.",
+          "onScreenText": [
+            "At DA: decide.",
+            "See it → land",
+            "Don't → missed. Now."
+          ],
+          "duke": {
+            "pose": "point",
+            "expression": "eyebrowRaise",
+            "position": "left"
+          },
+          "durationInFrames": 384,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "At D A you decide:",
+              "startFrame": 5,
+              "endFrame": 42
+            },
+            {
+              "text": "runway environment in sight,",
+              "startFrame": 42,
+              "endFrame": 100
+            },
+            {
+              "text": "land. Not in sight?",
+              "startFrame": 100,
+              "endFrame": 140
+            },
+            {
+              "text": "Missed approach. There's no 'take a",
+              "startFrame": 140,
+              "endFrame": 213
+            },
+            {
+              "text": "peek' option, kid.",
+              "startFrame": 213,
+              "endFrame": 250
+            },
+            {
+              "text": "The glideslope doesn't care about your",
+              "startFrame": 250,
+              "endFrame": 329
+            },
+            {
+              "text": "dinner reservation.",
+              "startFrame": 329,
+              "endFrame": 369
+            }
+          ]
+        },
+        {
+          "id": "scene-05",
+          "kind": "recap",
+          "narration": "Localizer left-right, glideslope up-down, two hundred and a half, decide at D A. Chase the needles gently — they bite back near the ground.",
+          "onScreenText": [
+            "LOC + GS",
+            "200 & ½",
+            "Decide at DA"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "neutral",
+            "position": "center"
+          },
+          "durationInFrames": 312,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Localizer left-right, glideslope up-down,",
+              "startFrame": 5,
+              "endFrame": 94
+            },
+            {
+              "text": "two hundred and a half,",
+              "startFrame": 94,
+              "endFrame": 144
+            },
+            {
+              "text": "decide at D A.",
+              "startFrame": 144,
+              "endFrame": 174
+            },
+            {
+              "text": "Chase the needles gently —",
+              "startFrame": 174,
+              "endFrame": 230
+            },
+            {
+              "text": "they bite back near the ground.",
+              "startFrame": 230,
+              "endFrame": 297
+            }
+          ]
+        },
+        {
+          "id": "scene-06",
+          "kind": "sources",
+          "narration": "A I M one dash one dash nine has every beam, marker, and mile. Bring coffee.",
+          "onScreenText": [
+            "ACS: IR.VI.B",
+            "AIM 1-1-9 — Instrument Landing System"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "deadpan",
+            "position": "corner"
+          },
+          "durationInFrames": 216,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "A I M one dash one",
+              "startFrame": 5,
+              "endFrame": 53
+            },
+            {
+              "text": "dash nine has every beam,",
+              "startFrame": 53,
+              "endFrame": 120
+            },
+            {
+              "text": "marker, and mile.",
+              "startFrame": 120,
+              "endFrame": 166
+            },
+            {
+              "text": "Bring coffee.",
+              "startFrame": 166,
+              "endFrame": 201
+            }
+          ]
+        }
+      ],
+      "durationInFrames": 2136
+    },
+    {
+      "id": "08-vor-cdi-hsi",
+      "index": 7,
+      "title": "VOR Radials Without the Vertigo",
+      "topicArea": "navigation",
+      "hook": "Which radial are you on? Wrong answer costs you the checkride.",
+      "references": {
+        "acs": [
+          "IR.V.A"
+        ],
+        "faa": {
+          "source": "AIM 1-1-3",
+          "title": "VHF Omni-directional Range (VOR)"
+        }
+      },
+      "scenes": [
+        {
+          "id": "scene-01",
+          "kind": "title",
+          "narration": "Thirty seconds, kid. V O R radials. Sixty-year-old technology that still confuses pilots daily. Not you. Not after today.",
+          "onScreenText": [
+            "VOR Radials",
+            "CDI & HSI, decoded"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 252,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Thirty seconds, kid.",
+              "startFrame": 5,
+              "endFrame": 45
+            },
+            {
+              "text": "V O R radials.",
+              "startFrame": 45,
+              "endFrame": 73
+            },
+            {
+              "text": "Sixty-year-old technology that still confuses pilots",
+              "startFrame": 73,
+              "endFrame": 176
+            },
+            {
+              "text": "daily. Not you.",
+              "startFrame": 176,
+              "endFrame": 206
+            },
+            {
+              "text": "Not after today.",
+              "startFrame": 206,
+              "endFrame": 237
+            }
+          ]
+        },
+        {
+          "id": "scene-02",
+          "kind": "diagram",
+          "narration": "Radials point FROM the station, like spokes on a wheel. You're always ON one radial — the question is which spoke, and which way you're facing.",
+          "onScreenText": [
+            "Radials radiate FROM the station",
+            "360 spokes on a wheel"
+          ],
+          "diagram": {
+            "type": "hsi",
+            "props": {
+              "stage": "radials"
+            }
+          },
+          "duke": {
+            "pose": "point",
+            "expression": "neutral",
+            "position": "corner"
+          },
+          "durationInFrames": 336,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Radials point FROM the station,",
+              "startFrame": 5,
+              "endFrame": 75
+            },
+            {
+              "text": "like spokes on a wheel.",
+              "startFrame": 75,
+              "endFrame": 127
+            },
+            {
+              "text": "You're always ON one radial —",
+              "startFrame": 127,
+              "endFrame": 193
+            },
+            {
+              "text": "the question is which spoke,",
+              "startFrame": 193,
+              "endFrame": 257
+            },
+            {
+              "text": "and which way you're facing.",
+              "startFrame": 257,
+              "endFrame": 321
+            }
+          ]
+        },
+        {
+          "id": "scene-03",
+          "kind": "diagram",
+          "narration": "Set a course, and the needle shows where that course is relative to you. Golden rule for the C D I: fly TOWARD the needle... but only if your heading roughly matches the course you set. Set it backwards and the needle lies to your face. That's reverse sensing.",
+          "onScreenText": [
+            "Needle = where the course is",
+            "Heading ≈ course, or it lies",
+            "(reverse sensing)"
+          ],
+          "diagram": {
+            "type": "hsi",
+            "props": {
+              "stage": "cdi"
+            }
+          },
+          "duke": {
+            "pose": "armsCrossed",
+            "expression": "squint",
+            "position": "corner"
+          },
+          "durationInFrames": 612,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Set a course,",
+              "startFrame": 5,
+              "endFrame": 36
+            },
+            {
+              "text": "and the needle shows where that",
+              "startFrame": 36,
+              "endFrame": 109
+            },
+            {
+              "text": "course is relative to you.",
+              "startFrame": 109,
+              "endFrame": 170
+            },
+            {
+              "text": "Golden rule for the C D",
+              "startFrame": 170,
+              "endFrame": 224
+            },
+            {
+              "text": "I: fly TOWARD the needle...",
+              "startFrame": 224,
+              "endFrame": 288
+            },
+            {
+              "text": "but only if your heading roughly",
+              "startFrame": 288,
+              "endFrame": 363
+            },
+            {
+              "text": "matches the course you set.",
+              "startFrame": 363,
+              "endFrame": 427
+            },
+            {
+              "text": "Set it backwards and the needle",
+              "startFrame": 427,
+              "endFrame": 500
+            },
+            {
+              "text": "lies to your face.",
+              "startFrame": 500,
+              "endFrame": 542
+            },
+            {
+              "text": "That's reverse sensing.",
+              "startFrame": 542,
+              "endFrame": 597
+            }
+          ]
+        },
+        {
+          "id": "scene-04",
+          "kind": "diagram",
+          "narration": "That's why I love the H S I — the whole card rotates with your heading, so the needle can't reverse-sense. It's the one instrument that never argues with me. Unlike my examiner in eighty-seven.",
+          "onScreenText": [
+            "HSI: card rotates with heading",
+            "No reverse sensing. Ever."
+          ],
+          "diagram": {
+            "type": "hsi",
+            "props": {
+              "stage": "hsi"
+            }
+          },
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "grin",
+            "position": "corner"
+          },
+          "durationInFrames": 444,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "That's why I love the H",
+              "startFrame": 5,
+              "endFrame": 57
+            },
+            {
+              "text": "S I —",
+              "startFrame": 57,
+              "endFrame": 68
+            },
+            {
+              "text": "the whole card rotates with your",
+              "startFrame": 68,
+              "endFrame": 141
+            },
+            {
+              "text": "heading, so the needle can't reverse-sense.",
+              "startFrame": 141,
+              "endFrame": 238
+            },
+            {
+              "text": "It's the one instrument that never",
+              "startFrame": 238,
+              "endFrame": 315
+            },
+            {
+              "text": "argues with me.",
+              "startFrame": 315,
+              "endFrame": 349
+            },
+            {
+              "text": "Unlike my examiner in eighty-seven.",
+              "startFrame": 349,
+              "endFrame": 429
+            }
+          ]
+        },
+        {
+          "id": "scene-05",
+          "kind": "recap",
+          "narration": "Radials point from the station. Match your heading to the course, fly toward the needle. And if the picture makes no sense — check what you twisted before you blame the airplane.",
+          "onScreenText": [
+            "FROM the station",
+            "Heading ≈ course",
+            "Fly toward the needle"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "neutral",
+            "position": "center"
+          },
+          "durationInFrames": 408,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Radials point from the station.",
+              "startFrame": 5,
+              "endFrame": 75
+            },
+            {
+              "text": "Match your heading to the course,",
+              "startFrame": 75,
+              "endFrame": 149
+            },
+            {
+              "text": "fly toward the needle.",
+              "startFrame": 149,
+              "endFrame": 198
+            },
+            {
+              "text": "And if the picture makes no",
+              "startFrame": 198,
+              "endFrame": 259
+            },
+            {
+              "text": "sense — check what you twisted",
+              "startFrame": 259,
+              "endFrame": 326
+            },
+            {
+              "text": "before you blame the airplane.",
+              "startFrame": 326,
+              "endFrame": 393
+            }
+          ]
+        },
+        {
+          "id": "scene-06",
+          "kind": "sources",
+          "narration": "A I M one dash one dash three. Old tech, current reg.",
+          "onScreenText": [
+            "ACS: IR.V.A",
+            "AIM 1-1-3 — VOR"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "deadpan",
+            "position": "corner"
+          },
+          "durationInFrames": 168,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "A I M one dash one",
+              "startFrame": 5,
+              "endFrame": 57
+            },
+            {
+              "text": "dash three. Old tech,",
+              "startFrame": 57,
+              "endFrame": 118
+            },
+            {
+              "text": "current reg.",
+              "startFrame": 118,
+              "endFrame": 153
+            }
+          ]
+        }
+      ],
+      "durationInFrames": 2220
+    },
+    {
+      "id": "09-rnav-minima",
+      "index": 8,
+      "title": "LPV vs LNAV: The Minima Lines",
+      "topicArea": "approaches",
+      "hook": "Four lines of minimums on one RNAV plate. Which one is yours?",
+      "references": {
+        "acs": [
+          "IR.VI.A"
+        ],
+        "faa": {
+          "source": "AIM 1-1-18",
+          "title": "Wide Area Augmentation System (WAAS)"
+        }
+      },
+      "scenes": [
+        {
+          "id": "scene-01",
+          "kind": "title",
+          "narration": "Thirty seconds, kid. R NAV approach minima. One plate, a stack of lines, and your equipment decides which one you've earned.",
+          "onScreenText": [
+            "RNAV (GPS) Minima",
+            "LPV · LNAV/VNAV · LNAV"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 276,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Thirty seconds, kid.",
+              "startFrame": 5,
+              "endFrame": 48
+            },
+            {
+              "text": "R NAV approach minima.",
+              "startFrame": 48,
+              "endFrame": 95
+            },
+            {
+              "text": "One plate, a stack of lines,",
+              "startFrame": 95,
+              "endFrame": 155
+            },
+            {
+              "text": "and your equipment decides which one",
+              "startFrame": 155,
+              "endFrame": 232
+            },
+            {
+              "text": "you've earned.",
+              "startFrame": 232,
+              "endFrame": 261
+            }
+          ]
+        },
+        {
+          "id": "scene-02",
+          "kind": "bullets",
+          "narration": "Top of the stack: L P V. WAAS gives you I L S style angular guidance with a decision altitude as low as two hundred feet. No ground station, no localizer — just very fancy math.",
+          "onScreenText": [
+            "LPV (needs WAAS)",
+            "Angular guidance, DA to 200 ft",
+            "Flown like an ILS"
+          ],
+          "duke": {
+            "pose": "point",
+            "expression": "neutral",
+            "position": "left"
+          },
+          "durationInFrames": 456,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Top of the stack:",
+              "startFrame": 5,
+              "endFrame": 49
+            },
+            {
+              "text": "L P V.",
+              "startFrame": 49,
+              "endFrame": 64
+            },
+            {
+              "text": "WAAS gives you I L S",
+              "startFrame": 64,
+              "endFrame": 115
+            },
+            {
+              "text": "style angular guidance with a decision",
+              "startFrame": 115,
+              "endFrame": 212
+            },
+            {
+              "text": "altitude as low as two hundred",
+              "startFrame": 212,
+              "endFrame": 289
+            },
+            {
+              "text": "feet. No ground station,",
+              "startFrame": 289,
+              "endFrame": 351
+            },
+            {
+              "text": "no localizer —",
+              "startFrame": 351,
+              "endFrame": 387
+            },
+            {
+              "text": "just very fancy math.",
+              "startFrame": 387,
+              "endFrame": 441
+            }
+          ]
+        },
+        {
+          "id": "scene-03",
+          "kind": "bullets",
+          "narration": "L NAV slash V NAV: a D A with approved vertical guidance. Plain L NAV: lateral only, step down to an M D A like it's nineteen seventy-five. Still counts. Less fun.",
+          "onScreenText": [
+            "LNAV/VNAV: DA, vertical guidance",
+            "LNAV: lateral only → MDA"
+          ],
+          "duke": {
+            "pose": "armsCrossed",
+            "expression": "squint",
+            "position": "right"
+          },
+          "durationInFrames": 408,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "L NAV slash V NAV:",
+              "startFrame": 5,
+              "endFrame": 49
+            },
+            {
+              "text": "a D A with approved vertical",
+              "startFrame": 49,
+              "endFrame": 118
+            },
+            {
+              "text": "guidance. Plain L NAV:",
+              "startFrame": 118,
+              "endFrame": 172
+            },
+            {
+              "text": "lateral only, step down to an",
+              "startFrame": 172,
+              "endFrame": 244
+            },
+            {
+              "text": "M D A like it's nineteen",
+              "startFrame": 244,
+              "endFrame": 303
+            },
+            {
+              "text": "seventy-five. Still counts.",
+              "startFrame": 303,
+              "endFrame": 370
+            },
+            {
+              "text": "Less fun.",
+              "startFrame": 370,
+              "endFrame": 393
+            }
+          ]
+        },
+        {
+          "id": "scene-04",
+          "kind": "bullets",
+          "narration": "Check your annunciator before the final approach fix. The box tells you what level it's giving you — L P V, L NAV. Fly the line you're annunciated for, not the line you were hoping for.",
+          "onScreenText": [
+            "Check the annunciation by the FAF",
+            "Fly what the box gives you"
+          ],
+          "duke": {
+            "pose": "point",
+            "expression": "eyebrowRaise",
+            "position": "left"
+          },
+          "durationInFrames": 456,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Check your annunciator before the final",
+              "startFrame": 5,
+              "endFrame": 100
+            },
+            {
+              "text": "approach fix. The box tells you",
+              "startFrame": 100,
+              "endFrame": 176
+            },
+            {
+              "text": "what level it's giving you —",
+              "startFrame": 176,
+              "endFrame": 244
+            },
+            {
+              "text": "L P V,",
+              "startFrame": 244,
+              "endFrame": 259
+            },
+            {
+              "text": "L NAV. Fly the line you're",
+              "startFrame": 259,
+              "endFrame": 322
+            },
+            {
+              "text": "annunciated for, not the line you",
+              "startFrame": 322,
+              "endFrame": 402
+            },
+            {
+              "text": "were hoping for.",
+              "startFrame": 402,
+              "endFrame": 441
+            }
+          ]
+        },
+        {
+          "id": "scene-05",
+          "kind": "recap",
+          "narration": "L P V like an I L S. L NAV V NAV, a D A with a glidepath. L NAV, dive-and-drive to an M D A. Your G P S went to school for this, kid — read its report card.",
+          "onScreenText": [
+            "LPV ≈ ILS",
+            "L/VNAV: DA",
+            "LNAV: MDA"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "grin",
+            "position": "center"
+          },
+          "durationInFrames": 516,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "L P V like an I",
+              "startFrame": 5,
+              "endFrame": 55
+            },
+            {
+              "text": "L S. L NAV V NAV,",
+              "startFrame": 55,
+              "endFrame": 111
+            },
+            {
+              "text": "a D A with a glidepath.",
+              "startFrame": 111,
+              "endFrame": 187
+            },
+            {
+              "text": "L NAV, dive-and-drive to an M",
+              "startFrame": 187,
+              "endFrame": 283
+            },
+            {
+              "text": "D A. Your G P S",
+              "startFrame": 283,
+              "endFrame": 333
+            },
+            {
+              "text": "went to school for this,",
+              "startFrame": 333,
+              "endFrame": 412
+            },
+            {
+              "text": "kid — read its report card.",
+              "startFrame": 412,
+              "endFrame": 501
+            }
+          ]
+        },
+        {
+          "id": "scene-06",
+          "kind": "sources",
+          "narration": "A I M one dash one dash eighteen. WAAS, explained by people paid by the hour.",
+          "onScreenText": [
+            "ACS: IR.VI.A",
+            "AIM 1-1-18 — WAAS"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "deadpan",
+            "position": "corner"
+          },
+          "durationInFrames": 216,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "A I M one dash one",
+              "startFrame": 5,
+              "endFrame": 53
+            },
+            {
+              "text": "dash eighteen. WAAS,",
+              "startFrame": 53,
+              "endFrame": 106
+            },
+            {
+              "text": "explained by people paid by the",
+              "startFrame": 106,
+              "endFrame": 188
+            },
+            {
+              "text": "hour.",
+              "startFrame": 188,
+              "endFrame": 201
+            }
+          ]
+        }
+      ],
+      "durationInFrames": 2328
+    },
+    {
+      "id": "10-takeoff-mins",
+      "index": 9,
+      "title": "Takeoff Minimums: Legal vs Smart",
+      "topicArea": "regs",
+      "hook": "Zero-zero fog. Can you legally take off? ...Should you?",
+      "references": {
+        "acs": [
+          "IR.I.C"
+        ],
+        "faa": {
+          "source": "14 CFR 91.175(f)",
+          "title": "Civil airport takeoff minimums"
+        }
+      },
+      "scenes": [
+        {
+          "id": "scene-01",
+          "kind": "title",
+          "narration": "Thirty seconds, kid. Takeoff minimums — where the reg book and the smart book disagree the loudest.",
+          "onScreenText": [
+            "Takeoff Minimums",
+            "Legal ≠ Smart"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 228,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Thirty seconds, kid.",
+              "startFrame": 5,
+              "endFrame": 48
+            },
+            {
+              "text": "Takeoff minimums —",
+              "startFrame": 48,
+              "endFrame": 87
+            },
+            {
+              "text": "where the reg book and the",
+              "startFrame": 87,
+              "endFrame": 143
+            },
+            {
+              "text": "smart book disagree the loudest.",
+              "startFrame": 143,
+              "endFrame": 213
+            }
+          ]
+        },
+        {
+          "id": "scene-02",
+          "kind": "bullets",
+          "narration": "Here's the kicker: part ninety-one pilots have NO required takeoff minimums. Zero-zero is technically legal. So is juggling chainsaws.",
+          "onScreenText": [
+            "Part 91: no takeoff minimums",
+            "\"Legal\" is a low bar"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "eyebrowRaise",
+            "position": "left"
+          },
+          "durationInFrames": 252,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Here's the kicker:",
+              "startFrame": 5,
+              "endFrame": 37
+            },
+            {
+              "text": "part ninety-one pilots have NO required",
+              "startFrame": 37,
+              "endFrame": 106
+            },
+            {
+              "text": "takeoff minimums. Zero-zero is technically legal.",
+              "startFrame": 106,
+              "endFrame": 193
+            },
+            {
+              "text": "So is juggling chainsaws.",
+              "startFrame": 193,
+              "endFrame": 237
+            }
+          ]
+        },
+        {
+          "id": "scene-03",
+          "kind": "bullets",
+          "narration": "The standard minimums in ninety-one one seventy-five f bind commercial operators: one mile visibility with one or two engines, a half mile with more. Published departure minimums on the plate can change those numbers.",
+          "onScreenText": [
+            "Standard (commercial ops):",
+            "1–2 engines: 1 SM",
+            "3+ engines: ½ SM",
+            "Check the plate for non-standard"
+          ],
+          "duke": {
+            "pose": "point",
+            "expression": "neutral",
+            "position": "right"
+          },
+          "durationInFrames": 432,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "The standard minimums in ninety-one one",
+              "startFrame": 5,
+              "endFrame": 81
+            },
+            {
+              "text": "seventy-five f bind commercial operators:",
+              "startFrame": 81,
+              "endFrame": 161
+            },
+            {
+              "text": "one mile visibility with one or",
+              "startFrame": 161,
+              "endFrame": 221
+            },
+            {
+              "text": "two engines, a half mile with",
+              "startFrame": 221,
+              "endFrame": 277
+            },
+            {
+              "text": "more. Published departure minimums on the",
+              "startFrame": 277,
+              "endFrame": 357
+            },
+            {
+              "text": "plate can change those numbers.",
+              "startFrame": 357,
+              "endFrame": 417
+            }
+          ]
+        },
+        {
+          "id": "scene-04",
+          "kind": "bullets",
+          "narration": "My personal minimum: whatever I'd need to come back and land. Engine trouble at three hundred feet in zero-zero has no chapter in the A I M, kid.",
+          "onScreenText": [
+            "Smart minimum:",
+            "Enough weather to return & land"
+          ],
+          "duke": {
+            "pose": "armsCrossed",
+            "expression": "squint",
+            "position": "left"
+          },
+          "durationInFrames": 360,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "My personal minimum:",
+              "startFrame": 5,
+              "endFrame": 54
+            },
+            {
+              "text": "whatever I'd need to come back",
+              "startFrame": 54,
+              "endFrame": 127
+            },
+            {
+              "text": "and land. Engine trouble at three",
+              "startFrame": 127,
+              "endFrame": 207
+            },
+            {
+              "text": "hundred feet in zero-zero has no",
+              "startFrame": 207,
+              "endFrame": 285
+            },
+            {
+              "text": "chapter in the A I M,",
+              "startFrame": 285,
+              "endFrame": 336
+            },
+            {
+              "text": "kid.",
+              "startFrame": 336,
+              "endFrame": 345
+            }
+          ]
+        },
+        {
+          "id": "scene-05",
+          "kind": "recap",
+          "narration": "Part ninety-one: legal at zero-zero. Standard: one mile or a half. Smart: enough to get back in. Fly the third number.",
+          "onScreenText": [
+            "Legal: 0-0",
+            "Standard: 1 SM / ½ SM",
+            "Smart: your return mins"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "neutral",
+            "position": "center"
+          },
+          "durationInFrames": 276,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Part ninety-one: legal at zero-zero.",
+              "startFrame": 5,
+              "endFrame": 85
+            },
+            {
+              "text": "Standard: one mile or a half.",
+              "startFrame": 85,
+              "endFrame": 150
+            },
+            {
+              "text": "Smart: enough to get back in.",
+              "startFrame": 150,
+              "endFrame": 215
+            },
+            {
+              "text": "Fly the third number.",
+              "startFrame": 215,
+              "endFrame": 261
+            }
+          ]
+        },
+        {
+          "id": "scene-06",
+          "kind": "sources",
+          "narration": "Ninety-one one seventy-five, paragraph f. Then go write down your own numbers.",
+          "onScreenText": [
+            "ACS: IR.I.C",
+            "14 CFR 91.175(f) — Takeoff minimums"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "deadpan",
+            "position": "corner"
+          },
+          "durationInFrames": 168,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Ninety-one one seventy-five,",
+              "startFrame": 5,
+              "endFrame": 60
+            },
+            {
+              "text": "paragraph f. Then go write down",
+              "startFrame": 60,
+              "endFrame": 120
+            },
+            {
+              "text": "your own numbers.",
+              "startFrame": 120,
+              "endFrame": 153
+            }
+          ]
+        }
+      ],
+      "durationInFrames": 1716
+    },
+    {
+      "id": "11-metar-taf",
+      "index": 10,
+      "title": "METAR & TAF: Read Weather Like a Dispatcher",
+      "topicArea": "weather",
+      "hook": "KDEN 271753Z 33015G25KT... gibberish, or a go/no-go answer?",
+      "references": {
+        "acs": [
+          "IR.I.B"
+        ],
+        "faa": {
+          "source": "AC 00-45H",
+          "title": "Aviation Weather Services"
+        }
+      },
+      "scenes": [
+        {
+          "id": "scene-01",
+          "kind": "title",
+          "narration": "Thirty seconds, kid. METARs and TAFs. It's not code — it's just weather with the vowels ripped out to save telegraph money. In eighty years nobody's put them back.",
+          "onScreenText": [
+            "METAR & TAF",
+            "Weather, minus the vowels"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 372,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Thirty seconds, kid.",
+              "startFrame": 5,
+              "endFrame": 50
+            },
+            {
+              "text": "METARs and TAFs.",
+              "startFrame": 50,
+              "endFrame": 86
+            },
+            {
+              "text": "It's not code —",
+              "startFrame": 86,
+              "endFrame": 120
+            },
+            {
+              "text": "it's just weather with the vowels",
+              "startFrame": 120,
+              "endFrame": 194
+            },
+            {
+              "text": "ripped out to save telegraph money.",
+              "startFrame": 194,
+              "endFrame": 272
+            },
+            {
+              "text": "In eighty years nobody's put them",
+              "startFrame": 272,
+              "endFrame": 346
+            },
+            {
+              "text": "back.",
+              "startFrame": 346,
+              "endFrame": 357
+            }
+          ]
+        },
+        {
+          "id": "scene-02",
+          "kind": "bullets",
+          "narration": "METAR is what IS: station, time in Zulu, wind, visibility, weather, clouds, temp and dew point, altimeter. Same order, every hour, on the hour.",
+          "onScreenText": [
+            "METAR = now",
+            "Station·Time·Wind·Vis",
+            "Wx·Clouds·Temp/Dew·Altimeter"
+          ],
+          "duke": {
+            "pose": "point",
+            "expression": "neutral",
+            "position": "left"
+          },
+          "durationInFrames": 312,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "METAR is what IS:",
+              "startFrame": 5,
+              "endFrame": 41
+            },
+            {
+              "text": "station, time in Zulu,",
+              "startFrame": 41,
+              "endFrame": 88
+            },
+            {
+              "text": "wind, visibility, weather,",
+              "startFrame": 88,
+              "endFrame": 143
+            },
+            {
+              "text": "clouds, temp and dew point,",
+              "startFrame": 143,
+              "endFrame": 200
+            },
+            {
+              "text": "altimeter. Same order,",
+              "startFrame": 200,
+              "endFrame": 247
+            },
+            {
+              "text": "every hour, on the hour.",
+              "startFrame": 247,
+              "endFrame": 297
+            }
+          ]
+        },
+        {
+          "id": "scene-03",
+          "kind": "bullets",
+          "narration": "TAF is what WILL be — a twenty-four to thirty hour forecast for five miles around the airport. Watch the change groups: F M means a hard switch. TEMPO means it'll misbehave for a while, then apologize.",
+          "onScreenText": [
+            "TAF = forecast (24–30 hr, 5 SM ring)",
+            "FM: hard change",
+            "TEMPO: brief misbehavior"
+          ],
+          "duke": {
+            "pose": "armsCrossed",
+            "expression": "squint",
+            "position": "right"
+          },
+          "durationInFrames": 468,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "TAF is what WILL be —",
+              "startFrame": 5,
+              "endFrame": 53
+            },
+            {
+              "text": "a twenty-four to thirty hour forecast",
+              "startFrame": 53,
+              "endFrame": 138
+            },
+            {
+              "text": "for five miles around the airport.",
+              "startFrame": 138,
+              "endFrame": 216
+            },
+            {
+              "text": "Watch the change groups:",
+              "startFrame": 216,
+              "endFrame": 271
+            },
+            {
+              "text": "F M means a hard switch.",
+              "startFrame": 271,
+              "endFrame": 326
+            },
+            {
+              "text": "TEMPO means it'll misbehave for a",
+              "startFrame": 326,
+              "endFrame": 402
+            },
+            {
+              "text": "while, then apologize.",
+              "startFrame": 402,
+              "endFrame": 453
+            }
+          ]
+        },
+        {
+          "id": "scene-04",
+          "kind": "bullets",
+          "narration": "For the written, kid: temp slash dew point closing together means fog is filing its flight plan. And B K N or O V C is a ceiling. Scattered is not.",
+          "onScreenText": [
+            "Temp ≈ dew point → fog coming",
+            "Ceiling = BKN or OVC",
+            "SCT is NOT a ceiling"
+          ],
+          "duke": {
+            "pose": "point",
+            "expression": "eyebrowRaise",
+            "position": "left"
+          },
+          "durationInFrames": 396,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "For the written,",
+              "startFrame": 5,
+              "endFrame": 47
+            },
+            {
+              "text": "kid: temp slash dew point closing",
+              "startFrame": 47,
+              "endFrame": 134
+            },
+            {
+              "text": "together means fog is filing its",
+              "startFrame": 134,
+              "endFrame": 219
+            },
+            {
+              "text": "flight plan. And B K N",
+              "startFrame": 219,
+              "endFrame": 277
+            },
+            {
+              "text": "or O V C is a",
+              "startFrame": 277,
+              "endFrame": 311
+            },
+            {
+              "text": "ceiling. Scattered is not.",
+              "startFrame": 311,
+              "endFrame": 381
+            }
+          ]
+        },
+        {
+          "id": "scene-05",
+          "kind": "recap",
+          "narration": "METAR now, TAF later, ceilings are broken or overcast, and converging temp and dew point means get there before the fog does.",
+          "onScreenText": [
+            "METAR: now",
+            "TAF: later",
+            "BKN/OVC = ceiling"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "neutral",
+            "position": "center"
+          },
+          "durationInFrames": 288,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "METAR now, TAF later,",
+              "startFrame": 5,
+              "endFrame": 52
+            },
+            {
+              "text": "ceilings are broken or overcast,",
+              "startFrame": 52,
+              "endFrame": 123
+            },
+            {
+              "text": "and converging temp and dew point",
+              "startFrame": 123,
+              "endFrame": 196
+            },
+            {
+              "text": "means get there before the fog",
+              "startFrame": 196,
+              "endFrame": 262
+            },
+            {
+              "text": "does.",
+              "startFrame": 262,
+              "endFrame": 273
+            }
+          ]
+        },
+        {
+          "id": "scene-06",
+          "kind": "sources",
+          "narration": "A C zero zero dash forty-five H — Aviation Weather Services. All the decoder rings.",
+          "onScreenText": [
+            "ACS: IR.I.B",
+            "AC 00-45H — Aviation Weather Services"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "deadpan",
+            "position": "corner"
+          },
+          "durationInFrames": 204,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "A C zero zero dash forty-five",
+              "startFrame": 5,
+              "endFrame": 71
+            },
+            {
+              "text": "H — Aviation Weather Services.",
+              "startFrame": 71,
+              "endFrame": 139
+            },
+            {
+              "text": "All the decoder rings.",
+              "startFrame": 139,
+              "endFrame": 189
+            }
+          ]
+        }
+      ],
+      "durationInFrames": 2040
+    },
+    {
+      "id": "12-icing",
+      "index": 11,
+      "title": "Icing: Where It Lives, How You Leave",
+      "topicArea": "weather",
+      "hook": "Ice doesn't announce itself. It just starts redesigning your wing.",
+      "references": {
+        "acs": [
+          "IR.I.B"
+        ],
+        "faa": {
+          "source": "AC 91-74B",
+          "title": "Pilot Guide: Flight in Icing Conditions"
+        }
+      },
+      "scenes": [
+        {
+          "id": "scene-01",
+          "kind": "title",
+          "narration": "Thirty seconds, kid. Airframe icing — the only passenger that boards mid-flight and never pays.",
+          "onScreenText": [
+            "Airframe Icing",
+            "Uninvited. Unwelcome."
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 204,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Thirty seconds, kid.",
+              "startFrame": 5,
+              "endFrame": 45
+            },
+            {
+              "text": "Airframe icing —",
+              "startFrame": 45,
+              "endFrame": 77
+            },
+            {
+              "text": "the only passenger that boards mid-flight",
+              "startFrame": 77,
+              "endFrame": 159
+            },
+            {
+              "text": "and never pays.",
+              "startFrame": 159,
+              "endFrame": 189
+            }
+          ]
+        },
+        {
+          "id": "scene-02",
+          "kind": "bullets",
+          "narration": "The recipe is simple: visible moisture, plus a surface at or below freezing. Clouds or rain between zero and about minus twenty Celsius — that's the kitchen.",
+          "onScreenText": [
+            "Visible moisture",
+            "+ surface ≤ 0°C",
+            "Prime zone: 0 to −20°C"
+          ],
+          "duke": {
+            "pose": "point",
+            "expression": "neutral",
+            "position": "left"
+          },
+          "durationInFrames": 348,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "The recipe is simple:",
+              "startFrame": 5,
+              "endFrame": 50
+            },
+            {
+              "text": "visible moisture, plus a surface at",
+              "startFrame": 50,
+              "endFrame": 126
+            },
+            {
+              "text": "or below freezing.",
+              "startFrame": 126,
+              "endFrame": 165
+            },
+            {
+              "text": "Clouds or rain between zero and",
+              "startFrame": 165,
+              "endFrame": 232
+            },
+            {
+              "text": "about minus twenty Celsius —",
+              "startFrame": 232,
+              "endFrame": 292
+            },
+            {
+              "text": "that's the kitchen.",
+              "startFrame": 292,
+              "endFrame": 333
+            }
+          ]
+        },
+        {
+          "id": "scene-03",
+          "kind": "bullets",
+          "narration": "Clear ice: big supercooled drops, freezing rain, smooth and heavy — the dangerous one. Rime: small drops freezing fast, white and brittle. Mixed is both, because the atmosphere likes variety.",
+          "onScreenText": [
+            "Clear: large drops, heavy, sneaky",
+            "Rime: instant, white, brittle",
+            "Mixed: why not both"
+          ],
+          "duke": {
+            "pose": "armsCrossed",
+            "expression": "squint",
+            "position": "right"
+          },
+          "durationInFrames": 384,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Clear ice: big supercooled drops,",
+              "startFrame": 5,
+              "endFrame": 70
+            },
+            {
+              "text": "freezing rain, smooth and heavy —",
+              "startFrame": 70,
+              "endFrame": 135
+            },
+            {
+              "text": "the dangerous one.",
+              "startFrame": 135,
+              "endFrame": 170
+            },
+            {
+              "text": "Rime: small drops freezing fast,",
+              "startFrame": 170,
+              "endFrame": 233
+            },
+            {
+              "text": "white and brittle.",
+              "startFrame": 233,
+              "endFrame": 268
+            },
+            {
+              "text": "Mixed is both,",
+              "startFrame": 268,
+              "endFrame": 296
+            },
+            {
+              "text": "because the atmosphere likes variety.",
+              "startFrame": 296,
+              "endFrame": 369
+            }
+          ]
+        },
+        {
+          "id": "scene-04",
+          "kind": "bullets",
+          "narration": "Escape plan BEFORE you file: where's the freezing level, where's the warm air, where's the clear air? Freezing rain? That means warmer air is ABOVE you. Climb decisions get interesting. Have the out ready, kid.",
+          "onScreenText": [
+            "Know before takeoff:",
+            "Freezing level · warm air · clear air",
+            "Freezing rain → warm air is above"
+          ],
+          "duke": {
+            "pose": "point",
+            "expression": "eyebrowRaise",
+            "position": "left"
+          },
+          "durationInFrames": 444,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Escape plan BEFORE you file:",
+              "startFrame": 5,
+              "endFrame": 64
+            },
+            {
+              "text": "where's the freezing level,",
+              "startFrame": 64,
+              "endFrame": 121
+            },
+            {
+              "text": "where's the warm air,",
+              "startFrame": 121,
+              "endFrame": 165
+            },
+            {
+              "text": "where's the clear air?",
+              "startFrame": 165,
+              "endFrame": 211
+            },
+            {
+              "text": "Freezing rain? That means warmer air",
+              "startFrame": 211,
+              "endFrame": 287
+            },
+            {
+              "text": "is ABOVE you.",
+              "startFrame": 287,
+              "endFrame": 314
+            },
+            {
+              "text": "Climb decisions get interesting.",
+              "startFrame": 314,
+              "endFrame": 381
+            },
+            {
+              "text": "Have the out ready,",
+              "startFrame": 381,
+              "endFrame": 421
+            },
+            {
+              "text": "kid.",
+              "startFrame": 421,
+              "endFrame": 429
+            }
+          ]
+        },
+        {
+          "id": "scene-05",
+          "kind": "recap",
+          "narration": "Moisture plus freezing surface equals ice. Clear is sneaky, rime is crusty, and the best de-ice equipment is the altitude where it isn't. File with an out.",
+          "onScreenText": [
+            "Moisture + ≤0°C = ice",
+            "Best equipment: an escape altitude"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "neutral",
+            "position": "center"
+          },
+          "durationInFrames": 348,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Moisture plus freezing surface equals ice.",
+              "startFrame": 5,
+              "endFrame": 97
+            },
+            {
+              "text": "Clear is sneaky,",
+              "startFrame": 97,
+              "endFrame": 132
+            },
+            {
+              "text": "rime is crusty,",
+              "startFrame": 132,
+              "endFrame": 165
+            },
+            {
+              "text": "and the best de-ice equipment is",
+              "startFrame": 165,
+              "endFrame": 235
+            },
+            {
+              "text": "the altitude where it isn't.",
+              "startFrame": 235,
+              "endFrame": 296
+            },
+            {
+              "text": "File with an out.",
+              "startFrame": 296,
+              "endFrame": 333
+            }
+          ]
+        },
+        {
+          "id": "scene-06",
+          "kind": "sources",
+          "narration": "A C ninety-one dash seventy-four bravo. The FAA's guide to staying warm.",
+          "onScreenText": [
+            "ACS: IR.I.B",
+            "AC 91-74B — Flight in Icing Conditions"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "deadpan",
+            "position": "corner"
+          },
+          "durationInFrames": 168,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "A C ninety-one dash seventy-four bravo.",
+              "startFrame": 5,
+              "endFrame": 86
+            },
+            {
+              "text": "The FAA's guide to staying warm.",
+              "startFrame": 86,
+              "endFrame": 153
+            }
+          ]
+        }
+      ],
+      "durationInFrames": 1896
+    },
+    {
+      "id": "13-ifr-altitudes",
+      "index": 12,
+      "title": "MEA, MOCA & Friends",
+      "topicArea": "navigation",
+      "hook": "Five altitude acronyms guard every airway. Know who does what.",
+      "references": {
+        "acs": [
+          "IR.I.C"
+        ],
+        "faa": {
+          "source": "14 CFR 91.177",
+          "title": "Minimum altitudes for IFR operations"
+        }
+      },
+      "scenes": [
+        {
+          "id": "scene-01",
+          "kind": "title",
+          "narration": "Thirty seconds, kid. The alphabet soup of minimum altitudes. Five acronyms, each doing one job. Mix them up on the written and the soup eats you.",
+          "onScreenText": [
+            "IFR Minimum Altitudes",
+            "MEA · MOCA · MRA · MCA · OROCA"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 336,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Thirty seconds, kid.",
+              "startFrame": 5,
+              "endFrame": 50
+            },
+            {
+              "text": "The alphabet soup of minimum altitudes.",
+              "startFrame": 50,
+              "endFrame": 137
+            },
+            {
+              "text": "Five acronyms, each doing one job.",
+              "startFrame": 137,
+              "endFrame": 213
+            },
+            {
+              "text": "Mix them up on the written",
+              "startFrame": 213,
+              "endFrame": 271
+            },
+            {
+              "text": "and the soup eats you.",
+              "startFrame": 271,
+              "endFrame": 321
+            }
+          ]
+        },
+        {
+          "id": "scene-02",
+          "kind": "diagram",
+          "narration": "M E A: the workhorse. Obstacle clearance AND navigation signal, fix to fix. M O C A: obstacles too — but V O R reception only within twenty-two nautical miles of the station.",
+          "onScreenText": [
+            "MEA: obstacles + nav signal",
+            "MOCA: obstacles + signal only within 22 NM"
+          ],
+          "diagram": {
+            "type": "routeAltitude",
+            "props": {
+              "variant": "mea"
+            }
+          },
+          "duke": {
+            "pose": "point",
+            "expression": "neutral",
+            "position": "corner"
+          },
+          "durationInFrames": 420,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "M E A:",
+              "startFrame": 5,
+              "endFrame": 19
+            },
+            {
+              "text": "the workhorse. Obstacle clearance AND navigation",
+              "startFrame": 19,
+              "endFrame": 134
+            },
+            {
+              "text": "signal, fix to fix.",
+              "startFrame": 134,
+              "endFrame": 180
+            },
+            {
+              "text": "M O C A:",
+              "startFrame": 180,
+              "endFrame": 199
+            },
+            {
+              "text": "obstacles too —",
+              "startFrame": 199,
+              "endFrame": 235
+            },
+            {
+              "text": "but V O R reception only",
+              "startFrame": 235,
+              "endFrame": 292
+            },
+            {
+              "text": "within twenty-two nautical miles of the",
+              "startFrame": 292,
+              "endFrame": 385
+            },
+            {
+              "text": "station.",
+              "startFrame": 385,
+              "endFrame": 405
+            }
+          ]
+        },
+        {
+          "id": "scene-03",
+          "kind": "bullets",
+          "narration": "M R A: minimum altitude to RECEIVE an off-route fix. M C A: minimum altitude to CROSS a fix before a higher segment — climb early, not late.",
+          "onScreenText": [
+            "MRA: receive the fix",
+            "MCA: cross the fix at/above"
+          ],
+          "duke": {
+            "pose": "armsCrossed",
+            "expression": "squint",
+            "position": "left"
+          },
+          "durationInFrames": 360,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "M R A:",
+              "startFrame": 5,
+              "endFrame": 20
+            },
+            {
+              "text": "minimum altitude to RECEIVE an off-route",
+              "startFrame": 20,
+              "endFrame": 121
+            },
+            {
+              "text": "fix. M C A:",
+              "startFrame": 121,
+              "endFrame": 149
+            },
+            {
+              "text": "minimum altitude to CROSS a fix",
+              "startFrame": 149,
+              "endFrame": 227
+            },
+            {
+              "text": "before a higher segment —",
+              "startFrame": 227,
+              "endFrame": 290
+            },
+            {
+              "text": "climb early, not late.",
+              "startFrame": 290,
+              "endFrame": 345
+            }
+          ]
+        },
+        {
+          "id": "scene-04",
+          "kind": "bullets",
+          "narration": "Off airways? O R O C A gives you a thousand feet of obstacle clearance per quadrant — two thousand in the mountains — but nobody guarantees you a nav signal or radar down there. It's a suggestion with good intentions.",
+          "onScreenText": [
+            "OROCA: off-route, by quadrant",
+            "1,000 ft / 2,000 ft mountainous",
+            "No signal guarantee"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "eyebrowRaise",
+            "position": "right"
+          },
+          "durationInFrames": 516,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Off airways? O R O C",
+              "startFrame": 5,
+              "endFrame": 52
+            },
+            {
+              "text": "A gives you a thousand feet",
+              "startFrame": 52,
+              "endFrame": 115
+            },
+            {
+              "text": "of obstacle clearance per quadrant —",
+              "startFrame": 115,
+              "endFrame": 200
+            },
+            {
+              "text": "two thousand in the mountains —",
+              "startFrame": 200,
+              "endFrame": 273
+            },
+            {
+              "text": "but nobody guarantees you a nav",
+              "startFrame": 273,
+              "endFrame": 346
+            },
+            {
+              "text": "signal or radar down there.",
+              "startFrame": 346,
+              "endFrame": 409
+            },
+            {
+              "text": "It's a suggestion with good intentions.",
+              "startFrame": 409,
+              "endFrame": 501
+            }
+          ]
+        },
+        {
+          "id": "scene-05",
+          "kind": "recap",
+          "narration": "M E A both jobs. M O C A obstacles, short-range signal. M R A hear the fix, M C A cross it high. Granite doesn't grade on a curve, kid.",
+          "onScreenText": [
+            "MEA = both",
+            "MOCA = obstacles (+22 NM)",
+            "MRA = receive · MCA = cross"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "neutral",
+            "position": "center"
+          },
+          "durationInFrames": 396,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "M E A both jobs.",
+              "startFrame": 5,
+              "endFrame": 51
+            },
+            {
+              "text": "M O C A obstacles,",
+              "startFrame": 51,
+              "endFrame": 103
+            },
+            {
+              "text": "short-range signal. M R A hear",
+              "startFrame": 103,
+              "endFrame": 190
+            },
+            {
+              "text": "the fix, M C A cross",
+              "startFrame": 190,
+              "endFrame": 248
+            },
+            {
+              "text": "it high. Granite doesn't grade on",
+              "startFrame": 248,
+              "endFrame": 343
+            },
+            {
+              "text": "a curve, kid.",
+              "startFrame": 343,
+              "endFrame": 381
+            }
+          ]
+        },
+        {
+          "id": "scene-06",
+          "kind": "sources",
+          "narration": "Ninety-one one seventy-seven sets the floor. Literally.",
+          "onScreenText": [
+            "ACS: IR.I.C",
+            "14 CFR 91.177 — Minimum IFR altitudes"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "deadpan",
+            "position": "corner"
+          },
+          "durationInFrames": 120,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Ninety-one one seventy-seven sets the floor.",
+              "startFrame": 5,
+              "endFrame": 86
+            },
+            {
+              "text": "Literally.",
+              "startFrame": 86,
+              "endFrame": 105
+            }
+          ]
+        }
+      ],
+      "durationInFrames": 2148
+    },
+    {
+      "id": "14-vor-checks",
+      "index": 13,
+      "title": "VOR Checks: 4-4-6-4, Every 30 Days",
+      "topicArea": "equipment",
+      "hook": "Your VOR hasn't been checked in 31 days. Guess what's illegal now.",
+      "references": {
+        "acs": [
+          "IR.II.C"
+        ],
+        "faa": {
+          "source": "14 CFR 91.171",
+          "title": "VOR equipment check for IFR operations"
+        }
+      },
+      "scenes": [
+        {
+          "id": "scene-01",
+          "kind": "title",
+          "narration": "Thirty seconds, kid. The V O R check. Thirty days, four ways, and a logbook entry — or that needle is just decoration.",
+          "onScreenText": [
+            "VOR Checks",
+            "Every 30 days for IFR"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 300,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Thirty seconds, kid.",
+              "startFrame": 5,
+              "endFrame": 54
+            },
+            {
+              "text": "The V O R check.",
+              "startFrame": 54,
+              "endFrame": 93
+            },
+            {
+              "text": "Thirty days, four ways,",
+              "startFrame": 93,
+              "endFrame": 149
+            },
+            {
+              "text": "and a logbook entry —",
+              "startFrame": 149,
+              "endFrame": 201
+            },
+            {
+              "text": "or that needle is just decoration.",
+              "startFrame": 201,
+              "endFrame": 285
+            }
+          ]
+        },
+        {
+          "id": "scene-02",
+          "kind": "bullets",
+          "narration": "The tolerances: V O T test signal, plus or minus four degrees. Ground checkpoint, plus or minus four. Airborne checkpoint, plus or minus six. Dual V O R cross-check — four degrees between them.",
+          "onScreenText": [
+            "VOT: ±4°",
+            "Ground: ±4°",
+            "Airborne: ±6°",
+            "Dual cross-check: 4° apart"
+          ],
+          "duke": {
+            "pose": "point",
+            "expression": "neutral",
+            "position": "left"
+          },
+          "durationInFrames": 432,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "The tolerances: V O T test",
+              "startFrame": 5,
+              "endFrame": 62
+            },
+            {
+              "text": "signal, plus or minus four degrees.",
+              "startFrame": 62,
+              "endFrame": 139
+            },
+            {
+              "text": "Ground checkpoint, plus or minus four.",
+              "startFrame": 139,
+              "endFrame": 222
+            },
+            {
+              "text": "Airborne checkpoint, plus or minus six.",
+              "startFrame": 222,
+              "endFrame": 307
+            },
+            {
+              "text": "Dual V O R cross-check —",
+              "startFrame": 307,
+              "endFrame": 360
+            },
+            {
+              "text": "four degrees between them.",
+              "startFrame": 360,
+              "endFrame": 417
+            }
+          ]
+        },
+        {
+          "id": "scene-03",
+          "kind": "bullets",
+          "narration": "With a V O T, tune it and center the needle: three-sixty FROM or one-eighty TO, anywhere on the field. Old-timer trick: Cessna one-eighty TO the station.",
+          "onScreenText": [
+            "VOT: 360 FROM / 180 TO",
+            "\"Cessna 182\" — 180 TO"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "grin",
+            "position": "right"
+          },
+          "durationInFrames": 348,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "With a V O T,",
+              "startFrame": 5,
+              "endFrame": 34
+            },
+            {
+              "text": "tune it and center the needle:",
+              "startFrame": 34,
+              "endFrame": 100
+            },
+            {
+              "text": "three-sixty FROM or one-eighty TO,",
+              "startFrame": 100,
+              "endFrame": 175
+            },
+            {
+              "text": "anywhere on the field.",
+              "startFrame": 175,
+              "endFrame": 224
+            },
+            {
+              "text": "Old-timer trick: Cessna one-eighty TO the",
+              "startFrame": 224,
+              "endFrame": 315
+            },
+            {
+              "text": "station.",
+              "startFrame": 315,
+              "endFrame": 333
+            }
+          ]
+        },
+        {
+          "id": "scene-04",
+          "kind": "bullets",
+          "narration": "Then log it: date, place, bearing error, and signature. If it isn't logged, it didn't happen — that rule covers V O R checks and fish stories both.",
+          "onScreenText": [
+            "Log: Date · Place · Error · Signature",
+            "Not logged = didn't happen"
+          ],
+          "duke": {
+            "pose": "armsCrossed",
+            "expression": "eyebrowRaise",
+            "position": "left"
+          },
+          "durationInFrames": 360,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Then log it:",
+              "startFrame": 5,
+              "endFrame": 34
+            },
+            {
+              "text": "date, place, bearing error,",
+              "startFrame": 34,
+              "endFrame": 99
+            },
+            {
+              "text": "and signature. If it isn't logged,",
+              "startFrame": 99,
+              "endFrame": 180
+            },
+            {
+              "text": "it didn't happen —",
+              "startFrame": 180,
+              "endFrame": 223
+            },
+            {
+              "text": "that rule covers V O R",
+              "startFrame": 223,
+              "endFrame": 276
+            },
+            {
+              "text": "checks and fish stories both.",
+              "startFrame": 276,
+              "endFrame": 345
+            }
+          ]
+        },
+        {
+          "id": "scene-05",
+          "kind": "recap",
+          "narration": "Thirty days. Four, four, six, and four between. Date, place, error, signature. Cheapest maintenance item on the airplane, kid — it's free.",
+          "onScreenText": [
+            "30 days",
+            "±4 / ±4 / ±6 / 4 between",
+            "Then LOG it"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "neutral",
+            "position": "center"
+          },
+          "durationInFrames": 288,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Thirty days. Four,",
+              "startFrame": 5,
+              "endFrame": 41
+            },
+            {
+              "text": "four, six, and four between.",
+              "startFrame": 41,
+              "endFrame": 97
+            },
+            {
+              "text": "Date, place, error,",
+              "startFrame": 97,
+              "endFrame": 135
+            },
+            {
+              "text": "signature. Cheapest maintenance item on the",
+              "startFrame": 135,
+              "endFrame": 222
+            },
+            {
+              "text": "airplane, kid —",
+              "startFrame": 222,
+              "endFrame": 252
+            },
+            {
+              "text": "it's free.",
+              "startFrame": 252,
+              "endFrame": 273
+            }
+          ]
+        },
+        {
+          "id": "scene-06",
+          "kind": "sources",
+          "narration": "Ninety-one one seventy-one. Short reg, long memory.",
+          "onScreenText": [
+            "ACS: IR.II.C",
+            "14 CFR 91.171 — VOR equipment check"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "deadpan",
+            "position": "corner"
+          },
+          "durationInFrames": 120,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Ninety-one one seventy-one.",
+              "startFrame": 5,
+              "endFrame": 59
+            },
+            {
+              "text": "Short reg, long memory.",
+              "startFrame": 59,
+              "endFrame": 105
+            }
+          ]
+        }
+      ],
+      "durationInFrames": 1848
+    },
+    {
+      "id": "15-required-reports",
+      "index": 14,
+      "title": "What You Must Tell ATC",
+      "topicArea": "clearances",
+      "hook": "Some silence is golden. This silence is a violation.",
+      "references": {
+        "acs": [
+          "IR.III.A"
+        ],
+        "faa": {
+          "source": "AIM 5-3-3",
+          "title": "Additional Reports"
+        }
+      },
+      "scenes": [
+        {
+          "id": "scene-01",
+          "kind": "title",
+          "narration": "Thirty seconds, kid. Required reports. ATC isn't clingy — some things they legally have to hear from you.",
+          "onScreenText": [
+            "Required IFR Reports",
+            "AIM 5-3-3"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 240,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Thirty seconds, kid.",
+              "startFrame": 5,
+              "endFrame": 48
+            },
+            {
+              "text": "Required reports. ATC isn't clingy —",
+              "startFrame": 48,
+              "endFrame": 126
+            },
+            {
+              "text": "some things they legally have to",
+              "startFrame": 126,
+              "endFrame": 195
+            },
+            {
+              "text": "hear from you.",
+              "startFrame": 195,
+              "endFrame": 225
+            }
+          ]
+        },
+        {
+          "id": "scene-02",
+          "kind": "bullets",
+          "narration": "Always report: leaving an assigned altitude for a new one. A missed approach. A change in your true airspeed of five percent or ten knots. And an altitude change while V F R on top.",
+          "onScreenText": [
+            "Leaving an altitude",
+            "Missed approach",
+            "TAS change: 5% / 10 kt",
+            "VFR-on-top altitude change"
+          ],
+          "duke": {
+            "pose": "point",
+            "expression": "neutral",
+            "position": "left"
+          },
+          "durationInFrames": 444,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Always report: leaving an assigned altitude",
+              "startFrame": 5,
+              "endFrame": 109
+            },
+            {
+              "text": "for a new one.",
+              "startFrame": 109,
+              "endFrame": 143
+            },
+            {
+              "text": "A missed approach.",
+              "startFrame": 143,
+              "endFrame": 187
+            },
+            {
+              "text": "A change in your true airspeed",
+              "startFrame": 187,
+              "endFrame": 260
+            },
+            {
+              "text": "of five percent or ten knots.",
+              "startFrame": 260,
+              "endFrame": 330
+            },
+            {
+              "text": "And an altitude change while V",
+              "startFrame": 330,
+              "endFrame": 403
+            },
+            {
+              "text": "F R on top.",
+              "startFrame": 403,
+              "endFrame": 429
+            }
+          ]
+        },
+        {
+          "id": "scene-03",
+          "kind": "bullets",
+          "narration": "Also always: can't climb or descend at least five hundred feet a minute, holding fix arrival and departure, and any equipment trouble — lost nav, lost comm, anything that dents your capability. Confession is free; the ramp check isn't.",
+          "onScreenText": [
+            "Can't make 500 fpm",
+            "Entering / leaving a hold",
+            "Lost NAV / comm / capability"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "eyebrowRaise",
+            "position": "right"
+          },
+          "durationInFrames": 492,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Also always: can't climb or descend",
+              "startFrame": 5,
+              "endFrame": 77
+            },
+            {
+              "text": "at least five hundred feet a",
+              "startFrame": 77,
+              "endFrame": 135
+            },
+            {
+              "text": "minute, holding fix arrival and departure,",
+              "startFrame": 135,
+              "endFrame": 222
+            },
+            {
+              "text": "and any equipment trouble —",
+              "startFrame": 222,
+              "endFrame": 278
+            },
+            {
+              "text": "lost nav, lost comm,",
+              "startFrame": 278,
+              "endFrame": 319
+            },
+            {
+              "text": "anything that dents your capability.",
+              "startFrame": 319,
+              "endFrame": 394
+            },
+            {
+              "text": "Confession is free;",
+              "startFrame": 394,
+              "endFrame": 433
+            },
+            {
+              "text": "the ramp check isn't.",
+              "startFrame": 433,
+              "endFrame": 477
+            }
+          ]
+        },
+        {
+          "id": "scene-04",
+          "kind": "bullets",
+          "narration": "Off radar? Add position reports at compulsory fixes, plus an E T A change of more than three minutes. Yes kid, before radar we did that every day. Uphill. Both ways.",
+          "onScreenText": [
+            "Non-radar adds:",
+            "Compulsory position reports",
+            "ETA off by > 3 min"
+          ],
+          "duke": {
+            "pose": "armsCrossed",
+            "expression": "grin",
+            "position": "left"
+          },
+          "durationInFrames": 396,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Off radar? Add position reports at",
+              "startFrame": 5,
+              "endFrame": 85
+            },
+            {
+              "text": "compulsory fixes, plus an E T",
+              "startFrame": 85,
+              "endFrame": 153
+            },
+            {
+              "text": "A change of more than three",
+              "startFrame": 153,
+              "endFrame": 216
+            },
+            {
+              "text": "minutes. Yes kid,",
+              "startFrame": 216,
+              "endFrame": 256
+            },
+            {
+              "text": "before radar we did that every",
+              "startFrame": 256,
+              "endFrame": 327
+            },
+            {
+              "text": "day. Uphill. Both ways.",
+              "startFrame": 327,
+              "endFrame": 381
+            }
+          ]
+        },
+        {
+          "id": "scene-05",
+          "kind": "recap",
+          "narration": "Altitude changes, missed approaches, speed changes, holds, broken stuff — say it. When in doubt, key up. Nobody ever failed a checkride for talking too politely.",
+          "onScreenText": [
+            "When in doubt:",
+            "Report it."
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "neutral",
+            "position": "center"
+          },
+          "durationInFrames": 336,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Altitude changes, missed approaches,",
+              "startFrame": 5,
+              "endFrame": 78
+            },
+            {
+              "text": "speed changes, holds,",
+              "startFrame": 78,
+              "endFrame": 121
+            },
+            {
+              "text": "broken stuff —",
+              "startFrame": 121,
+              "endFrame": 149
+            },
+            {
+              "text": "say it. When in doubt,",
+              "startFrame": 149,
+              "endFrame": 194
+            },
+            {
+              "text": "key up. Nobody ever failed a",
+              "startFrame": 194,
+              "endFrame": 251
+            },
+            {
+              "text": "checkride for talking too politely.",
+              "startFrame": 251,
+              "endFrame": 321
+            }
+          ]
+        },
+        {
+          "id": "scene-06",
+          "kind": "sources",
+          "narration": "A I M five dash three dash three. The full guest list.",
+          "onScreenText": [
+            "ACS: IR.III.A",
+            "AIM 5-3-3 — Additional Reports"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "deadpan",
+            "position": "corner"
+          },
+          "durationInFrames": 168,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "A I M five dash three",
+              "startFrame": 5,
+              "endFrame": 64
+            },
+            {
+              "text": "dash three. The full guest list.",
+              "startFrame": 64,
+              "endFrame": 153
+            }
+          ]
+        }
+      ],
+      "durationInFrames": 2076
+    },
+    {
+      "id": "16-required-equipment",
+      "index": 15,
+      "title": "IFR Equipment: GRABCARD + the Checks",
+      "topicArea": "equipment",
+      "hook": "Is this airplane even legal for IFR? Grab a card.",
+      "references": {
+        "acs": [
+          "IR.II.A"
+        ],
+        "faa": {
+          "source": "14 CFR 91.205(d)",
+          "title": "Instrument flight rules equipment"
+        }
+      },
+      "scenes": [
+        {
+          "id": "scene-01",
+          "kind": "title",
+          "narration": "Thirty seconds, kid. I F R required equipment. Day V F R stuff, night stuff if it's dark, plus one more list: GRAB CARD.",
+          "onScreenText": [
+            "IFR Equipment",
+            "GRABCARD"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 312,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Thirty seconds, kid.",
+              "startFrame": 5,
+              "endFrame": 56
+            },
+            {
+              "text": "I F R required equipment.",
+              "startFrame": 56,
+              "endFrame": 119
+            },
+            {
+              "text": "Day V F R stuff,",
+              "startFrame": 119,
+              "endFrame": 160
+            },
+            {
+              "text": "night stuff if it's dark,",
+              "startFrame": 160,
+              "endFrame": 223
+            },
+            {
+              "text": "plus one more list:",
+              "startFrame": 223,
+              "endFrame": 271
+            },
+            {
+              "text": "GRAB CARD.",
+              "startFrame": 271,
+              "endFrame": 297
+            }
+          ]
+        },
+        {
+          "id": "scene-02",
+          "kind": "bullets",
+          "narration": "Generator or alternator. Radios for the route. Altimeter — the sensitive, adjustable kind. Ball. Clock with a sweep second hand or digital. Attitude indicator. Rate of turn. Directional gyro.",
+          "onScreenText": [
+            "Generator/alternator",
+            "Radios (route-appropriate)",
+            "Altimeter (sensitive)",
+            "Ball · Clock",
+            "Attitude · Rate of turn · DG"
+          ],
+          "duke": {
+            "pose": "point",
+            "expression": "neutral",
+            "position": "left"
+          },
+          "durationInFrames": 372,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Generator or alternator.",
+              "startFrame": 5,
+              "endFrame": 51
+            },
+            {
+              "text": "Radios for the route.",
+              "startFrame": 51,
+              "endFrame": 91
+            },
+            {
+              "text": "Altimeter — the sensitive,",
+              "startFrame": 91,
+              "endFrame": 141
+            },
+            {
+              "text": "adjustable kind. Ball.",
+              "startFrame": 141,
+              "endFrame": 183
+            },
+            {
+              "text": "Clock with a sweep second hand",
+              "startFrame": 183,
+              "endFrame": 240
+            },
+            {
+              "text": "or digital. Attitude indicator.",
+              "startFrame": 240,
+              "endFrame": 299
+            },
+            {
+              "text": "Rate of turn.",
+              "startFrame": 299,
+              "endFrame": 324
+            },
+            {
+              "text": "Directional gyro.",
+              "startFrame": 324,
+              "endFrame": 357
+            }
+          ]
+        },
+        {
+          "id": "scene-03",
+          "kind": "bullets",
+          "narration": "Then the paperwork twins from ninety-one four eleven and four thirteen: the altimeter slash static system check, and the transponder check. Each one every twenty-four calendar months. They expire quietly, kid. Check the logbooks, not the vibes.",
+          "onScreenText": [
+            "Every 24 calendar months:",
+            "91.411 — altimeter/static",
+            "91.413 — transponder"
+          ],
+          "duke": {
+            "pose": "armsCrossed",
+            "expression": "squint",
+            "position": "right"
+          },
+          "durationInFrames": 468,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Then the paperwork twins from ninety-one",
+              "startFrame": 5,
+              "endFrame": 81
+            },
+            {
+              "text": "four eleven and four thirteen:",
+              "startFrame": 81,
+              "endFrame": 138
+            },
+            {
+              "text": "the altimeter slash static system check,",
+              "startFrame": 138,
+              "endFrame": 214
+            },
+            {
+              "text": "and the transponder check.",
+              "startFrame": 214,
+              "endFrame": 263
+            },
+            {
+              "text": "Each one every twenty-four calendar months.",
+              "startFrame": 263,
+              "endFrame": 344
+            },
+            {
+              "text": "They expire quietly,",
+              "startFrame": 344,
+              "endFrame": 382
+            },
+            {
+              "text": "kid. Check the logbooks,",
+              "startFrame": 382,
+              "endFrame": 427
+            },
+            {
+              "text": "not the vibes.",
+              "startFrame": 427,
+              "endFrame": 453
+            }
+          ]
+        },
+        {
+          "id": "scene-04",
+          "kind": "recap",
+          "narration": "GRAB CARD for the panel, twenty-four months for the plumbing. An airplane that can't prove it, can't file it.",
+          "onScreenText": [
+            "GRABCARD",
+            "+ 91.411 / 91.413 within 24 mo"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "neutral",
+            "position": "center"
+          },
+          "durationInFrames": 252,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "GRAB CARD for the panel,",
+              "startFrame": 5,
+              "endFrame": 58
+            },
+            {
+              "text": "twenty-four months for the plumbing.",
+              "startFrame": 58,
+              "endFrame": 137
+            },
+            {
+              "text": "An airplane that can't prove it,",
+              "startFrame": 137,
+              "endFrame": 207
+            },
+            {
+              "text": "can't file it.",
+              "startFrame": 207,
+              "endFrame": 237
+            }
+          ]
+        },
+        {
+          "id": "scene-05",
+          "kind": "sources",
+          "narration": "Ninety-one two-oh-five paragraph d. Bring the logbooks and a flashlight.",
+          "onScreenText": [
+            "ACS: IR.II.A",
+            "14 CFR 91.205(d) — IFR equipment"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "deadpan",
+            "position": "corner"
+          },
+          "durationInFrames": 144,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Ninety-one two-oh-five paragraph d.",
+              "startFrame": 5,
+              "endFrame": 66
+            },
+            {
+              "text": "Bring the logbooks and a flashlight.",
+              "startFrame": 66,
+              "endFrame": 129
+            }
+          ]
+        }
+      ],
+      "durationInFrames": 1548
+    },
+    {
+      "id": "17-da-vs-mda",
+      "index": 16,
+      "title": "DA vs MDA (and the 91.175 Big Three)",
+      "topicArea": "approaches",
+      "hook": "One altitude you decide AT. One you park ON. Mix them up and the FAA writes.",
+      "references": {
+        "acs": [
+          "IR.VI.A",
+          "IR.VI.B"
+        ],
+        "faa": {
+          "source": "14 CFR 91.175(c)",
+          "title": "Operation below DA/DH or MDA"
+        }
+      },
+      "scenes": [
+        {
+          "id": "scene-01",
+          "kind": "title",
+          "narration": "Thirty seconds, kid. D A versus M D A. Two little letters apart, one very different bottom of the approach.",
+          "onScreenText": [
+            "DA vs MDA",
+            "Know which floor you're on"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 264,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Thirty seconds, kid.",
+              "startFrame": 5,
+              "endFrame": 52
+            },
+            {
+              "text": "D A versus M D A.",
+              "startFrame": 52,
+              "endFrame": 92
+            },
+            {
+              "text": "Two little letters apart,",
+              "startFrame": 92,
+              "endFrame": 151
+            },
+            {
+              "text": "one very different bottom of the",
+              "startFrame": 151,
+              "endFrame": 227
+            },
+            {
+              "text": "approach.",
+              "startFrame": 227,
+              "endFrame": 249
+            }
+          ]
+        },
+        {
+          "id": "scene-02",
+          "kind": "diagram",
+          "narration": "D A — decision altitude — comes with a glidepath. You keep descending, and AT that number you decide: land or miss. You'll dip a hair below while the miss starts. That's built in.",
+          "onScreenText": [
+            "DA: with vertical guidance",
+            "Decide AT it, momentum below it"
+          ],
+          "diagram": {
+            "type": "approachPlateProfile",
+            "props": {
+              "highlight": "da"
+            }
+          },
+          "duke": {
+            "pose": "point",
+            "expression": "neutral",
+            "position": "corner"
+          },
+          "durationInFrames": 432,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "D A —",
+              "startFrame": 5,
+              "endFrame": 17
+            },
+            {
+              "text": "decision altitude —",
+              "startFrame": 17,
+              "endFrame": 63
+            },
+            {
+              "text": "comes with a glidepath.",
+              "startFrame": 63,
+              "endFrame": 118
+            },
+            {
+              "text": "You keep descending,",
+              "startFrame": 118,
+              "endFrame": 166
+            },
+            {
+              "text": "and AT that number you decide:",
+              "startFrame": 166,
+              "endFrame": 238
+            },
+            {
+              "text": "land or miss.",
+              "startFrame": 238,
+              "endFrame": 269
+            },
+            {
+              "text": "You'll dip a hair below while",
+              "startFrame": 269,
+              "endFrame": 339
+            },
+            {
+              "text": "the miss starts.",
+              "startFrame": 339,
+              "endFrame": 378
+            },
+            {
+              "text": "That's built in.",
+              "startFrame": 378,
+              "endFrame": 417
+            }
+          ]
+        },
+        {
+          "id": "scene-03",
+          "kind": "diagram",
+          "narration": "M D A — minimum descent altitude — is a hard floor on a non-precision approach. Level off, hold it to the missed point, and do NOT sag below it hunting for the airport.",
+          "onScreenText": [
+            "MDA: hard floor",
+            "Level off. Hold it. No sagging."
+          ],
+          "diagram": {
+            "type": "approachPlateProfile",
+            "props": {
+              "highlight": "mda"
+            }
+          },
+          "duke": {
+            "pose": "armsCrossed",
+            "expression": "squint",
+            "position": "corner"
+          },
+          "durationInFrames": 432,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "M D A —",
+              "startFrame": 5,
+              "endFrame": 23
+            },
+            {
+              "text": "minimum descent altitude —",
+              "startFrame": 23,
+              "endFrame": 89
+            },
+            {
+              "text": "is a hard floor on a",
+              "startFrame": 89,
+              "endFrame": 140
+            },
+            {
+              "text": "non-precision approach. Level off,",
+              "startFrame": 140,
+              "endFrame": 226
+            },
+            {
+              "text": "hold it to the missed point,",
+              "startFrame": 226,
+              "endFrame": 297
+            },
+            {
+              "text": "and do NOT sag below it",
+              "startFrame": 297,
+              "endFrame": 355
+            },
+            {
+              "text": "hunting for the airport.",
+              "startFrame": 355,
+              "endFrame": 417
+            }
+          ]
+        },
+        {
+          "id": "scene-04",
+          "kind": "bullets",
+          "narration": "Going below either one takes all three: the airplane in position to land normally, the required flight visibility, and the runway environment in sight — lights, markings, threshold. All three, kid. Two out of three is a missed approach with extra steps.",
+          "onScreenText": [
+            "Below mins needs ALL 3:",
+            "1. Position for normal landing",
+            "2. Required flight visibility",
+            "3. Runway environment in sight"
+          ],
+          "duke": {
+            "pose": "point",
+            "expression": "eyebrowRaise",
+            "position": "left"
+          },
+          "durationInFrames": 528,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Going below either one takes all",
+              "startFrame": 5,
+              "endFrame": 71
+            },
+            {
+              "text": "three: the airplane in position to",
+              "startFrame": 71,
+              "endFrame": 141
+            },
+            {
+              "text": "land normally, the required flight visibility,",
+              "startFrame": 141,
+              "endFrame": 236
+            },
+            {
+              "text": "and the runway environment in sight",
+              "startFrame": 236,
+              "endFrame": 308
+            },
+            {
+              "text": "— lights, markings,",
+              "startFrame": 308,
+              "endFrame": 347
+            },
+            {
+              "text": "threshold. All three,",
+              "startFrame": 347,
+              "endFrame": 390
+            },
+            {
+              "text": "kid. Two out of three is",
+              "startFrame": 390,
+              "endFrame": 440
+            },
+            {
+              "text": "a missed approach with extra steps.",
+              "startFrame": 440,
+              "endFrame": 513
+            }
+          ]
+        },
+        {
+          "id": "scene-05",
+          "kind": "recap",
+          "narration": "D A you decide at. M D A you ride level. And the big three unlock the descent. My examiner in eighty-seven asked me all of this. I still remember his face — mostly the frown.",
+          "onScreenText": [
+            "DA: decide",
+            "MDA: level floor",
+            "3 conditions to go below"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "grin",
+            "position": "center"
+          },
+          "durationInFrames": 456,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "D A you decide at.",
+              "startFrame": 5,
+              "endFrame": 52
+            },
+            {
+              "text": "M D A you ride level.",
+              "startFrame": 52,
+              "endFrame": 107
+            },
+            {
+              "text": "And the big three unlock the",
+              "startFrame": 107,
+              "endFrame": 180
+            },
+            {
+              "text": "descent. My examiner in eighty-seven asked",
+              "startFrame": 180,
+              "endFrame": 289
+            },
+            {
+              "text": "me all of this.",
+              "startFrame": 289,
+              "endFrame": 328
+            },
+            {
+              "text": "I still remember his face —",
+              "startFrame": 328,
+              "endFrame": 398
+            },
+            {
+              "text": "mostly the frown.",
+              "startFrame": 398,
+              "endFrame": 441
+            }
+          ]
+        },
+        {
+          "id": "scene-06",
+          "kind": "sources",
+          "narration": "Ninety-one one seventy-five, paragraph c. The whole ballgame.",
+          "onScreenText": [
+            "ACS: IR.VI.A / IR.VI.B",
+            "14 CFR 91.175(c) — Operation below mins"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "deadpan",
+            "position": "corner"
+          },
+          "durationInFrames": 120,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Ninety-one one seventy-five,",
+              "startFrame": 5,
+              "endFrame": 52
+            },
+            {
+              "text": "paragraph c. The whole ballgame.",
+              "startFrame": 52,
+              "endFrame": 105
+            }
+          ]
+        }
+      ],
+      "durationInFrames": 2232
+    },
+    {
+      "id": "18-dps-stars",
+      "index": 17,
+      "title": "DPs & STARs: The On-Ramps and Off-Ramps",
+      "topicArea": "clearances",
+      "hook": "The airway system has on-ramps and off-ramps. Here's how to merge.",
+      "references": {
+        "acs": [
+          "IR.I.C",
+          "IR.III.A"
+        ],
+        "faa": {
+          "source": "FAA-H-8083-16B Ch. 1 & 3",
+          "title": "Instrument Procedures Handbook — Departures & Arrivals"
+        }
+      },
+      "scenes": [
+        {
+          "id": "scene-01",
+          "kind": "title",
+          "narration": "Last one for now, kid. Departure procedures and STARs — how you get on the highway, and how you get off without missing your exit.",
+          "onScreenText": [
+            "DPs & STARs",
+            "On-ramps & off-ramps"
+          ],
+          "duke": {
+            "pose": "stand",
+            "expression": "deadpan",
+            "position": "center"
+          },
+          "durationInFrames": 324,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Last one for now,",
+              "startFrame": 5,
+              "endFrame": 46
+            },
+            {
+              "text": "kid. Departure procedures and STARs —",
+              "startFrame": 46,
+              "endFrame": 135
+            },
+            {
+              "text": "how you get on the highway,",
+              "startFrame": 135,
+              "endFrame": 200
+            },
+            {
+              "text": "and how you get off without",
+              "startFrame": 200,
+              "endFrame": 265
+            },
+            {
+              "text": "missing your exit.",
+              "startFrame": 265,
+              "endFrame": 309
+            }
+          ]
+        },
+        {
+          "id": "scene-02",
+          "kind": "bullets",
+          "narration": "Departures come in two flavors. O D Ps — obstacle departure procedures — exist purely to keep you off the rocks, no clearance needed. SIDs simplify the clearance AND organize the flow; those, ATC assigns.",
+          "onScreenText": [
+            "ODP: obstacle protection, fly-anytime",
+            "SID: ATC-assigned, flow + obstacles"
+          ],
+          "duke": {
+            "pose": "point",
+            "expression": "neutral",
+            "position": "left"
+          },
+          "durationInFrames": 444,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Departures come in two flavors.",
+              "startFrame": 5,
+              "endFrame": 72
+            },
+            {
+              "text": "O D Ps —",
+              "startFrame": 72,
+              "endFrame": 89
+            },
+            {
+              "text": "obstacle departure procedures —",
+              "startFrame": 89,
+              "endFrame": 156
+            },
+            {
+              "text": "exist purely to keep you off",
+              "startFrame": 156,
+              "endFrame": 216
+            },
+            {
+              "text": "the rocks, no clearance needed.",
+              "startFrame": 216,
+              "endFrame": 283
+            },
+            {
+              "text": "SIDs simplify the clearance AND organize",
+              "startFrame": 283,
+              "endFrame": 369
+            },
+            {
+              "text": "the flow; those,",
+              "startFrame": 369,
+              "endFrame": 403
+            },
+            {
+              "text": "ATC assigns.",
+              "startFrame": 403,
+              "endFrame": 429
+            }
+          ]
+        },
+        {
+          "id": "scene-03",
+          "kind": "diagram",
+          "narration": "Unless the plate says otherwise, departures assume you cross the end of the runway at thirty-five feet and climb at least two hundred feet per nautical mile. That's feet per MILE, not per minute — do the groundspeed math.",
+          "onScreenText": [
+            "Standard climb: 200 ft/NM",
+            "(per NM, not per minute!)"
+          ],
+          "diagram": {
+            "type": "routeAltitude",
+            "props": {
+              "variant": "climb"
+            }
+          },
+          "duke": {
+            "pose": "armsCrossed",
+            "expression": "squint",
+            "position": "corner"
+          },
+          "durationInFrames": 492,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Unless the plate says otherwise,",
+              "startFrame": 5,
+              "endFrame": 76
+            },
+            {
+              "text": "departures assume you cross the end",
+              "startFrame": 76,
+              "endFrame": 153
+            },
+            {
+              "text": "of the runway at thirty-five feet",
+              "startFrame": 153,
+              "endFrame": 226
+            },
+            {
+              "text": "and climb at least two hundred",
+              "startFrame": 226,
+              "endFrame": 292
+            },
+            {
+              "text": "feet per nautical mile.",
+              "startFrame": 292,
+              "endFrame": 343
+            },
+            {
+              "text": "That's feet per MILE,",
+              "startFrame": 343,
+              "endFrame": 389
+            },
+            {
+              "text": "not per minute —",
+              "startFrame": 389,
+              "endFrame": 424
+            },
+            {
+              "text": "do the groundspeed math.",
+              "startFrame": 424,
+              "endFrame": 477
+            }
+          ]
+        },
+        {
+          "id": "scene-04",
+          "kind": "bullets",
+          "narration": "STARs are the arrival version — published routes that funnel everyone downhill in an orderly line. Key phrase: 'descend via' means fly the STAR's altitudes yourself. 'Descend and maintain' means fly ATC's number. Don't freelance between the two.",
+          "onScreenText": [
+            "STAR: published arrival flow",
+            "\"Descend via\" → fly the chart",
+            "\"Descend & maintain\" → fly ATC's altitude"
+          ],
+          "duke": {
+            "pose": "point",
+            "expression": "eyebrowRaise",
+            "position": "right"
+          },
+          "durationInFrames": 480,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "STARs are the arrival version —",
+              "startFrame": 5,
+              "endFrame": 65
+            },
+            {
+              "text": "published routes that funnel everyone downhill",
+              "startFrame": 65,
+              "endFrame": 154
+            },
+            {
+              "text": "in an orderly line.",
+              "startFrame": 154,
+              "endFrame": 191
+            },
+            {
+              "text": "Key phrase: 'descend via' means fly",
+              "startFrame": 191,
+              "endFrame": 258
+            },
+            {
+              "text": "the STAR's altitudes yourself.",
+              "startFrame": 258,
+              "endFrame": 316
+            },
+            {
+              "text": "'Descend and maintain' means fly ATC's",
+              "startFrame": 316,
+              "endFrame": 389
+            },
+            {
+              "text": "number. Don't freelance between the two.",
+              "startFrame": 389,
+              "endFrame": 465
+            }
+          ]
+        },
+        {
+          "id": "scene-05",
+          "kind": "recap",
+          "narration": "O D P for rocks, SID for flow, two hundred feet per mile unless published otherwise, and know whether you're descending VIA or descending AND maintaining. Merge like you've done it before, kid.",
+          "onScreenText": [
+            "ODP: rocks · SID: flow",
+            "200 ft/NM standard",
+            "\"Via\" vs \"maintain\""
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "neutral",
+            "position": "center"
+          },
+          "durationInFrames": 420,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "O D P for rocks,",
+              "startFrame": 5,
+              "endFrame": 39
+            },
+            {
+              "text": "SID for flow,",
+              "startFrame": 39,
+              "endFrame": 67
+            },
+            {
+              "text": "two hundred feet per mile unless",
+              "startFrame": 67,
+              "endFrame": 135
+            },
+            {
+              "text": "published otherwise, and know whether you're",
+              "startFrame": 135,
+              "endFrame": 229
+            },
+            {
+              "text": "descending VIA or descending AND maintaining.",
+              "startFrame": 229,
+              "endFrame": 325
+            },
+            {
+              "text": "Merge like you've done it before,",
+              "startFrame": 325,
+              "endFrame": 396
+            },
+            {
+              "text": "kid.",
+              "startFrame": 396,
+              "endFrame": 405
+            }
+          ]
+        },
+        {
+          "id": "scene-06",
+          "kind": "sources",
+          "narration": "Instrument Procedures Handbook, chapters one and three. Free P D F. Costs only your evening.",
+          "onScreenText": [
+            "ACS: IR.I.C / IR.III.A",
+            "FAA-H-8083-16B Ch. 1 & 3"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "deadpan",
+            "position": "corner"
+          },
+          "durationInFrames": 204,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Instrument Procedures Handbook,",
+              "startFrame": 5,
+              "endFrame": 69
+            },
+            {
+              "text": "chapters one and three.",
+              "startFrame": 69,
+              "endFrame": 117
+            },
+            {
+              "text": "Free P D F.",
+              "startFrame": 117,
+              "endFrame": 140
+            },
+            {
+              "text": "Costs only your evening.",
+              "startFrame": 140,
+              "endFrame": 189
+            }
+          ]
+        }
+      ],
+      "durationInFrames": 2364
+    }
+  ]
+}

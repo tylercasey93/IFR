@@ -17,6 +17,7 @@
   "dependencies": {
     "@remotion/bundler": "4.0.518",
     "@remotion/cli": "4.0.518",
+    "@remotion/fonts": "^4.0.518",
     "@remotion/renderer": "4.0.518",
     "react": "19.0.0",
     "react-dom": "19.0.0",

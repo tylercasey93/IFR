@@ -37,8 +37,8 @@
     {
       "id": "scene-04",
       "kind": "diagram",
-      "narration": "From the holding side of the seventy line: teardrop. Thirty degrees into the protected side, then turn back inbound. From the other side: parallel. Fly the course outbound, then turn back toward the holding side.",
-      "onScreenText": ["Teardrop: holding side of 70° line", "Parallel: the other side"],
+      "narration": "Arriving through the narrow seventy degree sliver? Teardrop. Cross the fix, cut thirty degrees into the protected side, then turn back inbound. From the wide wedge: parallel. Track the course outbound, then turn back around into the hold.",
+      "onScreenText": ["Teardrop: the narrow 70° sliver", "Parallel: the wide 110° wedge"],
       "diagram": { "type": "holdingPattern", "props": { "stage": "entry", "entryHighlight": "teardrop", "inboundCourse": 270 } },
       "duke": { "pose": "point", "expression": "squint", "position": "corner" },
       "minDurationSec": 9
@@ -46,8 +46,8 @@
     {
       "id": "scene-05",
       "kind": "recap",
-      "narration": "Big slice direct, holding side teardrop, far side parallel. And relax — the entry isn't graded by geometry, kid. Stay in protected airspace and nobody gets hurt.",
-      "onScreenText": ["Big slice → Direct", "Holding side → Teardrop", "Far side → Parallel"],
+      "narration": "Big slice direct, narrow sliver teardrop, wide wedge parallel. And relax — the entry isn't graded by geometry, kid. Stay in protected airspace and nobody gets hurt.",
+      "onScreenText": ["Big slice → Direct", "70° sliver → Teardrop", "110° wedge → Parallel"],
       "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "center" },
       "minDurationSec": 7
     },
