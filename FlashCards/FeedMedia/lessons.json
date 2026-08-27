@@ -1,0 +1,915 @@
+{
+  "version": 1,
+  "lessons": [
+    {
+      "id": "01-craft-clearance",
+      "title": "Copy Any Clearance: CRAFT",
+      "topicArea": "clearances",
+      "hook": "ATC talks at 200 words a minute. Here's how you win.",
+      "hasVideo": false,
+      "references": {
+        "acs": [
+          "IR.III.A"
+        ],
+        "faa": {
+          "source": "AIM 4-4-3",
+          "title": "Clearance Items"
+        }
+      },
+      "quiz": [
+        {
+          "question": "In CRAFT, what does the first C stand for?",
+          "choices": [
+            "Clearance limit",
+            "Course",
+            "Climb instruction",
+            "Contact frequency"
+          ],
+          "correctIndex": 0,
+          "explanation": "Every IFR clearance starts with the clearance limit — usually your destination airport. (AIM 4-4-3)"
+        },
+        {
+          "question": "You hear \"cleared to Denver as filed.\" What should you still expect to copy?",
+          "choices": [
+            "Altitude, departure frequency, and squawk",
+            "Nothing — you're done",
+            "Only a squawk code",
+            "A full route readback"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"As filed\" covers the route only. The A, F, and T of CRAFT — altitude, frequency, transponder — are still coming."
+        },
+        {
+          "question": "Why write C-R-A-F-T on your pad before calling clearance delivery?",
+          "choices": [
+            "Clearances follow that exact order, so you just fill in blanks",
+            "It's required by 14 CFR 91.173",
+            "ATC will ask you to read the letters back",
+            "It replaces a readback"
+          ],
+          "correctIndex": 0,
+          "explanation": "Clearance items are issued in a standard order (AIM 4-4-3). Pre-writing CRAFT turns a fast readback into a fill-in-the-blank."
+        }
+      ]
+    },
+    {
+      "id": "02-alternate-123",
+      "title": "The 1-2-3 Rule: When You Need an Alternate",
+      "topicArea": "regs",
+      "hook": "Do you legally need an alternate today? Count to three.",
+      "hasVideo": false,
+      "references": {
+        "acs": [
+          "IR.I.C"
+        ],
+        "faa": {
+          "source": "14 CFR 91.169",
+          "title": "IFR flight plan: information required"
+        }
+      },
+      "quiz": [
+        {
+          "question": "Forecast at destination, ETA ±1 hr: ceiling 1,500 ft, visibility 5 SM. Alternate required?",
+          "choices": [
+            "Yes — the ceiling is below 2,000 ft",
+            "No — visibility is above 3 SM",
+            "No — 1,500 and 5 passes the test",
+            "Only at night"
+          ],
+          "correctIndex": 0,
+          "explanation": "You need BOTH ≥2,000 ft and ≥3 SM from 1 hour before to 1 hour after ETA. 1,500 ft fails, so file an alternate. (91.169)"
+        },
+        {
+          "question": "Standard alternate minimums at an airport with only a VOR (non-precision) approach?",
+          "choices": [
+            "800-2 at your ETA",
+            "600-2 at your ETA",
+            "2,000-3 at your ETA",
+            "200-½ at your ETA"
+          ],
+          "correctIndex": 0,
+          "explanation": "Standard alternate minimums: 600-2 precision, 800-2 non-precision, at the time of your ETA. (91.169(c))"
+        },
+        {
+          "question": "Your alternate has no instrument approach at all. To list it, the weather must allow...",
+          "choices": [
+            "Descent from the MEA, approach, and landing under basic VFR",
+            "A contact approach",
+            "Nothing special — any airport works",
+            "Radar vectors to final"
+          ],
+          "correctIndex": 0,
+          "explanation": "With no IAP at the alternate, 91.169 requires ceilings/visibility allowing a descent from the MEA and a landing under basic VFR."
+        }
+      ]
+    },
+    {
+      "id": "03-holding-entries",
+      "title": "Holding Entries Without the Headache",
+      "topicArea": "holding",
+      "hook": "Cleared to hold. Which entry? You've got until the fix to decide.",
+      "hasVideo": true,
+      "references": {
+        "acs": [
+          "IR.III.B"
+        ],
+        "faa": {
+          "source": "AIM 5-3-8",
+          "title": "Holding"
+        }
+      },
+      "quiz": [
+        {
+          "question": "The three standard holding entries are:",
+          "choices": [
+            "Direct, parallel, teardrop",
+            "Direct, procedure turn, base",
+            "Straight-in, offset, reverse",
+            "Direct, racetrack, teardrop"
+          ],
+          "correctIndex": 0,
+          "explanation": "AIM 5-3-8 recommends direct, parallel, and teardrop entries based on your heading relative to the holding course."
+        },
+        {
+          "question": "The recommended entry sectors are divided by a line drawn at what angle to the inbound holding course?",
+          "choices": [
+            "70°",
+            "45°",
+            "90°",
+            "30°"
+          ],
+          "correctIndex": 0,
+          "explanation": "The 70° line through the fix splits the non-direct region into the parallel and teardrop sectors."
+        },
+        {
+          "question": "In a teardrop entry, after crossing the fix you fly...",
+          "choices": [
+            "~30° off the outbound course on the holding side, then turn to intercept inbound",
+            "Parallel to the inbound course on the non-holding side",
+            "Directly outbound, then a 180° turn",
+            "A full procedure turn"
+          ],
+          "correctIndex": 0,
+          "explanation": "Teardrop: proceed on an outbound track ~30° to the holding side, then turn back to intercept the inbound course. (AIM 5-3-8)"
+        }
+      ]
+    },
+    {
+      "id": "04-lost-comms",
+      "title": "Lost Comms: AVEF & MEA",
+      "topicArea": "emergencies",
+      "hook": "The radio just died in the clouds. What now?",
+      "hasVideo": false,
+      "references": {
+        "acs": [
+          "IR.VII.A"
+        ],
+        "faa": {
+          "source": "14 CFR 91.185",
+          "title": "IFR operations: Two-way radio communications failure"
+        }
+      },
+      "quiz": [
+        {
+          "question": "Lost comms in IMC. Route priority under 91.185 is:",
+          "choices": [
+            "Assigned, Vectored, Expected, Filed",
+            "Filed, Expected, Vectored, Assigned",
+            "Direct destination, then as filed",
+            "Expected, Assigned, Filed, Vectored"
+          ],
+          "correctIndex": 0,
+          "explanation": "AVEF: the route Assigned; if being Vectored, direct to the fix/route the vector was for; then Expected; then Filed."
+        },
+        {
+          "question": "Lost comms altitude for each segment is the HIGHEST of:",
+          "choices": [
+            "MEA, expected altitude, assigned altitude",
+            "MEA, MOCA, MRA",
+            "Filed altitude, MEA, 3,000 AGL",
+            "Assigned altitude only"
+          ],
+          "correctIndex": 0,
+          "explanation": "91.185(c)(2): fly the highest of the minimum IFR altitude (MEA), the altitude ATC told you to expect, or your last assigned altitude."
+        },
+        {
+          "question": "Radio fails and you encounter VFR conditions. You should:",
+          "choices": [
+            "Continue VFR and land as soon as practicable",
+            "Climb back into IMC and fly AVEF",
+            "Hold until your filed ETA",
+            "Continue IFR to your destination"
+          ],
+          "correctIndex": 0,
+          "explanation": "91.185(b): if you hit VFR conditions after the failure, remain VFR and land as soon as practicable."
+        }
+      ]
+    },
+    {
+      "id": "05-currency-66hit",
+      "title": "IFR Currency: 6-6-HIT",
+      "topicArea": "regs",
+      "hook": "Legal to file IFR today? Let's check your math.",
+      "hasVideo": false,
+      "references": {
+        "acs": [
+          "IR.I.A"
+        ],
+        "faa": {
+          "source": "14 CFR 61.57(c)-(d)",
+          "title": "Recent flight experience: Instrument"
+        }
+      },
+      "quiz": [
+        {
+          "question": "To act as PIC under IFR, within the preceding 6 calendar months you need:",
+          "choices": [
+            "6 approaches, holding procedures, and intercepting/tracking courses",
+            "6 hours of instrument time and 3 approaches",
+            "An IPC every 6 months",
+            "6 approaches and a flight review"
+          ],
+          "correctIndex": 0,
+          "explanation": "61.57(c): six instrument approaches, holding procedures and tasks, and intercepting/tracking courses using navigation systems."
+        },
+        {
+          "question": "Your currency lapsed 3 months ago (month 9 of 12). You may regain it by:",
+          "choices": [
+            "Flying approaches with a safety pilot or in an approved sim",
+            "An IPC only",
+            "Filing IFR and logging 6 approaches solo in IMC",
+            "A flight review"
+          ],
+          "correctIndex": 0,
+          "explanation": "During the 6-month grace period you can regain currency yourself (safety pilot/sim/instructor) — but you can't act as PIC under IFR until you do."
+        },
+        {
+          "question": "More than 12 months since you were last instrument current. What's required?",
+          "choices": [
+            "An instrument proficiency check (IPC)",
+            "6 approaches with a safety pilot",
+            "Retake the instrument written",
+            "A new checkride"
+          ],
+          "correctIndex": 0,
+          "explanation": "61.57(d): once the grace period ends, you need an IPC from an authorized instructor/examiner."
+        }
+      ]
+    },
+    {
+      "id": "06-approach-brief",
+      "title": "Brief a Plate Like a Pro",
+      "topicArea": "approaches",
+      "hook": "Ten miles out is a terrible place to meet your approach plate.",
+      "hasVideo": false,
+      "references": {
+        "acs": [
+          "IR.VI.A",
+          "IR.VI.B"
+        ],
+        "faa": {
+          "source": "FAA-H-8083-16B Ch. 4",
+          "title": "Instrument Procedures Handbook — Approaches"
+        }
+      },
+      "quiz": [
+        {
+          "question": "A solid approach brief flows in what order?",
+          "choices": [
+            "Briefing strip, notes, plan view, profile, minimums, missed",
+            "Minimums first, then frequencies",
+            "Missed approach, then plan view, then strip",
+            "Whatever order the plate prints them"
+          ],
+          "correctIndex": 0,
+          "explanation": "Top-to-bottom keeps the brief consistent and complete — ending with minimums and the missed so they're freshest."
+        },
+        {
+          "question": "Why brief the missed approach out loud before the FAF?",
+          "choices": [
+            "At minimums there's no time to read — you fly it from memory",
+            "ATC requires a readback of the missed",
+            "It's only needed for circling approaches",
+            "So your passenger can fly it"
+          ],
+          "correctIndex": 0,
+          "explanation": "The missed happens at the busiest, lowest moment of the approach. The first steps must already be loaded in your head."
+        }
+      ]
+    },
+    {
+      "id": "07-ils-basics",
+      "title": "The ILS in Plain English",
+      "topicArea": "approaches",
+      "hook": "Two needles, one runway, zero visibility. Meet the ILS.",
+      "hasVideo": false,
+      "references": {
+        "acs": [
+          "IR.VI.B"
+        ],
+        "faa": {
+          "source": "AIM 1-1-9",
+          "title": "Instrument Landing System (ILS)"
+        }
+      },
+      "quiz": [
+        {
+          "question": "Standard Category I ILS minimums are:",
+          "choices": [
+            "DA 200 ft HAT, visibility ½ SM / RVR 1,800",
+            "DA 100 ft, RVR 1,200",
+            "MDA 500 ft, 1 SM",
+            "DA 250 ft, ¾ SM always"
+          ],
+          "correctIndex": 0,
+          "explanation": "A standard CAT I ILS goes down to 200 ft above touchdown with as little as ½ SM or RVR 1,800 (AIM 1-1-9; exact values are on the plate)."
+        },
+        {
+          "question": "Compared to a VOR course, the localizer is:",
+          "choices": [
+            "About 4x more sensitive — small corrections only",
+            "Half as sensitive",
+            "Identical in sensitivity",
+            "Only usable within 5 NM"
+          ],
+          "correctIndex": 0,
+          "explanation": "The localizer's full-scale deflection is roughly a quarter of a VOR's, so needle movements are faster — correct with small pressures."
+        },
+        {
+          "question": "Reaching DA without the runway environment in sight, you must:",
+          "choices": [
+            "Execute the missed approach immediately",
+            "Level off at DA and continue to the MAP",
+            "Descend 100 ft lower to look",
+            "Circle to land"
+          ],
+          "correctIndex": 0,
+          "explanation": "DA is a decision altitude — no runway environment means missed approach, beginning at DA. (91.175)"
+        }
+      ]
+    },
+    {
+      "id": "08-vor-cdi-hsi",
+      "title": "VOR Radials Without the Vertigo",
+      "topicArea": "navigation",
+      "hook": "Which radial are you on? Wrong answer costs you the checkride.",
+      "hasVideo": false,
+      "references": {
+        "acs": [
+          "IR.V.A"
+        ],
+        "faa": {
+          "source": "AIM 1-1-3",
+          "title": "VHF Omni-directional Range (VOR)"
+        }
+      },
+      "quiz": [
+        {
+          "question": "VOR radials are defined as courses...",
+          "choices": [
+            "FROM the station",
+            "TO the station",
+            "Magnetic north only",
+            "Relative to your heading"
+          ],
+          "correctIndex": 0,
+          "explanation": "A radial always radiates outward FROM the station — the 090 radial lies due east of the VOR."
+        },
+        {
+          "question": "You get reverse sensing on a basic CDI when:",
+          "choices": [
+            "The OBS course is roughly opposite your direction of flight",
+            "You're too close to the station",
+            "The station is undergoing maintenance",
+            "Flying an HSI-equipped aircraft"
+          ],
+          "correctIndex": 0,
+          "explanation": "With the OBS set ~180° from your actual course, the needle deflects away from the course — fly-toward-the-needle becomes wrong."
+        },
+        {
+          "question": "Why can't a properly set HSI reverse-sense?",
+          "choices": [
+            "The course arrow rotates with the compass card, keeping the picture oriented to your heading",
+            "It uses GPS instead of the VOR",
+            "It has no needle",
+            "It automatically flips the OBS"
+          ],
+          "correctIndex": 0,
+          "explanation": "The HSI overlays the course needle on a heading-slaved card, so the deflection is always shown relative to where you're actually pointed."
+        }
+      ]
+    },
+    {
+      "id": "09-rnav-minima",
+      "title": "LPV vs LNAV: The Minima Lines",
+      "topicArea": "approaches",
+      "hook": "Four lines of minimums on one RNAV plate. Which one is yours?",
+      "hasVideo": false,
+      "references": {
+        "acs": [
+          "IR.VI.A"
+        ],
+        "faa": {
+          "source": "AIM 1-1-18",
+          "title": "Wide Area Augmentation System (WAAS)"
+        }
+      },
+      "quiz": [
+        {
+          "question": "Which RNAV minima line requires WAAS and provides ILS-like angular guidance?",
+          "choices": [
+            "LPV",
+            "LNAV",
+            "LNAV+V",
+            "Circling"
+          ],
+          "correctIndex": 0,
+          "explanation": "LPV (Localizer Performance with Vertical guidance) uses WAAS for angular guidance and DAs as low as 200 ft. (AIM 1-1-18)"
+        },
+        {
+          "question": "Flying to plain LNAV minimums, you descend to...",
+          "choices": [
+            "An MDA — level off until the missed point or runway in sight",
+            "A DA — decide as you reach it",
+            "200 ft AGL automatically",
+            "The circling MDA only"
+          ],
+          "correctIndex": 0,
+          "explanation": "LNAV is lateral-only; its minimum is an MDA you must not descend below without the runway environment. (91.175)"
+        },
+        {
+          "question": "Your GPS annunciates \"LNAV\" on an approach you briefed for LPV. You should:",
+          "choices": [
+            "Use the LNAV minima line",
+            "Use LPV minimums anyway",
+            "Ask ATC to fix your WAAS signal",
+            "Switch to the ILS frequency"
+          ],
+          "correctIndex": 0,
+          "explanation": "The annunciated service level determines your line of minima — fly what the box is actually providing."
+        }
+      ]
+    },
+    {
+      "id": "10-takeoff-mins",
+      "title": "Takeoff Minimums: Legal vs Smart",
+      "topicArea": "regs",
+      "hook": "Zero-zero fog. Can you legally take off? ...Should you?",
+      "hasVideo": false,
+      "references": {
+        "acs": [
+          "IR.I.C"
+        ],
+        "faa": {
+          "source": "14 CFR 91.175(f)",
+          "title": "Civil airport takeoff minimums"
+        }
+      },
+      "quiz": [
+        {
+          "question": "Required takeoff minimums for a Part 91 (non-commercial) flight are:",
+          "choices": [
+            "None — but that doesn't make 0-0 wise",
+            "1 SM visibility",
+            "½ SM visibility",
+            "200 ft and ½ SM"
+          ],
+          "correctIndex": 0,
+          "explanation": "91.175(f) applies to operators under Parts 121/125/129/135. Part 91 has no takeoff minimums — judgment is the only limit."
+        },
+        {
+          "question": "Standard takeoff minimums for a commercial operator with 2 engines:",
+          "choices": [
+            "1 SM visibility",
+            "½ SM visibility",
+            "2 SM visibility",
+            "300-1"
+          ],
+          "correctIndex": 0,
+          "explanation": "Standard: 1 SM for aircraft with two engines or less, ½ SM for more than two. (91.175(f)(1)-(2))"
+        },
+        {
+          "question": "A smart personal takeoff minimum for single-pilot IFR is weather good enough to:",
+          "choices": [
+            "Return and fly an approach back into your departure airport",
+            "See the end of the runway",
+            "Match your destination's forecast",
+            "Satisfy your insurance policy"
+          ],
+          "correctIndex": 0,
+          "explanation": "If trouble hits right after takeoff, your departure airport is the nearest runway — keep enough weather to use it."
+        }
+      ]
+    },
+    {
+      "id": "11-metar-taf",
+      "title": "METAR & TAF: Read Weather Like a Dispatcher",
+      "topicArea": "weather",
+      "hook": "KDEN 271753Z 33015G25KT... gibberish, or a go/no-go answer?",
+      "hasVideo": false,
+      "references": {
+        "acs": [
+          "IR.I.B"
+        ],
+        "faa": {
+          "source": "AC 00-45H",
+          "title": "Aviation Weather Services"
+        }
+      },
+      "quiz": [
+        {
+          "question": "Which cloud reports constitute a ceiling?",
+          "choices": [
+            "BKN or OVC (and VV)",
+            "FEW or SCT",
+            "Any cloud layer",
+            "OVC only"
+          ],
+          "correctIndex": 0,
+          "explanation": "A ceiling is the lowest broken or overcast layer, or vertical visibility into an obscuration. Scattered doesn't count."
+        },
+        {
+          "question": "In a TAF, \"FM1500\" means:",
+          "choices": [
+            "A rapid, lasting change to new conditions beginning at 1500Z",
+            "Fog and mist at 1500Z",
+            "A temporary fluctuation around 1500Z",
+            "Winds from 150° at 0 knots"
+          ],
+          "correctIndex": 0,
+          "explanation": "FM (FROM) groups signal a fast, permanent change to the new conditions at that Zulu time; TEMPO covers temporary fluctuations."
+        },
+        {
+          "question": "Temperature 12°C, dew point 11°C, sun setting. Expect:",
+          "choices": [
+            "Fog or low stratus forming",
+            "Thunderstorms",
+            "Clear skies all night",
+            "Icing at the surface"
+          ],
+          "correctIndex": 0,
+          "explanation": "A small, closing temp/dew point spread near sunset is the classic fog setup — saturation is one degree of cooling away."
+        }
+      ]
+    },
+    {
+      "id": "12-icing",
+      "title": "Icing: Where It Lives, How You Leave",
+      "topicArea": "weather",
+      "hook": "Ice doesn't announce itself. It just starts redesigning your wing.",
+      "hasVideo": false,
+      "references": {
+        "acs": [
+          "IR.I.B"
+        ],
+        "faa": {
+          "source": "AC 91-74B",
+          "title": "Pilot Guide: Flight in Icing Conditions"
+        }
+      },
+      "quiz": [
+        {
+          "question": "Structural icing requires:",
+          "choices": [
+            "Visible moisture and aircraft surface temperature at or below freezing",
+            "Temperatures below −40°C",
+            "Precipitation of any kind",
+            "Flight above the freezing level"
+          ],
+          "correctIndex": 0,
+          "explanation": "Both ingredients are required: visible moisture (cloud, rain) and a surface at or below 0°C. (AC 91-74B)"
+        },
+        {
+          "question": "Which icing type comes from large supercooled drops and forms smooth, heavy, hard-to-see accretions?",
+          "choices": [
+            "Clear ice",
+            "Rime ice",
+            "Frost",
+            "Hoar ice"
+          ],
+          "correctIndex": 0,
+          "explanation": "Clear ice flows back before freezing, building smooth heavy sheets — the most dangerous accretion type."
+        },
+        {
+          "question": "You encounter freezing rain. The warmer air you may need is most likely:",
+          "choices": [
+            "Above you",
+            "Below you",
+            "Behind you",
+            "Nonexistent"
+          ],
+          "correctIndex": 0,
+          "explanation": "Freezing rain forms when precipitation falls from warmer air aloft into a below-freezing layer — a climb may reach the warm layer."
+        }
+      ]
+    },
+    {
+      "id": "13-ifr-altitudes",
+      "title": "MEA, MOCA & Friends",
+      "topicArea": "navigation",
+      "hook": "Five altitude acronyms guard every airway. Know who does what.",
+      "hasVideo": false,
+      "references": {
+        "acs": [
+          "IR.I.C"
+        ],
+        "faa": {
+          "source": "14 CFR 91.177",
+          "title": "Minimum altitudes for IFR operations"
+        }
+      },
+      "quiz": [
+        {
+          "question": "The MEA guarantees:",
+          "choices": [
+            "Obstacle clearance AND acceptable nav signal for the whole segment",
+            "Obstacle clearance only",
+            "Radar coverage",
+            "Two-way communications"
+          ],
+          "correctIndex": 0,
+          "explanation": "MEA covers both obstruction clearance and navigation signal coverage between fixes — that's what makes it the workhorse."
+        },
+        {
+          "question": "The MOCA assures VOR navigation signal coverage only within:",
+          "choices": [
+            "22 NM of the VOR",
+            "40 NM of the VOR",
+            "The entire segment",
+            "10 NM of the VOR"
+          ],
+          "correctIndex": 0,
+          "explanation": "MOCA provides full obstacle clearance but signal coverage only within 22 NM of the VOR. Below the MEA, that's the catch."
+        },
+        {
+          "question": "An MCA published at a fix means you must:",
+          "choices": [
+            "Cross that fix at or above the MCA",
+            "Begin your descent at that fix",
+            "Contact ATC at that fix",
+            "Be able to receive the fix at that altitude"
+          ],
+          "correctIndex": 0,
+          "explanation": "MCA is a crossing restriction — start the climb early so you cross at or above it (MRA is the reception altitude)."
+        }
+      ]
+    },
+    {
+      "id": "14-vor-checks",
+      "title": "VOR Checks: 4-4-6-4, Every 30 Days",
+      "topicArea": "equipment",
+      "hook": "Your VOR hasn't been checked in 31 days. Guess what's illegal now.",
+      "hasVideo": false,
+      "references": {
+        "acs": [
+          "IR.II.C"
+        ],
+        "faa": {
+          "source": "14 CFR 91.171",
+          "title": "VOR equipment check for IFR operations"
+        }
+      },
+      "quiz": [
+        {
+          "question": "Maximum bearing error for an AIRBORNE VOR checkpoint:",
+          "choices": [
+            "±6°",
+            "±4°",
+            "±8°",
+            "±10°"
+          ],
+          "correctIndex": 0,
+          "explanation": "Airborne checkpoints allow ±6°; VOT and ground checkpoints are ±4°. (91.171)"
+        },
+        {
+          "question": "Checking dual VORs against each other, the maximum permitted difference between indicated bearings is:",
+          "choices": [
+            "4°",
+            "6°",
+            "8°",
+            "2°"
+          ],
+          "correctIndex": 0,
+          "explanation": "The dual cross-check allows a maximum of 4° between the two indicated bearings to the same station."
+        },
+        {
+          "question": "A valid VOR check log entry requires:",
+          "choices": [
+            "Date, place, bearing error, and signature",
+            "Date and tach time",
+            "Only the bearing error",
+            "An A&P endorsement"
+          ],
+          "correctIndex": 0,
+          "explanation": "91.171(d): the person making the check logs date, place, bearing error, and signs it."
+        }
+      ]
+    },
+    {
+      "id": "15-required-reports",
+      "title": "What You Must Tell ATC",
+      "topicArea": "clearances",
+      "hook": "Some silence is golden. This silence is a violation.",
+      "hasVideo": false,
+      "references": {
+        "acs": [
+          "IR.III.A"
+        ],
+        "faa": {
+          "source": "AIM 5-3-3",
+          "title": "Additional Reports"
+        }
+      },
+      "quiz": [
+        {
+          "question": "Which of these must ALWAYS be reported to ATC, radar or not?",
+          "choices": [
+            "Vacating a previously assigned altitude for a new one",
+            "Passing every waypoint",
+            "Fuel remaining every hour",
+            "Autopilot engagement"
+          ],
+          "correctIndex": 0,
+          "explanation": "Leaving an assigned altitude for a newly assigned one is on the always-report list. (AIM 5-3-3)"
+        },
+        {
+          "question": "You must report a change in average true airspeed of:",
+          "choices": [
+            "5% or 10 knots, whichever is greater",
+            "Any change at all",
+            "20 knots",
+            "Only if ATC asks"
+          ],
+          "correctIndex": 0,
+          "explanation": "A TAS change of 5% or 10 knots (whichever is greater) from what's filed must be reported."
+        },
+        {
+          "question": "A report required only when NOT in radar contact:",
+          "choices": [
+            "Position over each compulsory reporting point",
+            "Executing a missed approach",
+            "Unable to climb 500 fpm",
+            "Leaving a holding fix"
+          ],
+          "correctIndex": 0,
+          "explanation": "Compulsory position reports (and ETA changes >3 min) apply in a non-radar environment; the others are always required."
+        }
+      ]
+    },
+    {
+      "id": "16-required-equipment",
+      "title": "IFR Equipment: GRABCARD + the Checks",
+      "topicArea": "equipment",
+      "hook": "Is this airplane even legal for IFR? Grab a card.",
+      "hasVideo": false,
+      "references": {
+        "acs": [
+          "IR.II.A"
+        ],
+        "faa": {
+          "source": "14 CFR 91.205(d)",
+          "title": "Instrument flight rules equipment"
+        }
+      },
+      "quiz": [
+        {
+          "question": "In GRABCARD, the second A stands for:",
+          "choices": [
+            "Attitude indicator",
+            "Airspeed indicator",
+            "Autopilot",
+            "ADF"
+          ],
+          "correctIndex": 0,
+          "explanation": "G-R-A-B-C-A-R-D: Generator, Radios, Altimeter, Ball, Clock, Attitude indicator, Rate of turn, Directional gyro. (91.205(d))"
+        },
+        {
+          "question": "The altimeter/static system (91.411) and transponder (91.413) checks are required every:",
+          "choices": [
+            "24 calendar months",
+            "12 calendar months",
+            "30 days",
+            "100 hours"
+          ],
+          "correctIndex": 0,
+          "explanation": "Both inspections run on a 24-calendar-month clock — and IFR flight requires the 91.411 check to be current."
+        },
+        {
+          "question": "The clock required for IFR must display:",
+          "choices": [
+            "Hours, minutes, seconds — sweep hand or digital",
+            "GMT only",
+            "Hours and minutes only",
+            "A stopwatch function"
+          ],
+          "correctIndex": 0,
+          "explanation": "91.205(d) requires a clock showing hours, minutes, and seconds with a sweep-second pointer or digital presentation."
+        }
+      ]
+    },
+    {
+      "id": "17-da-vs-mda",
+      "title": "DA vs MDA (and the 91.175 Big Three)",
+      "topicArea": "approaches",
+      "hook": "One altitude you decide AT. One you park ON. Mix them up and the FAA writes.",
+      "hasVideo": false,
+      "references": {
+        "acs": [
+          "IR.VI.A",
+          "IR.VI.B"
+        ],
+        "faa": {
+          "source": "14 CFR 91.175(c)",
+          "title": "Operation below DA/DH or MDA"
+        }
+      },
+      "quiz": [
+        {
+          "question": "The key operational difference: at an MDA you...",
+          "choices": [
+            "Level off and maintain it until landing criteria or the missed point",
+            "Continue descending while deciding",
+            "Immediately go missed",
+            "Descend 100 ft lower to look for the runway"
+          ],
+          "correctIndex": 0,
+          "explanation": "MDA is a floor you hold on a non-precision approach; DA is where you decide during a continuous guided descent."
+        },
+        {
+          "question": "Descending below DA or MDA requires (14 CFR 91.175(c)):",
+          "choices": [
+            "Normal-landing position + required flight visibility + runway environment in sight",
+            "ATC clearance to land only",
+            "Runway in sight only",
+            "Reported ground visibility above minimums"
+          ],
+          "correctIndex": 0,
+          "explanation": "All three: continuous position for a normal descent/landing, the flight visibility on the plate, and a visual reference from the 91.175(c)(3) list."
+        },
+        {
+          "question": "Seeing ONLY the approach light system, you may descend below mins but no lower than:",
+          "choices": [
+            "100 ft above touchdown zone elevation (unless red terminating/side-row bars are visible)",
+            "The runway threshold",
+            "50 ft AGL",
+            "You may not descend at all"
+          ],
+          "correctIndex": 0,
+          "explanation": "91.175(c)(3)(i): approach lights alone get you to 100 ft above TDZE — lower requires the red terminating or side-row bars, or another runway reference."
+        }
+      ]
+    },
+    {
+      "id": "18-dps-stars",
+      "title": "DPs & STARs: The On-Ramps and Off-Ramps",
+      "topicArea": "clearances",
+      "hook": "The airway system has on-ramps and off-ramps. Here's how to merge.",
+      "hasVideo": false,
+      "references": {
+        "acs": [
+          "IR.I.C",
+          "IR.III.A"
+        ],
+        "faa": {
+          "source": "FAA-H-8083-16B Ch. 1 & 3",
+          "title": "Instrument Procedures Handbook — Departures & Arrivals"
+        }
+      },
+      "quiz": [
+        {
+          "question": "The primary purpose of an ODP is:",
+          "choices": [
+            "Obstacle clearance on departure",
+            "Noise abatement",
+            "Traffic flow management",
+            "Reducing radio congestion"
+          ],
+          "correctIndex": 0,
+          "explanation": "ODPs exist solely for obstruction clearance and may be flown without an ATC clearance; SIDs add flow management and are assigned."
+        },
+        {
+          "question": "Unless otherwise published, an IFR departure procedure assumes a minimum climb of:",
+          "choices": [
+            "200 ft per nautical mile",
+            "200 ft per minute",
+            "500 ft per minute",
+            "300 ft per nautical mile"
+          ],
+          "correctIndex": 0,
+          "explanation": "The standard is crossing the departure end at 35 ft and climbing 200 ft/NM — a gradient, not a rate. Convert using groundspeed."
+        },
+        {
+          "question": "Cleared to \"descend via\" a STAR, you should:",
+          "choices": [
+            "Comply with the published altitude (and speed) restrictions on the chart",
+            "Descend to the lowest chart altitude immediately",
+            "Wait for a hard altitude from ATC",
+            "Request vectors"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Descend via\" delegates the vertical profile to you — fly the STAR's published restrictions without further instruction."
+        }
+      ]
+    }
+  ]
+}

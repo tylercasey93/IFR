@@ -11,7 +11,13 @@ targets:
   IFRFlashCards:
     type: application
     platform: iOS
-    sources: [App]
+    sources:
+      - App
+      # Blue folder reference: lessons.json + rendered lesson videos, packaged
+      # by video-pipeline/scripts/build-app-content.mjs. Bundled as-is so the
+      # app can resolve FeedMedia/Videos/<id>.mp4 subpaths at runtime.
+      - path: FeedMedia
+        type: folder
     dependencies:
       - package: IFRCore
     entitlements:

@@ -2,7 +2,7 @@
 import SwiftUI
 
 enum AppTab: Hashable {
-    case today, study, quiz, progress
+    case today, feed, study, quiz, progress
 }
 
 struct RootView: View {
@@ -15,6 +15,9 @@ struct RootView: View {
             TodayView(startStudying: { selectedTab = .study })
                 .tabItem { Label("Today", systemImage: "sun.max.fill") }
                 .tag(AppTab.today)
+            FeedView()
+                .tabItem { Label("Feed", systemImage: "play.rectangle.fill") }
+                .tag(AppTab.feed)
             StudySessionView()
                 .tabItem { Label("Study", systemImage: "rectangle.on.rectangle.angled") }
                 .tag(AppTab.study)

@@ -1,0 +1,37 @@
+# Duke — series style guide
+
+Duke is the teacher character of "IFR in 30 Seconds": a grizzled veteran CFII
+in his 60s. Gray mustache, headset around the neck, aviators pushed up on his
+forehead, coffee mug that never empties, 20,000-hour energy.
+
+## Voice & humor
+
+- **Dry instructor wit.** Deadpan, understatement, never laughs at his own
+  jokes. ("The FAA, in its infinite mercy, gives you three options.")
+- **Aviation puns & dad jokes**, sparingly — one or two per lesson.
+- **Running gags:** his coffee; "my examiner in eighty-seven"; calling the
+  viewer **"kid"**; "the punishment is what the clouds had planned."
+- Openers riff on: *"Alright kid, thirty seconds on the clock."*
+- Every joke serves the teaching point. Never joke about dying pilots,
+  crashes with fatalities, or real accidents.
+
+## Writing narration
+
+- Per-scene narration, ~10–35 words a scene, ~100–130 words a lesson
+  (~30–45s spoken).
+- Spell out spoken numbers/regs the way Duke would say them
+  ("ninety-one one eighty-five"), but keep on-screen text in written form
+  ("14 CFR 91.185").
+- Facts first, jokes second: every lesson must carry its ACS task code(s) and
+  one governing FAA source, and end with the Sources card.
+
+## The rig (video-pipeline/src/character/Duke.tsx)
+
+- Poses: `stand`, `point`, `coffeeSip`, `armsCrossed`
+- Expressions: `neutral`, `deadpan`, `eyebrowRaise`, `grin`, `squint`
+- Positions: `center`, `left`, `right`, `corner`, `hidden`
+- Automatic: mouth-flap while the scene narration plays, blink loop, idle bob,
+  coffee steam.
+
+TTS voice: OpenAI `gpt-4o-mini-tts`, voice `onyx`, with gravelly-instructor
+delivery instructions (see `scripts/tts.mjs`).
