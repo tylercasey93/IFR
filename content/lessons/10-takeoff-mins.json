@@ -1,0 +1,85 @@
+{
+  "id": "10-takeoff-mins",
+  "title": "Takeoff Minimums: Legal vs Smart",
+  "topicArea": "regs",
+  "references": {
+    "acs": ["IR.I.C"],
+    "faa": { "source": "14 CFR 91.175(f)", "title": "Civil airport takeoff minimums" }
+  },
+  "hook": "Zero-zero fog. Can you legally take off? ...Should you?",
+  "scenes": [
+    {
+      "id": "scene-01",
+      "kind": "title",
+      "narration": "Thirty seconds, kid. Takeoff minimums — where the reg book and the smart book disagree the loudest.",
+      "onScreenText": ["Takeoff Minimums", "Legal ≠ Smart"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-02",
+      "kind": "bullets",
+      "narration": "Here's the kicker: part ninety-one pilots have NO required takeoff minimums. Zero-zero is technically legal. So is juggling chainsaws.",
+      "onScreenText": ["Part 91: no takeoff minimums", "\"Legal\" is a low bar"],
+      "duke": { "pose": "coffeeSip", "expression": "eyebrowRaise", "position": "left" },
+      "minDurationSec": 7
+    },
+    {
+      "id": "scene-03",
+      "kind": "bullets",
+      "narration": "The standard minimums in ninety-one one seventy-five f bind commercial operators: one mile visibility with one or two engines, a half mile with more. Published departure minimums on the plate can change those numbers.",
+      "onScreenText": ["Standard (commercial ops):", "1–2 engines: 1 SM", "3+ engines: ½ SM", "Check the plate for non-standard"],
+      "duke": { "pose": "point", "expression": "neutral", "position": "right" },
+      "minDurationSec": 9
+    },
+    {
+      "id": "scene-04",
+      "kind": "bullets",
+      "narration": "My personal minimum: whatever I'd need to come back and land. Engine trouble at three hundred feet in zero-zero has no chapter in the A I M, kid.",
+      "onScreenText": ["Smart minimum:", "Enough weather to return & land"],
+      "duke": { "pose": "armsCrossed", "expression": "squint", "position": "left" },
+      "minDurationSec": 7
+    },
+    {
+      "id": "scene-05",
+      "kind": "recap",
+      "narration": "Part ninety-one: legal at zero-zero. Standard: one mile or a half. Smart: enough to get back in. Fly the third number.",
+      "onScreenText": ["Legal: 0-0", "Standard: 1 SM / ½ SM", "Smart: your return mins"],
+      "duke": { "pose": "stand", "expression": "neutral", "position": "center" },
+      "minDurationSec": 6
+    },
+    {
+      "id": "scene-06",
+      "kind": "sources",
+      "narration": "Ninety-one one seventy-five, paragraph f. Then go write down your own numbers.",
+      "onScreenText": ["ACS: IR.I.C", "14 CFR 91.175(f) — Takeoff minimums"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "minDurationSec": 4
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Required takeoff minimums for a Part 91 (non-commercial) flight are:",
+      "choices": ["None — but that doesn't make 0-0 wise", "1 SM visibility", "½ SM visibility", "200 ft and ½ SM"],
+      "correctIndex": 0,
+      "explanation": "91.175(f) applies to operators under Parts 121/125/129/135. Part 91 has no takeoff minimums — judgment is the only limit."
+    },
+    {
+      "question": "Standard takeoff minimums for a commercial operator with 2 engines:",
+      "choices": ["1 SM visibility", "½ SM visibility", "2 SM visibility", "300-1"],
+      "correctIndex": 0,
+      "explanation": "Standard: 1 SM for aircraft with two engines or less, ½ SM for more than two. (91.175(f)(1)-(2))"
+    },
+    {
+      "question": "A smart personal takeoff minimum for single-pilot IFR is weather good enough to:",
+      "choices": [
+        "Return and fly an approach back into your departure airport",
+        "See the end of the runway",
+        "Match your destination's forecast",
+        "Satisfy your insurance policy"
+      ],
+      "correctIndex": 0,
+      "explanation": "If trouble hits right after takeoff, your departure airport is the nearest runway — keep enough weather to use it."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "08-vor-cdi-hsi",
+  "title": "VOR Radials Without the Vertigo",
+  "topicArea": "navigation",
+  "references": {
+    "acs": ["IR.V.A"],
+    "faa": { "source": "AIM 1-1-3", "title": "VHF Omni-directional Range (VOR)" }
+  },
+  "hook": "Which radial are you on? Wrong answer costs you the checkride.",
+  "scenes": [
+    {
+      "id": "scene-01",
+      "kind": "title",
+      "narration": "Thirty seconds, kid. V O R radials. Sixty-year-old technology that still confuses pilots daily. Not you. Not after today.",
+      "onScreenText": ["VOR Radials", "CDI & HSI, decoded"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-02",
+      "kind": "diagram",
+      "narration": "Radials point FROM the station, like spokes on a wheel. You're always ON one radial — the question is which spoke, and which way you're facing.",
+      "onScreenText": ["Radials radiate FROM the station", "360 spokes on a wheel"],
+      "diagram": { "type": "hsi", "props": { "stage": "radials" } },
+      "duke": { "pose": "point", "expression": "neutral", "position": "corner" },
+      "minDurationSec": 7
+    },
+    {
+      "id": "scene-03",
+      "kind": "diagram",
+      "narration": "Set a course, and the needle shows where that course is relative to you. Golden rule for the C D I: fly TOWARD the needle... but only if your heading roughly matches the course you set. Set it backwards and the needle lies to your face. That's reverse sensing.",
+      "onScreenText": ["Needle = where the course is", "Heading ≈ course, or it lies", "(reverse sensing)"],
+      "diagram": { "type": "hsi", "props": { "stage": "cdi" } },
+      "duke": { "pose": "armsCrossed", "expression": "squint", "position": "corner" },
+      "minDurationSec": 10
+    },
+    {
+      "id": "scene-04",
+      "kind": "diagram",
+      "narration": "That's why I love the H S I — the whole card rotates with your heading, so the needle can't reverse-sense. It's the one instrument that never argues with me. Unlike my examiner in eighty-seven.",
+      "onScreenText": ["HSI: card rotates with heading", "No reverse sensing. Ever."],
+      "diagram": { "type": "hsi", "props": { "stage": "hsi" } },
+      "duke": { "pose": "coffeeSip", "expression": "grin", "position": "corner" },
+      "minDurationSec": 8
+    },
+    {
+      "id": "scene-05",
+      "kind": "recap",
+      "narration": "Radials point from the station. Match your heading to the course, fly toward the needle. And if the picture makes no sense — check what you twisted before you blame the airplane.",
+      "onScreenText": ["FROM the station", "Heading ≈ course", "Fly toward the needle"],
+      "duke": { "pose": "stand", "expression": "neutral", "position": "center" },
+      "minDurationSec": 7
+    },
+    {
+      "id": "scene-06",
+      "kind": "sources",
+      "narration": "A I M one dash one dash three. Old tech, current reg.",
+      "onScreenText": ["ACS: IR.V.A", "AIM 1-1-3 — VOR"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "minDurationSec": 4
+    }
+  ],
+  "quiz": [
+    {
+      "question": "VOR radials are defined as courses...",
+      "choices": ["FROM the station", "TO the station", "Magnetic north only", "Relative to your heading"],
+      "correctIndex": 0,
+      "explanation": "A radial always radiates outward FROM the station — the 090 radial lies due east of the VOR."
+    },
+    {
+      "question": "You get reverse sensing on a basic CDI when:",
+      "choices": [
+        "The OBS course is roughly opposite your direction of flight",
+        "You're too close to the station",
+        "The station is undergoing maintenance",
+        "Flying an HSI-equipped aircraft"
+      ],
+      "correctIndex": 0,
+      "explanation": "With the OBS set ~180° from your actual course, the needle deflects away from the course — fly-toward-the-needle becomes wrong."
+    },
+    {
+      "question": "Why can't a properly set HSI reverse-sense?",
+      "choices": [
+        "The course arrow rotates with the compass card, keeping the picture oriented to your heading",
+        "It uses GPS instead of the VOR",
+        "It has no needle",
+        "It automatically flips the OBS"
+      ],
+      "correctIndex": 0,
+      "explanation": "The HSI overlays the course needle on a heading-slaved card, so the deflection is always shown relative to where you're actually pointed."
+    }
+  ]
+}

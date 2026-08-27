@@ -1,0 +1,90 @@
+{
+  "id": "15-required-reports",
+  "title": "What You Must Tell ATC",
+  "topicArea": "clearances",
+  "references": {
+    "acs": ["IR.III.A"],
+    "faa": { "source": "AIM 5-3-3", "title": "Additional Reports" }
+  },
+  "hook": "Some silence is golden. This silence is a violation.",
+  "scenes": [
+    {
+      "id": "scene-01",
+      "kind": "title",
+      "narration": "Thirty seconds, kid. Required reports. ATC isn't clingy — some things they legally have to hear from you.",
+      "onScreenText": ["Required IFR Reports", "AIM 5-3-3"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-02",
+      "kind": "bullets",
+      "narration": "Always report: leaving an assigned altitude for a new one. A missed approach. A change in your true airspeed of five percent or ten knots. And an altitude change while V F R on top.",
+      "onScreenText": ["Leaving an altitude", "Missed approach", "TAS change: 5% / 10 kt", "VFR-on-top altitude change"],
+      "duke": { "pose": "point", "expression": "neutral", "position": "left" },
+      "minDurationSec": 9
+    },
+    {
+      "id": "scene-03",
+      "kind": "bullets",
+      "narration": "Also always: can't climb or descend at least five hundred feet a minute, holding fix arrival and departure, and any equipment trouble — lost nav, lost comm, anything that dents your capability. Confession is free; the ramp check isn't.",
+      "onScreenText": ["Can't make 500 fpm", "Entering / leaving a hold", "Lost NAV / comm / capability"],
+      "duke": { "pose": "coffeeSip", "expression": "eyebrowRaise", "position": "right" },
+      "minDurationSec": 9
+    },
+    {
+      "id": "scene-04",
+      "kind": "bullets",
+      "narration": "Off radar? Add position reports at compulsory fixes, plus an E T A change of more than three minutes. Yes kid, before radar we did that every day. Uphill. Both ways.",
+      "onScreenText": ["Non-radar adds:", "Compulsory position reports", "ETA off by > 3 min"],
+      "duke": { "pose": "armsCrossed", "expression": "grin", "position": "left" },
+      "minDurationSec": 8
+    },
+    {
+      "id": "scene-05",
+      "kind": "recap",
+      "narration": "Altitude changes, missed approaches, speed changes, holds, broken stuff — say it. When in doubt, key up. Nobody ever failed a checkride for talking too politely.",
+      "onScreenText": ["When in doubt:", "Report it."],
+      "duke": { "pose": "stand", "expression": "neutral", "position": "center" },
+      "minDurationSec": 6
+    },
+    {
+      "id": "scene-06",
+      "kind": "sources",
+      "narration": "A I M five dash three dash three. The full guest list.",
+      "onScreenText": ["ACS: IR.III.A", "AIM 5-3-3 — Additional Reports"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "minDurationSec": 4
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which of these must ALWAYS be reported to ATC, radar or not?",
+      "choices": [
+        "Vacating a previously assigned altitude for a new one",
+        "Passing every waypoint",
+        "Fuel remaining every hour",
+        "Autopilot engagement"
+      ],
+      "correctIndex": 0,
+      "explanation": "Leaving an assigned altitude for a newly assigned one is on the always-report list. (AIM 5-3-3)"
+    },
+    {
+      "question": "You must report a change in average true airspeed of:",
+      "choices": ["5% or 10 knots, whichever is greater", "Any change at all", "20 knots", "Only if ATC asks"],
+      "correctIndex": 0,
+      "explanation": "A TAS change of 5% or 10 knots (whichever is greater) from what's filed must be reported."
+    },
+    {
+      "question": "A report required only when NOT in radar contact:",
+      "choices": [
+        "Position over each compulsory reporting point",
+        "Executing a missed approach",
+        "Unable to climb 500 fpm",
+        "Leaving a holding fix"
+      ],
+      "correctIndex": 0,
+      "explanation": "Compulsory position reports (and ETA changes >3 min) apply in a non-radar environment; the others are always required."
+    }
+  ]
+}

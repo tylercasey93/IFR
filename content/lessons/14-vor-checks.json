@@ -1,0 +1,85 @@
+{
+  "id": "14-vor-checks",
+  "title": "VOR Checks: 4-4-6-4, Every 30 Days",
+  "topicArea": "equipment",
+  "references": {
+    "acs": ["IR.II.C"],
+    "faa": { "source": "14 CFR 91.171", "title": "VOR equipment check for IFR operations" }
+  },
+  "hook": "Your VOR hasn't been checked in 31 days. Guess what's illegal now.",
+  "scenes": [
+    {
+      "id": "scene-01",
+      "kind": "title",
+      "narration": "Thirty seconds, kid. The V O R check. Thirty days, four ways, and a logbook entry — or that needle is just decoration.",
+      "onScreenText": ["VOR Checks", "Every 30 days for IFR"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-02",
+      "kind": "bullets",
+      "narration": "The tolerances: V O T test signal, plus or minus four degrees. Ground checkpoint, plus or minus four. Airborne checkpoint, plus or minus six. Dual V O R cross-check — four degrees between them.",
+      "onScreenText": ["VOT: ±4°", "Ground: ±4°", "Airborne: ±6°", "Dual cross-check: 4° apart"],
+      "duke": { "pose": "point", "expression": "neutral", "position": "left" },
+      "minDurationSec": 9
+    },
+    {
+      "id": "scene-03",
+      "kind": "bullets",
+      "narration": "With a V O T, tune it and center the needle: three-sixty FROM or one-eighty TO, anywhere on the field. Old-timer trick: Cessna one-eighty TO the station.",
+      "onScreenText": ["VOT: 360 FROM / 180 TO", "\"Cessna 182\" — 180 TO"],
+      "duke": { "pose": "coffeeSip", "expression": "grin", "position": "right" },
+      "minDurationSec": 8
+    },
+    {
+      "id": "scene-04",
+      "kind": "bullets",
+      "narration": "Then log it: date, place, bearing error, and signature. If it isn't logged, it didn't happen — that rule covers V O R checks and fish stories both.",
+      "onScreenText": ["Log: Date · Place · Error · Signature", "Not logged = didn't happen"],
+      "duke": { "pose": "armsCrossed", "expression": "eyebrowRaise", "position": "left" },
+      "minDurationSec": 7
+    },
+    {
+      "id": "scene-05",
+      "kind": "recap",
+      "narration": "Thirty days. Four, four, six, and four between. Date, place, error, signature. Cheapest maintenance item on the airplane, kid — it's free.",
+      "onScreenText": ["30 days", "±4 / ±4 / ±6 / 4 between", "Then LOG it"],
+      "duke": { "pose": "stand", "expression": "neutral", "position": "center" },
+      "minDurationSec": 6
+    },
+    {
+      "id": "scene-06",
+      "kind": "sources",
+      "narration": "Ninety-one one seventy-one. Short reg, long memory.",
+      "onScreenText": ["ACS: IR.II.C", "14 CFR 91.171 — VOR equipment check"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "minDurationSec": 4
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Maximum bearing error for an AIRBORNE VOR checkpoint:",
+      "choices": ["±6°", "±4°", "±8°", "±10°"],
+      "correctIndex": 0,
+      "explanation": "Airborne checkpoints allow ±6°; VOT and ground checkpoints are ±4°. (91.171)"
+    },
+    {
+      "question": "Checking dual VORs against each other, the maximum permitted difference between indicated bearings is:",
+      "choices": ["4°", "6°", "8°", "2°"],
+      "correctIndex": 0,
+      "explanation": "The dual cross-check allows a maximum of 4° between the two indicated bearings to the same station."
+    },
+    {
+      "question": "A valid VOR check log entry requires:",
+      "choices": [
+        "Date, place, bearing error, and signature",
+        "Date and tach time",
+        "Only the bearing error",
+        "An A&P endorsement"
+      ],
+      "correctIndex": 0,
+      "explanation": "91.171(d): the person making the check logs date, place, bearing error, and signs it."
+    }
+  ]
+}

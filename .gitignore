@@ -1,0 +1,13 @@
+# Node
+node_modules/
+video-pipeline/out/
+video-pipeline/.remotion/
+
+# Generated audio (recreate with npm run tts / npm run music)
+content/audio/
+
+# macOS / Xcode
+.DS_Store
+DerivedData/
+*.xcuserstate
+xcuserdata/

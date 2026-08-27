@@ -1,0 +1,90 @@
+{
+  "id": "01-craft-clearance",
+  "title": "Copy Any Clearance: CRAFT",
+  "topicArea": "clearances",
+  "references": {
+    "acs": ["IR.III.A"],
+    "faa": { "source": "AIM 4-4-3", "title": "Clearance Items" }
+  },
+  "hook": "ATC talks at 200 words a minute. Here's how you win.",
+  "scenes": [
+    {
+      "id": "scene-01",
+      "kind": "title",
+      "narration": "Alright kid, thirty seconds on the clock. Clearance delivery talks fast. You write faster — because you know what's coming.",
+      "onScreenText": ["Copy Any Clearance", "CRAFT"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 4
+    },
+    {
+      "id": "scene-02",
+      "kind": "bullets",
+      "narration": "Every IFR clearance comes in the same order. C, R, A, F, T. Clearance limit. Route. Altitude. Frequency. Transponder. The FAA loves a good acronym almost as much as I love coffee.",
+      "onScreenText": ["C — Clearance limit", "R — Route", "A — Altitude", "F — Frequency", "T — Transponder"],
+      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "left" },
+      "minDurationSec": 8
+    },
+    {
+      "id": "scene-03",
+      "kind": "bullets",
+      "narration": "So before you even key the mic, write C R A F T down the page. Now you're not scribbling a mystery novel — you're filling in blanks.",
+      "onScreenText": ["Write CRAFT before you call", "Then just fill in the blanks"],
+      "duke": { "pose": "point", "expression": "grin", "position": "right" },
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-04",
+      "kind": "bullets",
+      "narration": "One trap: 'cleared as filed' still comes with an altitude, a frequency, and a squawk. Read it all back. ATC grades on participation.",
+      "onScreenText": ["\"Cleared as filed\" ≠ done", "Read back the full clearance"],
+      "duke": { "pose": "armsCrossed", "expression": "eyebrowRaise", "position": "left" },
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-05",
+      "kind": "recap",
+      "narration": "Clearance limit, route, altitude, frequency, transponder. CRAFT. Learn it cold, kid — it's the one craft project that keeps you out of a mountain.",
+      "onScreenText": ["CRAFT", "Same order. Every time."],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-06",
+      "kind": "sources",
+      "narration": "Don't take my word for it. A I M four dash four dash three. Go read it.",
+      "onScreenText": ["ACS: IR.III.A", "AIM 4-4-3 — Clearance Items"],
+      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "corner" },
+      "minDurationSec": 4
+    }
+  ],
+  "quiz": [
+    {
+      "question": "In CRAFT, what does the first C stand for?",
+      "choices": ["Clearance limit", "Course", "Climb instruction", "Contact frequency"],
+      "correctIndex": 0,
+      "explanation": "Every IFR clearance starts with the clearance limit — usually your destination airport. (AIM 4-4-3)"
+    },
+    {
+      "question": "You hear \"cleared to Denver as filed.\" What should you still expect to copy?",
+      "choices": [
+        "Altitude, departure frequency, and squawk",
+        "Nothing — you're done",
+        "Only a squawk code",
+        "A full route readback"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"As filed\" covers the route only. The A, F, and T of CRAFT — altitude, frequency, transponder — are still coming."
+    },
+    {
+      "question": "Why write C-R-A-F-T on your pad before calling clearance delivery?",
+      "choices": [
+        "Clearances follow that exact order, so you just fill in blanks",
+        "It's required by 14 CFR 91.173",
+        "ATC will ask you to read the letters back",
+        "It replaces a readback"
+      ],
+      "correctIndex": 0,
+      "explanation": "Clearance items are issued in a standard order (AIM 4-4-3). Pre-writing CRAFT turns a fast readback into a fill-in-the-blank."
+    }
+  ]
+}

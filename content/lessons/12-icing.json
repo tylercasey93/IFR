@@ -1,0 +1,85 @@
+{
+  "id": "12-icing",
+  "title": "Icing: Where It Lives, How You Leave",
+  "topicArea": "weather",
+  "references": {
+    "acs": ["IR.I.B"],
+    "faa": { "source": "AC 91-74B", "title": "Pilot Guide: Flight in Icing Conditions" }
+  },
+  "hook": "Ice doesn't announce itself. It just starts redesigning your wing.",
+  "scenes": [
+    {
+      "id": "scene-01",
+      "kind": "title",
+      "narration": "Thirty seconds, kid. Airframe icing — the only passenger that boards mid-flight and never pays.",
+      "onScreenText": ["Airframe Icing", "Uninvited. Unwelcome."],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-02",
+      "kind": "bullets",
+      "narration": "The recipe is simple: visible moisture, plus a surface at or below freezing. Clouds or rain between zero and about minus twenty Celsius — that's the kitchen.",
+      "onScreenText": ["Visible moisture", "+ surface ≤ 0°C", "Prime zone: 0 to −20°C"],
+      "duke": { "pose": "point", "expression": "neutral", "position": "left" },
+      "minDurationSec": 8
+    },
+    {
+      "id": "scene-03",
+      "kind": "bullets",
+      "narration": "Clear ice: big supercooled drops, freezing rain, smooth and heavy — the dangerous one. Rime: small drops freezing fast, white and brittle. Mixed is both, because the atmosphere likes variety.",
+      "onScreenText": ["Clear: large drops, heavy, sneaky", "Rime: instant, white, brittle", "Mixed: why not both"],
+      "duke": { "pose": "armsCrossed", "expression": "squint", "position": "right" },
+      "minDurationSec": 9
+    },
+    {
+      "id": "scene-04",
+      "kind": "bullets",
+      "narration": "Escape plan BEFORE you file: where's the freezing level, where's the warm air, where's the clear air? Freezing rain? That means warmer air is ABOVE you. Climb decisions get interesting. Have the out ready, kid.",
+      "onScreenText": ["Know before takeoff:", "Freezing level · warm air · clear air", "Freezing rain → warm air is above"],
+      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "left" },
+      "minDurationSec": 9
+    },
+    {
+      "id": "scene-05",
+      "kind": "recap",
+      "narration": "Moisture plus freezing surface equals ice. Clear is sneaky, rime is crusty, and the best de-ice equipment is the altitude where it isn't. File with an out.",
+      "onScreenText": ["Moisture + ≤0°C = ice", "Best equipment: an escape altitude"],
+      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "center" },
+      "minDurationSec": 7
+    },
+    {
+      "id": "scene-06",
+      "kind": "sources",
+      "narration": "A C ninety-one dash seventy-four bravo. The FAA's guide to staying warm.",
+      "onScreenText": ["ACS: IR.I.B", "AC 91-74B — Flight in Icing Conditions"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "minDurationSec": 4
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Structural icing requires:",
+      "choices": [
+        "Visible moisture and aircraft surface temperature at or below freezing",
+        "Temperatures below −40°C",
+        "Precipitation of any kind",
+        "Flight above the freezing level"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both ingredients are required: visible moisture (cloud, rain) and a surface at or below 0°C. (AC 91-74B)"
+    },
+    {
+      "question": "Which icing type comes from large supercooled drops and forms smooth, heavy, hard-to-see accretions?",
+      "choices": ["Clear ice", "Rime ice", "Frost", "Hoar ice"],
+      "correctIndex": 0,
+      "explanation": "Clear ice flows back before freezing, building smooth heavy sheets — the most dangerous accretion type."
+    },
+    {
+      "question": "You encounter freezing rain. The warmer air you may need is most likely:",
+      "choices": ["Above you", "Below you", "Behind you", "Nonexistent"],
+      "correctIndex": 0,
+      "explanation": "Freezing rain forms when precipitation falls from warmer air aloft into a below-freezing layer — a climb may reach the warm layer."
+    }
+  ]
+}

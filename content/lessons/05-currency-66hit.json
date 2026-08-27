@@ -1,0 +1,96 @@
+{
+  "id": "05-currency-66hit",
+  "title": "IFR Currency: 6-6-HIT",
+  "topicArea": "regs",
+  "references": {
+    "acs": ["IR.I.A"],
+    "faa": { "source": "14 CFR 61.57(c)-(d)", "title": "Recent flight experience: Instrument" }
+  },
+  "hook": "Legal to file IFR today? Let's check your math.",
+  "scenes": [
+    {
+      "id": "scene-01",
+      "kind": "title",
+      "narration": "Thirty seconds, kid. Instrument currency. The rating never expires — your privileges do. Meet six, six, H I T.",
+      "onScreenText": ["IFR Currency", "6 - 6 - HIT"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-02",
+      "kind": "bullets",
+      "narration": "Within the preceding SIX calendar months: SIX instrument approaches, plus Holding, plus Intercepting and Tracking courses with nav systems. That's the H, the I, and the T.",
+      "onScreenText": ["6 calendar months", "6 approaches", "Holding", "Intercepting & Tracking"],
+      "duke": { "pose": "point", "expression": "neutral", "position": "left" },
+      "minDurationSec": 8
+    },
+    {
+      "id": "scene-03",
+      "kind": "diagram",
+      "narration": "Blow past six months without it? You get six more months to fix it — with a safety pilot or in a sim. But you can't file I F R while you're catching up.",
+      "onScreenText": ["Months 7–12: the grace period", "Regain with safety pilot / sim", "No IFR until current"],
+      "diagram": { "type": "timeline", "props": { "variant": "currency" } },
+      "duke": { "pose": "armsCrossed", "expression": "squint", "position": "corner" },
+      "minDurationSec": 8
+    },
+    {
+      "id": "scene-04",
+      "kind": "bullets",
+      "narration": "Past twelve months total? Now it's an instrument proficiency check with an instructor. That's not a punishment, kid. The punishment is what the clouds had planned.",
+      "onScreenText": ["Beyond 12 months:", "IPC required (61.57(d))"],
+      "duke": { "pose": "coffeeSip", "expression": "eyebrowRaise", "position": "right" },
+      "minDurationSec": 6
+    },
+    {
+      "id": "scene-05",
+      "kind": "recap",
+      "narration": "Six approaches, holding, intercepting, tracking, every six months. Then a six-month grace window, then an I P C. Currency is cheaper than humility. Barely.",
+      "onScreenText": ["6-6-HIT", "Grace: 6 months", "Then: IPC"],
+      "duke": { "pose": "stand", "expression": "grin", "position": "center" },
+      "minDurationSec": 6
+    },
+    {
+      "id": "scene-06",
+      "kind": "sources",
+      "narration": "Sixty-one fifty-seven, paragraphs c and d. Read it, then go log some approaches.",
+      "onScreenText": ["ACS: IR.I.A", "14 CFR 61.57(c)-(d) — Instrument experience"],
+      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "corner" },
+      "minDurationSec": 4
+    }
+  ],
+  "quiz": [
+    {
+      "question": "To act as PIC under IFR, within the preceding 6 calendar months you need:",
+      "choices": [
+        "6 approaches, holding procedures, and intercepting/tracking courses",
+        "6 hours of instrument time and 3 approaches",
+        "An IPC every 6 months",
+        "6 approaches and a flight review"
+      ],
+      "correctIndex": 0,
+      "explanation": "61.57(c): six instrument approaches, holding procedures and tasks, and intercepting/tracking courses using navigation systems."
+    },
+    {
+      "question": "Your currency lapsed 3 months ago (month 9 of 12). You may regain it by:",
+      "choices": [
+        "Flying approaches with a safety pilot or in an approved sim",
+        "An IPC only",
+        "Filing IFR and logging 6 approaches solo in IMC",
+        "A flight review"
+      ],
+      "correctIndex": 0,
+      "explanation": "During the 6-month grace period you can regain currency yourself (safety pilot/sim/instructor) — but you can't act as PIC under IFR until you do."
+    },
+    {
+      "question": "More than 12 months since you were last instrument current. What's required?",
+      "choices": [
+        "An instrument proficiency check (IPC)",
+        "6 approaches with a safety pilot",
+        "Retake the instrument written",
+        "A new checkride"
+      ],
+      "correctIndex": 0,
+      "explanation": "61.57(d): once the grace period ends, you need an IPC from an authorized instructor/examiner."
+    }
+  ]
+}

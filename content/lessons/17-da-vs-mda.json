@@ -1,0 +1,97 @@
+{
+  "id": "17-da-vs-mda",
+  "title": "DA vs MDA (and the 91.175 Big Three)",
+  "topicArea": "approaches",
+  "references": {
+    "acs": ["IR.VI.A", "IR.VI.B"],
+    "faa": { "source": "14 CFR 91.175(c)", "title": "Operation below DA/DH or MDA" }
+  },
+  "hook": "One altitude you decide AT. One you park ON. Mix them up and the FAA writes.",
+  "scenes": [
+    {
+      "id": "scene-01",
+      "kind": "title",
+      "narration": "Thirty seconds, kid. D A versus M D A. Two little letters apart, one very different bottom of the approach.",
+      "onScreenText": ["DA vs MDA", "Know which floor you're on"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-02",
+      "kind": "diagram",
+      "narration": "D A — decision altitude — comes with a glidepath. You keep descending, and AT that number you decide: land or miss. You'll dip a hair below while the miss starts. That's built in.",
+      "onScreenText": ["DA: with vertical guidance", "Decide AT it, momentum below it"],
+      "diagram": { "type": "approachPlateProfile", "props": { "highlight": "da" } },
+      "duke": { "pose": "point", "expression": "neutral", "position": "corner" },
+      "minDurationSec": 9
+    },
+    {
+      "id": "scene-03",
+      "kind": "diagram",
+      "narration": "M D A — minimum descent altitude — is a hard floor on a non-precision approach. Level off, hold it to the missed point, and do NOT sag below it hunting for the airport.",
+      "onScreenText": ["MDA: hard floor", "Level off. Hold it. No sagging."],
+      "diagram": { "type": "approachPlateProfile", "props": { "highlight": "mda" } },
+      "duke": { "pose": "armsCrossed", "expression": "squint", "position": "corner" },
+      "minDurationSec": 8
+    },
+    {
+      "id": "scene-04",
+      "kind": "bullets",
+      "narration": "Going below either one takes all three: the airplane in position to land normally, the required flight visibility, and the runway environment in sight — lights, markings, threshold. All three, kid. Two out of three is a missed approach with extra steps.",
+      "onScreenText": ["Below mins needs ALL 3:", "1. Position for normal landing", "2. Required flight visibility", "3. Runway environment in sight"],
+      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "left" },
+      "minDurationSec": 10
+    },
+    {
+      "id": "scene-05",
+      "kind": "recap",
+      "narration": "D A you decide at. M D A you ride level. And the big three unlock the descent. My examiner in eighty-seven asked me all of this. I still remember his face — mostly the frown.",
+      "onScreenText": ["DA: decide", "MDA: level floor", "3 conditions to go below"],
+      "duke": { "pose": "coffeeSip", "expression": "grin", "position": "center" },
+      "minDurationSec": 7
+    },
+    {
+      "id": "scene-06",
+      "kind": "sources",
+      "narration": "Ninety-one one seventy-five, paragraph c. The whole ballgame.",
+      "onScreenText": ["ACS: IR.VI.A / IR.VI.B", "14 CFR 91.175(c) — Operation below mins"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "minDurationSec": 4
+    }
+  ],
+  "quiz": [
+    {
+      "question": "The key operational difference: at an MDA you...",
+      "choices": [
+        "Level off and maintain it until landing criteria or the missed point",
+        "Continue descending while deciding",
+        "Immediately go missed",
+        "Descend 100 ft lower to look for the runway"
+      ],
+      "correctIndex": 0,
+      "explanation": "MDA is a floor you hold on a non-precision approach; DA is where you decide during a continuous guided descent."
+    },
+    {
+      "question": "Descending below DA or MDA requires (14 CFR 91.175(c)):",
+      "choices": [
+        "Normal-landing position + required flight visibility + runway environment in sight",
+        "ATC clearance to land only",
+        "Runway in sight only",
+        "Reported ground visibility above minimums"
+      ],
+      "correctIndex": 0,
+      "explanation": "All three: continuous position for a normal descent/landing, the flight visibility on the plate, and a visual reference from the 91.175(c)(3) list."
+    },
+    {
+      "question": "Seeing ONLY the approach light system, you may descend below mins but no lower than:",
+      "choices": [
+        "100 ft above touchdown zone elevation (unless red terminating/side-row bars are visible)",
+        "The runway threshold",
+        "50 ft AGL",
+        "You may not descend at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "91.175(c)(3)(i): approach lights alone get you to 100 ft above TDZE — lower requires the red terminating or side-row bars, or another runway reference."
+    }
+  ]
+}

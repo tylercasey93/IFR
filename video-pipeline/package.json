@@ -1,0 +1,31 @@
+{
+  "name": "ifr30-video-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Renders IFR in 30 Seconds lesson videos from content JSON using Remotion",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-content.mjs",
+    "music": "node scripts/make-music.mjs",
+    "tts": "node scripts/tts.mjs",
+    "render": "node scripts/render.mjs",
+    "render:all": "node scripts/render.mjs --all",
+    "app:content": "node scripts/build-app-content.mjs",
+    "typecheck": "tsc --noEmit",
+    "studio": "remotion studio src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.518",
+    "@remotion/cli": "4.0.518",
+    "@remotion/renderer": "4.0.518",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.518"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "ajv": "8.20.0",
+    "music-metadata": "11.15.0",
+    "typescript": "5.8.3"
+  }
+}

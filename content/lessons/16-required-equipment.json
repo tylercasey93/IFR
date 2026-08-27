@@ -1,0 +1,77 @@
+{
+  "id": "16-required-equipment",
+  "title": "IFR Equipment: GRABCARD + the Checks",
+  "topicArea": "equipment",
+  "references": {
+    "acs": ["IR.II.A"],
+    "faa": { "source": "14 CFR 91.205(d)", "title": "Instrument flight rules equipment" }
+  },
+  "hook": "Is this airplane even legal for IFR? Grab a card.",
+  "scenes": [
+    {
+      "id": "scene-01",
+      "kind": "title",
+      "narration": "Thirty seconds, kid. I F R required equipment. Day V F R stuff, night stuff if it's dark, plus one more list: GRAB CARD.",
+      "onScreenText": ["IFR Equipment", "GRABCARD"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-02",
+      "kind": "bullets",
+      "narration": "Generator or alternator. Radios for the route. Altimeter — the sensitive, adjustable kind. Ball. Clock with a sweep second hand or digital. Attitude indicator. Rate of turn. Directional gyro.",
+      "onScreenText": ["Generator/alternator", "Radios (route-appropriate)", "Altimeter (sensitive)", "Ball · Clock", "Attitude · Rate of turn · DG"],
+      "duke": { "pose": "point", "expression": "neutral", "position": "left" },
+      "minDurationSec": 10
+    },
+    {
+      "id": "scene-03",
+      "kind": "bullets",
+      "narration": "Then the paperwork twins from ninety-one four eleven and four thirteen: the altimeter slash static system check, and the transponder check. Each one every twenty-four calendar months. They expire quietly, kid. Check the logbooks, not the vibes.",
+      "onScreenText": ["Every 24 calendar months:", "91.411 — altimeter/static", "91.413 — transponder"],
+      "duke": { "pose": "armsCrossed", "expression": "squint", "position": "right" },
+      "minDurationSec": 9
+    },
+    {
+      "id": "scene-04",
+      "kind": "recap",
+      "narration": "GRAB CARD for the panel, twenty-four months for the plumbing. An airplane that can't prove it, can't file it.",
+      "onScreenText": ["GRABCARD", "+ 91.411 / 91.413 within 24 mo"],
+      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "center" },
+      "minDurationSec": 6
+    },
+    {
+      "id": "scene-05",
+      "kind": "sources",
+      "narration": "Ninety-one two-oh-five paragraph d. Bring the logbooks and a flashlight.",
+      "onScreenText": ["ACS: IR.II.A", "14 CFR 91.205(d) — IFR equipment"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "minDurationSec": 4
+    }
+  ],
+  "quiz": [
+    {
+      "question": "In GRABCARD, the second A stands for:",
+      "choices": ["Attitude indicator", "Airspeed indicator", "Autopilot", "ADF"],
+      "correctIndex": 0,
+      "explanation": "G-R-A-B-C-A-R-D: Generator, Radios, Altimeter, Ball, Clock, Attitude indicator, Rate of turn, Directional gyro. (91.205(d))"
+    },
+    {
+      "question": "The altimeter/static system (91.411) and transponder (91.413) checks are required every:",
+      "choices": ["24 calendar months", "12 calendar months", "30 days", "100 hours"],
+      "correctIndex": 0,
+      "explanation": "Both inspections run on a 24-calendar-month clock — and IFR flight requires the 91.411 check to be current."
+    },
+    {
+      "question": "The clock required for IFR must display:",
+      "choices": [
+        "Hours, minutes, seconds — sweep hand or digital",
+        "GMT only",
+        "Hours and minutes only",
+        "A stopwatch function"
+      ],
+      "correctIndex": 0,
+      "explanation": "91.205(d) requires a clock showing hours, minutes, and seconds with a sweep-second pointer or digital presentation."
+    }
+  ]
+}
