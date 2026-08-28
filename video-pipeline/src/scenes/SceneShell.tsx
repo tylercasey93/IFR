@@ -1,12 +1,13 @@
 import React from 'react';
-import { AbsoluteFill, useCurrentFrame, useVideoConfig } from 'remotion';
+import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from 'remotion';
 import { Duke } from '../character/Duke';
-import { colors, fontFamily } from '../theme';
+import { colors, displayFamily, fontFamily } from '../theme';
 import { Captions } from './Captions';
 import type { LessonManifest, SceneManifest } from '../types';
 
-// Common chrome for every scene: instrument-panel background, brand chip,
-// lesson progress bar, Duke (positioned per scene direction), and captions.
+// Common chrome for every scene: black-lacquer 60s-aviation backdrop, bronze
+// winged brand placard, lesson progress bar, Duke, captions. Every scene
+// whips in and rides a slow constant zoom so nothing ever sits still.
 
 const positions = {
   center: { size: 660, style: { bottom: 330, left: '50%', marginLeft: -257 } },
@@ -26,32 +27,36 @@ export const SceneShell: React.FC<{
   const duke = scene.duke ?? {};
   const position = duke.position ?? 'corner';
 
-  // Duke "talks" while the narration for this scene is running (captions window).
   const lastCaption = scene.captions[scene.captions.length - 1];
   const talking = lastCaption ? frame < lastCaption.endFrame : false;
 
   const progress = (sceneStartFrame + frame) / lesson.durationInFrames;
 
+  // Whip-in: content slams up into place over ~8 frames…
+  const whip = spring({ frame, fps, config: { damping: 15, stiffness: 260 } });
+  // …then the whole layer slow-zooms for constant motion.
+  const zoom = interpolate(frame, [0, scene.durationInFrames], [1, 1.04]);
+  const dukeIn = spring({ frame: frame - 2, fps, config: { damping: 12, stiffness: 240 } });
+
   return (
     <AbsoluteFill style={{ background: colors.bg, fontFamily }}>
-      {/* subtle instrument-grid backdrop */}
+      {/* warm cockpit glow + faint machined grid */}
       <AbsoluteFill
         style={{
           backgroundImage:
-            'radial-gradient(ellipse 90% 60% at 50% 30%, rgba(92,199,140,0.07), transparent 70%),' +
-            'repeating-linear-gradient(0deg, transparent, transparent 79px, rgba(255,255,255,0.025) 80px),' +
-            'repeating-linear-gradient(90deg, transparent, transparent 79px, rgba(255,255,255,0.025) 80px)',
+            'radial-gradient(ellipse 90% 60% at 50% 28%, rgba(200,154,91,0.10), transparent 70%),' +
+            'repeating-linear-gradient(0deg, transparent, transparent 79px, rgba(201,207,212,0.03) 80px),' +
+            'repeating-linear-gradient(90deg, transparent, transparent 79px, rgba(201,207,212,0.03) 80px)',
         }}
       />
-      {/* vignette */}
       <AbsoluteFill
         style={{
           background:
-            'radial-gradient(ellipse 120% 100% at 50% 45%, transparent 55%, rgba(0,0,0,0.55) 100%)',
+            'radial-gradient(ellipse 120% 100% at 50% 45%, transparent 55%, rgba(0,0,0,0.6) 100%)',
         }}
       />
 
-      {/* brand chip + episode number */}
+      {/* bronze winged brand placard + episode counter */}
       <div
         style={{
           position: 'absolute',
@@ -65,23 +70,36 @@ export const SceneShell: React.FC<{
       >
         <div
           style={{
-            fontWeight: 800,
-            fontSize: 34,
-            letterSpacing: '0.08em',
-            color: colors.ink,
-            background: colors.panel,
-            border: `2px solid ${colors.panelEdge}`,
-            borderRadius: 16,
-            padding: '12px 24px',
+            display: 'flex',
+            alignItems: 'center',
+            gap: 14,
+            background: 'linear-gradient(165deg, rgba(255,255,255,0.07), rgba(255,255,255,0) 45%), #14110C',
+            border: `2px solid ${colors.bronze}`,
+            borderRadius: 10,
+            padding: '10px 22px',
           }}
         >
-          IFR <span style={{ color: colors.green }}>in 30</span>
+          <svg width={44} height={20} viewBox="0 0 44 20">
+            <path d="M 22 4 L 27 10 L 44 13 L 27 13 L 22 17 L 17 13 L 0 13 L 17 10 Z" fill={colors.bronze} />
+          </svg>
+          <span
+            style={{
+              fontFamily: displayFamily,
+              fontWeight: 600,
+              fontSize: 32,
+              letterSpacing: '0.14em',
+              color: colors.ink,
+            }}
+          >
+            IFR <span style={{ color: colors.bronze }}>IN 30</span>
+          </span>
         </div>
         <div
           style={{
-            fontWeight: 600,
+            fontFamily: displayFamily,
+            fontWeight: 500,
             fontSize: 30,
-            letterSpacing: '0.2em',
+            letterSpacing: '0.24em',
             color: colors.inkDim,
           }}
         >
@@ -89,7 +107,7 @@ export const SceneShell: React.FC<{
         </div>
       </div>
 
-      {/* lesson progress bar */}
+      {/* lesson progress bar — aluminum track, bronze fill */}
       <div
         style={{
           position: 'absolute',
@@ -98,7 +116,7 @@ export const SceneShell: React.FC<{
           right: 60,
           height: 6,
           borderRadius: 3,
-          background: 'rgba(255,255,255,0.12)',
+          background: 'rgba(201,207,212,0.18)',
         }}
       >
         <div
@@ -106,17 +124,33 @@ export const SceneShell: React.FC<{
             width: `${Math.min(100, progress * 100)}%`,
             height: '100%',
             borderRadius: 3,
-            background: colors.amber,
+            background: colors.bronze,
           }}
         />
       </div>
 
-      {/* scene content */}
-      <AbsoluteFill style={{ paddingTop: 150 }}>{children}</AbsoluteFill>
+      {/* scene content: whip-in + constant slow zoom */}
+      <AbsoluteFill
+        style={{
+          paddingTop: 150,
+          transform: `translateY(${interpolate(whip, [0, 1], [90, 0])}px) scale(${
+            interpolate(whip, [0, 1], [1.05, 1]) * zoom
+          })`,
+          opacity: interpolate(whip, [0, 0.4], [0, 1], { extrapolateRight: 'clamp' }),
+        }}
+      >
+        {children}
+      </AbsoluteFill>
 
-      {/* Duke */}
+      {/* Duke pops in fast */}
       {position !== 'hidden' && (
-        <div style={{ position: 'absolute', ...positions[position].style }}>
+        <div
+          style={{
+            position: 'absolute',
+            ...positions[position].style,
+            transform: `translateY(${interpolate(dukeIn, [0, 1], [120, 0])}px)`,
+          }}
+        >
           <Duke
             pose={duke.pose ?? 'stand'}
             expression={duke.expression ?? 'neutral'}

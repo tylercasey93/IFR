@@ -3,60 +3,118 @@
   "title": "Lost Comms: AVEF & MEA",
   "topicArea": "emergencies",
   "references": {
-    "acs": ["IR.VII.A"],
-    "faa": { "source": "14 CFR 91.185", "title": "IFR operations: Two-way radio communications failure" }
+    "acs": [
+      "IR.VII.A"
+    ],
+    "faa": {
+      "source": "14 CFR 91.185",
+      "title": "IFR operations: Two-way radio communications failure"
+    }
   },
   "hook": "The radio just died in the clouds. What now?",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Thirty seconds, kid. Your radio quits in I M C. The reg is ninety-one one eighty-five, and it answers two questions: where do I go, and how high.",
-      "onScreenText": ["Lost Comms in IMC", "14 CFR 91.185"],
-      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
-      "minDurationSec": 5
+      "narration": "Thirty seconds. The radio dies in the clouds. Ninety-one one eighty-five answers two questions: where do I go, and how high.",
+      "onScreenText": [
+        "Lost Comms in IMC",
+        "14 CFR 91.185"
+      ],
+      "duke": {
+        "pose": "stand",
+        "expression": "deadpan",
+        "position": "center"
+      },
+      "minDurationSec": 3
     },
     {
       "id": "scene-02",
       "kind": "bullets",
-      "narration": "First — if you break out into V F R, stay V F R and land. Reg's over, lesson's over, go buy a handheld radio.",
-      "onScreenText": ["VFR conditions?", "Stay VFR. Land. Done."],
-      "duke": { "pose": "point", "expression": "neutral", "position": "left" },
-      "minDurationSec": 5
+      "narration": "Break out into V F R? Stay V F R, land, buy a handheld.",
+      "onScreenText": [
+        "VFR conditions?",
+        "Stay VFR. Land. Done."
+      ],
+      "duke": {
+        "pose": "point",
+        "expression": "neutral",
+        "position": "left"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-03",
       "kind": "diagram",
-      "narration": "Still in the soup? Route: A V E F. Fly what you were Assigned. Being vectored? Go direct to what the Vector was for. Otherwise what ATC said to Expect. Last resort — what you Filed.",
-      "onScreenText": ["Route: AVEF", "Assigned → Vectored → Expected → Filed"],
-      "diagram": { "type": "routeAltitude", "props": { "variant": "route" } },
-      "duke": { "pose": "point", "expression": "squint", "position": "corner" },
-      "minDurationSec": 9
+      "narration": "Still in the soup — route: A V E F. Assigned. Vectored. Expected. Filed. In that order.",
+      "onScreenText": [
+        "Route: AVEF",
+        "Assigned → Vectored → Expected → Filed"
+      ],
+      "diagram": {
+        "type": "routeAltitude",
+        "props": {
+          "variant": "route"
+        }
+      },
+      "duke": {
+        "pose": "point",
+        "expression": "squint",
+        "position": "corner"
+      },
+      "minDurationSec": 5
     },
     {
       "id": "scene-04",
       "kind": "diagram",
-      "narration": "Altitude: fly the HIGHEST of three, for each route segment. Minimum enroute altitude, what you were told to Expect, or what you were Assigned. Highest. The rocks don't negotiate.",
-      "onScreenText": ["Altitude: highest of", "MEA · Expected · Assigned"],
-      "diagram": { "type": "routeAltitude", "props": { "variant": "altitude" } },
-      "duke": { "pose": "armsCrossed", "expression": "eyebrowRaise", "position": "corner" },
-      "minDurationSec": 8
+      "narration": "Altitude: the highest of three, per segment. M E A, Expected, Assigned. The rocks don't negotiate.",
+      "onScreenText": [
+        "Altitude: highest of",
+        "MEA · Expected · Assigned"
+      ],
+      "diagram": {
+        "type": "routeAltitude",
+        "props": {
+          "variant": "altitude"
+        }
+      },
+      "duke": {
+        "pose": "armsCrossed",
+        "expression": "eyebrowRaise",
+        "position": "corner"
+      },
+      "minDurationSec": 5
     },
     {
       "id": "scene-05",
       "kind": "recap",
-      "narration": "V F R? Land. I M C? Route A V E F, altitude highest of M E A, expected, assigned. Squawk seventy-six hundred and keep flying the airplane — it doesn't know the radio's dead.",
-      "onScreenText": ["Route: AVEF", "Altitude: highest of MEA/E/A", "Squawk 7600"],
-      "duke": { "pose": "stand", "expression": "neutral", "position": "center" },
-      "minDurationSec": 7
+      "narration": "Squawk seventy-six hundred and keep flying the airplane — it doesn't know the radio's dead.",
+      "onScreenText": [
+        "Route: AVEF",
+        "Altitude: highest of MEA/E/A",
+        "Squawk 7600"
+      ],
+      "duke": {
+        "pose": "stand",
+        "expression": "neutral",
+        "position": "center"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-06",
       "kind": "sources",
-      "narration": "It's all in ninety-one one eighty-five. Two paragraphs. Memorize both.",
-      "onScreenText": ["ACS: IR.VII.A", "14 CFR 91.185 — Two-way radio failure"],
-      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
-      "minDurationSec": 4
+      "narration": "Ninety-one one eighty-five. Two paragraphs. Memorize both.",
+      "onScreenText": [
+        "ACS: IR.VII.A",
+        "14 CFR 91.185 — Two-way radio failure"
+      ],
+      "duke": {
+        "pose": "coffeeSip",
+        "expression": "deadpan",
+        "position": "corner"
+      },
+      "minDurationSec": 3
     }
   ],
   "quiz": [

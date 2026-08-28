@@ -3,66 +3,131 @@
   "title": "The ILS in Plain English",
   "topicArea": "approaches",
   "references": {
-    "acs": ["IR.VI.B"],
-    "faa": { "source": "AIM 1-1-9", "title": "Instrument Landing System (ILS)" }
+    "acs": [
+      "IR.VI.B"
+    ],
+    "faa": {
+      "source": "AIM 1-1-9",
+      "title": "Instrument Landing System (ILS)"
+    }
   },
   "hook": "Two needles, one runway, zero visibility. Meet the ILS.",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Thirty seconds, kid. The I L S — the precision approach that's been saving bacon since before I had this mustache.",
-      "onScreenText": ["The ILS", "Precision since 1938"],
-      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
-      "minDurationSec": 5
+      "narration": "Thirty seconds. The I L S — saving bacon since before I had this mustache.",
+      "onScreenText": [
+        "The ILS",
+        "Precision since 1938"
+      ],
+      "duke": {
+        "pose": "stand",
+        "expression": "deadpan",
+        "position": "center"
+      },
+      "minDurationSec": 3
     },
     {
       "id": "scene-02",
       "kind": "diagram",
-      "narration": "Two beams. The localizer gives you left and right — it's four times more sensitive than a V O R, so fly it with pressure, not heroics. The glideslope gives you up and down, usually a three degree slide to the runway.",
-      "onScreenText": ["Localizer: lateral (sensitive!)", "Glideslope: vertical (~3°)"],
-      "diagram": { "type": "approachPlateProfile", "props": { "highlight": "ils" } },
-      "duke": { "pose": "point", "expression": "neutral", "position": "corner" },
-      "minDurationSec": 9
+      "narration": "Two beams. Localizer: left and right, four times touchier than a V O R — pressure, not heroics. Glideslope: up and down, three degrees to the runway.",
+      "onScreenText": [
+        "Localizer: lateral (sensitive!)",
+        "Glideslope: vertical (~3°)"
+      ],
+      "diagram": {
+        "type": "approachPlateProfile",
+        "props": {
+          "highlight": "ils"
+        }
+      },
+      "duke": {
+        "pose": "point",
+        "expression": "neutral",
+        "position": "corner"
+      },
+      "minDurationSec": 5
     },
     {
       "id": "scene-03",
       "kind": "diagram",
-      "narration": "Fly both needles centered and a standard Category One I L S takes you to a decision altitude two hundred feet above the touchdown zone, with as little as a half mile visibility.",
-      "onScreenText": ["Standard CAT I mins:", "DA: 200 ft HAT", "Vis: as low as ½ SM (RVR 1800)"],
-      "diagram": { "type": "altimeterMinimums", "props": { "da": 200 } },
-      "duke": { "pose": "armsCrossed", "expression": "squint", "position": "corner" },
-      "minDurationSec": 8
+      "narration": "Needles centered, a standard I L S takes you to two hundred feet and a half mile.",
+      "onScreenText": [
+        "Standard CAT I mins:",
+        "DA: 200 ft HAT",
+        "Vis: as low as ½ SM (RVR 1800)"
+      ],
+      "diagram": {
+        "type": "altimeterMinimums",
+        "props": {
+          "da": 200
+        }
+      },
+      "duke": {
+        "pose": "armsCrossed",
+        "expression": "squint",
+        "position": "corner"
+      },
+      "minDurationSec": 5
     },
     {
       "id": "scene-04",
       "kind": "bullets",
-      "narration": "At D A you decide: runway environment in sight, land. Not in sight? Missed approach. There's no 'take a peek' option, kid. The glideslope doesn't care about your dinner reservation.",
-      "onScreenText": ["At DA: decide.", "See it → land", "Don't → missed. Now."],
-      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "left" },
-      "minDurationSec": 7
+      "narration": "At D A you decide. Runway environment — land. Nothing? Missed. There's no 'take a peek' option, kid.",
+      "onScreenText": [
+        "At DA: decide.",
+        "See it → land",
+        "Don't → missed. Now."
+      ],
+      "duke": {
+        "pose": "point",
+        "expression": "eyebrowRaise",
+        "position": "left"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-05",
       "kind": "recap",
-      "narration": "Localizer left-right, glideslope up-down, two hundred and a half, decide at D A. Chase the needles gently — they bite back near the ground.",
-      "onScreenText": ["LOC + GS", "200 & ½", "Decide at DA"],
-      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "center" },
-      "minDurationSec": 6
+      "narration": "Localizer, glideslope, two hundred and a half. Chase the needles gently — they bite near the ground.",
+      "onScreenText": [
+        "LOC + GS",
+        "200 & ½",
+        "Decide at DA"
+      ],
+      "duke": {
+        "pose": "coffeeSip",
+        "expression": "neutral",
+        "position": "center"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-06",
       "kind": "sources",
-      "narration": "A I M one dash one dash nine has every beam, marker, and mile. Bring coffee.",
-      "onScreenText": ["ACS: IR.VI.B", "AIM 1-1-9 — Instrument Landing System"],
-      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
-      "minDurationSec": 4
+      "narration": "A I M one dash one dash nine. Bring coffee.",
+      "onScreenText": [
+        "ACS: IR.VI.B",
+        "AIM 1-1-9 — Instrument Landing System"
+      ],
+      "duke": {
+        "pose": "coffeeSip",
+        "expression": "deadpan",
+        "position": "corner"
+      },
+      "minDurationSec": 3
     }
   ],
   "quiz": [
     {
       "question": "Standard Category I ILS minimums are:",
-      "choices": ["DA 200 ft HAT, visibility ½ SM / RVR 1,800", "DA 100 ft, RVR 1,200", "MDA 500 ft, 1 SM", "DA 250 ft, ¾ SM always"],
+      "choices": [
+        "DA 200 ft HAT, visibility ½ SM / RVR 1,800",
+        "DA 100 ft, RVR 1,200",
+        "MDA 500 ft, 1 SM",
+        "DA 250 ft, ¾ SM always"
+      ],
       "correctIndex": 0,
       "explanation": "A standard CAT I ILS goes down to 200 ft above touchdown with as little as ½ SM or RVR 1,800 (AIM 1-1-9; exact values are on the plate)."
     },

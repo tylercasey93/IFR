@@ -3,61 +3,129 @@
   "title": "Holding Entries Without the Headache",
   "topicArea": "holding",
   "references": {
-    "acs": ["IR.III.B"],
-    "faa": { "source": "AIM 5-3-8", "title": "Holding" }
+    "acs": [
+      "IR.III.B"
+    ],
+    "faa": {
+      "source": "AIM 5-3-8",
+      "title": "Holding"
+    }
   },
   "hook": "Cleared to hold. Which entry? You've got until the fix to decide.",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Alright kid, thirty seconds. Holding entries. Three ways in, one line to memorize, zero excuses.",
-      "onScreenText": ["Holding Entries", "Direct · Parallel · Teardrop"],
-      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
-      "minDurationSec": 4
+      "narration": "Alright kid, thirty seconds. Holding entries. Three ways in, zero excuses.",
+      "onScreenText": [
+        "Holding Entries",
+        "Direct · Parallel · Teardrop"
+      ],
+      "duke": {
+        "pose": "stand",
+        "expression": "deadpan",
+        "position": "center"
+      },
+      "minDurationSec": 3
     },
     {
       "id": "scene-02",
       "kind": "diagram",
-      "narration": "Picture the hold. Now draw one line across the fix, seventy degrees off the inbound course. That line slices the sky into three entry sectors.",
-      "onScreenText": ["The 70° line", "3 sectors, 3 entries"],
-      "diagram": { "type": "holdingPattern", "props": { "stage": "sectors", "inboundCourse": 270 } },
-      "duke": { "pose": "point", "expression": "neutral", "position": "corner" },
-      "minDurationSec": 7
+      "narration": "Draw one line through the fix, seventy degrees off the inbound course. Three sectors, three entries.",
+      "onScreenText": [
+        "The 70° line",
+        "3 sectors, 3 entries"
+      ],
+      "diagram": {
+        "type": "holdingPattern",
+        "props": {
+          "stage": "sectors",
+          "inboundCourse": 270
+        }
+      },
+      "duke": {
+        "pose": "point",
+        "expression": "neutral",
+        "position": "corner"
+      },
+      "minDurationSec": 5
     },
     {
       "id": "scene-03",
       "kind": "diagram",
-      "narration": "Coming from the big slice — about a hundred and eighty degrees of it — fly direct. Cross the fix, turn outbound, done. Direct is the FAA's gift to you. Accept it.",
-      "onScreenText": ["Direct entry", "The big slice (~180°)"],
-      "diagram": { "type": "holdingPattern", "props": { "stage": "entry", "entryHighlight": "direct", "inboundCourse": 270 } },
-      "duke": { "pose": "stand", "expression": "grin", "position": "corner" },
-      "minDurationSec": 7
+      "narration": "The big slice? Fly direct. Cross the fix, turn outbound. The F A A's gift — accept it.",
+      "onScreenText": [
+        "Direct entry",
+        "The big slice (~180°)"
+      ],
+      "diagram": {
+        "type": "holdingPattern",
+        "props": {
+          "stage": "entry",
+          "entryHighlight": "direct",
+          "inboundCourse": 270
+        }
+      },
+      "duke": {
+        "pose": "stand",
+        "expression": "grin",
+        "position": "corner"
+      },
+      "minDurationSec": 5
     },
     {
       "id": "scene-04",
       "kind": "diagram",
-      "narration": "Arriving through the narrow seventy degree sliver? Teardrop. Cross the fix, cut thirty degrees into the protected side, then turn back inbound. From the wide wedge: parallel. Track the course outbound, then turn back around into the hold.",
-      "onScreenText": ["Teardrop: the narrow 70° sliver", "Parallel: the wide 110° wedge"],
-      "diagram": { "type": "holdingPattern", "props": { "stage": "entry", "entryHighlight": "teardrop", "inboundCourse": 270 } },
-      "duke": { "pose": "point", "expression": "squint", "position": "corner" },
-      "minDurationSec": 9
+      "narration": "The narrow sliver? Teardrop. Thirty degrees into the protected side, then back inbound. The wide wedge? Parallel. Outbound on the course, then turn back in.",
+      "onScreenText": [
+        "Teardrop: the narrow 70° sliver",
+        "Parallel: the wide 110° wedge"
+      ],
+      "diagram": {
+        "type": "holdingPattern",
+        "props": {
+          "stage": "entry",
+          "entryHighlight": "teardrop",
+          "inboundCourse": 270
+        }
+      },
+      "duke": {
+        "pose": "point",
+        "expression": "squint",
+        "position": "corner"
+      },
+      "minDurationSec": 5
     },
     {
       "id": "scene-05",
       "kind": "recap",
-      "narration": "Big slice direct, narrow sliver teardrop, wide wedge parallel. And relax — the entry isn't graded by geometry, kid. Stay in protected airspace and nobody gets hurt.",
-      "onScreenText": ["Big slice → Direct", "70° sliver → Teardrop", "110° wedge → Parallel"],
-      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "center" },
-      "minDurationSec": 7
+      "narration": "Big slice direct. Sliver teardrop. Wedge parallel. Nobody grades your geometry, kid — just stay in protected airspace.",
+      "onScreenText": [
+        "Big slice → Direct",
+        "70° sliver → Teardrop",
+        "110° wedge → Parallel"
+      ],
+      "duke": {
+        "pose": "coffeeSip",
+        "expression": "neutral",
+        "position": "center"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-06",
       "kind": "sources",
       "narration": "Homework: A I M five dash three dash eight. It's a page-turner.",
-      "onScreenText": ["ACS: IR.III.B", "AIM 5-3-8 — Holding"],
-      "duke": { "pose": "armsCrossed", "expression": "deadpan", "position": "corner" },
-      "minDurationSec": 4
+      "onScreenText": [
+        "ACS: IR.III.B",
+        "AIM 5-3-8 — Holding"
+      ],
+      "duke": {
+        "pose": "armsCrossed",
+        "expression": "deadpan",
+        "position": "corner"
+      },
+      "minDurationSec": 3
     }
   ],
   "quiz": [
@@ -74,7 +142,12 @@
     },
     {
       "question": "The recommended entry sectors are divided by a line drawn at what angle to the inbound holding course?",
-      "choices": ["70°", "45°", "90°", "30°"],
+      "choices": [
+        "70°",
+        "45°",
+        "90°",
+        "30°"
+      ],
       "correctIndex": 0,
       "explanation": "The 70° line through the fix splits the non-direct region into the parallel and teardrop sectors."
     },

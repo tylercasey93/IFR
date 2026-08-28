@@ -7,9 +7,9 @@ export const TitleCard: React.FC<{ lesson: LessonManifest }> = ({ lesson }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
-  const titleIn = spring({ frame, fps, config: { damping: 13, stiffness: 110 } });
-  const hookIn = spring({ frame: frame - 10, fps, config: { damping: 14, stiffness: 110 } });
-  const chipIn = spring({ frame: frame - 4, fps, config: { damping: 14, stiffness: 140 } });
+  const titleIn = spring({ frame, fps, config: { damping: 10, stiffness: 300 } });
+  const hookIn = spring({ frame: frame - 4, fps, config: { damping: 12, stiffness: 260 } });
+  const chipIn = spring({ frame: frame - 2, fps, config: { damping: 11, stiffness: 320 } });
 
   return (
     <div style={{ padding: '90px 70px 0' }}>
@@ -19,8 +19,8 @@ export const TitleCard: React.FC<{ lesson: LessonManifest }> = ({ lesson }) => {
           opacity: chipIn,
           display: 'inline-block',
           ...type.placard,
-          color: colors.amber,
-          border: `2px solid ${colors.amber}`,
+          color: colors.bronze,
+          border: `2px solid ${colors.bronze}`,
           borderRadius: 12,
           padding: '10px 22px',
           marginBottom: 40,

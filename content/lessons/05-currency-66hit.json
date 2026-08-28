@@ -3,59 +3,115 @@
   "title": "IFR Currency: 6-6-HIT",
   "topicArea": "regs",
   "references": {
-    "acs": ["IR.I.A"],
-    "faa": { "source": "14 CFR 61.57(c)-(d)", "title": "Recent flight experience: Instrument" }
+    "acs": [
+      "IR.I.A"
+    ],
+    "faa": {
+      "source": "14 CFR 61.57(c)-(d)",
+      "title": "Recent flight experience: Instrument"
+    }
   },
   "hook": "Legal to file IFR today? Let's check your math.",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Thirty seconds, kid. Instrument currency. The rating never expires — your privileges do. Meet six, six, H I T.",
-      "onScreenText": ["IFR Currency", "6 - 6 - HIT"],
-      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
-      "minDurationSec": 5
+      "narration": "Thirty seconds. Instrument currency. The rating never expires — your privileges do. Six, six, H I T.",
+      "onScreenText": [
+        "IFR Currency",
+        "6 - 6 - HIT"
+      ],
+      "duke": {
+        "pose": "stand",
+        "expression": "deadpan",
+        "position": "center"
+      },
+      "minDurationSec": 3
     },
     {
       "id": "scene-02",
       "kind": "bullets",
-      "narration": "Within the preceding SIX calendar months: SIX instrument approaches, plus Holding, plus Intercepting and Tracking courses with nav systems. That's the H, the I, and the T.",
-      "onScreenText": ["6 calendar months", "6 approaches", "Holding", "Intercepting & Tracking"],
-      "duke": { "pose": "point", "expression": "neutral", "position": "left" },
-      "minDurationSec": 8
+      "narration": "Preceding six months: six approaches, plus Holding, plus Intercepting and Tracking courses. That's the H, I, T.",
+      "onScreenText": [
+        "6 calendar months",
+        "6 approaches",
+        "Holding",
+        "Intercepting & Tracking"
+      ],
+      "duke": {
+        "pose": "point",
+        "expression": "neutral",
+        "position": "left"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-03",
       "kind": "diagram",
-      "narration": "Blow past six months without it? You get six more months to fix it — with a safety pilot or in a sim. But you can't file I F R while you're catching up.",
-      "onScreenText": ["Months 7–12: the grace period", "Regain with safety pilot / sim", "No IFR until current"],
-      "diagram": { "type": "timeline", "props": { "variant": "currency" } },
-      "duke": { "pose": "armsCrossed", "expression": "squint", "position": "corner" },
-      "minDurationSec": 8
+      "narration": "Blow past six months? Six more to fix it with a safety pilot or a sim — but no filing I F R till you're current.",
+      "onScreenText": [
+        "Months 7–12: the grace period",
+        "Regain with safety pilot / sim",
+        "No IFR until current"
+      ],
+      "diagram": {
+        "type": "timeline",
+        "props": {
+          "variant": "currency"
+        }
+      },
+      "duke": {
+        "pose": "armsCrossed",
+        "expression": "squint",
+        "position": "corner"
+      },
+      "minDurationSec": 5
     },
     {
       "id": "scene-04",
       "kind": "bullets",
-      "narration": "Past twelve months total? Now it's an instrument proficiency check with an instructor. That's not a punishment, kid. The punishment is what the clouds had planned.",
-      "onScreenText": ["Beyond 12 months:", "IPC required (61.57(d))"],
-      "duke": { "pose": "coffeeSip", "expression": "eyebrowRaise", "position": "right" },
-      "minDurationSec": 6
+      "narration": "Past twelve? Instrument proficiency check. Not a punishment, kid — the punishment is what the clouds had planned.",
+      "onScreenText": [
+        "Beyond 12 months:",
+        "IPC required (61.57(d))"
+      ],
+      "duke": {
+        "pose": "coffeeSip",
+        "expression": "eyebrowRaise",
+        "position": "right"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-05",
       "kind": "recap",
-      "narration": "Six approaches, holding, intercepting, tracking, every six months. Then a six-month grace window, then an I P C. Currency is cheaper than humility. Barely.",
-      "onScreenText": ["6-6-HIT", "Grace: 6 months", "Then: IPC"],
-      "duke": { "pose": "stand", "expression": "grin", "position": "center" },
-      "minDurationSec": 6
+      "narration": "Six approaches, holding, intercepting, tracking, every six months. Currency is cheaper than humility.",
+      "onScreenText": [
+        "6-6-HIT",
+        "Grace: 6 months",
+        "Then: IPC"
+      ],
+      "duke": {
+        "pose": "stand",
+        "expression": "grin",
+        "position": "center"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-06",
       "kind": "sources",
-      "narration": "Sixty-one fifty-seven, paragraphs c and d. Read it, then go log some approaches.",
-      "onScreenText": ["ACS: IR.I.A", "14 CFR 61.57(c)-(d) — Instrument experience"],
-      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "corner" },
-      "minDurationSec": 4
+      "narration": "Sixty-one fifty-seven. Then go log some approaches.",
+      "onScreenText": [
+        "ACS: IR.I.A",
+        "14 CFR 61.57(c)-(d) — Instrument experience"
+      ],
+      "duke": {
+        "pose": "coffeeSip",
+        "expression": "neutral",
+        "position": "corner"
+      },
+      "minDurationSec": 3
     }
   ],
   "quiz": [

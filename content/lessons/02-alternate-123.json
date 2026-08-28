@@ -3,59 +3,114 @@
   "title": "The 1-2-3 Rule: When You Need an Alternate",
   "topicArea": "regs",
   "references": {
-    "acs": ["IR.I.C"],
-    "faa": { "source": "14 CFR 91.169", "title": "IFR flight plan: information required" }
+    "acs": [
+      "IR.I.C"
+    ],
+    "faa": {
+      "source": "14 CFR 91.169",
+      "title": "IFR flight plan: information required"
+    }
   },
   "hook": "Do you legally need an alternate today? Count to three.",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Thirty seconds, kid. Alternate airports. The FAA wants a plan B — and they wrote a nursery rhyme for it. One, two, three.",
-      "onScreenText": ["Alternates", "The 1-2-3 Rule"],
-      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
-      "minDurationSec": 4
+      "narration": "Thirty seconds. Alternate airports — the F A A wants a plan B, and they wrote a nursery rhyme for it. One, two, three.",
+      "onScreenText": [
+        "Alternates",
+        "The 1-2-3 Rule"
+      ],
+      "duke": {
+        "pose": "stand",
+        "expression": "deadpan",
+        "position": "center"
+      },
+      "minDurationSec": 3
     },
     {
       "id": "scene-02",
       "kind": "diagram",
-      "narration": "One hour before to one hour after your E T A: if the forecast shows at least two thousand foot ceilings AND three miles visibility... no alternate required.",
-      "onScreenText": ["±1 hour of ETA", "≥ 2,000 ft ceiling", "≥ 3 SM visibility"],
-      "diagram": { "type": "timeline", "props": { "variant": "eta-window" } },
-      "duke": { "pose": "point", "expression": "neutral", "position": "corner" },
-      "minDurationSec": 8
+      "narration": "One hour either side of your E T A: at least two thousand foot ceilings AND three miles visibility? No alternate required.",
+      "onScreenText": [
+        "±1 hour of ETA",
+        "≥ 2,000 ft ceiling",
+        "≥ 3 SM visibility"
+      ],
+      "diagram": {
+        "type": "timeline",
+        "props": {
+          "variant": "eta-window"
+        }
+      },
+      "duke": {
+        "pose": "point",
+        "expression": "neutral",
+        "position": "corner"
+      },
+      "minDurationSec": 5
     },
     {
       "id": "scene-03",
       "kind": "bullets",
-      "narration": "Anything worse than one, two, three — you file an alternate. And that alternate has its own homework: at your E T A, six hundred and two for a precision approach, eight hundred and two for non-precision.",
-      "onScreenText": ["Worse than 1-2-3? File one.", "Alternate mins at ETA:", "Precision: 600 – 2", "Non-precision: 800 – 2"],
-      "duke": { "pose": "armsCrossed", "expression": "squint", "position": "left" },
-      "minDurationSec": 8
+      "narration": "Worse than that? File one. Alternate minimums at your E T A: six hundred and two precision, eight hundred and two non-precision.",
+      "onScreenText": [
+        "Worse than 1-2-3? File one.",
+        "Alternate mins at ETA:",
+        "Precision: 600 – 2",
+        "Non-precision: 800 – 2"
+      ],
+      "duke": {
+        "pose": "armsCrossed",
+        "expression": "squint",
+        "position": "left"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-04",
       "kind": "bullets",
-      "narration": "No instrument approach at the alternate? Then the weather there has to let you descend from the M E A and land visually. Good luck explaining that plan to your examiner.",
-      "onScreenText": ["No IAP at alternate?", "Must descend from MEA & land VFR"],
-      "duke": { "pose": "coffeeSip", "expression": "eyebrowRaise", "position": "right" },
-      "minDurationSec": 6
+      "narration": "No approach at the alternate? The weather must let you descend from the M E A and land visually. Good luck briefing that.",
+      "onScreenText": [
+        "No IAP at alternate?",
+        "Must descend from MEA & land VFR"
+      ],
+      "duke": {
+        "pose": "coffeeSip",
+        "expression": "eyebrowRaise",
+        "position": "right"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-05",
       "kind": "recap",
-      "narration": "One hour either side. Two thousand. Three miles. Miss any of them, bring a plan B. I always file one anyway — clouds read forecasts even worse than students do.",
-      "onScreenText": ["1 hour · 2,000 ft · 3 SM", "When in doubt: file it"],
-      "duke": { "pose": "stand", "expression": "grin", "position": "center" },
-      "minDurationSec": 6
+      "narration": "One hour. Two thousand. Three miles. I file one anyway — clouds read forecasts worse than students do.",
+      "onScreenText": [
+        "1 hour · 2,000 ft · 3 SM",
+        "When in doubt: file it"
+      ],
+      "duke": {
+        "pose": "stand",
+        "expression": "grin",
+        "position": "center"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-06",
       "kind": "sources",
-      "narration": "Chapter and verse: ninety-one point one sixty-nine. Read it before the examiner does.",
-      "onScreenText": ["ACS: IR.I.C", "14 CFR 91.169 — IFR flight plan"],
-      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "corner" },
-      "minDurationSec": 4
+      "narration": "Ninety-one one sixty-nine. Read it before the examiner does.",
+      "onScreenText": [
+        "ACS: IR.I.C",
+        "14 CFR 91.169 — IFR flight plan"
+      ],
+      "duke": {
+        "pose": "coffeeSip",
+        "expression": "neutral",
+        "position": "corner"
+      },
+      "minDurationSec": 3
     }
   ],
   "quiz": [
@@ -72,7 +127,12 @@
     },
     {
       "question": "Standard alternate minimums at an airport with only a VOR (non-precision) approach?",
-      "choices": ["800-2 at your ETA", "600-2 at your ETA", "2,000-3 at your ETA", "200-½ at your ETA"],
+      "choices": [
+        "800-2 at your ETA",
+        "600-2 at your ETA",
+        "2,000-3 at your ETA",
+        "200-½ at your ETA"
+      ],
       "correctIndex": 0,
       "explanation": "Standard alternate minimums: 600-2 precision, 800-2 non-precision, at the time of your ETA. (91.169(c))"
     },

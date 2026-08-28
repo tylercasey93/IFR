@@ -14,8 +14,8 @@ const audioDir = join(repoRoot, 'content', 'audio');
 const publicDir = join(pipelineRoot, 'public');
 
 const FPS = 30;
-const WORDS_PER_MINUTE = 150; // captions-only fallback reading speed
-const AUDIO_TAIL_SEC = 0.5;   // breathing room after narration ends
+const WORDS_PER_MINUTE = 165; // captions-only fallback reading speed
+const AUDIO_TAIL_SEC = 0.35;  // breathing room after narration ends
 const MAX_CHUNK_WORDS = 6;
 
 // Split narration into caption chunks of <= MAX_CHUNK_WORDS words, preferring
@@ -47,7 +47,7 @@ function buildCaptions(scene, durationInFrames) {
   const chunks = chunkNarration(scene.narration);
   const totalChars = chunks.reduce((n, c) => n + c.length, 0) || 1;
   // Captions occupy the narrated portion: leave a short head and the tail.
-  const head = Math.round(0.15 * FPS);
+  const head = Math.round(0.1 * FPS);
   const usable = durationInFrames - head - Math.round(AUDIO_TAIL_SEC * FPS);
   let cursor = head;
   return chunks.map((text, i) => {
@@ -106,6 +106,10 @@ const manifest = {
   width: 1080,
   height: 1920,
   musicSrc: existsSync(join(publicDir, musicRel)) ? musicRel : null,
+  sfx: {
+    whoosh: existsSync(join(publicDir, 'audio/sfx-whoosh.wav')),
+    ding: existsSync(join(publicDir, 'audio/sfx-ding.wav')),
+  },
   lessons,
 };
 

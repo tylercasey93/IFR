@@ -69,12 +69,12 @@ export const HoldingPattern: React.FC<Props> = ({
             70° line
           </text>
           {/* sector shading: direct (big slice), teardrop (holding side), parallel (far side) */}
-          <path d={`M ${FIX.x} ${FIX.y} L 960 250 L 960 780 L 100 780 Z`} fill={colors.green} opacity={0.12} />
-          <path d={`M ${FIX.x} ${FIX.y} L 100 780 L 0 780 L 0 560 Z`} fill={colors.amber} opacity={0.14} />
-          <path d={`M ${FIX.x} ${FIX.y} L 0 560 L 0 0 L 960 0 L 960 250 Z`} fill="#7FB4E0" opacity={0.12} />
-          <text x={620} y={640} fill={colors.green} fontSize={38} fontWeight={800}>DIRECT</text>
-          <text x={60} y={710} fill={colors.amber} fontSize={38} fontWeight={800}>TEARDROP</text>
-          <text x={90} y={120} fill="#7FB4E0" fontSize={38} fontWeight={800}>PARALLEL</text>
+          <path d={`M ${FIX.x} ${FIX.y} L 960 250 L 960 780 L 100 780 Z`} fill={colors.bronze} opacity={0.14} />
+          <path d={`M ${FIX.x} ${FIX.y} L 100 780 L 0 780 L 0 560 Z`} fill={colors.red} opacity={0.18} />
+          <path d={`M ${FIX.x} ${FIX.y} L 0 560 L 0 0 L 960 0 L 960 250 Z`} fill={colors.aluminum} opacity={0.1} />
+          <text x={620} y={640} fill={colors.bronze} fontSize={38} fontWeight={800}>DIRECT</text>
+          <text x={60} y={710} fill="#D96A54" fontSize={38} fontWeight={800}>TEARDROP</text>
+          <text x={90} y={120} fill={colors.aluminum} fontSize={38} fontWeight={800}>PARALLEL</text>
         </g>
       )}
 

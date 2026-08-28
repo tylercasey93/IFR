@@ -1,6 +1,7 @@
 import React from 'react';
 import { interpolate, spring, useCurrentFrame, useVideoConfig } from 'remotion';
 import { diagramRegistry } from '../graphics/registry';
+import { panelStyle, Rivets } from './chrome';
 import { colors, type } from '../theme';
 import type { SceneManifest } from '../types';
 
@@ -18,8 +19,8 @@ export const DiagramScene: React.FC<{ scene: SceneManifest }> = ({ scene }) => {
     <div style={{ padding: '30px 60px 0' }}>
       <div
         style={{
-          background: colors.panel,
-          border: `2px solid ${colors.panelEdge}`,
+          ...panelStyle,
+          position: 'relative',
           borderRadius: 28,
           height: 820,
           overflow: 'hidden',
@@ -31,6 +32,7 @@ export const DiagramScene: React.FC<{ scene: SceneManifest }> = ({ scene }) => {
         }}
       >
         {Diagram ? <Diagram {...(scene.diagram?.props ?? {})} /> : null}
+        <Rivets />
       </div>
       <div style={{ display: 'flex', flexDirection: 'column', gap: 18, marginTop: 28 }}>
         {lines.map((line, i) => {

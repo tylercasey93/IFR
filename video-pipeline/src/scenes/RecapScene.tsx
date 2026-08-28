@@ -1,5 +1,7 @@
 import React from 'react';
-import { interpolate, spring, useCurrentFrame, useVideoConfig } from 'remotion';
+import { Audio, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
+import { dingSrc } from '../sfx';
+import { panelStyle, Rivets } from './chrome';
 import { colors, type } from '../theme';
 import type { SceneManifest } from '../types';
 
@@ -23,12 +25,13 @@ export const RecapScene: React.FC<{ scene: SceneManifest }> = ({ scene }) => {
       </div>
       <div
         style={{
-          background: colors.panel,
-          border: `2px solid ${colors.panelEdge}`,
+          ...panelStyle,
+          position: 'relative',
           borderRadius: 24,
           padding: '14px 30px',
         }}
       >
+        <Rivets inset={10} />
         {lines.map((line, i) => {
           const start = 6 + i * Math.max(10, 26 - lines.length * 2);
           const tick = spring({
@@ -48,6 +51,11 @@ export const RecapScene: React.FC<{ scene: SceneManifest }> = ({ scene }) => {
                 opacity: interpolate(tick, [0, 0.3], [0.25, 1], { extrapolateRight: 'clamp' }),
               }}
             >
+              {dingSrc && i < 4 ? (
+                <Sequence from={start} durationInFrames={18} layout="none">
+                  <Audio src={staticFile(dingSrc)} volume={0.4} />
+                </Sequence>
+              ) : null}
               <svg width={44} height={44} viewBox="0 0 44 44" style={{ flexShrink: 0 }}>
                 <rect x={3} y={3} width={38} height={38} rx={10} fill="none" stroke={colors.green} strokeWidth={3.5} />
                 <path

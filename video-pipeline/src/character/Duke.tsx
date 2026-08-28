@@ -51,7 +51,7 @@ export const Duke: React.FC<DukeProps> = ({
   const mouthH = 3 + flap * 16;
 
   // Pose entrance: arms spring into position at the start of each scene.
-  const enter = spring({ frame, fps, config: { damping: 14, stiffness: 120 } });
+  const enter = spring({ frame, fps, config: { damping: 12, stiffness: 240 } });
 
   const browLift =
     expression === 'eyebrowRaise' ? -10 : expression === 'squint' ? 4 : 0;
@@ -86,8 +86,8 @@ export const Duke: React.FC<DukeProps> = ({
           />
           {/* wings patch */}
           <g transform="translate(268, 396)" opacity={0.9}>
-            <circle r={17} fill={JACKET_DARK} stroke={colors.amber} strokeWidth={2.5} />
-            <path d="M -9 2 L 0 -7 L 9 2 L 0 -2 Z" fill={colors.amber} />
+            <circle r={17} fill={JACKET_DARK} stroke={colors.bronze} strokeWidth={2.5} />
+            <path d="M -9 2 L 0 -7 L 9 2 L 0 -2 Z" fill={colors.bronze} />
           </g>
         </g>
 

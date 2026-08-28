@@ -3,64 +3,120 @@
   "title": "METAR & TAF: Read Weather Like a Dispatcher",
   "topicArea": "weather",
   "references": {
-    "acs": ["IR.I.B"],
-    "faa": { "source": "AC 00-45H", "title": "Aviation Weather Services" }
+    "acs": [
+      "IR.I.B"
+    ],
+    "faa": {
+      "source": "AC 00-45H",
+      "title": "Aviation Weather Services"
+    }
   },
   "hook": "KDEN 271753Z 33015G25KT... gibberish, or a go/no-go answer?",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Thirty seconds, kid. METARs and TAFs. It's not code — it's just weather with the vowels ripped out to save telegraph money. In eighty years nobody's put them back.",
-      "onScreenText": ["METAR & TAF", "Weather, minus the vowels"],
-      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
-      "minDurationSec": 6
+      "narration": "Thirty seconds. METARs — weather with the vowels ripped out to save telegraph money. Eighty years later, still not fixed.",
+      "onScreenText": [
+        "METAR & TAF",
+        "Weather, minus the vowels"
+      ],
+      "duke": {
+        "pose": "stand",
+        "expression": "deadpan",
+        "position": "center"
+      },
+      "minDurationSec": 3
     },
     {
       "id": "scene-02",
       "kind": "bullets",
-      "narration": "METAR is what IS: station, time in Zulu, wind, visibility, weather, clouds, temp and dew point, altimeter. Same order, every hour, on the hour.",
-      "onScreenText": ["METAR = now", "Station·Time·Wind·Vis", "Wx·Clouds·Temp/Dew·Altimeter"],
-      "duke": { "pose": "point", "expression": "neutral", "position": "left" },
-      "minDurationSec": 8
+      "narration": "METAR is now: station, time, wind, visibility, weather, clouds, temp and dew point, altimeter. Same order, every hour.",
+      "onScreenText": [
+        "METAR = now",
+        "Station·Time·Wind·Vis",
+        "Wx·Clouds·Temp/Dew·Altimeter"
+      ],
+      "duke": {
+        "pose": "point",
+        "expression": "neutral",
+        "position": "left"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-03",
       "kind": "bullets",
-      "narration": "TAF is what WILL be — a twenty-four to thirty hour forecast for five miles around the airport. Watch the change groups: F M means a hard switch. TEMPO means it'll misbehave for a while, then apologize.",
-      "onScreenText": ["TAF = forecast (24–30 hr, 5 SM ring)", "FM: hard change", "TEMPO: brief misbehavior"],
-      "duke": { "pose": "armsCrossed", "expression": "squint", "position": "right" },
-      "minDurationSec": 9
+      "narration": "TAF is later: twenty-four to thirty hours, five miles around the field. F M means a hard switch. TEMPO means brief misbehavior.",
+      "onScreenText": [
+        "TAF = forecast (24–30 hr, 5 SM ring)",
+        "FM: hard change",
+        "TEMPO: brief misbehavior"
+      ],
+      "duke": {
+        "pose": "armsCrossed",
+        "expression": "squint",
+        "position": "right"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-04",
       "kind": "bullets",
-      "narration": "For the written, kid: temp slash dew point closing together means fog is filing its flight plan. And B K N or O V C is a ceiling. Scattered is not.",
-      "onScreenText": ["Temp ≈ dew point → fog coming", "Ceiling = BKN or OVC", "SCT is NOT a ceiling"],
-      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "left" },
-      "minDurationSec": 8
+      "narration": "Temp and dew point closing? Fog is filing its flight plan. And a ceiling is broken or overcast — scattered doesn't count.",
+      "onScreenText": [
+        "Temp ≈ dew point → fog coming",
+        "Ceiling = BKN or OVC",
+        "SCT is NOT a ceiling"
+      ],
+      "duke": {
+        "pose": "point",
+        "expression": "eyebrowRaise",
+        "position": "left"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-05",
       "kind": "recap",
-      "narration": "METAR now, TAF later, ceilings are broken or overcast, and converging temp and dew point means get there before the fog does.",
-      "onScreenText": ["METAR: now", "TAF: later", "BKN/OVC = ceiling"],
-      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "center" },
-      "minDurationSec": 6
+      "narration": "METAR now. TAF later. Beat the fog home.",
+      "onScreenText": [
+        "METAR: now",
+        "TAF: later",
+        "BKN/OVC = ceiling"
+      ],
+      "duke": {
+        "pose": "coffeeSip",
+        "expression": "neutral",
+        "position": "center"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-06",
       "kind": "sources",
-      "narration": "A C zero zero dash forty-five H — Aviation Weather Services. All the decoder rings.",
-      "onScreenText": ["ACS: IR.I.B", "AC 00-45H — Aviation Weather Services"],
-      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
-      "minDurationSec": 4
+      "narration": "A C zero zero dash forty-five H. All the decoder rings.",
+      "onScreenText": [
+        "ACS: IR.I.B",
+        "AC 00-45H — Aviation Weather Services"
+      ],
+      "duke": {
+        "pose": "coffeeSip",
+        "expression": "deadpan",
+        "position": "corner"
+      },
+      "minDurationSec": 3
     }
   ],
   "quiz": [
     {
       "question": "Which cloud reports constitute a ceiling?",
-      "choices": ["BKN or OVC (and VV)", "FEW or SCT", "Any cloud layer", "OVC only"],
+      "choices": [
+        "BKN or OVC (and VV)",
+        "FEW or SCT",
+        "Any cloud layer",
+        "OVC only"
+      ],
       "correctIndex": 0,
       "explanation": "A ceiling is the lowest broken or overcast layer, or vertical visibility into an obscuration. Scattered doesn't count."
     },
@@ -77,7 +133,12 @@
     },
     {
       "question": "Temperature 12°C, dew point 11°C, sun setting. Expect:",
-      "choices": ["Fog or low stratus forming", "Thunderstorms", "Clear skies all night", "Icing at the surface"],
+      "choices": [
+        "Fog or low stratus forming",
+        "Thunderstorms",
+        "Clear skies all night",
+        "Icing at the surface"
+      ],
       "correctIndex": 0,
       "explanation": "A small, closing temp/dew point spread near sunset is the classic fog setup — saturation is one degree of cooling away."
     }

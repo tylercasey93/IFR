@@ -3,64 +3,119 @@
   "title": "Copy Any Clearance: CRAFT",
   "topicArea": "clearances",
   "references": {
-    "acs": ["IR.III.A"],
-    "faa": { "source": "AIM 4-4-3", "title": "Clearance Items" }
+    "acs": [
+      "IR.III.A"
+    ],
+    "faa": {
+      "source": "AIM 4-4-3",
+      "title": "Clearance Items"
+    }
   },
   "hook": "ATC talks at 200 words a minute. Here's how you win.",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Alright kid, thirty seconds on the clock. Clearance delivery talks fast. You write faster — because you know what's coming.",
-      "onScreenText": ["Copy Any Clearance", "CRAFT"],
-      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
-      "minDurationSec": 4
+      "narration": "Thirty seconds, kid. Clearance delivery talks fast. You'll write faster — you know what's coming.",
+      "onScreenText": [
+        "Copy Any Clearance",
+        "CRAFT"
+      ],
+      "duke": {
+        "pose": "stand",
+        "expression": "deadpan",
+        "position": "center"
+      },
+      "minDurationSec": 3
     },
     {
       "id": "scene-02",
       "kind": "bullets",
-      "narration": "Every IFR clearance comes in the same order. C, R, A, F, T. Clearance limit. Route. Altitude. Frequency. Transponder. The FAA loves a good acronym almost as much as I love coffee.",
-      "onScreenText": ["C — Clearance limit", "R — Route", "A — Altitude", "F — Frequency", "T — Transponder"],
-      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "left" },
-      "minDurationSec": 8
+      "narration": "Every clearance, same order: C R A F T. Clearance limit. Route. Altitude. Frequency. Transponder. The F A A loves an acronym almost as much as I love coffee.",
+      "onScreenText": [
+        "C — Clearance limit",
+        "R — Route",
+        "A — Altitude",
+        "F — Frequency",
+        "T — Transponder"
+      ],
+      "duke": {
+        "pose": "coffeeSip",
+        "expression": "neutral",
+        "position": "left"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-03",
       "kind": "bullets",
-      "narration": "So before you even key the mic, write C R A F T down the page. Now you're not scribbling a mystery novel — you're filling in blanks.",
-      "onScreenText": ["Write CRAFT before you call", "Then just fill in the blanks"],
-      "duke": { "pose": "point", "expression": "grin", "position": "right" },
-      "minDurationSec": 5
+      "narration": "Write C R A F T down the page before you key the mic. Now it's fill-in-the-blanks, not a mystery novel.",
+      "onScreenText": [
+        "Write CRAFT before you call",
+        "Then just fill in the blanks"
+      ],
+      "duke": {
+        "pose": "point",
+        "expression": "grin",
+        "position": "right"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-04",
       "kind": "bullets",
-      "narration": "One trap: 'cleared as filed' still comes with an altitude, a frequency, and a squawk. Read it all back. ATC grades on participation.",
-      "onScreenText": ["\"Cleared as filed\" ≠ done", "Read back the full clearance"],
-      "duke": { "pose": "armsCrossed", "expression": "eyebrowRaise", "position": "left" },
-      "minDurationSec": 5
+      "narration": "'Cleared as filed' still comes with an altitude, a frequency, and a squawk. Read it all back.",
+      "onScreenText": [
+        "\"Cleared as filed\" ≠ done",
+        "Read back the full clearance"
+      ],
+      "duke": {
+        "pose": "armsCrossed",
+        "expression": "eyebrowRaise",
+        "position": "left"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-05",
       "kind": "recap",
-      "narration": "Clearance limit, route, altitude, frequency, transponder. CRAFT. Learn it cold, kid — it's the one craft project that keeps you out of a mountain.",
-      "onScreenText": ["CRAFT", "Same order. Every time."],
-      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
-      "minDurationSec": 5
+      "narration": "Clearance limit, route, altitude, frequency, transponder. The one craft project that keeps you out of a mountain.",
+      "onScreenText": [
+        "CRAFT",
+        "Same order. Every time."
+      ],
+      "duke": {
+        "pose": "stand",
+        "expression": "deadpan",
+        "position": "center"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-06",
       "kind": "sources",
-      "narration": "Don't take my word for it. A I M four dash four dash three. Go read it.",
-      "onScreenText": ["ACS: IR.III.A", "AIM 4-4-3 — Clearance Items"],
-      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "corner" },
-      "minDurationSec": 4
+      "narration": "A I M four dash four dash three. Go read it.",
+      "onScreenText": [
+        "ACS: IR.III.A",
+        "AIM 4-4-3 — Clearance Items"
+      ],
+      "duke": {
+        "pose": "coffeeSip",
+        "expression": "neutral",
+        "position": "corner"
+      },
+      "minDurationSec": 3
     }
   ],
   "quiz": [
     {
       "question": "In CRAFT, what does the first C stand for?",
-      "choices": ["Clearance limit", "Course", "Climb instruction", "Contact frequency"],
+      "choices": [
+        "Clearance limit",
+        "Course",
+        "Climb instruction",
+        "Contact frequency"
+      ],
       "correctIndex": 0,
       "explanation": "Every IFR clearance starts with the clearance limit — usually your destination airport. (AIM 4-4-3)"
     },

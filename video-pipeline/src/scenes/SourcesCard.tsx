@@ -14,7 +14,7 @@ export const SourcesCard: React.FC<{ lesson: LessonManifest }> = ({ lesson }) =>
 
   return (
     <div style={{ padding: '70px 70px 0', opacity: cardIn, transform: `scale(${0.94 + cardIn * 0.06})` }}>
-      <div style={{ ...type.placard, color: colors.amber, marginBottom: 26 }}>SOURCES</div>
+      <div style={{ ...type.placard, color: colors.bronze, marginBottom: 26 }}>SOURCES</div>
       <div
         style={{
           background: colors.panel,

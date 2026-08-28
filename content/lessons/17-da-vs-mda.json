@@ -3,60 +3,121 @@
   "title": "DA vs MDA (and the 91.175 Big Three)",
   "topicArea": "approaches",
   "references": {
-    "acs": ["IR.VI.A", "IR.VI.B"],
-    "faa": { "source": "14 CFR 91.175(c)", "title": "Operation below DA/DH or MDA" }
+    "acs": [
+      "IR.VI.A",
+      "IR.VI.B"
+    ],
+    "faa": {
+      "source": "14 CFR 91.175(c)",
+      "title": "Operation below DA/DH or MDA"
+    }
   },
   "hook": "One altitude you decide AT. One you park ON. Mix them up and the FAA writes.",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Thirty seconds, kid. D A versus M D A. Two little letters apart, one very different bottom of the approach.",
-      "onScreenText": ["DA vs MDA", "Know which floor you're on"],
-      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
-      "minDurationSec": 5
+      "narration": "Thirty seconds. D A versus M D A — two letters apart, very different bottoms.",
+      "onScreenText": [
+        "DA vs MDA",
+        "Know which floor you're on"
+      ],
+      "duke": {
+        "pose": "stand",
+        "expression": "deadpan",
+        "position": "center"
+      },
+      "minDurationSec": 3
     },
     {
       "id": "scene-02",
       "kind": "diagram",
-      "narration": "D A — decision altitude — comes with a glidepath. You keep descending, and AT that number you decide: land or miss. You'll dip a hair below while the miss starts. That's built in.",
-      "onScreenText": ["DA: with vertical guidance", "Decide AT it, momentum below it"],
-      "diagram": { "type": "approachPlateProfile", "props": { "highlight": "da" } },
-      "duke": { "pose": "point", "expression": "neutral", "position": "corner" },
-      "minDurationSec": 9
+      "narration": "D A comes with a glidepath. Keep descending; AT the number, decide. Land or miss — dipping a hair below is built in.",
+      "onScreenText": [
+        "DA: with vertical guidance",
+        "Decide AT it, momentum below it"
+      ],
+      "diagram": {
+        "type": "approachPlateProfile",
+        "props": {
+          "highlight": "da"
+        }
+      },
+      "duke": {
+        "pose": "point",
+        "expression": "neutral",
+        "position": "corner"
+      },
+      "minDurationSec": 5
     },
     {
       "id": "scene-03",
       "kind": "diagram",
-      "narration": "M D A — minimum descent altitude — is a hard floor on a non-precision approach. Level off, hold it to the missed point, and do NOT sag below it hunting for the airport.",
-      "onScreenText": ["MDA: hard floor", "Level off. Hold it. No sagging."],
-      "diagram": { "type": "approachPlateProfile", "props": { "highlight": "mda" } },
-      "duke": { "pose": "armsCrossed", "expression": "squint", "position": "corner" },
-      "minDurationSec": 8
+      "narration": "M D A is a hard floor. Level off, ride it to the missed point. No sagging down to hunt for the airport.",
+      "onScreenText": [
+        "MDA: hard floor",
+        "Level off. Hold it. No sagging."
+      ],
+      "diagram": {
+        "type": "approachPlateProfile",
+        "props": {
+          "highlight": "mda"
+        }
+      },
+      "duke": {
+        "pose": "armsCrossed",
+        "expression": "squint",
+        "position": "corner"
+      },
+      "minDurationSec": 5
     },
     {
       "id": "scene-04",
       "kind": "bullets",
-      "narration": "Going below either one takes all three: the airplane in position to land normally, the required flight visibility, and the runway environment in sight — lights, markings, threshold. All three, kid. Two out of three is a missed approach with extra steps.",
-      "onScreenText": ["Below mins needs ALL 3:", "1. Position for normal landing", "2. Required flight visibility", "3. Runway environment in sight"],
-      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "left" },
-      "minDurationSec": 10
+      "narration": "Below either takes all three: position to land normally, the required visibility, runway environment in sight. Two out of three is a missed approach with extra steps.",
+      "onScreenText": [
+        "Below mins needs ALL 3:",
+        "1. Position for normal landing",
+        "2. Required flight visibility",
+        "3. Runway environment in sight"
+      ],
+      "duke": {
+        "pose": "point",
+        "expression": "eyebrowRaise",
+        "position": "left"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-05",
       "kind": "recap",
-      "narration": "D A you decide at. M D A you ride level. And the big three unlock the descent. My examiner in eighty-seven asked me all of this. I still remember his face — mostly the frown.",
-      "onScreenText": ["DA: decide", "MDA: level floor", "3 conditions to go below"],
-      "duke": { "pose": "coffeeSip", "expression": "grin", "position": "center" },
-      "minDurationSec": 7
+      "narration": "D A: decide. M D A: level. My examiner in eighty-seven asked all of this. I still remember his frown.",
+      "onScreenText": [
+        "DA: decide",
+        "MDA: level floor",
+        "3 conditions to go below"
+      ],
+      "duke": {
+        "pose": "coffeeSip",
+        "expression": "grin",
+        "position": "center"
+      },
+      "minDurationSec": 4
     },
     {
       "id": "scene-06",
       "kind": "sources",
       "narration": "Ninety-one one seventy-five, paragraph c. The whole ballgame.",
-      "onScreenText": ["ACS: IR.VI.A / IR.VI.B", "14 CFR 91.175(c) — Operation below mins"],
-      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
-      "minDurationSec": 4
+      "onScreenText": [
+        "ACS: IR.VI.A / IR.VI.B",
+        "14 CFR 91.175(c) — Operation below mins"
+      ],
+      "duke": {
+        "pose": "coffeeSip",
+        "expression": "deadpan",
+        "position": "corner"
+      },
+      "minDurationSec": 3
     }
   ],
   "quiz": [

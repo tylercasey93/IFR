@@ -6,6 +6,7 @@ import { RecapScene } from './scenes/RecapScene';
 import { SceneShell } from './scenes/SceneShell';
 import { SourcesCard } from './scenes/SourcesCard';
 import { TitleCard } from './scenes/TitleCard';
+import { whooshSrc } from './sfx';
 import type { LessonManifest, SceneManifest } from './types';
 import './fonts';
 
@@ -26,7 +27,7 @@ export const LessonVideo: React.FC<{
   return (
     <AbsoluteFill>
       {musicSrc ? (
-        <Audio src={staticFile(musicSrc)} volume={0.11} loop />
+        <Audio src={staticFile(musicSrc)} volume={0.16} loop />
       ) : null}
       {lesson.scenes.map((scene, i) => (
         <Sequence
@@ -35,6 +36,8 @@ export const LessonVideo: React.FC<{
           durationInFrames={scene.durationInFrames}
           name={`${scene.id} (${scene.kind})`}
         >
+          {/* transition whoosh at every scene boundary after the first */}
+          {i > 0 && whooshSrc ? <Audio src={staticFile(whooshSrc)} volume={0.5} /> : null}
           {scene.audioSrc ? <Audio src={staticFile(scene.audioSrc)} /> : null}
           <SceneShell lesson={lesson} scene={scene} sceneStartFrame={sceneStarts[i]}>
             <SceneBody lesson={lesson} scene={scene} />

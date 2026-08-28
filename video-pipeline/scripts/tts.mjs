@@ -70,7 +70,9 @@ async function elevenTTS(text, context = {}) {
     model_id: 'eleven_multilingual_v2',
     // Slightly lower stability than default = more grizzled variation in
     // delivery; style adds character without turning him into a cartoon.
-    voice_settings: { stability: 0.45, similarity_boost: 0.75, style: 0.35 },
+    // speed 1.2 (the API max): Bill's natural pace is stately — this keeps
+    // the energy up while staying natural.
+    voice_settings: { stability: 0.45, similarity_boost: 0.75, style: 0.35, speed: 1.2 },
   };
   // Prosodic continuity: each scene is generated separately, but telling the
   // model what Duke said before/after keeps phrasing and energy continuous
