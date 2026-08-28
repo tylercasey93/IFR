@@ -152,26 +152,30 @@ for (let i = 0; i < N; i++) {
 const musicBytes = writeWav(join(outDir, 'music-loop.wav'), left, right);
 console.log(`music bed: ${(BAR * BARS).toFixed(1)}s @ ${BPM} BPM, ${(musicBytes / 1e6).toFixed(1)} MB`);
 
-// ---------------- whoosh (scene transition) ----------------
-{
-  const dur = 0.38;
-  const n = Math.round(SR * dur);
+// ---------------- whoosh variants (scene transitions) ----------------
+// Three flavors so back-to-back transitions never sound identical:
+//   1: short up-sweep L→R   2: longer down-sweep R→L   3: soft air puff
+const whooshSpecs = [
+  { dur: 0.34, cutoff: (t) => 0.04 + t * 0.5, panDir: 1, gain: 2.0 },
+  { dur: 0.46, cutoff: (t) => 0.5 - t * 0.44, panDir: -1, gain: 1.7 },
+  { dur: 0.24, cutoff: () => 0.18, panDir: 0, gain: 1.5 },
+];
+whooshSpecs.forEach((spec, idx) => {
+  const n = Math.round(SR * spec.dur);
   const l = new Float64Array(n);
   const r = new Float64Array(n);
   let lp = 0;
   for (let i = 0; i < n; i++) {
     const t = i / n; // 0..1
-    // band swept upward, envelope rises then snaps off
-    const cutoff = 0.04 + t * 0.5;
-    lp += cutoff * (rand() - lp);
+    lp += spec.cutoff(t) * (rand() - lp);
     const env = Math.sin(Math.PI * Math.min(1, t * 1.15)) ** 2;
-    const pan = (t - 0.5) * 1.4; // sweeps left → right
-    l[i] = lp * env * (1 - pan) * 2.2;
-    r[i] = lp * env * (1 + pan) * 2.2;
+    const pan = (t - 0.5) * 1.4 * spec.panDir;
+    l[i] = lp * env * (1 - pan) * spec.gain;
+    r[i] = lp * env * (1 + pan) * spec.gain;
   }
-  writeWav(join(outDir, 'sfx-whoosh.wav'), l, r);
-  console.log('sfx-whoosh: 0.38s');
-}
+  writeWav(join(outDir, `sfx-whoosh-${idx + 1}.wav`), l, r);
+  console.log(`sfx-whoosh-${idx + 1}: ${spec.dur}s`);
+});
 
 // ---------------- ding (checklist tick) ----------------
 {

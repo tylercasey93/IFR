@@ -53,7 +53,7 @@ export const RecapScene: React.FC<{ scene: SceneManifest }> = ({ scene }) => {
             >
               {dingSrc && i < 4 ? (
                 <Sequence from={start} durationInFrames={18} layout="none">
-                  <Audio src={staticFile(dingSrc)} volume={0.4} />
+                  <Audio src={staticFile(dingSrc)} volume={0.2} />
                 </Sequence>
               ) : null}
               <svg width={44} height={44} viewBox="0 0 44 44" style={{ flexShrink: 0 }}>

@@ -6,7 +6,7 @@ import { RecapScene } from './scenes/RecapScene';
 import { SceneShell } from './scenes/SceneShell';
 import { SourcesCard } from './scenes/SourcesCard';
 import { TitleCard } from './scenes/TitleCard';
-import { whooshSrc } from './sfx';
+import { whooshSrcs } from './sfx';
 import type { LessonManifest, SceneManifest } from './types';
 import './fonts';
 
@@ -36,8 +36,14 @@ export const LessonVideo: React.FC<{
           durationInFrames={scene.durationInFrames}
           name={`${scene.id} (${scene.kind})`}
         >
-          {/* transition whoosh at every scene boundary after the first */}
-          {i > 0 && whooshSrc ? <Audio src={staticFile(whooshSrc)} volume={0.5} /> : null}
+          {/* transition whoosh at every scene boundary after the first —
+              variant rotates so consecutive transitions never sound identical */}
+          {i > 0 && whooshSrcs.length > 0 ? (
+            <Audio
+              src={staticFile(whooshSrcs[(i - 1) % whooshSrcs.length])}
+              volume={0.26}
+            />
+          ) : null}
           {scene.audioSrc ? <Audio src={staticFile(scene.audioSrc)} /> : null}
           <SceneShell lesson={lesson} scene={scene} sceneStartFrame={sceneStarts[i]}>
             <SceneBody lesson={lesson} scene={scene} />

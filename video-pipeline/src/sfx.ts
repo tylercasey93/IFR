@@ -2,8 +2,8 @@
 // missing wav (make-music.mjs not run) never breaks a render.
 import manifestJson from './generated/manifest.json';
 
-type SfxFlags = { sfx?: { whoosh?: boolean; ding?: boolean } };
+type SfxFlags = { sfx?: { whooshes?: string[]; ding?: boolean } };
 const flags = (manifestJson as SfxFlags).sfx ?? {};
 
-export const whooshSrc = flags.whoosh ? 'audio/sfx-whoosh.wav' : null;
+export const whooshSrcs: string[] = flags.whooshes ?? [];
 export const dingSrc = flags.ding ? 'audio/sfx-ding.wav' : null;

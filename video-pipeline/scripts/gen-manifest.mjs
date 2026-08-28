@@ -107,7 +107,9 @@ const manifest = {
   height: 1920,
   musicSrc: existsSync(join(publicDir, musicRel)) ? musicRel : null,
   sfx: {
-    whoosh: existsSync(join(publicDir, 'audio/sfx-whoosh.wav')),
+    whooshes: [1, 2, 3]
+      .map((i) => `audio/sfx-whoosh-${i}.wav`)
+      .filter((rel) => existsSync(join(publicDir, rel))),
     ding: existsSync(join(publicDir, 'audio/sfx-ding.wav')),
   },
   lessons,

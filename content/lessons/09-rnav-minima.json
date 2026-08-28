@@ -31,7 +31,7 @@
     {
       "id": "scene-02",
       "kind": "bullets",
-      "narration": "Top of the stack: L P V. WAAS gives you I L S-style guidance down to two hundred feet. No ground station, just very fancy math.",
+      "narration": "Top of the stack: L P V. WAAS gives you I L S-style guidance down to two hundred feet. No ground station, no towers — just math with a God complex.",
       "onScreenText": [
         "LPV (needs WAAS)",
         "Angular guidance, DA to 200 ft",
