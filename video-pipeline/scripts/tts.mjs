@@ -47,17 +47,40 @@ async function openaiTTS(text) {
   return Buffer.from(await res.arrayBuffer());
 }
 
-async function elevenTTS(text) {
-  // "Old radio hand" style voice; George is a reasonable stock gravelly pick.
-  const voiceId = process.env.ELEVENLABS_VOICE_ID ?? 'JBFqnCBsd6RMkjVDRZzb';
+// ElevenLabs reads punctuation as prosody, so narration is shaped before
+// synthesis: ellipses become explicit <break> beats (a real pause before a
+// punchline), em dashes stay (natural mid-sentence pause), and every scene
+// ends with terminal punctuation — without it the model rushes the last
+// phrase and clips the breath.
+function shapeForEleven(text) {
+  let t = text.trim();
+  if (!/[.!?…]$/.test(t)) t += '.';
+  // A deliberate beat where the script wrote a trailing-off: "… Simulated."
+  t = t.replace(/(\.\.\.|…)\s*/g, ' <break time="0.6s" /> ');
+  // Comma after the "Alright kid"-style opener gets a touch more air.
+  t = t.replace(/^(\w[\w' ]{0,14}),\s/, '$1, <break time="0.3s" /> ');
+  return t;
+}
+
+async function elevenTTS(text, context = {}) {
+  // Duke = "Bill": wise, older, American (Tyler-approved).
+  const voiceId = process.env.ELEVENLABS_VOICE_ID ?? 'pqHfZKP75CvOlQylNhV4';
+  const body = {
+    text: shapeForEleven(text),
+    model_id: 'eleven_multilingual_v2',
+    // Slightly lower stability than default = more grizzled variation in
+    // delivery; style adds character without turning him into a cartoon.
+    voice_settings: { stability: 0.45, similarity_boost: 0.75, style: 0.35 },
+  };
+  // Prosodic continuity: each scene is generated separately, but telling the
+  // model what Duke said before/after keeps phrasing and energy continuous
+  // instead of six cold starts.
+  if (context.previousText) body.previous_text = shapeForEleven(context.previousText);
+  if (context.nextText) body.next_text = shapeForEleven(context.nextText);
   const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${voiceId}`, {
     method: 'POST',
     headers: { 'xi-api-key': ELEVEN_KEY, 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      text,
-      model_id: 'eleven_multilingual_v2',
-      voice_settings: { stability: 0.55, similarity_boost: 0.7, style: 0.35 },
-    }),
+    body: JSON.stringify(body),
   });
   if (!res.ok) throw new Error(`ElevenLabs ${res.status}: ${await res.text()}`);
   return Buffer.from(await res.arrayBuffer());
@@ -90,11 +113,14 @@ for (const file of files) {
   mkdirSync(timingDir, { recursive: true });
 
   const scenes = [];
-  for (const scene of lesson.scenes) {
+  for (const [i, scene] of lesson.scenes.entries()) {
     const mp3Path = join(audioDir, `${scene.id}.mp3`);
     if (force || !existsSync(mp3Path)) {
       process.stdout.write(`  ${lesson.id}/${scene.id} … `);
-      const audio = await synth(scene.narration);
+      const audio = await synth(scene.narration, {
+        previousText: lesson.scenes[i - 1]?.narration,
+        nextText: lesson.scenes[i + 1]?.narration,
+      });
       writeFileSync(mp3Path, audio);
       console.log(`${(audio.length / 1024).toFixed(0)} KB`);
       // simple pacing to stay well under rate limits

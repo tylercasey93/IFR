@@ -33,5 +33,8 @@ forehead, coffee mug that never empties, 20,000-hour energy.
 - Automatic: mouth-flap while the scene narration plays, blink loop, idle bob,
   coffee steam.
 
-TTS voice: OpenAI `gpt-4o-mini-tts`, voice `onyx`, with gravelly-instructor
-delivery instructions (see `scripts/tts.mjs`).
+TTS voice: ElevenLabs "Bill" (`pqHfZKP75CvOlQylNhV4`) — wise, older,
+American (Tyler-approved). Narration is shaped for ElevenLabs prosody before
+synthesis (terminal punctuation, `<break/>` beats at ellipses, scene-to-scene
+`previous_text`/`next_text` continuity) — see `scripts/tts.mjs`. OpenAI
+`gpt-4o-mini-tts` (`onyx`) remains the fallback provider.
