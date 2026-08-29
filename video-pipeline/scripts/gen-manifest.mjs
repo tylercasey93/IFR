@@ -111,6 +111,8 @@ const manifest = {
   fps: FPS,
   width: 1080,
   height: 1920,
+  // Which on-screen teacher renders (see src/character/registry.ts).
+  persona: process.env.PERSONA || 'duke',
   musicSrc: existsSync(join(publicDir, musicRel)) ? musicRel : null,
   sfx: {
     whooshes: [1, 2, 3]

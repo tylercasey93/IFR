@@ -1,6 +1,6 @@
 import React from 'react';
 import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from 'remotion';
-import { Duke } from '../character/Duke';
+import { Character } from '../character/registry';
 import { colors, displayFamily, fontFamily } from '../theme';
 import { Captions } from './Captions';
 import type { LessonManifest, SceneManifest } from '../types';
@@ -151,7 +151,7 @@ export const SceneShell: React.FC<{
             transform: `translateY(${interpolate(dukeIn, [0, 1], [120, 0])}px)`,
           }}
         >
-          <Duke
+          <Character
             pose={duke.pose ?? 'stand'}
             expression={duke.expression ?? 'neutral'}
             talking={talking}
