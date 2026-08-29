@@ -3,138 +3,96 @@
   "title": "VOR Radials Without the Vertigo",
   "topicArea": "navigation",
   "references": {
-    "acs": [
-      "IR.V.A"
-    ],
-    "faa": {
-      "source": "AIM 1-1-3",
-      "title": "VHF Omni-directional Range (VOR)"
-    }
+    "acs": ["IR.V.A"],
+    "faa": { "source": "AIM 1-1-3", "title": "VHF Omni-directional Range (VOR)" }
   },
   "hook": "Which radial are you on? Wrong answer costs you the checkride.",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Thirty seconds. V O R radials — sixty-year-old tech that still confuses pilots daily. Not you.",
-      "onScreenText": [
-        "VOR Radials",
-        "CDI & HSI, decoded"
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "deadpan",
-        "position": "center"
-      },
-      "minDurationSec": 3
+      "narration": "You're due EAST of the Baxter V O R, tracking toward it, when the examiner asks the classic: 'Which radial are you on?' Sixty-year-old tech, kid, and it still ends checkrides.",
+      "onScreenText": ["VOR Radials", "You're EAST of the station, inbound"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 4
     },
     {
       "id": "scene-02",
-      "kind": "diagram",
-      "narration": "Radials point FROM the station. Spokes on a wheel. You're always on one — which spoke is the question.",
-      "onScreenText": [
-        "Radials radiate FROM the station",
-        "360 spokes on a wheel"
-      ],
-      "diagram": {
-        "type": "hsi",
-        "props": {
-          "stage": "radials"
-        }
-      },
-      "duke": {
-        "pose": "point",
-        "expression": "neutral",
-        "position": "corner"
-      },
+      "kind": "challenge",
+      "narration": "East of the station, flying west toward it. Which radial are you on — zero-nine-zero, or two-seven-zero? Commit.",
+      "onScreenText": ["East of the VOR, inbound.", "090 radial or 270 radial?"],
+      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "corner" },
+      "pauseSec": 3,
       "minDurationSec": 5
     },
     {
       "id": "scene-03",
       "kind": "diagram",
-      "narration": "Golden rule: heading matches the course you set, fly toward the needle. Set it backwards and the needle lies. That's reverse sensing.",
-      "onScreenText": [
-        "Needle = where the course is",
-        "Heading ≈ course, or it lies",
-        "(reverse sensing)"
-      ],
-      "diagram": {
-        "type": "hsi",
-        "props": {
-          "stage": "cdi"
-        }
-      },
-      "duke": {
-        "pose": "armsCrossed",
-        "expression": "squint",
-        "position": "corner"
-      },
+      "narration": "Zero-nine-zero. Radials point FROM the station — spokes on a wheel. Why FROM? The station broadcasts bearings outward; your POSITION picks the spoke. Your heading has nothing to do with it.",
+      "onScreenText": ["Radials point FROM", "Position picks the spoke", "Heading is irrelevant"],
+      "diagram": { "type": "hsi", "props": { "stage": "radials" } },
+      "duke": { "pose": "point", "expression": "neutral", "position": "corner" },
       "minDurationSec": 5
     },
     {
       "id": "scene-04",
       "kind": "diagram",
-      "narration": "The H S I's card rotates with your heading — it can't reverse-sense. Only instrument that never argues with me.",
-      "onScreenText": [
-        "HSI: card rotates with heading",
-        "No reverse sensing. Ever."
-      ],
-      "diagram": {
-        "type": "hsi",
-        "props": {
-          "stage": "hsi"
-        }
-      },
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "grin",
-        "position": "corner"
-      },
+      "narration": "Now the needle. Golden rule: set the course you're flying, and fly TOWARD the needle. Set it backwards — course two-seventy in the window while flying zero-nine-zero — and the needle lies to your face. Reverse sensing.",
+      "onScreenText": ["Heading ≈ course set", "→ fly toward the needle", "Backwards = it LIES"],
+      "diagram": { "type": "hsi", "props": { "stage": "cdi" } },
+      "duke": { "pose": "armsCrossed", "expression": "squint", "position": "corner" },
       "minDurationSec": 5
     },
     {
       "id": "scene-05",
-      "kind": "recap",
-      "narration": "From the station. Match the course. Fly toward the needle. Picture makes no sense? Check what you twisted.",
-      "onScreenText": [
-        "FROM the station",
-        "Heading ≈ course",
-        "Fly toward the needle"
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "neutral",
-        "position": "center"
-      },
-      "minDurationSec": 4
+      "kind": "diagram",
+      "narration": "The H S I can't be fooled — its card rotates with your heading, so the picture always matches the windshield. Only instrument that never argues with me.",
+      "onScreenText": ["HSI: card turns with you", "No reverse sensing. Ever."],
+      "diagram": { "type": "hsi", "props": { "stage": "hsi" } },
+      "duke": { "pose": "coffeeSip", "expression": "grin", "position": "corner" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-06",
+      "kind": "challenge",
+      "narration": "Eyes off the screen. Radials point which way — and what causes reverse sensing? Out loud.",
+      "onScreenText": ["Radials point ___?", "Reverse sensing happens when ___?"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "pauseSec": 4,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-07",
+      "kind": "recap",
+      "narration": "FROM the station. Match the course to your heading. Fly toward the needle. And when the picture makes no sense — check what you twisted before you blame the airplane.",
+      "onScreenText": ["FROM the station", "Heading ≈ course", "Toward the needle"],
+      "duke": { "pose": "stand", "expression": "neutral", "position": "center" },
+      "minDurationSec": 4
+    },
+    {
+      "id": "scene-08",
+      "kind": "challenge",
+      "narration": "From the I L S lesson — standard minimums. Two numbers. Go.",
+      "onScreenText": ["Callback: standard ILS mins?"],
+      "duke": { "pose": "point", "expression": "squint", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-09",
       "kind": "sources",
       "narration": "A I M one dash one dash three. Old tech, current reg.",
-      "onScreenText": [
-        "ACS: IR.V.A",
-        "AIM 1-1-3 — VOR"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "deadpan",
-        "position": "corner"
-      },
+      "onScreenText": ["ACS: IR.V.A", "AIM 1-1-3 — VOR"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
       "minDurationSec": 3
     }
   ],
   "quiz": [
     {
-      "question": "VOR radials are defined as courses...",
-      "choices": [
-        "FROM the station",
-        "TO the station",
-        "Magnetic north only",
-        "Relative to your heading"
-      ],
+      "question": "You're due east of the Baxter VOR, flying west toward it. Which radial are you on?",
+      "choices": ["The 090 radial", "The 270 radial", "Depends on your heading", "The 360 radial"],
       "correctIndex": 0,
-      "explanation": "A radial always radiates outward FROM the station — the 090 radial lies due east of the VOR."
+      "explanation": "Radials radiate FROM the station — a position due east sits on the 090 radial regardless of which way you're pointed."
     },
     {
       "question": "You get reverse sensing on a basic CDI when:",

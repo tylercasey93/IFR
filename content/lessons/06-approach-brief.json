@@ -3,117 +3,86 @@
   "title": "Brief a Plate Like a Pro",
   "topicArea": "approaches",
   "references": {
-    "acs": [
-      "IR.VI.A",
-      "IR.VI.B"
-    ],
-    "faa": {
-      "source": "FAA-H-8083-16B Ch. 4",
-      "title": "Instrument Procedures Handbook — Approaches"
-    }
+    "acs": ["IR.VI.A", "IR.VI.B"],
+    "faa": { "source": "FAA-H-8083-16B Ch. 4", "title": "Instrument Procedures Handbook — Approaches" }
   },
   "hook": "Ten miles out is a terrible place to meet your approach plate.",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Thirty seconds. Briefing a plate — top to bottom, same order every time. Like a menu, except the special is granite.",
-      "onScreenText": [
-        "The Approach Brief",
-        "Top to bottom. Every time."
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "deadpan",
-        "position": "center"
-      },
-      "minDurationSec": 3
+      "narration": "Forty miles out, ATIS says the I L S two-seven is in use, and the plate is glowing on your knee. You've got maybe three quiet minutes left, kid. Spend them right.",
+      "onScreenText": ["The Approach Brief", "40 mi out · ILS 27 in use"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 4
     },
     {
       "id": "scene-02",
-      "kind": "diagram",
-      "narration": "Top strip: frequencies, final course, runway. Then the notes — that's where the fine print hides.",
-      "onScreenText": [
-        "1. Briefing strip: freqs, course, runway",
-        "2. Notes: read the fine print"
-      ],
-      "diagram": {
-        "type": "approachPlateProfile",
-        "props": {
-          "highlight": "top"
-        }
-      },
-      "duke": {
-        "pose": "point",
-        "expression": "neutral",
-        "position": "corner"
-      },
+      "kind": "challenge",
+      "narration": "Three minutes of quiet. What do you brief FIRST on that plate? Commit.",
+      "onScreenText": ["First thing you brief?", "Minimums · Missed · Top strip · Plan view"],
+      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "corner" },
+      "pauseSec": 3,
       "minDurationSec": 5
     },
     {
       "id": "scene-03",
       "kind": "diagram",
-      "narration": "Plan view for the big picture. Profile for the step-downs, the fix, and where the missed begins.",
-      "onScreenText": [
-        "3. Plan view: the big picture",
-        "4. Profile: FAF, stepdowns, missed point"
-      ],
-      "diagram": {
-        "type": "approachPlateProfile",
-        "props": {
-          "highlight": "profile"
-        }
-      },
-      "duke": {
-        "pose": "point",
-        "expression": "squint",
-        "position": "corner"
-      },
+      "narration": "Top of the plate, and work down. One: the briefing strip — frequencies, final course, runway. Two: the notes, where the fine print hides. Why top-to-bottom every time? Under stress you don't rise to the occasion, kid — you fall to your habits.",
+      "onScreenText": ["1 · Briefing strip", "2 · Notes (fine print)"],
+      "diagram": { "type": "approachPlateProfile", "props": { "highlight": "top" } },
+      "duke": { "pose": "point", "expression": "neutral", "position": "corner" },
       "minDurationSec": 5
     },
     {
       "id": "scene-04",
-      "kind": "bullets",
-      "narration": "Finish with minimums and the missed — out loud. Can't say the missed from memory? You briefed a bedtime story.",
-      "onScreenText": [
-        "5. Minimums: DA or MDA + vis",
-        "6. Missed: say it out loud"
-      ],
-      "duke": {
-        "pose": "armsCrossed",
-        "expression": "eyebrowRaise",
-        "position": "left"
-      },
-      "minDurationSec": 4
+      "kind": "diagram",
+      "narration": "Three: plan view — the big picture. Four: the profile — final fix, step-downs, where the missed begins.",
+      "onScreenText": ["3 · Plan view", "4 · Profile: FAF, stepdowns, MAP"],
+      "diagram": { "type": "approachPlateProfile", "props": { "highlight": "profile" } },
+      "duke": { "pose": "point", "expression": "squint", "position": "corner" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-05",
-      "kind": "recap",
-      "narration": "Strip, notes, plan, profile, minimums, missed. Brief it before it briefs you.",
-      "onScreenText": [
-        "Strip → Notes → Plan",
-        "→ Profile → Mins → Missed"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "neutral",
-        "position": "center"
-      },
-      "minDurationSec": 4
+      "kind": "bullets",
+      "narration": "Five and six: minimums, then the missed — out loud. If you can't say the missed from memory at the fix, you briefed a bedtime story, not an approach.",
+      "onScreenText": ["5 · Minimums (DA/MDA + vis)", "6 · Missed — say it OUT LOUD"],
+      "duke": { "pose": "armsCrossed", "expression": "eyebrowRaise", "position": "left" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-06",
+      "kind": "challenge",
+      "narration": "Plate face-down. All six, in order. Go.",
+      "onScreenText": ["Say all 6 brief items, in order."],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "pauseSec": 4,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-07",
+      "kind": "recap",
+      "narration": "Strip. Notes. Plan. Profile. Minimums. Missed. Brief it before the approach briefs you.",
+      "onScreenText": ["Strip", "Notes", "Plan", "Profile", "Minimums", "Missed"],
+      "duke": { "pose": "stand", "expression": "neutral", "position": "center" },
+      "minDurationSec": 4
+    },
+    {
+      "id": "scene-08",
+      "kind": "challenge",
+      "narration": "From the currency lesson — month thirteen with no approaches logged. What are you buying?",
+      "onScreenText": ["Callback: past 12 months", "of lapsed currency → ?"],
+      "duke": { "pose": "point", "expression": "squint", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-09",
       "kind": "sources",
-      "narration": "Instrument Procedures Handbook, chapter four. Four hundred pages so you'd read six.",
-      "onScreenText": [
-        "ACS: IR.VI.A / IR.VI.B",
-        "FAA-H-8083-16B Ch. 4 — Approaches"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "deadpan",
-        "position": "corner"
-      },
+      "narration": "Instrument Procedures Handbook, chapter four. The F A A wrote four hundred pages so you'd read six.",
+      "onScreenText": ["ACS: IR.VI.A / IR.VI.B", "FAA-H-8083-16B Ch. 4 — Approaches"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
       "minDurationSec": 3
     }
   ],

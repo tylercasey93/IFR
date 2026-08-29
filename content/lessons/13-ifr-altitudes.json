@@ -3,135 +3,95 @@
   "title": "MEA, MOCA & Friends",
   "topicArea": "navigation",
   "references": {
-    "acs": [
-      "IR.I.C"
-    ],
-    "faa": {
-      "source": "14 CFR 91.177",
-      "title": "Minimum altitudes for IFR operations"
-    }
+    "acs": ["IR.I.C"],
+    "faa": { "source": "14 CFR 91.177", "title": "Minimum altitudes for IFR operations" }
   },
   "hook": "Five altitude acronyms guard every airway. Know who does what.",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Thirty seconds. The alphabet soup of minimum altitudes. Five acronyms, one job each.",
-      "onScreenText": [
-        "IFR Minimum Altitudes",
-        "MEA · MOCA · MRA · MCA · OROCA"
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "deadpan",
-        "position": "center"
-      },
-      "minDurationSec": 3
+      "narration": "Airway leg across the mountains. The chart shows M E A eleven thousand... and underneath, with a star: nine thousand three hundred. Two altitudes for one piece of sky, kid. They are not interchangeable.",
+      "onScreenText": ["IFR Minimum Altitudes", "MEA 11,000 · MOCA *9,300"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 4
     },
     {
       "id": "scene-02",
-      "kind": "diagram",
-      "narration": "M E A: obstacles AND nav signal, fix to fix. M O C A: obstacles too, but signal only within twenty-two miles.",
-      "onScreenText": [
-        "MEA: obstacles + nav signal",
-        "MOCA: obstacles + signal only within 22 NM"
-      ],
-      "diagram": {
-        "type": "routeAltitude",
-        "props": {
-          "variant": "mea"
-        }
-      },
-      "duke": {
-        "pose": "point",
-        "expression": "neutral",
-        "position": "corner"
-      },
+      "kind": "challenge",
+      "narration": "Both altitudes clear the rocks. So what does the M E A give you that the M O C A doesn't? Commit.",
+      "onScreenText": ["Both clear terrain.", "What does MEA add?"],
+      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "corner" },
+      "pauseSec": 3,
       "minDurationSec": 5
     },
     {
       "id": "scene-03",
-      "kind": "bullets",
-      "narration": "M R A: high enough to RECEIVE the fix. M C A: cross the fix at or above it — climb early.",
-      "onScreenText": [
-        "MRA: receive the fix",
-        "MCA: cross the fix at/above"
-      ],
-      "duke": {
-        "pose": "armsCrossed",
-        "expression": "squint",
-        "position": "left"
-      },
-      "minDurationSec": 4
+      "kind": "diagram",
+      "narration": "Navigation signal, the whole segment. M E A: obstacles AND nav coverage, fix to fix. M O C A: obstacles too — but V O R signal only within twenty-two miles. Why twenty-two? V O R is line of sight; down low, that's as far as the signal is guaranteed to reach.",
+      "onScreenText": ["MEA: obstacles + signal", "MOCA: signal only ≤ 22 NM"],
+      "diagram": { "type": "routeAltitude", "props": { "variant": "mea" } },
+      "duke": { "pose": "point", "expression": "neutral", "position": "corner" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-04",
       "kind": "bullets",
-      "narration": "Off airways, O R O C A: a thousand feet per quadrant, two in the mountains — and no signal guarantee. A suggestion with good intentions.",
-      "onScreenText": [
-        "OROCA: off-route, by quadrant",
-        "1,000 ft / 2,000 ft mountainous",
-        "No signal guarantee"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "eyebrowRaise",
-        "position": "right"
-      },
-      "minDurationSec": 4
+      "narration": "The rest of the family: M R A — high enough to RECEIVE an off-route fix. M C A — cross the fix AT or above it, so climb early. O R O C A — off-airway clearance by quadrant, a thousand feet, two in the mountains, no signal promises.",
+      "onScreenText": ["MRA: receive the fix", "MCA: cross at/above", "OROCA: off-route, 1,000/2,000 ft"],
+      "duke": { "pose": "armsCrossed", "expression": "squint", "position": "left" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-05",
-      "kind": "recap",
-      "narration": "M E A does both jobs. Granite doesn't grade on a curve, kid.",
-      "onScreenText": [
-        "MEA = both",
-        "MOCA = obstacles (+22 NM)",
-        "MRA = receive · MCA = cross"
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "neutral",
-        "position": "center"
-      },
-      "minDurationSec": 4
+      "kind": "challenge",
+      "narration": "Eyes off the chart. M E A versus M O C A — the one-sentence difference. Out loud.",
+      "onScreenText": ["MEA vs MOCA:", "one sentence. Go."],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "pauseSec": 4,
+      "minDurationSec": 5
     },
     {
       "id": "scene-06",
+      "kind": "recap",
+      "narration": "M E A does both jobs. M O C A clears rocks with short-range signal. M R A hears the fix, M C A crosses it high. Granite doesn't grade on a curve, kid.",
+      "onScreenText": ["MEA = both jobs", "MOCA = rocks + 22 NM", "MRA = receive · MCA = cross"],
+      "duke": { "pose": "stand", "expression": "neutral", "position": "center" },
+      "minDurationSec": 4
+    },
+    {
+      "id": "scene-07",
+      "kind": "challenge",
+      "narration": "From the lost-comm lesson — the radio's dead over these same mountains. Your altitude is the highest of which three? Go.",
+      "onScreenText": ["Callback: lost comms altitude —", "highest of which 3?"],
+      "duke": { "pose": "point", "expression": "squint", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-08",
       "kind": "sources",
       "narration": "Ninety-one one seventy-seven sets the floor. Literally.",
-      "onScreenText": [
-        "ACS: IR.I.C",
-        "14 CFR 91.177 — Minimum IFR altitudes"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "deadpan",
-        "position": "corner"
-      },
+      "onScreenText": ["ACS: IR.I.C", "14 CFR 91.177 — Minimum IFR altitudes"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
       "minDurationSec": 3
     }
   ],
   "quiz": [
     {
-      "question": "The MEA guarantees:",
+      "question": "MEA 11,000 and MOCA *9,300 on the same segment. The MEA additionally guarantees:",
       "choices": [
-        "Obstacle clearance AND acceptable nav signal for the whole segment",
-        "Obstacle clearance only",
+        "Nav signal coverage for the whole segment",
         "Radar coverage",
-        "Two-way communications"
+        "Two-way communications",
+        "Nothing — they're equivalent"
       ],
       "correctIndex": 0,
-      "explanation": "MEA covers both obstruction clearance and navigation signal coverage between fixes — that's what makes it the workhorse."
+      "explanation": "MEA covers both obstruction clearance and navigation signal coverage between fixes; MOCA's signal guarantee stops at 22 NM from the VOR."
     },
     {
       "question": "The MOCA assures VOR navigation signal coverage only within:",
-      "choices": [
-        "22 NM of the VOR",
-        "40 NM of the VOR",
-        "The entire segment",
-        "10 NM of the VOR"
-      ],
+      "choices": ["22 NM of the VOR", "40 NM of the VOR", "The entire segment", "10 NM of the VOR"],
       "correctIndex": 0,
       "explanation": "MOCA provides full obstacle clearance but signal coverage only within 22 NM of the VOR. Below the MEA, that's the catch."
     },

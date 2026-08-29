@@ -3,136 +3,103 @@
   "title": "DPs & STARs: The On-Ramps and Off-Ramps",
   "topicArea": "clearances",
   "references": {
-    "acs": [
-      "IR.I.C",
-      "IR.III.A"
-    ],
-    "faa": {
-      "source": "FAA-H-8083-16B Ch. 1 & 3",
-      "title": "Instrument Procedures Handbook — Departures & Arrivals"
-    }
+    "acs": ["IR.I.C", "IR.III.A"],
+    "faa": { "source": "FAA-H-8083-16B Ch. 1 & 3", "title": "Instrument Procedures Handbook — Departures & Arrivals" }
   },
   "hook": "The airway system has on-ramps and off-ramps. Here's how to merge.",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Last one, kid. Departures and STARs — the on-ramps and off-ramps of the airway system.",
-      "onScreenText": [
-        "DPs & STARs",
-        "On-ramps & off-ramps"
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "deadpan",
-        "position": "center"
-      },
-      "minDurationSec": 3
-    },
-    {
-      "id": "scene-02",
-      "kind": "bullets",
-      "narration": "O D Ps keep you off the rocks — fly one anytime, no clearance needed. SIDs organize the flow — ATC assigns those.",
-      "onScreenText": [
-        "ODP: obstacle protection, fly-anytime",
-        "SID: ATC-assigned, flow + obstacles"
-      ],
-      "duke": {
-        "pose": "point",
-        "expression": "neutral",
-        "position": "left"
-      },
+      "narration": "You're filed out of a bowl — mountains on three sides, and the notes list an obstacle departure procedure. Tower never mentions it. Last one for now, kid: whose job is that O D P?",
+      "onScreenText": ["DPs & STARs", "Mountain bowl · ODP in the notes"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
       "minDurationSec": 4
     },
     {
+      "id": "scene-02",
+      "kind": "challenge",
+      "narration": "ATC didn't assign the O D P. Can you fly it anyway — and should you? Commit.",
+      "onScreenText": ["ODP not assigned by ATC.", "Can you fly it anyway?"],
+      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
+    },
+    {
       "id": "scene-03",
-      "kind": "diagram",
-      "narration": "Unless published otherwise: cross the end at thirty-five feet, climb two hundred feet per NAUTICAL MILE. Per mile — not per minute. Do the math.",
-      "onScreenText": [
-        "Standard climb: 200 ft/NM",
-        "(per NM, not per minute!)"
-      ],
-      "diagram": {
-        "type": "routeAltitude",
-        "props": {
-          "variant": "climb"
-        }
-      },
-      "duke": {
-        "pose": "armsCrossed",
-        "expression": "squint",
-        "position": "corner"
-      },
+      "kind": "bullets",
+      "narration": "Yes, and yes. O D Ps exist purely to keep you off the rocks — fly one anytime, no clearance needed. SIDs are the other flavor: they organize traffic flow, and those, ATC assigns.",
+      "onScreenText": ["ODP: rocks — fly anytime", "SID: flow — ATC assigns"],
+      "duke": { "pose": "point", "expression": "neutral", "position": "left" },
       "minDurationSec": 5
     },
     {
       "id": "scene-04",
-      "kind": "bullets",
-      "narration": "STARs funnel arrivals downhill in order. 'Descend via': fly the chart's altitudes. 'Descend and maintain': fly ATC's number. Don't freelance.",
-      "onScreenText": [
-        "STAR: published arrival flow",
-        "\"Descend via\" → fly the chart",
-        "\"Descend & maintain\" → fly ATC's altitude"
-      ],
-      "duke": {
-        "pose": "point",
-        "expression": "eyebrowRaise",
-        "position": "right"
-      },
-      "minDurationSec": 4
+      "kind": "diagram",
+      "narration": "Unless the plate says otherwise, departures assume: cross the end at thirty-five feet, climb two hundred feet per NAUTICAL MILE. Why two hundred? Obstacle surfaces slope up at one fifty-two — the other forty-eight feet per mile is your cushion. It's a gradient, kid, not a rate. Do the groundspeed math.",
+      "onScreenText": ["Standard: 35 ft, then 200 ft/NM", "Surface slopes 152 → 48 = cushion", "Per MILE, not per minute"],
+      "diagram": { "type": "routeAltitude", "props": { "variant": "climb" } },
+      "duke": { "pose": "armsCrossed", "expression": "squint", "position": "corner" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-05",
-      "kind": "recap",
-      "narration": "O D P for rocks, SID for flow, two hundred per mile. Merge like you've done it before, kid — confidence is a strategy.",
-      "onScreenText": [
-        "ODP: rocks · SID: flow",
-        "200 ft/NM standard",
-        "\"Via\" vs \"maintain\""
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "neutral",
-        "position": "center"
-      },
-      "minDurationSec": 4
+      "kind": "bullets",
+      "narration": "STARs are the off-ramps — published arrivals that funnel everyone downhill in order. 'Descend VIA' means fly the chart's altitudes yourself. 'Descend and maintain' means fly ATC's number. Don't freelance between the two.",
+      "onScreenText": ["STAR = published arrival", "\"Descend VIA\" → the chart", "\"Descend & maintain\" → ATC's number"],
+      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "right" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-06",
+      "kind": "challenge",
+      "narration": "Eyes off the screen. O D P versus SID — one word each for what they're for. And the standard climb gradient. Go.",
+      "onScreenText": ["ODP is for ___ · SID is for ___", "Standard gradient = ?"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "pauseSec": 4,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-07",
+      "kind": "recap",
+      "narration": "O D P for rocks. SID for flow. Two hundred per mile unless published otherwise. VIA means the chart, maintain means the number. Merge like you've done it before, kid — confidence is a strategy.",
+      "onScreenText": ["ODP: rocks · SID: flow", "200 ft/NM", "VIA = chart · maintain = ATC"],
+      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "center" },
+      "minDurationSec": 4
+    },
+    {
+      "id": "scene-08",
+      "kind": "challenge",
+      "narration": "Last callback of the course — D A or M D A: which one is the hard floor you ride level? You know this.",
+      "onScreenText": ["Callback: the hard floor —", "DA or MDA?"],
+      "duke": { "pose": "point", "expression": "squint", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-09",
       "kind": "sources",
-      "narration": "Instrument Procedures Handbook, chapters one and three. Free P D F — costs only your evening.",
-      "onScreenText": [
-        "ACS: IR.I.C / IR.III.A",
-        "FAA-H-8083-16B Ch. 1 & 3"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "deadpan",
-        "position": "corner"
-      },
+      "narration": "Instrument Procedures Handbook, chapters one and three. Free P D F. Costs only your evening.",
+      "onScreenText": ["ACS: IR.I.C / IR.III.A", "FAA-H-8083-16B Ch. 1 & 3"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
       "minDurationSec": 3
     }
   ],
   "quiz": [
     {
-      "question": "The primary purpose of an ODP is:",
+      "question": "An ODP is published for your mountain-bowl departure but ATC didn't assign it. You may:",
       "choices": [
-        "Obstacle clearance on departure",
-        "Noise abatement",
-        "Traffic flow management",
-        "Reducing radio congestion"
+        "Fly it without a clearance — it exists for obstacle protection",
+        "Fly it only if ATC approves",
+        "Ignore it — ODPs are optional advisories",
+        "Request a SID instead"
       ],
       "correctIndex": 0,
       "explanation": "ODPs exist solely for obstruction clearance and may be flown without an ATC clearance; SIDs add flow management and are assigned."
     },
     {
       "question": "Unless otherwise published, an IFR departure procedure assumes a minimum climb of:",
-      "choices": [
-        "200 ft per nautical mile",
-        "200 ft per minute",
-        "500 ft per minute",
-        "300 ft per nautical mile"
-      ],
+      "choices": ["200 ft per nautical mile", "200 ft per minute", "500 ft per minute", "300 ft per nautical mile"],
       "correctIndex": 0,
       "explanation": "The standard is crossing the departure end at 35 ft and climbing 200 ft/NM — a gradient, not a rate. Convert using groundspeed."
     },

@@ -3,132 +3,104 @@
   "title": "VOR Checks: 4-4-6-4, Every 30 Days",
   "topicArea": "equipment",
   "references": {
-    "acs": [
-      "IR.II.C"
-    ],
-    "faa": {
-      "source": "14 CFR 91.171",
-      "title": "VOR equipment check for IFR operations"
-    }
+    "acs": ["IR.II.C"],
+    "faa": { "source": "14 CFR 91.171", "title": "VOR equipment check for IFR operations" }
   },
   "hook": "Your VOR hasn't been checked in 31 days. Guess what's illegal now.",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Thirty seconds. The V O R check: thirty days, four ways, one logbook entry — or that needle is decoration.",
-      "onScreenText": [
-        "VOR Checks",
-        "Every 30 days for IFR"
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "deadpan",
-        "position": "center"
-      },
-      "minDurationSec": 3
+      "narration": "Preflight, I F R flight plan on file, and the avionics log says the last V O R check was... thirty-two days ago. The needle looks fine, kid. The reg disagrees.",
+      "onScreenText": ["The VOR Check", "Last check: 32 days ago"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 4
     },
     {
       "id": "scene-02",
-      "kind": "bullets",
-      "narration": "Tolerances: V O T, plus or minus four. Ground checkpoint, four. Airborne, six. Dual cross-check, four between.",
-      "onScreenText": [
-        "VOT: ±4°",
-        "Ground: ±4°",
-        "Airborne: ±6°",
-        "Dual cross-check: 4° apart"
-      ],
-      "duke": {
-        "pose": "point",
-        "expression": "neutral",
-        "position": "left"
-      },
-      "minDurationSec": 4
+      "kind": "challenge",
+      "narration": "Thirty-two days since the check. Can you fly this airplane I F R on the V O R today? Commit.",
+      "onScreenText": ["32 days since VOR check.", "Legal for IFR?"],
+      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
     },
     {
       "id": "scene-03",
       "kind": "bullets",
-      "narration": "V O T trick: three-sixty FROM, one-eighty TO. Cessna one eighty-two — one-eighty TO.",
-      "onScreenText": [
-        "VOT: 360 FROM / 180 TO",
-        "\"Cessna 182\" — 180 TO"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "grin",
-        "position": "right"
-      },
+      "narration": "No — the check is good for thirty days. Why so often? Oscillators drift, and the error grows quietly. That needle is decoration until you re-check it.",
+      "onScreenText": ["30-day limit for IFR", "Drift grows quietly"],
+      "duke": { "pose": "point", "expression": "neutral", "position": "left" },
       "minDurationSec": 4
     },
     {
       "id": "scene-04",
       "kind": "bullets",
-      "narration": "Then log it: date, place, error, signature. Not logged? Didn't happen — same rule as fish stories.",
-      "onScreenText": [
-        "Log: Date · Place · Error · Signature",
-        "Not logged = didn't happen"
-      ],
-      "duke": {
-        "pose": "armsCrossed",
-        "expression": "eyebrowRaise",
-        "position": "left"
-      },
-      "minDurationSec": 4
+      "narration": "The fix takes five minutes. Tolerances: V O T test signal, plus or minus four. Ground checkpoint, four. Airborne, six. Dual cross-check, four degrees between them. Four, four, six, four.",
+      "onScreenText": ["VOT: ±4°", "Ground: ±4°", "Airborne: ±6°", "Dual: 4° between"],
+      "duke": { "pose": "point", "expression": "neutral", "position": "right" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-05",
-      "kind": "recap",
-      "narration": "Thirty days. Four, four, six, four. It's the only free maintenance on the airplane.",
-      "onScreenText": [
-        "30 days",
-        "±4 / ±4 / ±6 / 4 between",
-        "Then LOG it"
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "neutral",
-        "position": "center"
-      },
-      "minDurationSec": 4
+      "kind": "bullets",
+      "narration": "On a V O T, center the needle: three-sixty FROM or one-eighty TO — old-timer trick: Cessna one eighty-two, one-eighty TO. Then LOG it: date, place, error, signature. Not logged? Didn't happen — same rule as fish stories.",
+      "onScreenText": ["VOT: 360 FROM / 180 TO", "LOG: date · place · error · sign"],
+      "duke": { "pose": "coffeeSip", "expression": "grin", "position": "left" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-06",
+      "kind": "challenge",
+      "narration": "Eyes off the screen. The four tolerances, in order, and the four things you log. Go.",
+      "onScreenText": ["4 tolerances?", "4 log items?"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "pauseSec": 4,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-07",
+      "kind": "recap",
+      "narration": "Thirty days. Four, four, six, four. Date, place, error, signature. The only free maintenance item on the airplane, kid.",
+      "onScreenText": ["30 days", "±4 / ±4 / ±6 / 4 between", "Then LOG it"],
+      "duke": { "pose": "stand", "expression": "neutral", "position": "center" },
+      "minDurationSec": 4
+    },
+    {
+      "id": "scene-08",
+      "kind": "challenge",
+      "narration": "From the V O R lesson — set the course backwards and the needle lies. What's that called?",
+      "onScreenText": ["Callback: OBS set backwards →", "the needle lies. Name it."],
+      "duke": { "pose": "point", "expression": "squint", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-09",
       "kind": "sources",
       "narration": "Ninety-one one seventy-one. Short reg, long memory.",
-      "onScreenText": [
-        "ACS: IR.II.C",
-        "14 CFR 91.171 — VOR equipment check"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "deadpan",
-        "position": "corner"
-      },
+      "onScreenText": ["ACS: IR.II.C", "14 CFR 91.171 — VOR equipment check"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
       "minDurationSec": 3
     }
   ],
   "quiz": [
     {
-      "question": "Maximum bearing error for an AIRBORNE VOR checkpoint:",
+      "question": "The VOR was last checked 32 days ago. To use it for IFR today you must:",
       "choices": [
-        "±6°",
-        "±4°",
-        "±8°",
-        "±10°"
+        "Perform and log a new VOR check first",
+        "Nothing — checks are good for 90 days",
+        "Have an avionics shop sign it off",
+        "Cross-check it against GPS in flight"
       ],
       "correctIndex": 0,
-      "explanation": "Airborne checkpoints allow ±6°; VOT and ground checkpoints are ±4°. (91.171)"
+      "explanation": "91.171 requires the VOR check within the preceding 30 days for IFR — and any pilot can do it and log it."
     },
     {
-      "question": "Checking dual VORs against each other, the maximum permitted difference between indicated bearings is:",
-      "choices": [
-        "4°",
-        "6°",
-        "8°",
-        "2°"
-      ],
+      "question": "Maximum bearing error for an AIRBORNE VOR checkpoint:",
+      "choices": ["±6°", "±4°", "±8°", "±10°"],
       "correctIndex": 0,
-      "explanation": "The dual cross-check allows a maximum of 4° between the two indicated bearings to the same station."
+      "explanation": "Airborne checkpoints allow ±6°; VOT and ground checkpoints are ±4°. (91.171)"
     },
     {
       "question": "A valid VOR check log entry requires:",

@@ -3,118 +3,91 @@
   "title": "IFR Equipment: GRABCARD + the Checks",
   "topicArea": "equipment",
   "references": {
-    "acs": [
-      "IR.II.A"
-    ],
-    "faa": {
-      "source": "14 CFR 91.205(d)",
-      "title": "Instrument flight rules equipment"
-    }
+    "acs": ["IR.II.A"],
+    "faa": { "source": "14 CFR 91.205(d)", "title": "Instrument flight rules equipment" }
   },
   "hook": "Is this airplane even legal for IFR? Grab a card.",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Thirty seconds. I F R equipment: your day V F R stuff, night stuff after dark, plus GRAB CARD.",
-      "onScreenText": [
-        "IFR Equipment",
-        "GRABCARD"
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "deadpan",
-        "position": "center"
-      },
-      "minDurationSec": 3
+      "narration": "New-to-you rental, and tomorrow's trip is I F R. The panel looks complete... but 'looks complete' isn't a maintenance record, kid. Two questions: what must be INSTALLED, and what must be CHECKED.",
+      "onScreenText": ["IFR Equipment", "New rental · IFR tomorrow"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 4
     },
     {
       "id": "scene-02",
-      "kind": "bullets",
-      "narration": "Generator. Radios. Altimeter — the sensitive kind. Ball. Clock with seconds. Attitude. Rate of turn. Directional gyro.",
-      "onScreenText": [
-        "Generator/alternator",
-        "Radios (route-appropriate)",
-        "Altimeter (sensitive)",
-        "Ball · Clock",
-        "Attitude · Rate of turn · DG"
-      ],
-      "duke": {
-        "pose": "point",
-        "expression": "neutral",
-        "position": "left"
-      },
-      "minDurationSec": 4
+      "kind": "challenge",
+      "narration": "Before the list — the altimeter-static and transponder inspections. How many calendar months are they good for? Commit to a number.",
+      "onScreenText": ["91.411 / 91.413 checks:", "good for how many months?"],
+      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
     },
     {
       "id": "scene-03",
       "kind": "bullets",
-      "narration": "The paperwork twins: ninety-one four-eleven, altimeter and static. Ninety-one four-thirteen, transponder. Every twenty-four calendar months. They expire quietly — check the logbooks, not the vibes.",
-      "onScreenText": [
-        "Every 24 calendar months:",
-        "91.411 — altimeter/static",
-        "91.413 — transponder"
-      ],
-      "duke": {
-        "pose": "armsCrossed",
-        "expression": "squint",
-        "position": "right"
-      },
-      "minDurationSec": 4
+      "narration": "Twenty-four calendar months, both of them. Why both? A leaking static system lies to the altimeter AND the transponder at the same time — then everyone on frequency sees the wrong altitude. They expire quietly, kid. Check the logbooks, not the vibes.",
+      "onScreenText": ["Every 24 calendar months:", "91.411 altimeter/static", "91.413 transponder"],
+      "duke": { "pose": "point", "expression": "neutral", "position": "left" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-04",
-      "kind": "recap",
-      "narration": "GRAB CARD for the panel, twenty-four months for the plumbing. Can't prove it, can't file it.",
-      "onScreenText": [
-        "GRABCARD",
-        "+ 91.411 / 91.413 within 24 mo"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "neutral",
-        "position": "center"
-      },
-      "minDurationSec": 4
+      "kind": "bullets",
+      "narration": "Now the installed list — GRAB CARD, on top of day and night V F R gear: Generator or alternator. Radios for the route. Altimeter, the sensitive kind. Ball. Clock with seconds. Attitude indicator. Rate of turn. Directional gyro.",
+      "onScreenText": ["G · R · A · B", "C · A · R · D", "(+ day/night VFR equipment)"],
+      "duke": { "pose": "point", "expression": "neutral", "position": "right" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-05",
+      "kind": "challenge",
+      "narration": "Eyes off the screen. All eight letters, with their words. My coffee and I will wait.",
+      "onScreenText": ["Say all 8 GRABCARD items."],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "pauseSec": 4,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-06",
+      "kind": "recap",
+      "narration": "GRAB CARD for the panel. Twenty-four months for the plumbing. An airplane that can't prove it, can't file it.",
+      "onScreenText": ["GRABCARD installed", "91.411/413 within 24 mo", "Can't prove it → can't file it"],
+      "duke": { "pose": "stand", "expression": "neutral", "position": "center" },
+      "minDurationSec": 4
+    },
+    {
+      "id": "scene-07",
+      "kind": "challenge",
+      "narration": "From the V O R check lesson — the four tolerances, in order. Four, four... you finish it.",
+      "onScreenText": ["Callback: VOR check", "tolerances — 4, 4, _, _?"],
+      "duke": { "pose": "point", "expression": "squint", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-08",
       "kind": "sources",
-      "narration": "Ninety-one two-oh-five, paragraph d. Bring a flashlight.",
-      "onScreenText": [
-        "ACS: IR.II.A",
-        "14 CFR 91.205(d) — IFR equipment"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "deadpan",
-        "position": "corner"
-      },
+      "narration": "Ninety-one two-oh-five paragraph d. Bring the logbooks and a flashlight.",
+      "onScreenText": ["ACS: IR.II.A", "14 CFR 91.205(d) — IFR equipment"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
       "minDurationSec": 3
     }
   ],
   "quiz": [
     {
-      "question": "In GRABCARD, the second A stands for:",
-      "choices": [
-        "Attitude indicator",
-        "Airspeed indicator",
-        "Autopilot",
-        "ADF"
-      ],
-      "correctIndex": 0,
-      "explanation": "G-R-A-B-C-A-R-D: Generator, Radios, Altimeter, Ball, Clock, Attitude indicator, Rate of turn, Directional gyro. (91.205(d))"
-    },
-    {
       "question": "The altimeter/static system (91.411) and transponder (91.413) checks are required every:",
-      "choices": [
-        "24 calendar months",
-        "12 calendar months",
-        "30 days",
-        "100 hours"
-      ],
+      "choices": ["24 calendar months", "12 calendar months", "30 days", "100 hours"],
       "correctIndex": 0,
       "explanation": "Both inspections run on a 24-calendar-month clock — and IFR flight requires the 91.411 check to be current."
+    },
+    {
+      "question": "In GRABCARD, the second A stands for:",
+      "choices": ["Attitude indicator", "Airspeed indicator", "Autopilot", "ADF"],
+      "correctIndex": 0,
+      "explanation": "G-R-A-B-C-A-R-D: Generator, Radios, Altimeter, Ball, Clock, Attitude indicator, Rate of turn, Directional gyro. (91.205(d))"
     },
     {
       "question": "The clock required for IFR must display:",

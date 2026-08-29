@@ -3,128 +3,99 @@
   "title": "IFR Currency: 6-6-HIT",
   "topicArea": "regs",
   "references": {
-    "acs": [
-      "IR.I.A"
-    ],
-    "faa": {
-      "source": "14 CFR 61.57(c)-(d)",
-      "title": "Recent flight experience: Instrument"
-    }
+    "acs": ["IR.I.A"],
+    "faa": { "source": "14 CFR 61.57(c)-(d)", "title": "Recent flight experience: Instrument" }
   },
   "hook": "Legal to file IFR today? Let's check your math.",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Thirty seconds. Instrument currency. Your rating is a gym membership, kid — it never expires, it just quietly stops working when you do.",
-      "onScreenText": [
-        "IFR Currency",
-        "6 - 6 - HIT"
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "deadpan",
-        "position": "center"
-      },
-      "minDurationSec": 3
-    },
-    {
-      "id": "scene-02",
-      "kind": "bullets",
-      "narration": "Preceding six months: six approaches, plus Holding, plus Intercepting and Tracking courses. That's the H, I, T.",
-      "onScreenText": [
-        "6 calendar months",
-        "6 approaches",
-        "Holding",
-        "Intercepting & Tracking"
-      ],
-      "duke": {
-        "pose": "point",
-        "expression": "neutral",
-        "position": "left"
-      },
+      "narration": "Hangar coffee, logbook open. Tomorrow's trip is hard I F R, and your last logged approach was... seven months ago. March. Alright kid — are you even legal to file?",
+      "onScreenText": ["IFR Currency", "Last approach: 7 months ago"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
       "minDurationSec": 4
     },
     {
+      "id": "scene-02",
+      "kind": "challenge",
+      "narration": "Seven months since your last six approaches. Can you file I F R tomorrow — yes or no? Commit.",
+      "onScreenText": ["7 months since currency.", "Legal to file tomorrow?"],
+      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
+    },
+    {
       "id": "scene-03",
-      "kind": "diagram",
-      "narration": "Blow past six months? Six more to fix it with a safety pilot or a sim — but no filing I F R till you're current.",
-      "onScreenText": [
-        "Months 7–12: the grace period",
-        "Regain with safety pilot / sim",
-        "No IFR until current"
-      ],
-      "diagram": {
-        "type": "timeline",
-        "props": {
-          "variant": "currency"
-        }
-      },
-      "duke": {
-        "pose": "armsCrossed",
-        "expression": "squint",
-        "position": "corner"
-      },
+      "kind": "bullets",
+      "narration": "No. The rule is six-six-H-I-T: within the preceding SIX months, SIX approaches, plus Holding, plus Intercepting and Tracking courses. Why six months? Instrument skills rust faster than any other skill in your logbook.",
+      "onScreenText": ["6 months · 6 approaches", "+ Holding", "+ Intercept & Track"],
+      "duke": { "pose": "point", "expression": "neutral", "position": "left" },
       "minDurationSec": 5
     },
     {
       "id": "scene-04",
-      "kind": "bullets",
-      "narration": "Past twelve? Instrument proficiency check. Not a punishment, kid — the punishment is what the clouds had planned.",
-      "onScreenText": [
-        "Beyond 12 months:",
-        "IPC required (61.57(d))"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "eyebrowRaise",
-        "position": "right"
-      },
-      "minDurationSec": 4
+      "kind": "diagram",
+      "narration": "At month seven you're in the grace period — months seven through twelve. You can regain currency yourself: safety pilot, or a sim. But you cannot file I F R until you do.",
+      "onScreenText": ["Months 7–12: grace period", "Regain: safety pilot / sim", "No IFR until current"],
+      "diagram": { "type": "timeline", "props": { "variant": "currency" } },
+      "duke": { "pose": "armsCrossed", "expression": "squint", "position": "corner" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-05",
-      "kind": "recap",
-      "narration": "Six approaches, holding, intercepting, tracking, every six months. Currency is cheaper than humility.",
-      "onScreenText": [
-        "6-6-HIT",
-        "Grace: 6 months",
-        "Then: IPC"
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "grin",
-        "position": "center"
-      },
+      "kind": "bullets",
+      "narration": "Past twelve months total? Now it's an instrument proficiency check with an instructor. Not a punishment, kid — the punishment is what the clouds had planned.",
+      "onScreenText": ["Beyond 12 months → IPC"],
+      "duke": { "pose": "coffeeSip", "expression": "eyebrowRaise", "position": "right" },
       "minDurationSec": 4
     },
     {
       "id": "scene-06",
+      "kind": "challenge",
+      "narration": "Eyes off the screen. What's the H, the I, and the T — and what happens at month thirteen?",
+      "onScreenText": ["H · I · T = ?", "Month 13 = ?"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "pauseSec": 4,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-07",
+      "kind": "recap",
+      "narration": "Six approaches, holding, intercepting, tracking, every six months. Six more to fix it yourself. Then an I P C. Your rating is a gym membership — it never expires, it just quietly stops working when you do.",
+      "onScreenText": ["6-6-HIT", "Grace: months 7–12", "Then: IPC"],
+      "duke": { "pose": "stand", "expression": "grin", "position": "center" },
+      "minDurationSec": 4
+    },
+    {
+      "id": "scene-08",
+      "kind": "challenge",
+      "narration": "From the lost-comm lesson — the radio dies, no new route. First letter of the route order. Go.",
+      "onScreenText": ["Callback: lost comms —", "route priority order?"],
+      "duke": { "pose": "point", "expression": "squint", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-09",
       "kind": "sources",
-      "narration": "Sixty-one fifty-seven. Then go log some approaches.",
-      "onScreenText": [
-        "ACS: IR.I.A",
-        "14 CFR 61.57(c)-(d) — Instrument experience"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "neutral",
-        "position": "corner"
-      },
+      "narration": "Sixty-one fifty-seven, paragraphs c and d. Then go log some approaches.",
+      "onScreenText": ["ACS: IR.I.A", "14 CFR 61.57(c)-(d) — Instrument experience"],
+      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "corner" },
       "minDurationSec": 3
     }
   ],
   "quiz": [
     {
-      "question": "To act as PIC under IFR, within the preceding 6 calendar months you need:",
+      "question": "Your last 6 approaches were logged 7 months ago. Can you act as PIC under IFR tomorrow?",
       "choices": [
-        "6 approaches, holding procedures, and intercepting/tracking courses",
-        "6 hours of instrument time and 3 approaches",
-        "An IPC every 6 months",
-        "6 approaches and a flight review"
+        "No — you're in the grace period and must regain currency first",
+        "Yes — the rating covers you for 12 months",
+        "Yes — but only in VMC",
+        "No — you need an IPC immediately"
       ],
       "correctIndex": 0,
-      "explanation": "61.57(c): six instrument approaches, holding procedures and tasks, and intercepting/tracking courses using navigation systems."
+      "explanation": "Past 6 months you can't file IFR; during months 7–12 you regain currency yourself (safety pilot/sim). An IPC is only required past 12. (61.57)"
     },
     {
       "question": "Your currency lapsed 3 months ago (month 9 of 12). You may regain it by:",

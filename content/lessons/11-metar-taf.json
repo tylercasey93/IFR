@@ -3,120 +3,97 @@
   "title": "METAR & TAF: Read Weather Like a Dispatcher",
   "topicArea": "weather",
   "references": {
-    "acs": [
-      "IR.I.B"
-    ],
-    "faa": {
-      "source": "AC 00-45H",
-      "title": "Aviation Weather Services"
-    }
+    "acs": ["IR.I.B"],
+    "faa": { "source": "AC 00-45H", "title": "Aviation Weather Services" }
   },
   "hook": "KDEN 271753Z 33015G25KT... gibberish, or a go/no-go answer?",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Thirty seconds. METARs — weather with the vowels ripped out to save telegraph money. Eighty years later, still not fixed.",
-      "onScreenText": [
-        "METAR & TAF",
-        "Weather, minus the vowels"
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "deadpan",
-        "position": "center"
-      },
-      "minDurationSec": 3
+      "narration": "Phone out in the hangar. The METAR reads: wind three-three-zero at fifteen gusting two-five, ten miles, scattered at four thousand... temp twelve, dew point eleven. Sun's setting, kid. See the trap yet?",
+      "onScreenText": ["METAR & TAF", "12/11 · sunset · SCT040"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 4
     },
     {
       "id": "scene-02",
-      "kind": "bullets",
-      "narration": "METAR is now: station, time, wind, visibility, weather, clouds, temp and dew point, altimeter. Same order, every hour.",
-      "onScreenText": [
-        "METAR = now",
-        "Station·Time·Wind·Vis",
-        "Wx·Clouds·Temp/Dew·Altimeter"
-      ],
-      "duke": {
-        "pose": "point",
-        "expression": "neutral",
-        "position": "left"
-      },
-      "minDurationSec": 4
+      "kind": "challenge",
+      "narration": "Temp twelve, dew point eleven, sun going down. What's this field doing in two hours? Commit.",
+      "onScreenText": ["12°C / 11°C at sunset.", "What happens in 2 hours?"],
+      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
     },
     {
       "id": "scene-03",
       "kind": "bullets",
-      "narration": "TAF is later: twenty-four to thirty hours, five miles around the field. F M means a hard switch. TEMPO means brief misbehavior.",
-      "onScreenText": [
-        "TAF = forecast (24–30 hr, 5 SM ring)",
-        "FM: hard change",
-        "TEMPO: brief misbehavior"
-      ],
-      "duke": {
-        "pose": "armsCrossed",
-        "expression": "squint",
-        "position": "right"
-      },
-      "minDurationSec": 4
+      "narration": "Fog. One degree of spread at sunset means saturation is one degree of cooling away — the fog is already filing its flight plan. That's the read a dispatcher makes in three seconds.",
+      "onScreenText": ["Temp ≈ dew point + sunset", "→ fog incoming"],
+      "duke": { "pose": "point", "expression": "neutral", "position": "left" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-04",
       "kind": "bullets",
-      "narration": "Temp and dew point closing? Fog is filing its flight plan. And a ceiling is broken or overcast — scattered doesn't count.",
-      "onScreenText": [
-        "Temp ≈ dew point → fog coming",
-        "Ceiling = BKN or OVC",
-        "SCT is NOT a ceiling"
-      ],
-      "duke": {
-        "pose": "point",
-        "expression": "eyebrowRaise",
-        "position": "left"
-      },
-      "minDurationSec": 4
+      "narration": "The format never changes: station, Zulu time, wind, visibility, weather, clouds, temp-dew, altimeter. Why no vowels? Teletype charged by the character, eighty years ago. Nobody's put them back.",
+      "onScreenText": ["Station · Time · Wind · Vis", "Wx · Clouds · T/Td · Altimeter"],
+      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "right" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-05",
-      "kind": "recap",
-      "narration": "METAR now. TAF later. Beat the fog home.",
-      "onScreenText": [
-        "METAR: now",
-        "TAF: later",
-        "BKN/OVC = ceiling"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "neutral",
-        "position": "center"
-      },
-      "minDurationSec": 4
+      "kind": "bullets",
+      "narration": "The TAF is the forecast — twenty-four to thirty hours, five miles around the field. F M means a hard switch. TEMPO means it'll misbehave, then apologize. And a ceiling is BROKEN or OVERCAST — scattered doesn't count.",
+      "onScreenText": ["TAF: 24–30 hr, 5 SM ring", "FM = hard change · TEMPO = brief", "Ceiling = BKN/OVC only"],
+      "duke": { "pose": "armsCrossed", "expression": "squint", "position": "left" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-06",
+      "kind": "challenge",
+      "narration": "Eyes off the screen. What counts as a ceiling — and what does a closing temp-dew spread promise? Out loud.",
+      "onScreenText": ["Ceiling = which layers?", "Closing T/Td spread = ?"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "pauseSec": 4,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-07",
+      "kind": "recap",
+      "narration": "METAR is now. TAF is later. Broken or overcast makes a ceiling. And when temp meets dew point, be on the ground watching it happen.",
+      "onScreenText": ["METAR: now", "TAF: later", "BKN/OVC = ceiling", "T meets Td → land first"],
+      "duke": { "pose": "stand", "expression": "neutral", "position": "center" },
+      "minDurationSec": 4
+    },
+    {
+      "id": "scene-08",
+      "kind": "challenge",
+      "narration": "From the takeoff-minimums lesson — Part ninety-one required takeoff minimums. What are they? Careful.",
+      "onScreenText": ["Callback: Part 91", "takeoff minimums = ?"],
+      "duke": { "pose": "point", "expression": "squint", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-09",
       "kind": "sources",
-      "narration": "A C zero zero dash forty-five H. All the decoder rings.",
-      "onScreenText": [
-        "ACS: IR.I.B",
-        "AC 00-45H — Aviation Weather Services"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "deadpan",
-        "position": "corner"
-      },
+      "narration": "A C zero zero dash forty-five H — Aviation Weather Services. All the decoder rings.",
+      "onScreenText": ["ACS: IR.I.B", "AC 00-45H — Aviation Weather Services"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
       "minDurationSec": 3
     }
   ],
   "quiz": [
     {
+      "question": "Temperature 12°C, dew point 11°C, sun setting. Expect:",
+      "choices": ["Fog or low stratus forming", "Thunderstorms", "Clear skies all night", "Icing at the surface"],
+      "correctIndex": 0,
+      "explanation": "A small, closing temp/dew point spread near sunset is the classic fog setup — saturation is one degree of cooling away."
+    },
+    {
       "question": "Which cloud reports constitute a ceiling?",
-      "choices": [
-        "BKN or OVC (and VV)",
-        "FEW or SCT",
-        "Any cloud layer",
-        "OVC only"
-      ],
+      "choices": ["BKN or OVC (and VV)", "FEW or SCT", "Any cloud layer", "OVC only"],
       "correctIndex": 0,
       "explanation": "A ceiling is the lowest broken or overcast layer, or vertical visibility into an obscuration. Scattered doesn't count."
     },
@@ -130,17 +107,6 @@
       ],
       "correctIndex": 0,
       "explanation": "FM (FROM) groups signal a fast, permanent change to the new conditions at that Zulu time; TEMPO covers temporary fluctuations."
-    },
-    {
-      "question": "Temperature 12°C, dew point 11°C, sun setting. Expect:",
-      "choices": [
-        "Fog or low stratus forming",
-        "Thunderstorms",
-        "Clear skies all night",
-        "Icing at the surface"
-      ],
-      "correctIndex": 0,
-      "explanation": "A small, closing temp/dew point spread near sunset is the classic fog setup — saturation is one degree of cooling away."
     }
   ]
 }

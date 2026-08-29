@@ -3,131 +3,100 @@
   "title": "Lost Comms: AVEF & MEA",
   "topicArea": "emergencies",
   "references": {
-    "acs": [
-      "IR.VII.A"
-    ],
-    "faa": {
-      "source": "14 CFR 91.185",
-      "title": "IFR operations: Two-way radio communications failure"
-    }
+    "acs": ["IR.VII.A"],
+    "faa": { "source": "14 CFR 91.185", "title": "IFR operations: Two-way radio communications failure" }
   },
   "hook": "The radio just died in the clouds. What now?",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Thirty seconds. The radio dies in the clouds. Ninety-one one eighty-five answers two questions: where do I go, and how high.",
-      "onScreenText": [
-        "Lost Comms in IMC",
-        "14 CFR 91.185"
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "deadpan",
-        "position": "center"
-      },
-      "minDurationSec": 3
+      "narration": "Level at eight thousand, solid I M C over the ridge line. Center hands you off — and the new frequency is dead silence. So is the old one. Kid... it's just you and ninety-one one eighty-five now.",
+      "onScreenText": ["Lost Comms in IMC", "8,000 ft · both freqs silent"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 4
     },
     {
       "id": "scene-02",
-      "kind": "bullets",
-      "narration": "Break out into V F R? Stay V F R and land. A handheld radio is two hundred bucks — the cheapest life insurance on the market.",
-      "onScreenText": [
-        "VFR conditions?",
-        "Stay VFR. Land. Done."
-      ],
-      "duke": {
-        "pose": "point",
-        "expression": "neutral",
-        "position": "left"
-      },
-      "minDurationSec": 4
+      "kind": "challenge",
+      "narration": "Center never gave you a new route. You have your last assigned one, and what you filed. Which do you fly? Commit.",
+      "onScreenText": ["Radio's dead. Route:", "Assigned? Filed? Direct home?"],
+      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
     },
     {
       "id": "scene-03",
       "kind": "diagram",
-      "narration": "Still in the soup — route: A V E F. Assigned. Vectored. Expected. Filed. In that order.",
-      "onScreenText": [
-        "Route: AVEF",
-        "Assigned → Vectored → Expected → Filed"
-      ],
-      "diagram": {
-        "type": "routeAltitude",
-        "props": {
-          "variant": "route"
-        }
-      },
-      "duke": {
-        "pose": "point",
-        "expression": "squint",
-        "position": "corner"
-      },
+      "narration": "You fly what you were ASSIGNED. The order is A V E F: Assigned. Being vectored? Direct to what the Vector was for. Then Expected. Filed comes last.",
+      "onScreenText": ["Route: AVEF", "Assigned → Vectored → Expected → Filed"],
+      "diagram": { "type": "routeAltitude", "props": { "variant": "route" } },
+      "duke": { "pose": "point", "expression": "squint", "position": "corner" },
       "minDurationSec": 5
     },
     {
       "id": "scene-04",
       "kind": "diagram",
-      "narration": "Altitude: the highest of three, per segment. M E A, Expected, Assigned. The rocks don't negotiate.",
-      "onScreenText": [
-        "Altitude: highest of",
-        "MEA · Expected · Assigned"
-      ],
-      "diagram": {
-        "type": "routeAltitude",
-        "props": {
-          "variant": "altitude"
-        }
-      },
-      "duke": {
-        "pose": "armsCrossed",
-        "expression": "eyebrowRaise",
-        "position": "corner"
-      },
+      "narration": "Altitude — highest of three, per segment: the M E A, what ATC told you to Expect, what you were Assigned. Why highest? ATC protects the block where they last knew you'd be, and the rocks own everything below the M E A.",
+      "onScreenText": ["Altitude: HIGHEST of", "MEA · Expected · Assigned"],
+      "diagram": { "type": "routeAltitude", "props": { "variant": "altitude" } },
+      "duke": { "pose": "armsCrossed", "expression": "eyebrowRaise", "position": "corner" },
       "minDurationSec": 5
     },
     {
       "id": "scene-05",
-      "kind": "recap",
-      "narration": "Squawk seventy-six hundred and keep flying the airplane — it doesn't know the radio's dead.",
-      "onScreenText": [
-        "Route: AVEF",
-        "Altitude: highest of MEA/E/A",
-        "Squawk 7600"
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "neutral",
-        "position": "center"
-      },
-      "minDurationSec": 4
+      "kind": "bullets",
+      "narration": "And if you break out into V F R? Stay V F R and land. A handheld radio is two hundred bucks — the cheapest life insurance on the market.",
+      "onScreenText": ["Hit VFR → stay VFR, land", "Squawk 7600"],
+      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "left" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-06",
+      "kind": "challenge",
+      "narration": "Eyes off the screen. The route order, and the three altitudes you pick the highest of. Out loud.",
+      "onScreenText": ["Route order?", "Highest of which 3 altitudes?"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "pauseSec": 4,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-07",
+      "kind": "recap",
+      "narration": "Route: Assigned, Vectored, Expected, Filed. Altitude: highest of M E A, Expected, Assigned. And keep flying the airplane — it doesn't know the radio's dead.",
+      "onScreenText": ["Route: A-V-E-F", "Alt: highest of MEA / E / A", "Squawk 7600"],
+      "duke": { "pose": "stand", "expression": "neutral", "position": "center" },
+      "minDurationSec": 4
+    },
+    {
+      "id": "scene-08",
+      "kind": "challenge",
+      "narration": "From the holding lesson — the narrow seventy-degree sliver. Which entry lives there?",
+      "onScreenText": ["Callback: the 70° sliver →", "which holding entry?"],
+      "duke": { "pose": "point", "expression": "squint", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-09",
       "kind": "sources",
       "narration": "Ninety-one one eighty-five. Two paragraphs. Memorize both.",
-      "onScreenText": [
-        "ACS: IR.VII.A",
-        "14 CFR 91.185 — Two-way radio failure"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "deadpan",
-        "position": "corner"
-      },
+      "onScreenText": ["ACS: IR.VII.A", "14 CFR 91.185 — Two-way radio failure"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
       "minDurationSec": 3
     }
   ],
   "quiz": [
     {
-      "question": "Lost comms in IMC. Route priority under 91.185 is:",
+      "question": "Lost comms in IMC with no new route received. Under 91.185 you fly:",
       "choices": [
-        "Assigned, Vectored, Expected, Filed",
-        "Filed, Expected, Vectored, Assigned",
-        "Direct destination, then as filed",
-        "Expected, Assigned, Filed, Vectored"
+        "The route last assigned by ATC",
+        "The route you filed",
+        "Direct to your destination",
+        "The nearest airway"
       ],
       "correctIndex": 0,
-      "explanation": "AVEF: the route Assigned; if being Vectored, direct to the fix/route the vector was for; then Expected; then Filed."
+      "explanation": "AVEF: Assigned first; if being Vectored, direct to the fix/route the vector was for; then Expected; then Filed."
     },
     {
       "question": "Lost comms altitude for each segment is the HIGHEST of:",

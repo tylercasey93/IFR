@@ -3,131 +3,102 @@
   "title": "What You Must Tell ATC",
   "topicArea": "clearances",
   "references": {
-    "acs": [
-      "IR.III.A"
-    ],
-    "faa": {
-      "source": "AIM 5-3-3",
-      "title": "Additional Reports"
-    }
+    "acs": ["IR.III.A"],
+    "faa": { "source": "AIM 5-3-3", "title": "Additional Reports" }
   },
   "hook": "Some silence is golden. This silence is a violation.",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Thirty seconds. Required reports. ATC isn't clingy — some things they legally have to hear.",
-      "onScreenText": [
-        "Required IFR Reports",
-        "AIM 5-3-3"
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "deadpan",
-        "position": "center"
-      },
-      "minDurationSec": 3
+      "narration": "Cleared to nine thousand, but the summer air is thin and the airplane's giving you four hundred feet a minute. Tops. You're quiet, ATC's quiet. Kid — one of you is required to speak.",
+      "onScreenText": ["Required IFR Reports", "Cleared 9,000 · climbing 400 fpm"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 4
     },
     {
       "id": "scene-02",
-      "kind": "bullets",
-      "narration": "Always: leaving an altitude. A missed approach. True airspeed off five percent or ten knots. Altitude changes V F R on top.",
-      "onScreenText": [
-        "Leaving an altitude",
-        "Missed approach",
-        "TAS change: 5% / 10 kt",
-        "VFR-on-top altitude change"
-      ],
-      "duke": {
-        "pose": "point",
-        "expression": "neutral",
-        "position": "left"
-      },
-      "minDurationSec": 4
+      "kind": "challenge",
+      "narration": "Four hundred feet a minute is all you've got. Required report — yes or no? Commit.",
+      "onScreenText": ["Climb rate: 400 fpm.", "Must you report it?"],
+      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
     },
     {
       "id": "scene-03",
       "kind": "bullets",
-      "narration": "Also always: can't climb five hundred a minute, entering or leaving a hold, and anything broken. Confession is free — the ramp check isn't.",
-      "onScreenText": [
-        "Can't make 500 fpm",
-        "Entering / leaving a hold",
-        "Lost NAV / comm / capability"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "eyebrowRaise",
-        "position": "right"
-      },
-      "minDurationSec": 4
+      "narration": "Yes. Can't make five hundred a minute — report it. Why? ATC's separation math assumes you climb like you said you would. When you can't, their picture is wrong and only you know it.",
+      "onScreenText": ["< 500 fpm → REPORT", "Their math assumes your climb"],
+      "duke": { "pose": "point", "expression": "neutral", "position": "left" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-04",
       "kind": "bullets",
-      "narration": "Off radar? Add position reports, and an E T A off by three minutes. Yes kid, we did that daily. Uphill. Both ways.",
-      "onScreenText": [
-        "Non-radar adds:",
-        "Compulsory position reports",
-        "ETA off by > 3 min"
-      ],
-      "duke": {
-        "pose": "armsCrossed",
-        "expression": "grin",
-        "position": "left"
-      },
-      "minDurationSec": 4
+      "narration": "The rest of the always list: leaving an assigned altitude. A missed approach. True airspeed off five percent or ten knots. Altitude changes V F R on top. Entering or leaving a hold. And anything broken — confession is free, the ramp check isn't.",
+      "onScreenText": ["Leaving an altitude", "Missed approach", "TAS ±5% / 10 kt", "VFR-on-top changes", "Hold entry/exit · broken gear"],
+      "duke": { "pose": "coffeeSip", "expression": "eyebrowRaise", "position": "right" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-05",
-      "kind": "recap",
-      "narration": "When in doubt, key up. Nobody ever failed a checkride for talking too politely.",
-      "onScreenText": [
-        "When in doubt:",
-        "Report it."
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "neutral",
-        "position": "center"
-      },
-      "minDurationSec": 4
+      "kind": "bullets",
+      "narration": "Off radar, add two: position at compulsory reporting points, and an E T A off by more than three minutes. Yes kid, we did that every day. Uphill. Both ways.",
+      "onScreenText": ["Non-radar adds:", "compulsory position reports", "ETA off > 3 min"],
+      "duke": { "pose": "armsCrossed", "expression": "grin", "position": "left" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-06",
+      "kind": "challenge",
+      "narration": "Eyes off the screen. Name four always-required reports. I'll sip while you think.",
+      "onScreenText": ["Name 4 always-required reports."],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "pauseSec": 4,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-07",
+      "kind": "recap",
+      "narration": "Altitude changes. Missed approaches. Speed changes. Holds. Broken stuff. Can't climb five hundred. When in doubt, key up — nobody ever failed a checkride for talking too politely.",
+      "onScreenText": ["Altitudes · Missed · Speed", "Holds · Equipment · < 500 fpm"],
+      "duke": { "pose": "stand", "expression": "neutral", "position": "center" },
+      "minDurationSec": 4
+    },
+    {
+      "id": "scene-08",
+      "kind": "challenge",
+      "narration": "From the altitudes lesson — M O C A guarantees nav signal within how many miles? Quick.",
+      "onScreenText": ["Callback: MOCA signal", "guaranteed within ___ NM?"],
+      "duke": { "pose": "point", "expression": "squint", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-09",
       "kind": "sources",
       "narration": "A I M five dash three dash three. The full guest list.",
-      "onScreenText": [
-        "ACS: IR.III.A",
-        "AIM 5-3-3 — Additional Reports"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "deadpan",
-        "position": "corner"
-      },
+      "onScreenText": ["ACS: IR.III.A", "AIM 5-3-3 — Additional Reports"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
       "minDurationSec": 3
     }
   ],
   "quiz": [
     {
-      "question": "Which of these must ALWAYS be reported to ATC, radar or not?",
+      "question": "Cleared to climb but only able to manage 400 fpm. You must:",
       "choices": [
-        "Vacating a previously assigned altitude for a new one",
-        "Passing every waypoint",
-        "Fuel remaining every hour",
-        "Autopilot engagement"
+        "Report being unable to climb at least 500 fpm",
+        "Nothing — climb rate isn't ATC's business",
+        "Request a lower altitude",
+        "Declare an emergency"
       ],
       "correctIndex": 0,
-      "explanation": "Leaving an assigned altitude for a newly assigned one is on the always-report list. (AIM 5-3-3)"
+      "explanation": "An average climb/descent rate below 500 fpm is on the always-report list — ATC's separation assumes standard rates. (AIM 5-3-3)"
     },
     {
       "question": "You must report a change in average true airspeed of:",
-      "choices": [
-        "5% or 10 knots, whichever is greater",
-        "Any change at all",
-        "20 knots",
-        "Only if ATC asks"
-      ],
+      "choices": ["5% or 10 knots, whichever is greater", "Any change at all", "20 knots", "Only if ATC asks"],
       "correctIndex": 0,
       "explanation": "A TAS change of 5% or 10 knots (whichever is greater) from what's filed must be reported."
     },

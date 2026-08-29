@@ -3,133 +3,95 @@
   "title": "The ILS in Plain English",
   "topicArea": "approaches",
   "references": {
-    "acs": [
-      "IR.VI.B"
-    ],
-    "faa": {
-      "source": "AIM 1-1-9",
-      "title": "Instrument Landing System (ILS)"
-    }
+    "acs": ["IR.VI.B"],
+    "faa": { "source": "AIM 1-1-9", "title": "Instrument Landing System (ILS)" }
   },
   "hook": "Two needles, one runway, zero visibility. Meet the ILS.",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Thirty seconds. The I L S — saving bacon since before I had this mustache.",
-      "onScreenText": [
-        "The ILS",
-        "Precision since 1938"
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "deadpan",
-        "position": "center"
-      },
-      "minDurationSec": 3
+      "narration": "Vectors to final, ceiling three hundred overcast, three-quarters of a mile. The controller says: cleared I L S two-seven, maintain two thousand until established. Two needles between you and the pavement, kid.",
+      "onScreenText": ["The ILS", "OVC003 · ¾ SM · cleared ILS 27"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 4
     },
     {
       "id": "scene-02",
-      "kind": "diagram",
-      "narration": "Two beams. Localizer: left and right, four times touchier than a V O R — pressure, not heroics. Glideslope: up and down, three degrees to the runway.",
-      "onScreenText": [
-        "Localizer: lateral (sensitive!)",
-        "Glideslope: vertical (~3°)"
-      ],
-      "diagram": {
-        "type": "approachPlateProfile",
-        "props": {
-          "highlight": "ils"
-        }
-      },
-      "duke": {
-        "pose": "point",
-        "expression": "neutral",
-        "position": "corner"
-      },
+      "kind": "challenge",
+      "narration": "Three hundred overcast. A standard I L S goes down to what height above the touchdown zone? Commit to a number.",
+      "onScreenText": ["Standard ILS DA:", "how many feet above touchdown?"],
+      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "corner" },
+      "pauseSec": 3,
       "minDurationSec": 5
     },
     {
       "id": "scene-03",
       "kind": "diagram",
-      "narration": "Needles centered, a standard I L S takes you to two hundred feet and a half mile.",
-      "onScreenText": [
-        "Standard CAT I mins:",
-        "DA: 200 ft HAT",
-        "Vis: as low as ½ SM (RVR 1800)"
-      ],
-      "diagram": {
-        "type": "altimeterMinimums",
-        "props": {
-          "da": 200
-        }
-      },
-      "duke": {
-        "pose": "armsCrossed",
-        "expression": "squint",
-        "position": "corner"
-      },
+      "narration": "Two hundred feet — and as little as a half mile. So your three hundred overcast? Workable. Two beams get you there: localizer for left-right, glideslope for the three-degree slide down.",
+      "onScreenText": ["Standard CAT I: 200 ft & ½ SM", "LOC: left-right · GS: ~3° down"],
+      "diagram": { "type": "approachPlateProfile", "props": { "highlight": "ils" } },
+      "duke": { "pose": "point", "expression": "neutral", "position": "corner" },
       "minDurationSec": 5
     },
     {
       "id": "scene-04",
       "kind": "bullets",
-      "narration": "At D A you decide. Runway environment — land. Nothing? Missed. The glideslope does not care about your dinner reservation.",
-      "onScreenText": [
-        "At DA: decide.",
-        "See it → land",
-        "Don't → missed. Now."
-      ],
-      "duke": {
-        "pose": "point",
-        "expression": "eyebrowRaise",
-        "position": "left"
-      },
-      "minDurationSec": 4
+      "narration": "The localizer is four times touchier than a V O R. Why? The beam narrows to runway width — the precision comes from the geometry, and it bites hardest near the ground. Pressure, not heroics.",
+      "onScreenText": ["LOC = 4× VOR sensitivity", "Small pressures, not heroics"],
+      "duke": { "pose": "armsCrossed", "expression": "squint", "position": "left" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-05",
-      "kind": "recap",
-      "narration": "Localizer, glideslope, two hundred and a half. Chase the needles gently — they bite near the ground.",
-      "onScreenText": [
-        "LOC + GS",
-        "200 & ½",
-        "Decide at DA"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "neutral",
-        "position": "center"
-      },
-      "minDurationSec": 4
+      "kind": "diagram",
+      "narration": "At two hundred feet you decide. Runway environment — land. Nothing? Missed, now. The glideslope does not care about your dinner reservation.",
+      "onScreenText": ["At DA: DECIDE", "See it → land · Don't → miss"],
+      "diagram": { "type": "altimeterMinimums", "props": { "da": 200 } },
+      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "corner" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-06",
+      "kind": "challenge",
+      "narration": "Eyes off the screen. The two beams, the two numbers, and what happens at D A. Out loud.",
+      "onScreenText": ["2 beams? 2 numbers?", "At DA you ___?"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "pauseSec": 4,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-07",
+      "kind": "recap",
+      "narration": "Localizer left-right. Glideslope down. Two hundred and a half. Decide at D A. Saving bacon since before I had this mustache.",
+      "onScreenText": ["LOC + GS", "200 & ½", "Decide at DA"],
+      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "center" },
+      "minDurationSec": 4
+    },
+    {
+      "id": "scene-08",
+      "kind": "challenge",
+      "narration": "From the briefing lesson — the last two items of the brief, the ones you say out loud. Go.",
+      "onScreenText": ["Callback: the brief's", "final two items?"],
+      "duke": { "pose": "point", "expression": "squint", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-09",
       "kind": "sources",
-      "narration": "A I M one dash one dash nine. Bring coffee.",
-      "onScreenText": [
-        "ACS: IR.VI.B",
-        "AIM 1-1-9 — Instrument Landing System"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "deadpan",
-        "position": "corner"
-      },
+      "narration": "A I M one dash one dash nine. Every beam, marker, and mile. Bring coffee.",
+      "onScreenText": ["ACS: IR.VI.B", "AIM 1-1-9 — Instrument Landing System"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
       "minDurationSec": 3
     }
   ],
   "quiz": [
     {
-      "question": "Standard Category I ILS minimums are:",
-      "choices": [
-        "DA 200 ft HAT, visibility ½ SM / RVR 1,800",
-        "DA 100 ft, RVR 1,200",
-        "MDA 500 ft, 1 SM",
-        "DA 250 ft, ¾ SM always"
-      ],
+      "question": "Ceiling 300 overcast, ¾ SM. A standard Category I ILS bottoms out at:",
+      "choices": ["DA 200 ft HAT, visibility ½ SM / RVR 1,800", "DA 100 ft, RVR 1,200", "MDA 500 ft, 1 SM", "DA 250 ft, ¾ SM always"],
       "correctIndex": 0,
-      "explanation": "A standard CAT I ILS goes down to 200 ft above touchdown with as little as ½ SM or RVR 1,800 (AIM 1-1-9; exact values are on the plate)."
+      "explanation": "A standard CAT I ILS goes down to 200 ft above touchdown with as little as ½ SM or RVR 1,800 — so 300 overcast is workable. (AIM 1-1-9; exact values on the plate)"
     },
     {
       "question": "Compared to a VOR course, the localizer is:",

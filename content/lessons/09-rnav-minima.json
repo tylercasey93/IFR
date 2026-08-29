@@ -3,120 +3,93 @@
   "title": "LPV vs LNAV: The Minima Lines",
   "topicArea": "approaches",
   "references": {
-    "acs": [
-      "IR.VI.A"
-    ],
-    "faa": {
-      "source": "AIM 1-1-18",
-      "title": "Wide Area Augmentation System (WAAS)"
-    }
+    "acs": ["IR.VI.A"],
+    "faa": { "source": "AIM 1-1-18", "title": "Wide Area Augmentation System (WAAS)" }
   },
   "hook": "Four lines of minimums on one RNAV plate. Which one is yours?",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Thirty seconds. R NAV minima. One plate, a stack of lines — your equipment picks your line.",
-      "onScreenText": [
-        "RNAV (GPS) Minima",
-        "LPV · LNAV/VNAV · LNAV"
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "deadpan",
-        "position": "center"
-      },
-      "minDurationSec": 3
+      "narration": "You load the R NAV one-six, and the plate stacks up four lines of minimums like a wine list. The box annunciates L P V. Alright kid — which line did you just earn?",
+      "onScreenText": ["RNAV (GPS) Minima", "Box annunciates: LPV"],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 4
     },
     {
       "id": "scene-02",
-      "kind": "bullets",
-      "narration": "Top of the stack: L P V. WAAS gives you I L S-style guidance down to two hundred feet. No ground station, no towers — just math with a God complex.",
-      "onScreenText": [
-        "LPV (needs WAAS)",
-        "Angular guidance, DA to 200 ft",
-        "Flown like an ILS"
-      ],
-      "duke": {
-        "pose": "point",
-        "expression": "neutral",
-        "position": "left"
-      },
-      "minDurationSec": 4
+      "kind": "challenge",
+      "narration": "The box says L P V. Do you fly a decision altitude, or level off at an M D A? Commit.",
+      "onScreenText": ["Annunciated LPV:", "DA or MDA?"],
+      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
     },
     {
       "id": "scene-03",
       "kind": "bullets",
-      "narration": "L NAV V NAV: a D A with vertical guidance. Plain L NAV: step down to an M D A like it's nineteen seventy-five.",
-      "onScreenText": [
-        "LNAV/VNAV: DA, vertical guidance",
-        "LNAV: lateral only → MDA"
-      ],
-      "duke": {
-        "pose": "armsCrossed",
-        "expression": "squint",
-        "position": "right"
-      },
-      "minDurationSec": 4
+      "narration": "A decision altitude — as low as two hundred feet. L P V is WAAS giving you I L S-style angular guidance with no ground station, no towers. Just math with a God complex.",
+      "onScreenText": ["LPV → DA (to 200 ft)", "WAAS angular guidance", "Flown like an ILS"],
+      "duke": { "pose": "point", "expression": "neutral", "position": "left" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-04",
       "kind": "bullets",
-      "narration": "Check the annunciator by the final fix. Fly the line the box gives you, not the line you hoped for.",
-      "onScreenText": [
-        "Check the annunciation by the FAF",
-        "Fly what the box gives you"
-      ],
-      "duke": {
-        "pose": "point",
-        "expression": "eyebrowRaise",
-        "position": "left"
-      },
-      "minDurationSec": 4
+      "narration": "Down the stack: L NAV V NAV — still a D A, with approved vertical guidance. Plain L NAV — lateral only, step down to an M D A like it's nineteen seventy-five.",
+      "onScreenText": ["L/VNAV → DA", "LNAV → MDA (lateral only)"],
+      "duke": { "pose": "armsCrossed", "expression": "squint", "position": "right" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-05",
-      "kind": "recap",
-      "narration": "L P V like an I L S. Plain L NAV, dive-and-drive. Read the box's report card.",
-      "onScreenText": [
-        "LPV ≈ ILS",
-        "L/VNAV: DA",
-        "LNAV: MDA"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "grin",
-        "position": "center"
-      },
-      "minDurationSec": 4
+      "kind": "bullets",
+      "narration": "Why must you check the annunciator by the final fix? Because WAAS integrity is decided in real time — the box only promises what the signal can guarantee RIGHT NOW. Fly the line it gives you, not the line you hoped for.",
+      "onScreenText": ["Check annunciation by the FAF", "Fly what the box GIVES you"],
+      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "left" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-06",
+      "kind": "challenge",
+      "narration": "Eyes off the screen. Which lines come with a D A, and which one is dive-and-drive? Out loud.",
+      "onScreenText": ["Which lines get a DA?", "Which is dive-and-drive?"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "pauseSec": 4,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-07",
+      "kind": "recap",
+      "narration": "L P V like an I L S. L NAV V NAV, a D A with a glidepath. Plain L NAV, level at the M D A. Your G P S went to school for this — read its report card.",
+      "onScreenText": ["LPV ≈ ILS", "L/VNAV: DA", "LNAV: MDA"],
+      "duke": { "pose": "coffeeSip", "expression": "grin", "position": "center" },
+      "minDurationSec": 4
+    },
+    {
+      "id": "scene-08",
+      "kind": "challenge",
+      "narration": "From the V O R lesson — radials point which direction from the station? Quick.",
+      "onScreenText": ["Callback: radials point ___", "the station"],
+      "duke": { "pose": "point", "expression": "squint", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-09",
       "kind": "sources",
-      "narration": "A I M one dash one dash eighteen. WAAS, explained by the hour.",
-      "onScreenText": [
-        "ACS: IR.VI.A",
-        "AIM 1-1-18 — WAAS"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "deadpan",
-        "position": "corner"
-      },
+      "narration": "A I M one dash one dash eighteen. WAAS, explained by people paid by the hour.",
+      "onScreenText": ["ACS: IR.VI.A", "AIM 1-1-18 — WAAS"],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
       "minDurationSec": 3
     }
   ],
   "quiz": [
     {
-      "question": "Which RNAV minima line requires WAAS and provides ILS-like angular guidance?",
-      "choices": [
-        "LPV",
-        "LNAV",
-        "LNAV+V",
-        "Circling"
-      ],
+      "question": "Your GPS annunciates LPV on the RNAV 16. You fly it to:",
+      "choices": ["A decision altitude — like an ILS", "An MDA — level until the missed point", "Circling minimums", "The LNAV line, to be safe"],
       "correctIndex": 0,
-      "explanation": "LPV (Localizer Performance with Vertical guidance) uses WAAS for angular guidance and DAs as low as 200 ft. (AIM 1-1-18)"
+      "explanation": "LPV (Localizer Performance with Vertical guidance) uses WAAS angular guidance and a DA as low as 200 ft. (AIM 1-1-18)"
     },
     {
       "question": "Flying to plain LNAV minimums, you descend to...",

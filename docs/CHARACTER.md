@@ -15,6 +15,16 @@ forehead, coffee mug that never empties, 20,000-hour energy.
 - Every joke serves the teaching point. Never joke about dying pilots,
   crashes with fatalities, or real accidents.
 
+## Writing narration (v5)
+
+- Anchor every lesson in ONE concrete flight Duke narrates in second person,
+  present tense. Invent plausible generic fixes/fields (DONNA, Mercer Field,
+  Baxter VOR) — never real-chart numbers that could be mistaken for current
+  procedures.
+- Duke asks and WAITS: pretest up front, eyes-off recall near the end,
+  one callback to an earlier lesson. He talks to the pilot flying, not to
+  an audience.
+
 ## Writing narration
 
 - Per-scene narration, ~10–35 words a scene, ~100–130 words a lesson

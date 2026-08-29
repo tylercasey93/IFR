@@ -3,119 +3,82 @@
   "title": "Copy Any Clearance: CRAFT",
   "topicArea": "clearances",
   "references": {
-    "acs": [
-      "IR.III.A"
-    ],
-    "faa": {
-      "source": "AIM 4-4-3",
-      "title": "Clearance Items"
-    }
+    "acs": ["IR.III.A"],
+    "faa": { "source": "AIM 4-4-3", "title": "Clearance Items" }
   },
-  "hook": "ATC talks at 200 words a minute. Here's how you win.",
+  "hook": "Clearance delivery talks at 200 words a minute. Here's how you win.",
   "scenes": [
     {
       "id": "scene-01",
       "kind": "title",
-      "narration": "Thirty seconds, kid. Clearance delivery talks fast. You'll write faster — you know what's coming.",
-      "onScreenText": [
-        "Copy Any Clearance",
-        "CRAFT"
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "deadpan",
-        "position": "center"
-      },
-      "minDurationSec": 3
+      "narration": "Engine's running at Mercer Field, pad on your knee, and you key up clearance delivery. The controller inhales once and starts talking. Alright kid — here's how you never miss a word.",
+      "onScreenText": ["Copy Any Clearance", "\"Ready to copy.\""],
+      "duke": { "pose": "stand", "expression": "deadpan", "position": "center" },
+      "minDurationSec": 4
     },
     {
       "id": "scene-02",
-      "kind": "bullets",
-      "narration": "Every clearance, same order: C R A F T. Clearance limit. Route. Altitude. Frequency. Transponder. The F A A loves an acronym the way a consultant loves a framework.",
-      "onScreenText": [
-        "C — Clearance limit",
-        "R — Route",
-        "A — Altitude",
-        "F — Frequency",
-        "T — Transponder"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "neutral",
-        "position": "left"
-      },
-      "minDurationSec": 4
+      "kind": "challenge",
+      "narration": "Before they talk — what's the FIRST item every I F R clearance starts with? Commit.",
+      "onScreenText": ["What comes FIRST in every clearance?", "Limit · Route · Altitude · Squawk?"],
+      "duke": { "pose": "point", "expression": "eyebrowRaise", "position": "corner" },
+      "pauseSec": 3,
+      "minDurationSec": 5
     },
     {
       "id": "scene-03",
       "kind": "bullets",
-      "narration": "Write C R A F T down the page before you key the mic. Now it's fill-in-the-blanks, not a mystery novel.",
-      "onScreenText": [
-        "Write CRAFT before you call",
-        "Then just fill in the blanks"
-      ],
-      "duke": {
-        "pose": "point",
-        "expression": "grin",
-        "position": "right"
-      },
-      "minDurationSec": 4
+      "narration": "Clearance limit — usually your destination. Then route. Then altitude. Then frequency. Then transponder. Five items: C R A F T.",
+      "onScreenText": ["1 · C — limit", "2 · R — route", "3 · A — altitude", "4 · F — frequency", "5 · T — transponder"],
+      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "left" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-04",
       "kind": "bullets",
-      "narration": "'Cleared as filed' still comes with an altitude, a frequency, and a squawk. Read it all back.",
-      "onScreenText": [
-        "\"Cleared as filed\" ≠ done",
-        "Read back the full clearance"
-      ],
-      "duke": {
-        "pose": "armsCrossed",
-        "expression": "eyebrowRaise",
-        "position": "left"
-      },
-      "minDurationSec": 4
+      "narration": "Why the same order every time? So you can write C R A F T down the page BEFORE you call. Now you're filling in blanks, not chasing a stranger's sentences. Standardization is the safety feature, kid.",
+      "onScreenText": ["Write CRAFT before you call", "Fill blanks — don't chase"],
+      "duke": { "pose": "point", "expression": "grin", "position": "right" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-05",
-      "kind": "recap",
-      "narration": "Clearance limit, route, altitude, frequency, transponder. The one craft project that keeps you out of a mountain.",
-      "onScreenText": [
-        "CRAFT",
-        "Same order. Every time."
-      ],
-      "duke": {
-        "pose": "stand",
-        "expression": "deadpan",
-        "position": "center"
-      },
-      "minDurationSec": 4
+      "kind": "bullets",
+      "narration": "One trap. 'Cleared as filed' covers the route only — the altitude, frequency, and squawk are still coming. Read it all back. The F A A loves an acronym the way a consultant loves a framework.",
+      "onScreenText": ["\"As filed\" = route only", "A · F · T still coming"],
+      "duke": { "pose": "armsCrossed", "expression": "eyebrowRaise", "position": "left" },
+      "minDurationSec": 5
     },
     {
       "id": "scene-06",
+      "kind": "challenge",
+      "narration": "Eyes closed. All five items, in order, out loud. I'll wait.",
+      "onScreenText": ["Say all 5 items, in order."],
+      "duke": { "pose": "coffeeSip", "expression": "deadpan", "position": "corner" },
+      "pauseSec": 4,
+      "minDurationSec": 5
+    },
+    {
+      "id": "scene-07",
+      "kind": "recap",
+      "narration": "Clearance limit. Route. Altitude. Frequency. Transponder. The one craft project that keeps you out of a mountain.",
+      "onScreenText": ["Limit", "Route", "Altitude", "Frequency", "Transponder"],
+      "duke": { "pose": "stand", "expression": "neutral", "position": "center" },
+      "minDurationSec": 4
+    },
+    {
+      "id": "scene-08",
       "kind": "sources",
       "narration": "A I M four dash four dash three. Go read it.",
-      "onScreenText": [
-        "ACS: IR.III.A",
-        "AIM 4-4-3 — Clearance Items"
-      ],
-      "duke": {
-        "pose": "coffeeSip",
-        "expression": "neutral",
-        "position": "corner"
-      },
+      "onScreenText": ["ACS: IR.III.A", "AIM 4-4-3 — Clearance Items"],
+      "duke": { "pose": "coffeeSip", "expression": "neutral", "position": "corner" },
       "minDurationSec": 3
     }
   ],
   "quiz": [
     {
-      "question": "In CRAFT, what does the first C stand for?",
-      "choices": [
-        "Clearance limit",
-        "Course",
-        "Climb instruction",
-        "Contact frequency"
-      ],
+      "question": "You call clearance delivery at Mercer Field. The FIRST item of the clearance will be:",
+      "choices": ["The clearance limit", "Your route", "A climb instruction", "The departure frequency"],
       "correctIndex": 0,
       "explanation": "Every IFR clearance starts with the clearance limit — usually your destination airport. (AIM 4-4-3)"
     },
