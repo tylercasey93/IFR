@@ -41,28 +41,28 @@
             "expression": "deadpan",
             "position": "center"
           },
-          "durationInFrames": 188,
-          "audioSrc": null,
+          "durationInFrames": 229,
+          "audioSrc": "audio/01-craft-clearance/scene-01.mp3",
           "captions": [
             {
               "text": "Thirty seconds, kid.",
               "startFrame": 3,
-              "endFrame": 40
+              "endFrame": 49
             },
             {
               "text": "Clearance delivery talks fast.",
-              "startFrame": 40,
-              "endFrame": 96
+              "startFrame": 49,
+              "endFrame": 118
             },
             {
               "text": "You'll write faster —",
-              "startFrame": 96,
-              "endFrame": 135
+              "startFrame": 118,
+              "endFrame": 166
             },
             {
               "text": "you know what's coming.",
-              "startFrame": 135,
-              "endFrame": 177
+              "startFrame": 166,
+              "endFrame": 218
             }
           ]
         },
@@ -82,43 +82,43 @@
             "expression": "neutral",
             "position": "left"
           },
-          "durationInFrames": 340,
-          "audioSrc": null,
+          "durationInFrames": 424,
+          "audioSrc": "audio/01-craft-clearance/scene-02.mp3",
           "captions": [
             {
               "text": "Every clearance, same order:",
               "startFrame": 3,
-              "endFrame": 61
+              "endFrame": 76
             },
             {
               "text": "C R A F T.",
-              "startFrame": 61,
-              "endFrame": 82
+              "startFrame": 76,
+              "endFrame": 102
             },
             {
               "text": "Clearance limit. Route.",
-              "startFrame": 82,
-              "endFrame": 129
+              "startFrame": 102,
+              "endFrame": 162
             },
             {
               "text": "Altitude. Frequency. Transponder.",
-              "startFrame": 129,
-              "endFrame": 197
+              "startFrame": 162,
+              "endFrame": 248
             },
             {
               "text": "The F A A loves an",
-              "startFrame": 197,
-              "endFrame": 234
+              "startFrame": 248,
+              "endFrame": 295
             },
             {
               "text": "acronym the way a consultant loves",
-              "startFrame": 234,
-              "endFrame": 304
+              "startFrame": 295,
+              "endFrame": 383
             },
             {
               "text": "a framework.",
-              "startFrame": 304,
-              "endFrame": 329
+              "startFrame": 383,
+              "endFrame": 413
             }
           ]
         },
@@ -135,8 +135,8 @@
             "expression": "grin",
             "position": "right"
           },
-          "durationInFrames": 253,
-          "audioSrc": null,
+          "durationInFrames": 251,
+          "audioSrc": "audio/01-craft-clearance/scene-03.mp3",
           "captions": [
             {
               "text": "Write C R A F T",
@@ -146,17 +146,17 @@
             {
               "text": "down the page before you key",
               "startFrame": 39,
-              "endFrame": 106
+              "endFrame": 105
             },
             {
               "text": "the mic. Now it's fill-in-the-blanks,",
-              "startFrame": 106,
-              "endFrame": 194
+              "startFrame": 105,
+              "endFrame": 193
             },
             {
               "text": "not a mystery novel.",
-              "startFrame": 194,
-              "endFrame": 242
+              "startFrame": 193,
+              "endFrame": 240
             }
           ]
         },
@@ -173,28 +173,28 @@
             "expression": "eyebrowRaise",
             "position": "left"
           },
-          "durationInFrames": 209,
-          "audioSrc": null,
+          "durationInFrames": 211,
+          "audioSrc": "audio/01-craft-clearance/scene-04.mp3",
           "captions": [
             {
               "text": "'Cleared as filed' still comes with",
               "startFrame": 3,
-              "endFrame": 79
+              "endFrame": 80
             },
             {
               "text": "an altitude, a frequency,",
-              "startFrame": 79,
-              "endFrame": 133
+              "startFrame": 80,
+              "endFrame": 135
             },
             {
               "text": "and a squawk.",
-              "startFrame": 133,
-              "endFrame": 161
+              "startFrame": 135,
+              "endFrame": 163
             },
             {
               "text": "Read it all back.",
-              "startFrame": 161,
-              "endFrame": 198
+              "startFrame": 163,
+              "endFrame": 200
             }
           ]
         },
@@ -211,28 +211,28 @@
             "expression": "deadpan",
             "position": "center"
           },
-          "durationInFrames": 209,
-          "audioSrc": null,
+          "durationInFrames": 269,
+          "audioSrc": "audio/01-craft-clearance/scene-05.mp3",
           "captions": [
             {
               "text": "Clearance limit, route,",
               "startFrame": 3,
-              "endFrame": 44
+              "endFrame": 56
             },
             {
               "text": "altitude, frequency, transponder.",
-              "startFrame": 44,
-              "endFrame": 103
+              "startFrame": 56,
+              "endFrame": 133
             },
             {
               "text": "The one craft project that keeps",
-              "startFrame": 103,
-              "endFrame": 160
+              "startFrame": 133,
+              "endFrame": 207
             },
             {
               "text": "you out of a mountain.",
-              "startFrame": 160,
-              "endFrame": 198
+              "startFrame": 207,
+              "endFrame": 258
             }
           ]
         },
@@ -249,23 +249,23 @@
             "expression": "neutral",
             "position": "corner"
           },
-          "durationInFrames": 144,
-          "audioSrc": null,
+          "durationInFrames": 118,
+          "audioSrc": "audio/01-craft-clearance/scene-06.mp3",
           "captions": [
             {
               "text": "A I M four dash four",
               "startFrame": 3,
-              "endFrame": 63
+              "endFrame": 51
             },
             {
               "text": "dash three. Go read it.",
-              "startFrame": 63,
-              "endFrame": 133
+              "startFrame": 51,
+              "endFrame": 107
             }
           ]
         }
       ],
-      "durationInFrames": 1343
+      "durationInFrames": 1502
     },
     {
       "id": "02-alternate-123",
@@ -296,33 +296,33 @@
             "expression": "deadpan",
             "position": "center"
           },
-          "durationInFrames": 286,
-          "audioSrc": null,
+          "durationInFrames": 272,
+          "audioSrc": "audio/02-alternate-123/scene-01.mp3",
           "captions": [
             {
               "text": "Thirty seconds. Alternate airports —",
               "startFrame": 3,
-              "endFrame": 89
+              "endFrame": 84
             },
             {
               "text": "the F A A wants a",
-              "startFrame": 89,
-              "endFrame": 130
+              "startFrame": 84,
+              "endFrame": 122
             },
             {
               "text": "plan B, and they wrote a",
-              "startFrame": 130,
-              "endFrame": 187
+              "startFrame": 122,
+              "endFrame": 176
             },
             {
               "text": "nursery rhyme for it.",
-              "startFrame": 187,
-              "endFrame": 237
+              "startFrame": 176,
+              "endFrame": 224
             },
             {
               "text": "One, two, three.",
-              "startFrame": 237,
-              "endFrame": 275
+              "startFrame": 224,
+              "endFrame": 261
             }
           ]
         },
@@ -346,33 +346,33 @@
             "expression": "neutral",
             "position": "corner"
           },
-          "durationInFrames": 264,
-          "audioSrc": null,
+          "durationInFrames": 279,
+          "audioSrc": "audio/02-alternate-123/scene-02.mp3",
           "captions": [
             {
               "text": "One hour either side of your",
               "startFrame": 3,
-              "endFrame": 62
+              "endFrame": 66
             },
             {
               "text": "E T A:",
-              "startFrame": 62,
-              "endFrame": 75
+              "startFrame": 66,
+              "endFrame": 79
             },
             {
               "text": "at least two thousand foot ceilings",
-              "startFrame": 75,
-              "endFrame": 149
+              "startFrame": 79,
+              "endFrame": 158
             },
             {
               "text": "AND three miles visibility?",
-              "startFrame": 149,
-              "endFrame": 206
+              "startFrame": 158,
+              "endFrame": 219
             },
             {
               "text": "No alternate required.",
-              "startFrame": 206,
-              "endFrame": 253
+              "startFrame": 219,
+              "endFrame": 268
             }
           ]
         },
@@ -391,33 +391,33 @@
             "expression": "squint",
             "position": "left"
           },
-          "durationInFrames": 264,
-          "audioSrc": null,
+          "durationInFrames": 306,
+          "audioSrc": "audio/02-alternate-123/scene-03.mp3",
           "captions": [
             {
               "text": "Worse than that?",
               "startFrame": 3,
-              "endFrame": 35
+              "endFrame": 41
             },
             {
               "text": "File one. Alternate minimums at your",
-              "startFrame": 35,
-              "endFrame": 108
+              "startFrame": 41,
+              "endFrame": 126
             },
             {
               "text": "E T A:",
-              "startFrame": 108,
-              "endFrame": 120
+              "startFrame": 126,
+              "endFrame": 140
             },
             {
               "text": "six hundred and two precision,",
-              "startFrame": 120,
-              "endFrame": 180
+              "startFrame": 140,
+              "endFrame": 211
             },
             {
               "text": "eight hundred and two non-precision.",
-              "startFrame": 180,
-              "endFrame": 253
+              "startFrame": 211,
+              "endFrame": 295
             }
           ]
         },
@@ -434,28 +434,28 @@
             "expression": "eyebrowRaise",
             "position": "right"
           },
-          "durationInFrames": 275,
-          "audioSrc": null,
+          "durationInFrames": 271,
+          "audioSrc": "audio/02-alternate-123/scene-04.mp3",
           "captions": [
             {
               "text": "No approach at the alternate?",
               "startFrame": 3,
-              "endFrame": 67
+              "endFrame": 66
             },
             {
               "text": "The weather must let you descend",
-              "startFrame": 67,
-              "endFrame": 138
+              "startFrame": 66,
+              "endFrame": 136
             },
             {
               "text": "from the M E A and",
-              "startFrame": 138,
-              "endFrame": 178
+              "startFrame": 136,
+              "endFrame": 175
             },
             {
               "text": "land visually. Good luck briefing that.",
-              "startFrame": 178,
-              "endFrame": 264
+              "startFrame": 175,
+              "endFrame": 260
             }
           ]
         },
@@ -472,28 +472,28 @@
             "expression": "grin",
             "position": "center"
           },
-          "durationInFrames": 231,
-          "audioSrc": null,
+          "durationInFrames": 310,
+          "audioSrc": "audio/02-alternate-123/scene-05.mp3",
           "captions": [
             {
               "text": "One hour. Two thousand.",
               "startFrame": 3,
-              "endFrame": 45
+              "endFrame": 61
             },
             {
               "text": "Three miles. File one anyway,",
-              "startFrame": 45,
-              "endFrame": 98
+              "startFrame": 61,
+              "endFrame": 134
             },
             {
               "text": "kid — an alternate is a",
-              "startFrame": 98,
-              "endFrame": 140
+              "startFrame": 134,
+              "endFrame": 192
             },
             {
               "text": "prenup. Unromantic. Occasionally priceless.",
-              "startFrame": 140,
-              "endFrame": 220
+              "startFrame": 192,
+              "endFrame": 299
             }
           ]
         },
@@ -510,23 +510,23 @@
             "expression": "neutral",
             "position": "corner"
           },
-          "durationInFrames": 122,
-          "audioSrc": null,
+          "durationInFrames": 159,
+          "audioSrc": "audio/02-alternate-123/scene-06.mp3",
           "captions": [
             {
               "text": "Ninety-one one sixty-nine.",
               "startFrame": 3,
-              "endFrame": 51
+              "endFrame": 67
             },
             {
               "text": "Read it before the examiner does.",
-              "startFrame": 51,
-              "endFrame": 111
+              "startFrame": 67,
+              "endFrame": 148
             }
           ]
         }
       ],
-      "durationInFrames": 1442
+      "durationInFrames": 1597
     },
     {
       "id": "03-holding-entries",
@@ -828,28 +828,28 @@
             "expression": "deadpan",
             "position": "center"
           },
-          "durationInFrames": 253,
-          "audioSrc": null,
+          "durationInFrames": 297,
+          "audioSrc": "audio/04-lost-comms/scene-01.mp3",
           "captions": [
             {
               "text": "Thirty seconds. The radio dies in",
               "startFrame": 3,
-              "endFrame": 68
+              "endFrame": 80
             },
             {
               "text": "the clouds. Ninety-one one eighty-five answers",
-              "startFrame": 68,
-              "endFrame": 159
+              "startFrame": 80,
+              "endFrame": 188
             },
             {
               "text": "two questions: where do I go,",
-              "startFrame": 159,
-              "endFrame": 216
+              "startFrame": 188,
+              "endFrame": 256
             },
             {
               "text": "and how high.",
-              "startFrame": 216,
-              "endFrame": 242
+              "startFrame": 256,
+              "endFrame": 286
             }
           ]
         },
@@ -866,33 +866,33 @@
             "expression": "neutral",
             "position": "left"
           },
-          "durationInFrames": 319,
-          "audioSrc": null,
+          "durationInFrames": 303,
+          "audioSrc": "audio/04-lost-comms/scene-02.mp3",
           "captions": [
             {
               "text": "Break out into V F R?",
               "startFrame": 3,
-              "endFrame": 56
+              "endFrame": 53
             },
             {
               "text": "Stay V F R and land.",
-              "startFrame": 56,
-              "endFrame": 106
+              "startFrame": 53,
+              "endFrame": 101
             },
             {
               "text": "A handheld radio is two hundred",
-              "startFrame": 106,
-              "endFrame": 184
+              "startFrame": 101,
+              "endFrame": 175
             },
             {
               "text": "bucks — the cheapest life insurance",
-              "startFrame": 184,
-              "endFrame": 272
+              "startFrame": 175,
+              "endFrame": 259
             },
             {
               "text": "on the market.",
-              "startFrame": 272,
-              "endFrame": 308
+              "startFrame": 259,
+              "endFrame": 292
             }
           ]
         },
@@ -915,28 +915,28 @@
             "expression": "squint",
             "position": "corner"
           },
-          "durationInFrames": 209,
-          "audioSrc": null,
+          "durationInFrames": 244,
+          "audioSrc": "audio/04-lost-comms/scene-03.mp3",
           "captions": [
             {
               "text": "Still in the soup —",
               "startFrame": 3,
-              "endFrame": 47
+              "endFrame": 55
             },
             {
               "text": "route: A V E F.",
-              "startFrame": 47,
-              "endFrame": 82
+              "startFrame": 55,
+              "endFrame": 96
             },
             {
               "text": "Assigned. Vectored. Expected.",
-              "startFrame": 82,
-              "endFrame": 149
+              "startFrame": 96,
+              "endFrame": 175
             },
             {
               "text": "Filed. In that order.",
-              "startFrame": 149,
-              "endFrame": 198
+              "startFrame": 175,
+              "endFrame": 233
             }
           ]
         },
@@ -959,23 +959,23 @@
             "expression": "eyebrowRaise",
             "position": "corner"
           },
-          "durationInFrames": 199,
-          "audioSrc": null,
+          "durationInFrames": 243,
+          "audioSrc": "audio/04-lost-comms/scene-04.mp3",
           "captions": [
             {
               "text": "Altitude: the highest of three,",
               "startFrame": 3,
-              "endFrame": 63
+              "endFrame": 77
             },
             {
               "text": "per segment. M E A,",
-              "startFrame": 63,
-              "endFrame": 100
+              "startFrame": 77,
+              "endFrame": 122
             },
             {
               "text": "Expected, Assigned. The rocks don't negotiate.",
-              "startFrame": 100,
-              "endFrame": 188
+              "startFrame": 122,
+              "endFrame": 232
             }
           ]
         },
@@ -993,23 +993,23 @@
             "expression": "neutral",
             "position": "center"
           },
-          "durationInFrames": 188,
-          "audioSrc": null,
+          "durationInFrames": 184,
+          "audioSrc": "audio/04-lost-comms/scene-05.mp3",
           "captions": [
             {
               "text": "Squawk seventy-six hundred and keep flying",
               "startFrame": 3,
-              "endFrame": 85
+              "endFrame": 83
             },
             {
               "text": "the airplane —",
-              "startFrame": 85,
-              "endFrame": 112
+              "startFrame": 83,
+              "endFrame": 110
             },
             {
               "text": "it doesn't know the radio's dead.",
-              "startFrame": 112,
-              "endFrame": 177
+              "startFrame": 110,
+              "endFrame": 173
             }
           ]
         },
@@ -1026,23 +1026,23 @@
             "expression": "deadpan",
             "position": "corner"
           },
-          "durationInFrames": 100,
-          "audioSrc": null,
+          "durationInFrames": 166,
+          "audioSrc": "audio/04-lost-comms/scene-06.mp3",
           "captions": [
             {
               "text": "Ninety-one one eighty-five.",
               "startFrame": 3,
-              "endFrame": 44
+              "endFrame": 75
             },
             {
               "text": "Two paragraphs. Memorize both.",
-              "startFrame": 44,
-              "endFrame": 89
+              "startFrame": 75,
+              "endFrame": 155
             }
           ]
         }
       ],
-      "durationInFrames": 1268
+      "durationInFrames": 1437
     },
     {
       "id": "05-currency-66hit",
@@ -1073,33 +1073,33 @@
             "expression": "deadpan",
             "position": "center"
           },
-          "durationInFrames": 275,
-          "audioSrc": null,
+          "durationInFrames": 308,
+          "audioSrc": "audio/05-currency-66hit/scene-01.mp3",
           "captions": [
             {
               "text": "Thirty seconds. Instrument currency.",
               "startFrame": 3,
-              "endFrame": 74
+              "endFrame": 83
             },
             {
               "text": "Your rating is a gym membership,",
-              "startFrame": 74,
-              "endFrame": 137
+              "startFrame": 83,
+              "endFrame": 154
             },
             {
               "text": "kid — it never expires,",
-              "startFrame": 137,
-              "endFrame": 182
+              "startFrame": 154,
+              "endFrame": 205
             },
             {
               "text": "it just quietly stops working when",
-              "startFrame": 182,
-              "endFrame": 249
+              "startFrame": 205,
+              "endFrame": 281
             },
             {
               "text": "you do.",
-              "startFrame": 249,
-              "endFrame": 264
+              "startFrame": 281,
+              "endFrame": 297
             }
           ]
         },
@@ -1118,33 +1118,33 @@
             "expression": "neutral",
             "position": "left"
           },
-          "durationInFrames": 209,
-          "audioSrc": null,
+          "durationInFrames": 332,
+          "audioSrc": "audio/05-currency-66hit/scene-02.mp3",
           "captions": [
             {
               "text": "Preceding six months:",
               "startFrame": 3,
-              "endFrame": 41
+              "endFrame": 65
             },
             {
               "text": "six approaches, plus Holding,",
-              "startFrame": 41,
-              "endFrame": 94
+              "startFrame": 65,
+              "endFrame": 151
             },
             {
               "text": "plus Intercepting and Tracking courses.",
-              "startFrame": 94,
-              "endFrame": 165
+              "startFrame": 151,
+              "endFrame": 267
             },
             {
               "text": "That's the H,",
-              "startFrame": 165,
-              "endFrame": 189
+              "startFrame": 267,
+              "endFrame": 306
             },
             {
               "text": "I, T.",
-              "startFrame": 189,
-              "endFrame": 198
+              "startFrame": 306,
+              "endFrame": 321
             }
           ]
         },
@@ -1168,33 +1168,33 @@
             "expression": "squint",
             "position": "corner"
           },
-          "durationInFrames": 308,
-          "audioSrc": null,
+          "durationInFrames": 317,
+          "audioSrc": "audio/05-currency-66hit/scene-03.mp3",
           "captions": [
             {
               "text": "Blow past six months?",
               "startFrame": 3,
-              "endFrame": 60
+              "endFrame": 62
             },
             {
               "text": "Six more to fix it with",
-              "startFrame": 60,
-              "endFrame": 123
+              "startFrame": 62,
+              "endFrame": 127
             },
             {
               "text": "a safety pilot or a sim",
-              "startFrame": 123,
-              "endFrame": 186
+              "startFrame": 127,
+              "endFrame": 192
             },
             {
               "text": "— but no filing I F",
-              "startFrame": 186,
-              "endFrame": 238
+              "startFrame": 192,
+              "endFrame": 245
             },
             {
               "text": "R till you're current.",
-              "startFrame": 238,
-              "endFrame": 297
+              "startFrame": 245,
+              "endFrame": 306
             }
           ]
         },
@@ -1211,28 +1211,28 @@
             "expression": "eyebrowRaise",
             "position": "right"
           },
-          "durationInFrames": 220,
-          "audioSrc": null,
+          "durationInFrames": 237,
+          "audioSrc": "audio/05-currency-66hit/scene-04.mp3",
           "captions": [
             {
               "text": "Past twelve? Instrument proficiency check.",
               "startFrame": 3,
-              "endFrame": 82
+              "endFrame": 88
             },
             {
               "text": "Not a punishment,",
-              "startFrame": 82,
-              "endFrame": 114
+              "startFrame": 88,
+              "endFrame": 122
             },
             {
               "text": "kid — the punishment is what",
-              "startFrame": 114,
-              "endFrame": 166
+              "startFrame": 122,
+              "endFrame": 179
             },
             {
               "text": "the clouds had planned.",
-              "startFrame": 166,
-              "endFrame": 209
+              "startFrame": 179,
+              "endFrame": 226
             }
           ]
         },
@@ -1250,23 +1250,23 @@
             "expression": "grin",
             "position": "center"
           },
-          "durationInFrames": 166,
-          "audioSrc": null,
+          "durationInFrames": 243,
+          "audioSrc": "audio/05-currency-66hit/scene-05.mp3",
           "captions": [
             {
               "text": "Six approaches, holding,",
               "startFrame": 3,
-              "endFrame": 40
+              "endFrame": 59
             },
             {
               "text": "intercepting, tracking, every six months.",
-              "startFrame": 40,
-              "endFrame": 103
+              "startFrame": 59,
+              "endFrame": 154
             },
             {
               "text": "Currency is cheaper than humility.",
-              "startFrame": 103,
-              "endFrame": 155
+              "startFrame": 154,
+              "endFrame": 232
             }
           ]
         },
@@ -1283,23 +1283,23 @@
             "expression": "neutral",
             "position": "corner"
           },
-          "durationInFrames": 100,
-          "audioSrc": null,
+          "durationInFrames": 115,
+          "audioSrc": "audio/05-currency-66hit/scene-06.mp3",
           "captions": [
             {
               "text": "Sixty-one fifty-seven. Then go log some",
               "startFrame": 3,
-              "endFrame": 70
+              "endFrame": 82
             },
             {
               "text": "approaches.",
-              "startFrame": 70,
-              "endFrame": 89
+              "startFrame": 82,
+              "endFrame": 104
             }
           ]
         }
       ],
-      "durationInFrames": 1278
+      "durationInFrames": 1552
     },
     {
       "id": "06-approach-brief",
@@ -1585,23 +1585,23 @@
             "expression": "deadpan",
             "position": "center"
           },
-          "durationInFrames": 188,
-          "audioSrc": null,
+          "durationInFrames": 161,
+          "audioSrc": "audio/07-ils-basics/scene-01.mp3",
           "captions": [
             {
               "text": "Thirty seconds. The I L S",
               "startFrame": 3,
-              "endFrame": 63
+              "endFrame": 54
             },
             {
               "text": "— saving bacon since before I",
-              "startFrame": 63,
-              "endFrame": 133
+              "startFrame": 54,
+              "endFrame": 113
             },
             {
               "text": "had this mustache.",
-              "startFrame": 133,
-              "endFrame": 177
+              "startFrame": 113,
+              "endFrame": 150
             }
           ]
         },
@@ -1624,43 +1624,43 @@
             "expression": "neutral",
             "position": "corner"
           },
-          "durationInFrames": 319,
-          "audioSrc": null,
+          "durationInFrames": 419,
+          "audioSrc": "audio/07-ils-basics/scene-02.mp3",
           "captions": [
             {
               "text": "Two beams. Localizer:",
               "startFrame": 3,
-              "endFrame": 48
+              "endFrame": 62
             },
             {
               "text": "left and right,",
-              "startFrame": 48,
-              "endFrame": 80
+              "startFrame": 62,
+              "endFrame": 104
             },
             {
               "text": "four times touchier than a V",
-              "startFrame": 80,
-              "endFrame": 140
+              "startFrame": 104,
+              "endFrame": 183
             },
             {
               "text": "O R —",
-              "startFrame": 140,
-              "endFrame": 151
+              "startFrame": 183,
+              "endFrame": 197
             },
             {
               "text": "pressure, not heroics.",
-              "startFrame": 151,
-              "endFrame": 198
+              "startFrame": 197,
+              "endFrame": 259
             },
             {
               "text": "Glideslope: up and down,",
-              "startFrame": 198,
-              "endFrame": 249
+              "startFrame": 259,
+              "endFrame": 327
             },
             {
               "text": "three degrees to the runway.",
-              "startFrame": 249,
-              "endFrame": 308
+              "startFrame": 327,
+              "endFrame": 408
             }
           ]
         },
@@ -1684,23 +1684,23 @@
             "expression": "squint",
             "position": "corner"
           },
-          "durationInFrames": 209,
-          "audioSrc": null,
+          "durationInFrames": 181,
+          "audioSrc": "audio/07-ils-basics/scene-03.mp3",
           "captions": [
             {
               "text": "Needles centered, a standard I L",
               "startFrame": 3,
-              "endFrame": 82
+              "endFrame": 71
             },
             {
               "text": "S takes you to two hundred",
-              "startFrame": 82,
-              "endFrame": 146
+              "startFrame": 71,
+              "endFrame": 126
             },
             {
               "text": "feet and a half mile.",
-              "startFrame": 146,
-              "endFrame": 198
+              "startFrame": 126,
+              "endFrame": 170
             }
           ]
         },
@@ -1718,33 +1718,33 @@
             "expression": "eyebrowRaise",
             "position": "left"
           },
-          "durationInFrames": 242,
-          "audioSrc": null,
+          "durationInFrames": 346,
+          "audioSrc": "audio/07-ils-basics/scene-04.mp3",
           "captions": [
             {
               "text": "At D A you decide.",
               "startFrame": 3,
-              "endFrame": 38
+              "endFrame": 54
             },
             {
               "text": "Runway environment —",
-              "startFrame": 38,
-              "endFrame": 77
+              "startFrame": 54,
+              "endFrame": 110
             },
             {
               "text": "land. Nothing? Missed.",
-              "startFrame": 77,
-              "endFrame": 120
+              "startFrame": 110,
+              "endFrame": 172
             },
             {
               "text": "The glideslope does not care about",
-              "startFrame": 120,
-              "endFrame": 186
+              "startFrame": 172,
+              "endFrame": 268
             },
             {
               "text": "your dinner reservation.",
-              "startFrame": 186,
-              "endFrame": 231
+              "startFrame": 268,
+              "endFrame": 335
             }
           ]
         },
@@ -1762,23 +1762,23 @@
             "expression": "neutral",
             "position": "center"
           },
-          "durationInFrames": 209,
-          "audioSrc": null,
+          "durationInFrames": 237,
+          "audioSrc": "audio/07-ils-basics/scene-05.mp3",
           "captions": [
             {
               "text": "Localizer, glideslope, two hundred and a",
               "startFrame": 3,
-              "endFrame": 83
+              "endFrame": 94
             },
             {
               "text": "half. Chase the needles gently —",
-              "startFrame": 83,
-              "endFrame": 147
+              "startFrame": 94,
+              "endFrame": 167
             },
             {
               "text": "they bite near the ground.",
-              "startFrame": 147,
-              "endFrame": 198
+              "startFrame": 167,
+              "endFrame": 226
             }
           ]
         },
@@ -1795,23 +1795,23 @@
             "expression": "deadpan",
             "position": "corner"
           },
-          "durationInFrames": 133,
-          "audioSrc": null,
+          "durationInFrames": 129,
+          "audioSrc": "audio/07-ils-basics/scene-06.mp3",
           "captions": [
             {
               "text": "A I M one dash one",
               "startFrame": 3,
-              "endFrame": 54
+              "endFrame": 52
             },
             {
               "text": "dash nine. Bring coffee.",
-              "startFrame": 54,
-              "endFrame": 122
+              "startFrame": 52,
+              "endFrame": 118
             }
           ]
         }
       ],
-      "durationInFrames": 1300
+      "durationInFrames": 1473
     },
     {
       "id": "08-vor-cdi-hsi",
@@ -1842,23 +1842,23 @@
             "expression": "deadpan",
             "position": "center"
           },
-          "durationInFrames": 199,
-          "audioSrc": null,
+          "durationInFrames": 258,
+          "audioSrc": "audio/08-vor-cdi-hsi/scene-01.mp3",
           "captions": [
             {
               "text": "Thirty seconds. V O R radials",
               "startFrame": 3,
-              "endFrame": 61
+              "endFrame": 80
             },
             {
               "text": "— sixty-year-old tech that still confuses",
-              "startFrame": 61,
-              "endFrame": 143
+              "startFrame": 80,
+              "endFrame": 189
             },
             {
               "text": "pilots daily. Not you.",
-              "startFrame": 143,
-              "endFrame": 188
+              "startFrame": 189,
+              "endFrame": 247
             }
           ]
         },
@@ -1881,28 +1881,28 @@
             "expression": "neutral",
             "position": "corner"
           },
-          "durationInFrames": 231,
-          "audioSrc": null,
+          "durationInFrames": 276,
+          "audioSrc": "audio/08-vor-cdi-hsi/scene-02.mp3",
           "captions": [
             {
               "text": "Radials point FROM the station.",
               "startFrame": 3,
-              "endFrame": 71
+              "endFrame": 85
             },
             {
               "text": "Spokes on a wheel.",
-              "startFrame": 71,
-              "endFrame": 110
+              "startFrame": 85,
+              "endFrame": 133
             },
             {
               "text": "You're always on one —",
-              "startFrame": 110,
-              "endFrame": 158
+              "startFrame": 133,
+              "endFrame": 191
             },
             {
               "text": "which spoke is the question.",
-              "startFrame": 158,
-              "endFrame": 220
+              "startFrame": 191,
+              "endFrame": 265
             }
           ]
         },
@@ -1926,28 +1926,28 @@
             "expression": "squint",
             "position": "corner"
           },
-          "durationInFrames": 264,
-          "audioSrc": null,
+          "durationInFrames": 287,
+          "audioSrc": "audio/08-vor-cdi-hsi/scene-03.mp3",
           "captions": [
             {
               "text": "Golden rule: heading matches the course",
               "startFrame": 3,
-              "endFrame": 78
+              "endFrame": 85
             },
             {
               "text": "you set, fly toward the needle.",
-              "startFrame": 78,
-              "endFrame": 138
+              "startFrame": 85,
+              "endFrame": 150
             },
             {
               "text": "Set it backwards and the needle",
-              "startFrame": 138,
-              "endFrame": 198
+              "startFrame": 150,
+              "endFrame": 215
             },
             {
               "text": "lies. That's reverse sensing.",
-              "startFrame": 198,
-              "endFrame": 253
+              "startFrame": 215,
+              "endFrame": 276
             }
           ]
         },
@@ -1970,33 +1970,33 @@
             "expression": "grin",
             "position": "corner"
           },
-          "durationInFrames": 242,
-          "audioSrc": null,
+          "durationInFrames": 229,
+          "audioSrc": "audio/08-vor-cdi-hsi/scene-04.mp3",
           "captions": [
             {
               "text": "The H S I's card rotates",
               "startFrame": 3,
-              "endFrame": 54
+              "endFrame": 51
             },
             {
               "text": "with your heading —",
-              "startFrame": 54,
-              "endFrame": 94
+              "startFrame": 51,
+              "endFrame": 89
             },
             {
               "text": "it can't reverse-sense.",
-              "startFrame": 94,
-              "endFrame": 143
+              "startFrame": 89,
+              "endFrame": 135
             },
             {
               "text": "Only instrument that never argues with",
-              "startFrame": 143,
-              "endFrame": 224
+              "startFrame": 135,
+              "endFrame": 211
             },
             {
               "text": "me.",
-              "startFrame": 224,
-              "endFrame": 231
+              "startFrame": 211,
+              "endFrame": 218
             }
           ]
         },
@@ -2014,33 +2014,33 @@
             "expression": "neutral",
             "position": "center"
           },
-          "durationInFrames": 220,
-          "audioSrc": null,
+          "durationInFrames": 260,
+          "audioSrc": "audio/08-vor-cdi-hsi/scene-05.mp3",
           "captions": [
             {
               "text": "From the station.",
               "startFrame": 3,
-              "endFrame": 37
+              "endFrame": 44
             },
             {
               "text": "Match the course.",
-              "startFrame": 37,
-              "endFrame": 71
+              "startFrame": 44,
+              "endFrame": 85
             },
             {
               "text": "Fly toward the needle.",
-              "startFrame": 71,
-              "endFrame": 115
+              "startFrame": 85,
+              "endFrame": 138
             },
             {
               "text": "Picture makes no sense?",
-              "startFrame": 115,
-              "endFrame": 161
+              "startFrame": 138,
+              "endFrame": 193
             },
             {
               "text": "Check what you twisted.",
-              "startFrame": 161,
-              "endFrame": 209
+              "startFrame": 193,
+              "endFrame": 249
             }
           ]
         },
@@ -2057,28 +2057,28 @@
             "expression": "deadpan",
             "position": "corner"
           },
-          "durationInFrames": 155,
-          "audioSrc": null,
+          "durationInFrames": 140,
+          "audioSrc": "audio/08-vor-cdi-hsi/scene-06.mp3",
           "captions": [
             {
               "text": "A I M one dash one",
               "startFrame": 3,
-              "endFrame": 53
+              "endFrame": 47
             },
             {
               "text": "dash three. Old tech,",
-              "startFrame": 53,
-              "endFrame": 111
+              "startFrame": 47,
+              "endFrame": 99
             },
             {
               "text": "current reg.",
-              "startFrame": 111,
-              "endFrame": 144
+              "startFrame": 99,
+              "endFrame": 129
             }
           ]
         }
       ],
-      "durationInFrames": 1311
+      "durationInFrames": 1450
     },
     {
       "id": "09-rnav-minima",
@@ -2603,8 +2603,8 @@
             "expression": "deadpan",
             "position": "center"
           },
-          "durationInFrames": 242,
-          "audioSrc": null,
+          "durationInFrames": 243,
+          "audioSrc": "audio/11-metar-taf/scene-01.mp3",
           "captions": [
             {
               "text": "Thirty seconds. METARs —",
@@ -2614,22 +2614,22 @@
             {
               "text": "weather with the vowels ripped out",
               "startFrame": 50,
-              "endFrame": 116
+              "endFrame": 117
             },
             {
               "text": "to save telegraph money.",
-              "startFrame": 116,
-              "endFrame": 163
+              "startFrame": 117,
+              "endFrame": 164
             },
             {
               "text": "Eighty years later,",
-              "startFrame": 163,
-              "endFrame": 200
+              "startFrame": 164,
+              "endFrame": 201
             },
             {
               "text": "still not fixed.",
-              "startFrame": 200,
-              "endFrame": 231
+              "startFrame": 201,
+              "endFrame": 232
             }
           ]
         },
@@ -2647,38 +2647,38 @@
             "expression": "neutral",
             "position": "left"
           },
-          "durationInFrames": 220,
-          "audioSrc": null,
+          "durationInFrames": 339,
+          "audioSrc": "audio/11-metar-taf/scene-02.mp3",
           "captions": [
             {
               "text": "METAR is now:",
               "startFrame": 3,
-              "endFrame": 27
+              "endFrame": 40
             },
             {
               "text": "station, time, wind,",
-              "startFrame": 27,
-              "endFrame": 63
+              "startFrame": 40,
+              "endFrame": 98
             },
             {
               "text": "visibility, weather, clouds,",
-              "startFrame": 63,
-              "endFrame": 114
+              "startFrame": 98,
+              "endFrame": 179
             },
             {
               "text": "temp and dew point,",
-              "startFrame": 114,
-              "endFrame": 149
+              "startFrame": 179,
+              "endFrame": 234
             },
             {
               "text": "altimeter. Same order,",
-              "startFrame": 149,
-              "endFrame": 189
+              "startFrame": 234,
+              "endFrame": 297
             },
             {
               "text": "every hour.",
-              "startFrame": 189,
-              "endFrame": 209
+              "startFrame": 297,
+              "endFrame": 328
             }
           ]
         },
@@ -2696,33 +2696,33 @@
             "expression": "squint",
             "position": "right"
           },
-          "durationInFrames": 264,
-          "audioSrc": null,
+          "durationInFrames": 299,
+          "audioSrc": "audio/11-metar-taf/scene-03.mp3",
           "captions": [
             {
               "text": "TAF is later:",
               "startFrame": 3,
-              "endFrame": 29
+              "endFrame": 33
             },
             {
               "text": "twenty-four to thirty hours,",
-              "startFrame": 29,
-              "endFrame": 86
+              "startFrame": 33,
+              "endFrame": 98
             },
             {
               "text": "five miles around the field.",
-              "startFrame": 86,
-              "endFrame": 143
+              "startFrame": 98,
+              "endFrame": 163
             },
             {
               "text": "F M means a hard switch.",
-              "startFrame": 143,
-              "endFrame": 192
+              "startFrame": 163,
+              "endFrame": 219
             },
             {
               "text": "TEMPO means brief misbehavior.",
-              "startFrame": 192,
-              "endFrame": 253
+              "startFrame": 219,
+              "endFrame": 288
             }
           ]
         },
@@ -2740,28 +2740,28 @@
             "expression": "eyebrowRaise",
             "position": "left"
           },
-          "durationInFrames": 264,
-          "audioSrc": null,
+          "durationInFrames": 281,
+          "audioSrc": "audio/11-metar-taf/scene-04.mp3",
           "captions": [
             {
               "text": "Temp and dew point closing?",
               "startFrame": 3,
-              "endFrame": 60
+              "endFrame": 64
             },
             {
               "text": "Fog is filing its flight plan.",
-              "startFrame": 60,
-              "endFrame": 124
+              "startFrame": 64,
+              "endFrame": 132
             },
             {
               "text": "And a ceiling is broken or",
-              "startFrame": 124,
-              "endFrame": 179
+              "startFrame": 132,
+              "endFrame": 191
             },
             {
               "text": "overcast — scattered doesn't count.",
-              "startFrame": 179,
-              "endFrame": 253
+              "startFrame": 191,
+              "endFrame": 270
             }
           ]
         },
@@ -2779,18 +2779,18 @@
             "expression": "neutral",
             "position": "center"
           },
-          "durationInFrames": 120,
-          "audioSrc": null,
+          "durationInFrames": 140,
+          "audioSrc": "audio/11-metar-taf/scene-05.mp3",
           "captions": [
             {
               "text": "METAR now. TAF later.",
               "startFrame": 3,
-              "endFrame": 60
+              "endFrame": 71
             },
             {
               "text": "Beat the fog home.",
-              "startFrame": 60,
-              "endFrame": 109
+              "startFrame": 71,
+              "endFrame": 129
             }
           ]
         },
@@ -2807,23 +2807,23 @@
             "expression": "deadpan",
             "position": "corner"
           },
-          "durationInFrames": 144,
-          "audioSrc": null,
+          "durationInFrames": 151,
+          "audioSrc": "audio/11-metar-taf/scene-06.mp3",
           "captions": [
             {
               "text": "A C zero zero dash forty-five",
               "startFrame": 3,
-              "endFrame": 73
+              "endFrame": 77
             },
             {
               "text": "H. All the decoder rings.",
-              "startFrame": 73,
-              "endFrame": 133
+              "startFrame": 77,
+              "endFrame": 140
             }
           ]
         }
       ],
-      "durationInFrames": 1254
+      "durationInFrames": 1453
     },
     {
       "id": "12-icing",
@@ -3104,23 +3104,23 @@
             "expression": "deadpan",
             "position": "center"
           },
-          "durationInFrames": 166,
-          "audioSrc": null,
+          "durationInFrames": 181,
+          "audioSrc": "audio/13-ifr-altitudes/scene-01.mp3",
           "captions": [
             {
               "text": "Thirty seconds. The alphabet soup of",
               "startFrame": 3,
-              "endFrame": 70
+              "endFrame": 76
             },
             {
               "text": "minimum altitudes. Five acronyms,",
-              "startFrame": 70,
-              "endFrame": 131
+              "startFrame": 76,
+              "endFrame": 143
             },
             {
               "text": "one job each.",
-              "startFrame": 131,
-              "endFrame": 155
+              "startFrame": 143,
+              "endFrame": 170
             }
           ]
         },
@@ -3143,38 +3143,38 @@
             "expression": "neutral",
             "position": "corner"
           },
-          "durationInFrames": 264,
-          "audioSrc": null,
+          "durationInFrames": 332,
+          "audioSrc": "audio/13-ifr-altitudes/scene-02.mp3",
           "captions": [
             {
               "text": "M E A:",
               "startFrame": 3,
-              "endFrame": 17
+              "endFrame": 21
             },
             {
               "text": "obstacles AND nav signal,",
-              "startFrame": 17,
-              "endFrame": 77
+              "startFrame": 21,
+              "endFrame": 97
             },
             {
               "text": "fix to fix.",
-              "startFrame": 77,
-              "endFrame": 103
+              "startFrame": 97,
+              "endFrame": 131
             },
             {
               "text": "M O C A:",
-              "startFrame": 103,
-              "endFrame": 122
+              "startFrame": 131,
+              "endFrame": 155
             },
             {
               "text": "obstacles too, but signal only within",
-              "startFrame": 122,
-              "endFrame": 211
+              "startFrame": 155,
+              "endFrame": 268
             },
             {
               "text": "twenty-two miles.",
-              "startFrame": 211,
-              "endFrame": 253
+              "startFrame": 268,
+              "endFrame": 321
             }
           ]
         },
@@ -3191,33 +3191,33 @@
             "expression": "squint",
             "position": "left"
           },
-          "durationInFrames": 264,
-          "audioSrc": null,
+          "durationInFrames": 286,
+          "audioSrc": "audio/13-ifr-altitudes/scene-03.mp3",
           "captions": [
             {
               "text": "M R A:",
               "startFrame": 3,
-              "endFrame": 21
+              "endFrame": 22
             },
             {
               "text": "high enough to RECEIVE the fix.",
-              "startFrame": 21,
-              "endFrame": 112
+              "startFrame": 22,
+              "endFrame": 121
             },
             {
               "text": "M C A:",
-              "startFrame": 112,
-              "endFrame": 130
+              "startFrame": 121,
+              "endFrame": 140
             },
             {
               "text": "cross the fix at or above",
-              "startFrame": 130,
-              "endFrame": 204
+              "startFrame": 140,
+              "endFrame": 220
             },
             {
               "text": "it — climb early.",
-              "startFrame": 204,
-              "endFrame": 253
+              "startFrame": 220,
+              "endFrame": 275
             }
           ]
         },
@@ -3236,7 +3236,7 @@
             "position": "right"
           },
           "durationInFrames": 308,
-          "audioSrc": null,
+          "audioSrc": "audio/13-ifr-altitudes/scene-04.mp3",
           "captions": [
             {
               "text": "Off airways, O R O C",
@@ -3279,23 +3279,23 @@
             "expression": "neutral",
             "position": "center"
           },
-          "durationInFrames": 166,
-          "audioSrc": null,
+          "durationInFrames": 144,
+          "audioSrc": "audio/13-ifr-altitudes/scene-05.mp3",
           "captions": [
             {
               "text": "M E A does both jobs.",
               "startFrame": 3,
-              "endFrame": 58
+              "endFrame": 50
             },
             {
               "text": "Granite doesn't grade on a curve,",
-              "startFrame": 58,
-              "endFrame": 144
+              "startFrame": 50,
+              "endFrame": 124
             },
             {
               "text": "kid.",
-              "startFrame": 144,
-              "endFrame": 155
+              "startFrame": 124,
+              "endFrame": 133
             }
           ]
         },
@@ -3312,23 +3312,23 @@
             "expression": "deadpan",
             "position": "corner"
           },
-          "durationInFrames": 100,
-          "audioSrc": null,
+          "durationInFrames": 127,
+          "audioSrc": "audio/13-ifr-altitudes/scene-06.mp3",
           "captions": [
             {
               "text": "Ninety-one one seventy-seven sets the floor.",
               "startFrame": 3,
-              "endFrame": 73
+              "endFrame": 95
             },
             {
               "text": "Literally.",
-              "startFrame": 73,
-              "endFrame": 89
+              "startFrame": 95,
+              "endFrame": 116
             }
           ]
         }
       ],
-      "durationInFrames": 1268
+      "durationInFrames": 1378
     },
     {
       "id": "14-vor-checks",
@@ -4084,38 +4084,38 @@
             "expression": "deadpan",
             "position": "center"
           },
-          "durationInFrames": 264,
-          "audioSrc": null,
+          "durationInFrames": 290,
+          "audioSrc": "audio/17-da-vs-mda/scene-01.mp3",
           "captions": [
             {
               "text": "Thirty seconds. D A versus M",
               "startFrame": 3,
-              "endFrame": 64
+              "endFrame": 71
             },
             {
               "text": "D A —",
-              "startFrame": 64,
-              "endFrame": 75
+              "startFrame": 71,
+              "endFrame": 83
             },
             {
               "text": "two letters apart,",
-              "startFrame": 75,
-              "endFrame": 114
+              "startFrame": 83,
+              "endFrame": 127
             },
             {
               "text": "very different bottoms.",
-              "startFrame": 114,
-              "endFrame": 164
+              "startFrame": 127,
+              "endFrame": 183
             },
             {
               "text": "Confuse them and it gets expensive.",
-              "startFrame": 164,
-              "endFrame": 241
+              "startFrame": 183,
+              "endFrame": 268
             },
             {
               "text": "Fast.",
-              "startFrame": 241,
-              "endFrame": 253
+              "startFrame": 268,
+              "endFrame": 279
             }
           ]
         },
@@ -4138,33 +4138,33 @@
             "expression": "neutral",
             "position": "corner"
           },
-          "durationInFrames": 275,
-          "audioSrc": null,
+          "durationInFrames": 315,
+          "audioSrc": "audio/17-da-vs-mda/scene-02.mp3",
           "captions": [
             {
               "text": "D A comes with a glidepath.",
               "startFrame": 3,
-              "endFrame": 66
+              "endFrame": 76
             },
             {
               "text": "Keep descending; AT the number,",
-              "startFrame": 66,
-              "endFrame": 138
+              "startFrame": 76,
+              "endFrame": 159
             },
             {
               "text": "decide. Land or miss —",
-              "startFrame": 138,
-              "endFrame": 189
+              "startFrame": 159,
+              "endFrame": 218
             },
             {
               "text": "dipping a hair below is built",
-              "startFrame": 189,
-              "endFrame": 257
+              "startFrame": 218,
+              "endFrame": 296
             },
             {
               "text": "in.",
-              "startFrame": 257,
-              "endFrame": 264
+              "startFrame": 296,
+              "endFrame": 304
             }
           ]
         },
@@ -4187,33 +4187,33 @@
             "expression": "squint",
             "position": "corner"
           },
-          "durationInFrames": 275,
-          "audioSrc": null,
+          "durationInFrames": 268,
+          "audioSrc": "audio/17-da-vs-mda/scene-03.mp3",
           "captions": [
             {
               "text": "M D A is a hard",
               "startFrame": 3,
-              "endFrame": 43
+              "endFrame": 41
             },
             {
               "text": "floor. Level off,",
-              "startFrame": 43,
-              "endFrame": 88
+              "startFrame": 41,
+              "endFrame": 85
             },
             {
               "text": "ride it to the missed point.",
-              "startFrame": 88,
-              "endFrame": 162
+              "startFrame": 85,
+              "endFrame": 157
             },
             {
               "text": "No sagging down to hunt for",
-              "startFrame": 162,
-              "endFrame": 233
+              "startFrame": 157,
+              "endFrame": 226
             },
             {
               "text": "the airport.",
-              "startFrame": 233,
-              "endFrame": 264
+              "startFrame": 226,
+              "endFrame": 257
             }
           ]
         },
@@ -4232,38 +4232,38 @@
             "expression": "eyebrowRaise",
             "position": "left"
           },
-          "durationInFrames": 319,
-          "audioSrc": null,
+          "durationInFrames": 356,
+          "audioSrc": "audio/17-da-vs-mda/scene-04.mp3",
           "captions": [
             {
               "text": "Below either takes all three:",
               "startFrame": 3,
-              "endFrame": 58
+              "endFrame": 65
             },
             {
               "text": "position to land normally,",
-              "startFrame": 58,
-              "endFrame": 107
+              "startFrame": 65,
+              "endFrame": 120
             },
             {
               "text": "the required visibility,",
-              "startFrame": 107,
-              "endFrame": 152
+              "startFrame": 120,
+              "endFrame": 171
             },
             {
               "text": "runway environment in sight.",
-              "startFrame": 152,
-              "endFrame": 205
+              "startFrame": 171,
+              "endFrame": 230
             },
             {
               "text": "Two out of three is a",
-              "startFrame": 205,
-              "endFrame": 245
+              "startFrame": 230,
+              "endFrame": 275
             },
             {
               "text": "missed approach with extra steps.",
-              "startFrame": 245,
-              "endFrame": 308
+              "startFrame": 275,
+              "endFrame": 345
             }
           ]
         },
@@ -4281,33 +4281,33 @@
             "expression": "grin",
             "position": "center"
           },
-          "durationInFrames": 242,
-          "audioSrc": null,
+          "durationInFrames": 286,
+          "audioSrc": "audio/17-da-vs-mda/scene-05.mp3",
           "captions": [
             {
               "text": "D A: decide.",
               "startFrame": 3,
-              "endFrame": 31
+              "endFrame": 37
             },
             {
               "text": "M D A:",
-              "startFrame": 31,
-              "endFrame": 45
+              "startFrame": 37,
+              "endFrame": 54
             },
             {
               "text": "level. My examiner in eighty-seven asked",
-              "startFrame": 45,
-              "endFrame": 139
+              "startFrame": 54,
+              "endFrame": 166
             },
             {
               "text": "all of this.",
-              "startFrame": 139,
-              "endFrame": 167
+              "startFrame": 166,
+              "endFrame": 200
             },
             {
               "text": "I still remember his frown.",
-              "startFrame": 167,
-              "endFrame": 231
+              "startFrame": 200,
+              "endFrame": 275
             }
           ]
         },
@@ -4324,23 +4324,23 @@
             "expression": "deadpan",
             "position": "corner"
           },
-          "durationInFrames": 111,
-          "audioSrc": null,
+          "durationInFrames": 181,
+          "audioSrc": "audio/17-da-vs-mda/scene-06.mp3",
           "captions": [
             {
               "text": "Ninety-one one seventy-five,",
               "startFrame": 3,
-              "endFrame": 48
+              "endFrame": 81
             },
             {
               "text": "paragraph c. The whole ballgame.",
-              "startFrame": 48,
-              "endFrame": 100
+              "startFrame": 81,
+              "endFrame": 170
             }
           ]
         }
       ],
-      "durationInFrames": 1486
+      "durationInFrames": 1696
     },
     {
       "id": "18-dps-stars",

@@ -6,7 +6,7 @@
       "title": "Copy Any Clearance: CRAFT",
       "topicArea": "clearances",
       "hook": "ATC talks at 200 words a minute. Here's how you win.",
-      "hasVideo": false,
+      "hasVideo": true,
       "references": {
         "acs": [
           "IR.III.A"
@@ -57,7 +57,7 @@
       "title": "The 1-2-3 Rule: When You Need an Alternate",
       "topicArea": "regs",
       "hook": "Do you legally need an alternate today? Count to three.",
-      "hasVideo": false,
+      "hasVideo": true,
       "references": {
         "acs": [
           "IR.I.C"
@@ -159,7 +159,7 @@
       "title": "Lost Comms: AVEF & MEA",
       "topicArea": "emergencies",
       "hook": "The radio just died in the clouds. What now?",
-      "hasVideo": false,
+      "hasVideo": true,
       "references": {
         "acs": [
           "IR.VII.A"
@@ -210,7 +210,7 @@
       "title": "IFR Currency: 6-6-HIT",
       "topicArea": "regs",
       "hook": "Legal to file IFR today? Let's check your math.",
-      "hasVideo": false,
+      "hasVideo": true,
       "references": {
         "acs": [
           "IR.I.A"
@@ -302,7 +302,7 @@
       "title": "The ILS in Plain English",
       "topicArea": "approaches",
       "hook": "Two needles, one runway, zero visibility. Meet the ILS.",
-      "hasVideo": false,
+      "hasVideo": true,
       "references": {
         "acs": [
           "IR.VI.B"
@@ -353,7 +353,7 @@
       "title": "VOR Radials Without the Vertigo",
       "topicArea": "navigation",
       "hook": "Which radial are you on? Wrong answer costs you the checkride.",
-      "hasVideo": false,
+      "hasVideo": true,
       "references": {
         "acs": [
           "IR.V.A"
@@ -506,7 +506,7 @@
       "title": "METAR & TAF: Read Weather Like a Dispatcher",
       "topicArea": "weather",
       "hook": "KDEN 271753Z 33015G25KT... gibberish, or a go/no-go answer?",
-      "hasVideo": false,
+      "hasVideo": true,
       "references": {
         "acs": [
           "IR.I.B"
@@ -608,7 +608,7 @@
       "title": "MEA, MOCA & Friends",
       "topicArea": "navigation",
       "hook": "Five altitude acronyms guard every airway. Know who does what.",
-      "hasVideo": false,
+      "hasVideo": true,
       "references": {
         "acs": [
           "IR.I.C"
@@ -812,7 +812,7 @@
       "title": "DA vs MDA (and the 91.175 Big Three)",
       "topicArea": "approaches",
       "hook": "One altitude you decide AT. One you park ON. Mix them up and the FAA writes.",
-      "hasVideo": false,
+      "hasVideo": true,
       "references": {
         "acs": [
           "IR.VI.A",
