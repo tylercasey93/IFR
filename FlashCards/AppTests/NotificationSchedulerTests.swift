@@ -4,7 +4,24 @@ import XCTest
 final class NotificationSchedulerTests: XCTestCase {
     func testDeepLinkParsing() {
         XCTAssertEqual(NotificationScheduler.handledTab(from: ["tab": "study"]), .study)
+        XCTAssertEqual(NotificationScheduler.handledTab(from: ["tab": "feed"]), .feed)
         XCTAssertNil(NotificationScheduler.handledTab(from: [:]))
+    }
+
+    func testDailyBriefRequest() {
+        let lesson = FeedLesson(
+            id: "03-holding-entries", title: "Holding", topicArea: "holding",
+            hook: "Which entry? You have until the fix.", hasVideo: true,
+            references: FeedReferences(acs: ["IR.III.B"],
+                                       faa: FeedFAAReference(source: "AIM 5-3-8", title: "Holding")),
+            quiz: [])
+        let brief = NotificationScheduler.dailyBriefRequest(lesson: lesson)
+        let trigger = brief.trigger as! UNCalendarNotificationTrigger
+        XCTAssertEqual(trigger.dateComponents.hour, 8)
+        XCTAssertTrue(trigger.repeats)
+        XCTAssertEqual(brief.content.body, lesson.hook)
+        XCTAssertEqual(brief.content.userInfo["tab"] as? String, "feed")
+        XCTAssertEqual(brief.content.userInfo["lessonID"] as? String, lesson.id)
     }
 
     func testRequestBuildersProduceExpectedTriggers() {

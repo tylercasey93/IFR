@@ -185,6 +185,16 @@ final class StudyStore {
 
     // MARK: - XP / streak / badges
 
+    /// XP for feed activity (watching a lesson, first correct quiz answer).
+    /// XP only, by design: no ReviewRecord/FSRS/streak/badge writes — the
+    /// daily streak stays study-goal-driven. Callers dedupe (first watch,
+    /// FeedProgressStore.claimQuizXP) before calling.
+    func awardFeedXP(_ event: XPEvent, reason: String) {
+        addXP(XPEngine.points(for: event), reason: reason)
+        saveContext()
+        revision += 1
+    }
+
     private func addXP(_ amount: Int, reason: String) {
         context.insert(XPRecord(date: .now, amount: amount, reason: reason))
         onXPChanged?()

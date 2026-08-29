@@ -4,6 +4,8 @@ import IFRCore
 
 struct ProgressTabView: View {
     @Environment(StudyStore.self) private var store
+    @Environment(FeedProgressStore.self) private var feedProgress
+    @State private var feedLessons: [FeedLesson] = []
 
     private let columns = [GridItem(.adaptive(minimum: 100))]
 
@@ -18,6 +20,9 @@ struct ProgressTabView: View {
                         }
                     }
                     .padding(.vertical, 8)
+                }
+                if !feedLessons.filter(\.hasVideo).isEmpty {
+                    hangarSection
                 }
                 if let examDate = store.settings.examDate {
                     Section("Exam readiness") {
@@ -45,6 +50,34 @@ struct ProgressTabView: View {
                 }
             }
             .navigationTitle("Progress")
+            .onAppear {
+                if feedLessons.isEmpty { feedLessons = FeedContent.load() }
+            }
+        }
+    }
+
+    /// Feed mastery: watched coverage + quiz accuracy per lesson topic.
+    /// Live-updates when returning from the feed (shared @Observable store).
+    private var hangarSection: some View {
+        let stats = FeedHangarStats.compute(
+            lessons: feedLessons,
+            isWatched: { feedProgress.isWatched($0) },
+            quizResult: { feedProgress.quizResult(lessonID: $0, questionIndex: $1) }
+        )
+        return Section("Hangar — IFR in 30 Seconds") {
+            LabeledContent("Lessons watched",
+                           value: "\(stats.lessonsWatched) of \(stats.lessonsTotal)")
+            LabeledContent("Quiz accuracy", value: stats.quizAccuracy.map {
+                "\(Int(($0 * 100).rounded()))%"
+            } ?? "—")
+            LazyVGrid(columns: columns, spacing: 16) {
+                ForEach(stats.topics) { topic in
+                    MasteryRing(title: topic.topicArea.capitalized,
+                                progress: topic.ringProgress,
+                                caption: "\(topic.watched)/\(topic.total) watched")
+                }
+            }
+            .padding(.vertical, 8)
         }
     }
 }

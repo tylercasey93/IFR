@@ -41,11 +41,13 @@ struct FeedQuizQuestion: Codable, Hashable {
 /// A single page of the vertical feed: a lesson video, or one of its quiz
 /// questions interleaved right after it.
 enum FeedItem: Identifiable, Hashable {
+    case preflight(FeedLesson)
     case video(FeedLesson)
     case quiz(FeedLesson, questionIndex: Int)
 
     var id: String {
         switch self {
+        case .preflight(let lesson): return "\(lesson.id)#preflight"
         case .video(let lesson): return lesson.id
         case .quiz(let lesson, let index): return "\(lesson.id)#quiz\(index)"
         }
@@ -53,7 +55,7 @@ enum FeedItem: Identifiable, Hashable {
 
     var lesson: FeedLesson {
         switch self {
-        case .video(let lesson), .quiz(let lesson, _): return lesson
+        case .preflight(let lesson), .video(let lesson), .quiz(let lesson, _): return lesson
         }
     }
 }
@@ -71,10 +73,14 @@ enum FeedContent {
         return pack.lessons
     }
 
-    /// Videos first in authored order, each followed by its quiz questions.
+    /// Each lesson becomes: pre-flight challenge card (pretest), the video,
+    /// then its quiz questions.
     static func buildItems(from lessons: [FeedLesson]) -> [FeedItem] {
         var items: [FeedItem] = []
         for lesson in lessons where lesson.hasVideo {
+            if !lesson.quiz.isEmpty {
+                items.append(.preflight(lesson))
+            }
             items.append(.video(lesson))
             for index in lesson.quiz.indices {
                 items.append(.quiz(lesson, questionIndex: index))

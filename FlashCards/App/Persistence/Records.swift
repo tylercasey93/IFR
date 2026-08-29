@@ -114,6 +114,8 @@ final class SettingsRecord {
     var reminderMinute: Int = 0
     var reminderEnabled: Bool = true
     var streakRiskEnabled: Bool = true
+    // Additive with a default => SwiftData lightweight migration, no versioning.
+    var briefEnabled: Bool = true
     var examDate: Date?
 
     init() {}

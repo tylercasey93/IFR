@@ -27,4 +27,12 @@ final class XPEngineTests: XCTestCase {
         XCTAssertEqual(XPEngine.points(for: .mockExamCompleted(passed: false)), 40)
         XCTAssertEqual(XPEngine.points(for: .dailyGoalMet), 50)
     }
+
+    func testFeedValues() {
+        XCTAssertEqual(XPEngine.points(for: .feedLessonWatched), 5)
+        XCTAssertEqual(XPEngine.points(for: .feedQuizCorrect), 10)
+        XCTAssertLessThan(XPEngine.points(for: .feedQuizCorrect),
+                          XPEngine.points(for: .reviewMC(correct: true, difficulty: 1)),
+                          "feed activity must never out-earn deliberate study")
+    }
 }

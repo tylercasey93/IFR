@@ -22,6 +22,17 @@ In Xcode: select the `IFRFlashCards` target → Signing & Capabilities → pick
 your Team, then Cmd-R to your iPhone. If anything fails to compile, send the
 error back to Claude — the Swift was written without a Mac to compile on.
 
+## Feed features
+
+Beyond the video pager, the Feed ships with: spaced-repetition ordering
+(unwatched → missed-quiz → stalest first), pre-flight challenge cards
+(pretest before each video), feed XP into the shared XP/Game Center system,
+Duke quiz-feedback quips with streak escalation, a "Hangar" mastery section
+in the Progress tab, Duke's Daily Brief notification (08:00, toggleable in
+Settings), and Hangar Radio — background audio playback of the lessons with
+lock-screen controls. After pulling, re-run `xcodegen generate` (new files +
+a UIBackgroundModes Info.plist key).
+
 ## Rendering lesson videos
 
 Requires Node 20+. All commands run in `video-pipeline/`:

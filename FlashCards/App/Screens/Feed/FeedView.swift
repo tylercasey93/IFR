@@ -1,16 +1,21 @@
 // App/Screens/Feed/FeedView.swift
 import AVFoundation
+import IFRCore
 import SwiftUI
 
 /// "IFR in 30 Seconds": a TikTok-style vertical pager of ~30-second animated
-/// lesson videos with quiz pages interleaved after each one. iOS 17 paging
-/// ScrollView; players are pooled for the current page ± 1.
+/// lesson videos with pre-flight challenge cards before and quiz pages after
+/// each one. iOS 17 paging ScrollView; players are pooled for the current
+/// page ± 1. Page order is spaced-repetition-aware (FeedOrdering), computed
+/// once per visit so pages never reshuffle mid-scroll.
 struct FeedView: View {
     @State private var items: [FeedItem] = []
     @State private var currentID: String?
     @State private var pool = FeedPlayerPool()
-    @State private var progress = FeedProgressStore()
     @State private var showBrowse = false
+    @State private var showRadio = false
+    @Environment(FeedProgressStore.self) private var progress
+    @Environment(StudyStore.self) private var store
     @Environment(\.scenePhase) private var scenePhase
 
     var body: some View {
@@ -22,18 +27,22 @@ struct FeedView: View {
             }
         }
         .environment(pool)
-        .environment(progress)
         .onAppear {
-            // Scoped here (not app-wide): the feed is the only AV playback,
-            // and .playback lets narration play past the silent switch.
-            try? AVAudioSession.sharedInstance().setCategory(.playback, mode: .moviePlayback)
+            AudioSessionConfigurator.activatePlayback()
             if items.isEmpty {
-                items = FeedContent.buildItems(from: FeedContent.load())
+                let lessons = FeedOrdering.ordered(FeedContent.load()) { lesson in
+                    .init(watchedAt: progress.watchedDate(lesson.id),
+                          hasWrongLatestAnswer: progress.hasWrongLatestAnswer(lesson))
+                }
+                items = FeedContent.buildItems(from: lessons)
                 currentID = items.first?.id
             }
             activate(currentID)
         }
-        .onDisappear { pool.pauseAll() }
+        .onDisappear {
+            pool.pauseAll()
+            progress.sessionStreak = 0
+        }
         .onChange(of: currentID) { _, newValue in activate(newValue) }
         .onChange(of: scenePhase) { _, phase in
             if phase != .active { pool.pauseAll() } else { activate(currentID) }
@@ -57,13 +66,15 @@ struct FeedView: View {
         .scrollIndicators(.hidden)
         .ignoresSafeArea(edges: .top)
         .background(Color.black)
-        .overlay(alignment: .topTrailing) { browseButton }
+        .overlay(alignment: .topTrailing) { overlayButtons }
         .sheet(isPresented: $showBrowse) {
             FeedBrowseSheet(lessons: uniqueLessons) { lessonID in
                 showBrowse = false
                 currentID = lessonID
             }
-            .environment(progress)
+        }
+        .sheet(isPresented: $showRadio, onDismiss: { activate(currentID) }) {
+            HangarRadioView(lessons: uniqueLessons)
         }
         .accessibilityIdentifier("feedPager")
     }
@@ -71,6 +82,8 @@ struct FeedView: View {
     @ViewBuilder
     private func page(for item: FeedItem) -> some View {
         switch item {
+        case .preflight(let lesson):
+            FeedPreflightCard(lesson: lesson)
         case .video(let lesson):
             FeedVideoCard(lesson: lesson, isActive: currentID == lesson.id)
         case .quiz(let lesson, let index):
@@ -78,19 +91,30 @@ struct FeedView: View {
         }
     }
 
-    private var browseButton: some View {
-        Button {
-            showBrowse = true
-        } label: {
-            Image(systemName: "list.bullet")
+    private var overlayButtons: some View {
+        VStack(spacing: 14) {
+            overlayButton(systemImage: "list.bullet", identifier: "feedBrowseButton") {
+                showBrowse = true
+            }
+            overlayButton(systemImage: "dot.radiowaves.left.and.right", identifier: "hangarRadioButton") {
+                pool.pauseAll()
+                showRadio = true
+            }
+        }
+        .padding(.trailing, 20)
+        .padding(.top, 60)
+    }
+
+    private func overlayButton(systemImage: String, identifier: String,
+                               action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            Image(systemName: systemImage)
                 .font(.title3)
                 .frame(width: 44, height: 44)
                 .background(.ultraThinMaterial, in: Circle())
         }
         .buttonStyle(.plain)
-        .padding(.trailing, 20)
-        .padding(.top, 60)
-        .accessibilityIdentifier("feedBrowseButton")
+        .accessibilityIdentifier(identifier)
     }
 
     private var uniqueLessons: [FeedLesson] {
@@ -103,6 +127,9 @@ struct FeedView: View {
 
     /// Drives playback + preloading + progress whenever the visible page changes.
     private func activate(_ itemID: String?) {
+        // While Hangar Radio is up, the feed stays silent — the scenePhase
+        // path must not restart video audio over the radio.
+        guard !showRadio else { return }
         guard let index = items.firstIndex(where: { $0.id == itemID }) else {
             pool.pauseAll()
             return
@@ -111,7 +138,7 @@ struct FeedView: View {
 
         // Warm players for the neighboring video pages so swipes start instantly.
         var keep = Set<String>()
-        for offset in -1...1 {
+        for offset in -2...2 {
             let neighbor = index + offset
             guard items.indices.contains(neighbor),
                   case .video(let lesson) = items[neighbor],
@@ -123,7 +150,10 @@ struct FeedView: View {
 
         if case .video(let lesson) = item {
             pool.playOnly(lesson.id)
-            progress.markWatched(lesson.id)
+            if !progress.isWatched(lesson.id) {
+                progress.markWatched(lesson.id)
+                store.awardFeedXP(.feedLessonWatched, reason: "feedWatch")
+            }
         } else {
             pool.playOnly(nil)
         }

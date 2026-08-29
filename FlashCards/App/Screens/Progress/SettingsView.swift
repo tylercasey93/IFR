@@ -53,6 +53,7 @@ struct SettingsView: View {
                         }), displayedComponents: .hourAndMinute)
                 }
                 Toggle("Streak-at-risk alert", isOn: $settings.streakRiskEnabled)
+                Toggle("Duke's daily brief", isOn: $settings.briefEnabled)
             }
             Section("Game Center") {
                 if gameCenter.isAuthenticated {

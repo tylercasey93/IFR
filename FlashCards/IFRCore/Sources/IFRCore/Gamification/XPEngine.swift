@@ -4,6 +4,8 @@ public enum XPEvent: Equatable, Sendable {
     case quizAnswer(correct: Bool, difficulty: Int)
     case mockExamCompleted(passed: Bool)
     case dailyGoalMet
+    case feedLessonWatched
+    case feedQuizCorrect
 }
 
 public enum XPEngine: Sendable {
@@ -20,6 +22,12 @@ public enum XPEngine: Sendable {
             passed ? 100 : 40
         case .dailyGoalMet:
             50
+        // Feed values sit below study values on purpose: watching a video
+        // and one-tap quizzes must never out-earn deliberate review.
+        case .feedLessonWatched:
+            5
+        case .feedQuizCorrect:
+            10
         }
     }
 

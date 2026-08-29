@@ -4,6 +4,7 @@ import UserNotifications
 final class NotificationScheduler {
     static let dailyID = "dailyReminder"
     static let riskID = "streakRisk"
+    static let briefID = "dailyBrief"
 
     @MainActor
     func requestPermission() {
@@ -16,12 +17,20 @@ final class NotificationScheduler {
     @MainActor
     func refresh(reminderEnabled: Bool, reminderHour: Int, reminderMinute: Int,
                  streakRiskEnabled: Bool, goalMetToday: Bool, streak: Int, dueCount: Int,
+                 briefEnabled: Bool = false, briefLesson: FeedLesson? = nil,
                  now: Date = .now, calendar: Calendar = .current) {
         let center = UNUserNotificationCenter.current()
-        center.removePendingNotificationRequests(withIdentifiers: [Self.dailyID, Self.riskID])
+        center.removePendingNotificationRequests(
+            withIdentifiers: [Self.dailyID, Self.riskID, Self.briefID])
         if reminderEnabled {
             center.add(Self.dailyReminderRequest(hour: reminderHour, minute: reminderMinute,
                                                  dueCount: dueCount))
+        }
+        // Morning content teaser (08:00) complements the evening study
+        // reminder (default 18:00) — different jobs, so defaults never
+        // double-notify. Lesson rotation is the caller's responsibility.
+        if briefEnabled, let briefLesson {
+            center.add(Self.dailyBriefRequest(lesson: briefLesson))
         }
         // Only schedule the streak-risk warning before 20:00. A non-repeating
         // DateComponents(hour: 20) trigger scheduled after 20:00 would fire
@@ -58,10 +67,24 @@ final class NotificationScheduler {
         return UNNotificationRequest(identifier: riskID, content: content, trigger: trigger)
     }
 
+    static func dailyBriefRequest(lesson: FeedLesson) -> UNNotificationRequest {
+        let content = UNMutableNotificationContent()
+        content.title = "Duke's Daily Brief ✈️"
+        content.body = lesson.hook
+        content.sound = .default
+        // lessonID is unused by the router today; carrying it makes a future
+        // jump-to-lesson deep link a router-only change.
+        content.userInfo = ["tab": "feed", "lessonID": lesson.id]
+        let trigger = UNCalendarNotificationTrigger(
+            dateMatching: DateComponents(hour: 8, minute: 0), repeats: true)
+        return UNNotificationRequest(identifier: briefID, content: content, trigger: trigger)
+    }
+
     static func handledTab(from userInfo: [AnyHashable: Any]) -> AppTab? {
         switch userInfo["tab"] as? String {
         case "study": .study
         case "today": .today
+        case "feed": .feed
         default: nil
         }
     }

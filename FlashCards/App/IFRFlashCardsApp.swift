@@ -25,7 +25,20 @@ struct IFRFlashCardsApp: App {
     private let router = NotificationTapRouter()
     @State private var gameCenter = GameCenterService()
     @State private var notifications = NotificationScheduler()
+    @State private var feedProgress = FeedProgressStore()
+    /// Bundled feed lessons, loaded once — drives the Daily Brief rotation.
+    private let feedLessons = FeedContent.load()
     @Environment(\.scenePhase) private var scenePhase
+
+    /// Rotates through all bundled lessons by day of year — every lesson has
+    /// a hook, video or not. The repeating 08:00 trigger only re-rotates when
+    /// refresh runs (launch/foreground/background), which is daily for any
+    /// active user; a stale hook for a fully idle user is acceptable.
+    private var briefLessonOfTheDay: FeedLesson? {
+        guard !feedLessons.isEmpty else { return nil }
+        let day = Calendar.current.ordinality(of: .day, in: .year, for: .now) ?? 1
+        return feedLessons[(day - 1) % feedLessons.count]
+    }
 
     init() {
         container = try! ModelContainer(for: CardStateRecord.self, ReviewRecord.self,
@@ -42,6 +55,7 @@ struct IFRFlashCardsApp: App {
             RootView(router: router)
                 .environment(store)
                 .environment(gameCenter)
+                .environment(feedProgress)
                 .tint(Theme.accent)
                 .preferredColorScheme(.dark)   // cockpit-dark default; system light theme is deliberate follow-up backlog
                 .onAppear {
@@ -75,7 +89,9 @@ struct IFRFlashCardsApp: App {
                         // if new cards came due after the goal was already met.
                         goalMetToday: store.goalRecordedToday || store.goalMetToday,
                         streak: store.streakDisplay,
-                        dueCount: store.dueCount)
+                        dueCount: store.dueCount,
+                        briefEnabled: store.settings.briefEnabled && !feedLessons.isEmpty,
+                        briefLesson: briefLessonOfTheDay)
                 }
         }
     }
