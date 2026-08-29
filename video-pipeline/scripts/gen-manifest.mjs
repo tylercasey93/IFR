@@ -38,17 +38,22 @@ function chunkNarration(narration) {
 
 function sceneDurationSec(scene, timing) {
   const min = scene.minDurationSec ?? 3;
-  if (timing) return Math.max(min, timing.durationSec + AUDIO_TAIL_SEC);
+  const pause = scene.pauseSec ?? 0; // retrieval-practice think time
+  if (timing) return Math.max(min, timing.durationSec + AUDIO_TAIL_SEC + pause);
   const words = scene.narration.split(/\s+/).filter(Boolean).length;
-  return Math.max(min, (words / WORDS_PER_MINUTE) * 60 + 0.8);
+  return Math.max(min, (words / WORDS_PER_MINUTE) * 60 + 0.8 + pause);
 }
 
 function buildCaptions(scene, durationInFrames) {
   const chunks = chunkNarration(scene.narration);
   const totalChars = chunks.reduce((n, c) => n + c.length, 0) || 1;
-  // Captions occupy the narrated portion: leave a short head and the tail.
+  // Captions occupy the narrated portion only: leave a short head, the tail,
+  // and any silent retrieval pause at the end of the scene.
   const head = Math.round(0.1 * FPS);
-  const usable = durationInFrames - head - Math.round(AUDIO_TAIL_SEC * FPS);
+  const usable =
+    durationInFrames -
+    head -
+    Math.round((AUDIO_TAIL_SEC + (scene.pauseSec ?? 0)) * FPS);
   let cursor = head;
   return chunks.map((text, i) => {
     const share = Math.round((text.length / totalChars) * usable);
@@ -85,6 +90,7 @@ const lessons = files.map((file, index) => {
       durationInFrames,
       audioSrc: hasAudio ? audioRel : null,
       captions: buildCaptions(scene, durationInFrames),
+      pauseSec: scene.pauseSec,
     };
   });
 

@@ -2,7 +2,7 @@
 // The manifest bakes per-scene durations and caption timings at build time so
 // compositions are fully deterministic.
 
-export type SceneKind = 'title' | 'bullets' | 'diagram' | 'recap' | 'sources';
+export type SceneKind = 'title' | 'bullets' | 'diagram' | 'recap' | 'sources' | 'challenge';
 
 export type DukePose = 'stand' | 'point' | 'coffeeSip' | 'armsCrossed';
 export type DukeExpression = 'neutral' | 'deadpan' | 'eyebrowRaise' | 'grin' | 'squint';
@@ -36,6 +36,8 @@ export type SceneManifest = {
   /** Path under public/ for staticFile(), or null when rendering captions-only. */
   audioSrc: string | null;
   captions: CaptionChunk[];
+  /** Silent think-time (seconds) appended after narration — retrieval pause. */
+  pauseSec?: number;
 };
 
 export type LessonManifest = {

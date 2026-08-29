@@ -1,6 +1,7 @@
 import React from 'react';
 import { AbsoluteFill, Audio, Sequence, staticFile } from 'remotion';
 import { BulletScene } from './scenes/BulletScene';
+import { ChallengeScene } from './scenes/ChallengeScene';
 import { DiagramScene } from './scenes/DiagramScene';
 import { RecapScene } from './scenes/RecapScene';
 import { SceneShell } from './scenes/SceneShell';
@@ -69,6 +70,8 @@ const SceneBody: React.FC<{ lesson: LessonManifest; scene: SceneManifest }> = ({
       return <RecapScene scene={scene} />;
     case 'sources':
       return <SourcesCard lesson={lesson} />;
+    case 'challenge':
+      return <ChallengeScene scene={scene} />;
     default:
       return <BulletScene scene={scene} />;
   }

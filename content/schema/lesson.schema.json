@@ -4,60 +4,120 @@
   "title": "IFR in 30 Seconds — Lesson",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "title", "topicArea", "references", "hook", "scenes", "quiz"],
+  "required": [
+    "id",
+    "title",
+    "topicArea",
+    "references",
+    "hook",
+    "scenes",
+    "quiz"
+  ],
   "properties": {
     "id": {
       "type": "string",
       "pattern": "^[0-9]{2}-[a-z0-9-]+$",
       "description": "Ordered kebab-case id, e.g. 03-holding-entries. Numeric prefix = default feed order."
     },
-    "title": { "type": "string", "minLength": 3, "maxLength": 60 },
+    "title": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 60
+    },
     "topicArea": {
-      "enum": ["clearances", "holding", "approaches", "weather", "regs", "navigation", "emergencies", "equipment"]
+      "enum": [
+        "clearances",
+        "holding",
+        "approaches",
+        "weather",
+        "regs",
+        "navigation",
+        "emergencies",
+        "equipment"
+      ]
     },
     "references": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["acs", "faa"],
+      "required": [
+        "acs",
+        "faa"
+      ],
       "properties": {
         "acs": {
           "type": "array",
           "minItems": 1,
-          "items": { "type": "string", "minLength": 2 },
+          "items": {
+            "type": "string",
+            "minLength": 2
+          },
           "description": "Instrument Rating ACS (FAA-S-ACS-8C) task codes, e.g. IR.II.A"
         },
         "faa": {
           "type": "object",
           "additionalProperties": false,
-          "required": ["source", "title"],
+          "required": [
+            "source",
+            "title"
+          ],
           "properties": {
-            "source": { "type": "string", "description": "e.g. '14 CFR 91.185', 'AIM 5-3-8', 'FAA-H-8083-15B Ch. 10'" },
-            "title": { "type": "string", "description": "Human-readable name of the cited section" }
+            "source": {
+              "type": "string",
+              "description": "e.g. '14 CFR 91.185', 'AIM 5-3-8', 'FAA-H-8083-15B Ch. 10'"
+            },
+            "title": {
+              "type": "string",
+              "description": "Human-readable name of the cited section"
+            }
           }
         }
       }
     },
-    "hook": { "type": "string", "minLength": 5, "description": "One-line scroll-stopper shown/spoken first" },
+    "hook": {
+      "type": "string",
+      "minLength": 5,
+      "description": "One-line scroll-stopper shown/spoken first"
+    },
     "scenes": {
       "type": "array",
       "minItems": 3,
-      "items": { "$ref": "#/definitions/scene" }
+      "items": {
+        "$ref": "#/definitions/scene"
+      }
     },
     "quiz": {
       "type": "array",
       "minItems": 2,
       "maxItems": 3,
-      "items": { "$ref": "#/definitions/quizQuestion" }
+      "items": {
+        "$ref": "#/definitions/quizQuestion"
+      }
     }
   },
   "definitions": {
     "scene": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "kind", "narration"],
+      "required": [
+        "id",
+        "kind",
+        "narration"
+      ],
       "properties": {
-        "id": { "type": "string", "pattern": "^scene-[0-9]{2}$" },
-        "kind": { "enum": ["title", "bullets", "diagram", "recap", "sources"] },
+        "id": {
+          "type": "string",
+          "pattern": "^scene-[0-9]{2}$"
+        },
+        "kind": {
+          "enum": [
+            "title",
+            "bullets",
+            "diagram",
+            "recap",
+            "sources",
+            "challenge"
+          ]
+        },
         "narration": {
           "type": "string",
           "minLength": 1,
@@ -65,46 +125,112 @@
         },
         "onScreenText": {
           "type": "array",
-          "items": { "type": "string" },
+          "items": {
+            "type": "string"
+          },
           "description": "Big text lines/bullets shown during the scene (not the captions)."
         },
         "diagram": {
           "type": "object",
           "additionalProperties": false,
-          "required": ["type"],
+          "required": [
+            "type"
+          ],
           "properties": {
             "type": {
-              "enum": ["holdingPattern", "hsi", "approachPlateProfile", "attitudeIndicator", "altimeterMinimums", "weatherMinimums", "routeAltitude", "timeline"]
+              "enum": [
+                "holdingPattern",
+                "hsi",
+                "approachPlateProfile",
+                "attitudeIndicator",
+                "altimeterMinimums",
+                "weatherMinimums",
+                "routeAltitude",
+                "timeline"
+              ]
             },
-            "props": { "type": "object" }
+            "props": {
+              "type": "object"
+            }
           }
         },
         "duke": {
           "type": "object",
           "additionalProperties": false,
           "properties": {
-            "pose": { "enum": ["stand", "point", "coffeeSip", "armsCrossed"] },
-            "expression": { "enum": ["neutral", "deadpan", "eyebrowRaise", "grin", "squint"] },
-            "position": { "enum": ["left", "right", "center", "corner", "hidden"] }
+            "pose": {
+              "enum": [
+                "stand",
+                "point",
+                "coffeeSip",
+                "armsCrossed"
+              ]
+            },
+            "expression": {
+              "enum": [
+                "neutral",
+                "deadpan",
+                "eyebrowRaise",
+                "grin",
+                "squint"
+              ]
+            },
+            "position": {
+              "enum": [
+                "left",
+                "right",
+                "center",
+                "corner",
+                "hidden"
+              ]
+            }
           }
         },
-        "minDurationSec": { "type": "number", "minimum": 1, "maximum": 15 }
+        "minDurationSec": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 15
+        },
+        "pauseSec": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 6,
+          "description": "Silent think-time appended after narration (retrieval-practice pause)"
+        }
       }
     },
     "quizQuestion": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["question", "choices", "correctIndex", "explanation"],
+      "required": [
+        "question",
+        "choices",
+        "correctIndex",
+        "explanation"
+      ],
       "properties": {
-        "question": { "type": "string", "minLength": 8 },
+        "question": {
+          "type": "string",
+          "minLength": 8
+        },
         "choices": {
           "type": "array",
           "minItems": 4,
           "maxItems": 4,
-          "items": { "type": "string", "minLength": 1 }
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
         },
-        "correctIndex": { "type": "integer", "minimum": 0, "maximum": 3 },
-        "explanation": { "type": "string", "minLength": 8 }
+        "correctIndex": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "explanation": {
+          "type": "string",
+          "minLength": 8
+        }
       }
     }
   }

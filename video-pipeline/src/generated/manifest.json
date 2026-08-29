@@ -533,7 +533,7 @@
       "index": 2,
       "title": "Holding Entries Without the Headache",
       "topicArea": "holding",
-      "hook": "Cleared to hold. Which entry? You've got until the fix to decide.",
+      "hook": "Hold northwest of DONNA, right turns. Which entry? You have until the fix.",
       "references": {
         "acs": [
           "IR.III.B"
@@ -547,40 +547,99 @@
         {
           "id": "scene-01",
           "kind": "title",
-          "narration": "Alright kid, thirty seconds. Holding entries. Three ways in, zero excuses.",
+          "narration": "You're level at eight thousand over the high desert when Approach cuts in: hold northwest of DONNA, two-seven-zero inbound, right turns, expect further in twenty. Alright kid. Let's earn that clearance.",
           "onScreenText": [
             "Holding Entries",
-            "Direct · Parallel · Teardrop"
+            "\"Hold NW of DONNA, 270 inbound, right turns\""
           ],
           "duke": {
             "pose": "stand",
             "expression": "deadpan",
             "position": "center"
           },
-          "durationInFrames": 186,
-          "audioSrc": "audio/03-holding-entries/scene-01.mp3",
+          "durationInFrames": 362,
+          "audioSrc": null,
           "captions": [
             {
-              "text": "Alright kid, thirty seconds.",
+              "text": "You're level at eight thousand over",
               "startFrame": 3,
-              "endFrame": 70
+              "endFrame": 65
             },
             {
-              "text": "Holding entries. Three ways in,",
-              "startFrame": 70,
-              "endFrame": 144
+              "text": "the high desert when Approach cuts",
+              "startFrame": 65,
+              "endFrame": 125
             },
             {
-              "text": "zero excuses.",
-              "startFrame": 144,
-              "endFrame": 175
+              "text": "in: hold northwest of DONNA,",
+              "startFrame": 125,
+              "endFrame": 174
+            },
+            {
+              "text": "two-seven-zero inbound, right turns,",
+              "startFrame": 174,
+              "endFrame": 238
+            },
+            {
+              "text": "expect further in twenty.",
+              "startFrame": 238,
+              "endFrame": 282
+            },
+            {
+              "text": "Alright kid. Let's earn that clearance.",
+              "startFrame": 282,
+              "endFrame": 351
             }
           ]
         },
         {
           "id": "scene-02",
+          "kind": "challenge",
+          "narration": "Before I teach you a thing — you're heading zero-nine-zero, pointed straight at DONNA. Direct, parallel, or teardrop? Commit. Out loud.",
+          "onScreenText": [
+            "Heading 090, direct to DONNA.",
+            "Direct · Parallel · Teardrop?"
+          ],
+          "duke": {
+            "pose": "point",
+            "expression": "eyebrowRaise",
+            "position": "corner"
+          },
+          "durationInFrames": 343,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Before I teach you a thing",
+              "startFrame": 3,
+              "endFrame": 50
+            },
+            {
+              "text": "— you're heading zero-nine-zero,",
+              "startFrame": 50,
+              "endFrame": 108
+            },
+            {
+              "text": "pointed straight at DONNA.",
+              "startFrame": 108,
+              "endFrame": 155
+            },
+            {
+              "text": "Direct, parallel, or teardrop?",
+              "startFrame": 155,
+              "endFrame": 210
+            },
+            {
+              "text": "Commit. Out loud.",
+              "startFrame": 210,
+              "endFrame": 242
+            }
+          ],
+          "pauseSec": 3
+        },
+        {
+          "id": "scene-03",
           "kind": "diagram",
-          "narration": "Draw one line through the fix, seventy degrees off the inbound course. Three sectors, three entries.",
+          "narration": "Here's the machine. Draw one line through DONNA, seventy degrees off the inbound course. Why seventy? Because it carves the sky so every arrival gets a turn the airplane can actually fly. Three sectors. Three entries.",
           "onScreenText": [
             "The 70° line",
             "3 sectors, 3 entries"
@@ -597,33 +656,53 @@
             "expression": "neutral",
             "position": "corner"
           },
-          "durationInFrames": 233,
-          "audioSrc": "audio/03-holding-entries/scene-02.mp3",
+          "durationInFrames": 417,
+          "audioSrc": null,
           "captions": [
             {
-              "text": "Draw one line through the fix,",
+              "text": "Here's the machine.",
               "startFrame": 3,
-              "endFrame": 70
+              "endFrame": 39
+            },
+            {
+              "text": "Draw one line through DONNA,",
+              "startFrame": 39,
+              "endFrame": 92
             },
             {
               "text": "seventy degrees off the inbound course.",
-              "startFrame": 70,
-              "endFrame": 157
+              "startFrame": 92,
+              "endFrame": 166
             },
             {
-              "text": "Three sectors, three entries.",
-              "startFrame": 157,
-              "endFrame": 222
+              "text": "Why seventy? Because it carves the",
+              "startFrame": 166,
+              "endFrame": 231
+            },
+            {
+              "text": "sky so every arrival gets a",
+              "startFrame": 231,
+              "endFrame": 283
+            },
+            {
+              "text": "turn the airplane can actually fly.",
+              "startFrame": 283,
+              "endFrame": 350
+            },
+            {
+              "text": "Three sectors. Three entries.",
+              "startFrame": 350,
+              "endFrame": 406
             }
           ]
         },
         {
-          "id": "scene-03",
+          "id": "scene-04",
           "kind": "diagram",
-          "narration": "The big slice? Fly direct. Cross the fix, turn outbound. Direct is free money, kid. Take it.",
+          "narration": "Your heading — zero-nine-zero — lands in the big slice. That's your answer: direct. Cross DONNA, turn right, fall in line. Direct is free money, kid. Take it.",
           "onScreenText": [
-            "Direct entry",
-            "The big slice (~180°)"
+            "Heading 090 → the big slice",
+            "DIRECT: cross the fix, turn outbound"
           ],
           "diagram": {
             "type": "holdingPattern",
@@ -638,38 +717,53 @@
             "expression": "grin",
             "position": "corner"
           },
-          "durationInFrames": 224,
-          "audioSrc": "audio/03-holding-entries/scene-03.mp3",
+          "durationInFrames": 329,
+          "audioSrc": null,
           "captions": [
             {
-              "text": "The big slice?",
+              "text": "Your heading —",
               "startFrame": 3,
-              "endFrame": 36
+              "endFrame": 32
             },
             {
-              "text": "Fly direct. Cross the fix,",
-              "startFrame": 36,
-              "endFrame": 97
+              "text": "zero-nine-zero — lands in the big",
+              "startFrame": 32,
+              "endFrame": 100
             },
             {
-              "text": "turn outbound. Direct is free money,",
-              "startFrame": 97,
-              "endFrame": 182
+              "text": "slice. That's your answer:",
+              "startFrame": 100,
+              "endFrame": 154
+            },
+            {
+              "text": "direct. Cross DONNA,",
+              "startFrame": 154,
+              "endFrame": 195
+            },
+            {
+              "text": "turn right, fall in line.",
+              "startFrame": 195,
+              "endFrame": 247
+            },
+            {
+              "text": "Direct is free money,",
+              "startFrame": 247,
+              "endFrame": 291
             },
             {
               "text": "kid. Take it.",
-              "startFrame": 182,
-              "endFrame": 213
+              "startFrame": 291,
+              "endFrame": 318
             }
           ]
         },
         {
-          "id": "scene-04",
+          "id": "scene-05",
           "kind": "diagram",
-          "narration": "The narrow sliver? Teardrop. Thirty degrees into the protected side, then back inbound. The wide wedge? Parallel. Outbound on the course, then turn back in.",
+          "narration": "Now, if you'd come at DONNA from the southwest — that's the narrow sliver. Teardrop: cut thirty degrees into the protected side, one minute, turn back. From the northwest wedge? Parallel: ride the course outbound, then turn back into the hold.",
           "onScreenText": [
-            "Teardrop: the narrow 70° sliver",
-            "Parallel: the wide 110° wedge"
+            "SW sliver → Teardrop (30° in)",
+            "NW wedge → Parallel (outbound, turn back)"
           ],
           "diagram": {
             "type": "holdingPattern",
@@ -684,87 +778,161 @@
             "expression": "squint",
             "position": "corner"
           },
-          "durationInFrames": 409,
-          "audioSrc": "audio/03-holding-entries/scene-04.mp3",
+          "durationInFrames": 471,
+          "audioSrc": null,
           "captions": [
             {
-              "text": "The narrow sliver?",
+              "text": "Now, if you'd come at DONNA",
               "startFrame": 3,
-              "endFrame": 50
+              "endFrame": 55
             },
             {
-              "text": "Teardrop. Thirty degrees into the protected",
-              "startFrame": 50,
-              "endFrame": 162
+              "text": "from the southwest —",
+              "startFrame": 55,
+              "endFrame": 94
             },
             {
-              "text": "side, then back inbound.",
-              "startFrame": 162,
-              "endFrame": 225
+              "text": "that's the narrow sliver.",
+              "startFrame": 94,
+              "endFrame": 142
             },
             {
-              "text": "The wide wedge?",
-              "startFrame": 225,
-              "endFrame": 264
+              "text": "Teardrop: cut thirty degrees into the",
+              "startFrame": 142,
+              "endFrame": 214
             },
             {
-              "text": "Parallel. Outbound on the course,",
-              "startFrame": 264,
-              "endFrame": 350
+              "text": "protected side, one minute,",
+              "startFrame": 214,
+              "endFrame": 266
             },
             {
-              "text": "then turn back in.",
-              "startFrame": 350,
-              "endFrame": 398
+              "text": "turn back. From the northwest wedge?",
+              "startFrame": 266,
+              "endFrame": 336
+            },
+            {
+              "text": "Parallel: ride the course outbound,",
+              "startFrame": 336,
+              "endFrame": 404
+            },
+            {
+              "text": "then turn back into the hold.",
+              "startFrame": 404,
+              "endFrame": 460
             }
           ]
         },
         {
-          "id": "scene-05",
+          "id": "scene-06",
+          "kind": "challenge",
+          "narration": "Eyes off the diagram. Name all three entries and where each one lives. Out loud — I'll wait. My coffee's not going anywhere.",
+          "onScreenText": [
+            "Name all 3 entries.",
+            "Where does each one live?"
+          ],
+          "duke": {
+            "pose": "coffeeSip",
+            "expression": "deadpan",
+            "position": "corner"
+          },
+          "durationInFrames": 395,
+          "audioSrc": null,
+          "captions": [
+            {
+              "text": "Eyes off the diagram.",
+              "startFrame": 3,
+              "endFrame": 49
+            },
+            {
+              "text": "Name all three entries and where",
+              "startFrame": 49,
+              "endFrame": 119
+            },
+            {
+              "text": "each one lives.",
+              "startFrame": 119,
+              "endFrame": 152
+            },
+            {
+              "text": "Out loud —",
+              "startFrame": 152,
+              "endFrame": 174
+            },
+            {
+              "text": "I'll wait. My coffee's not going",
+              "startFrame": 174,
+              "endFrame": 244
+            },
+            {
+              "text": "anywhere.",
+              "startFrame": 244,
+              "endFrame": 264
+            }
+          ],
+          "pauseSec": 4
+        },
+        {
+          "id": "scene-07",
           "kind": "recap",
-          "narration": "Big slice direct. Sliver teardrop. Wedge parallel. Nobody grades your geometry, kid — just stay in protected airspace.",
+          "narration": "Big slice, direct. Narrow sliver, teardrop. Wide wedge, parallel. And nobody's grading your geometry, kid — pick one, stay in protected airspace, and DONNA will still be there tomorrow.",
           "onScreenText": [
             "Big slice → Direct",
             "70° sliver → Teardrop",
             "110° wedge → Parallel"
           ],
           "duke": {
-            "pose": "coffeeSip",
+            "pose": "stand",
             "expression": "neutral",
             "position": "center"
           },
-          "durationInFrames": 324,
-          "audioSrc": "audio/03-holding-entries/scene-05.mp3",
+          "durationInFrames": 340,
+          "audioSrc": null,
           "captions": [
             {
-              "text": "Big slice direct.",
+              "text": "Big slice, direct.",
               "startFrame": 3,
-              "endFrame": 49
+              "endFrame": 36
             },
             {
-              "text": "Sliver teardrop. Wedge parallel.",
-              "startFrame": 49,
-              "endFrame": 136
+              "text": "Narrow sliver, teardrop.",
+              "startFrame": 36,
+              "endFrame": 80
             },
             {
-              "text": "Nobody grades your geometry,",
-              "startFrame": 136,
-              "endFrame": 212
+              "text": "Wide wedge, parallel.",
+              "startFrame": 80,
+              "endFrame": 118
             },
             {
-              "text": "kid — just stay in protected",
-              "startFrame": 212,
-              "endFrame": 288
+              "text": "And nobody's grading your geometry,",
+              "startFrame": 118,
+              "endFrame": 182
             },
             {
-              "text": "airspace.",
-              "startFrame": 288,
-              "endFrame": 313
+              "text": "kid — pick one,",
+              "startFrame": 182,
+              "endFrame": 209
+            },
+            {
+              "text": "stay in protected airspace,",
+              "startFrame": 209,
+              "endFrame": 258
+            },
+            {
+              "text": "and DONNA will still be there",
+              "startFrame": 258,
+              "endFrame": 311
+            },
+            {
+              "text": "tomorrow.",
+              "startFrame": 311,
+              "endFrame": 329
             }
           ]
         },
         {
-          "id": "scene-06",
+          "id": "scene-08",
           "kind": "sources",
           "narration": "Homework: A I M five dash three dash eight. It's a page-turner.",
           "onScreenText": [
@@ -776,28 +944,28 @@
             "expression": "deadpan",
             "position": "corner"
           },
-          "durationInFrames": 147,
-          "audioSrc": "audio/03-holding-entries/scene-06.mp3",
+          "durationInFrames": 155,
+          "audioSrc": null,
           "captions": [
             {
               "text": "Homework: A I M five dash",
               "startFrame": 3,
-              "endFrame": 58
+              "endFrame": 61
             },
             {
               "text": "three dash eight.",
-              "startFrame": 58,
-              "endFrame": 95
+              "startFrame": 61,
+              "endFrame": 100
             },
             {
               "text": "It's a page-turner.",
-              "startFrame": 95,
-              "endFrame": 136
+              "startFrame": 100,
+              "endFrame": 144
             }
           ]
         }
       ],
-      "durationInFrames": 1523
+      "durationInFrames": 2812
     },
     {
       "id": "04-lost-comms",
