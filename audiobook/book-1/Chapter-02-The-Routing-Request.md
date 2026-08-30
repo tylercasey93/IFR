@@ -56,7 +56,7 @@ That morning there was a good one. Nine seventy-eight millibars, sitting southwe
 
 Then medium: the graphical forecasts, the icing and turbulence panels, the freezing levels. Then small: the actual airports, the actual hours, the actual numbers.
 
-Anchorage's forecast, when I got to it, was a piece of writing I want to walk through, because everything I decided that week came out of about nine lines of teletype.
+Anchorage's forecast, when I got to it, was a piece of writing worth walking through, because everything I decided that week came out of about nine lines of teletype.
 
 The first group was clean. Wind one four zero at twelve, ten miles, broken at four thousand. That's the forecaster's main story — the thing he'll defend. Then a FM group Friday afternoon, from twenty-two hundred Zulu: wind swinging around and freshening, visibility down to four in light snow, ceiling down to a thousand overcast. FM means *from* — a real change, a new regime, the forecaster telling you the weather has moved house.
 
@@ -78,11 +78,11 @@ So I went and looked at the airmen's meteorological advisories. AIRMET Sierra fo
 
 Sierra, Tango, Zulu. IFR, turbulence, icing. Three letters and you know what kind of day it is.
 
-Then the SIGMET, which was the one I sat up for. A SIGMET is not an advisory; it's a warning, and it applies to everybody, and the fact that it exists at all means somebody looked at the situation and decided that ordinary language wasn't sufficient. This one was for severe icing over the northern Gulf, valid a window that just clipped the back end of our return leg.
+Then the SIGMET, which was the one I sat up for. A SIGMET is not an advisory; it's a warning, and it applies to everybody, and the fact that it exists at all means somebody looked at the situation and decided ordinary language wasn't sufficient. This one was for severe icing over the northern Gulf, valid a window that just clipped the back end of our return leg.
 
 And then, last, because it's last for a reason, I read the pilot reports.
 
-Everything above the PIREPs is a forecast. A forecast is an argument. It is a very good, very disciplined, extremely well-informed argument made by a professional who is not in the airplane. A PIREP is the only piece of paper in the whole stack that is a *fact*: somebody was up there, in it, at a time and a place and an altitude, and this is what it did to them. My father would put it less politely. He'd say the mountains don't file forecasts.
+Everything above the PIREPs is a forecast. A forecast is an argument — a very good, very disciplined, extremely well-informed argument made by a professional who is not in the airplane. A PIREP is the only piece of paper in the whole stack that is a *fact*: somebody was up there, in it, at a time and a place and an altitude, and this is what it did to them. My father would put it less politely. He'd say the mountains don't file forecasts.
 
 There were four out of the Gulf that morning. A 737 at two four zero reporting continuous light chop and negative ice. A Caravan at eight thousand out of Yakutat reporting moderate mixed, which is a Caravan pilot's way of saying *I left*. And two more that told me the same story: whatever the low was going to do, it was doing it below about twelve thousand, and it was doing it wet.
 
@@ -99,6 +99,10 @@ I wrote all of it down. She'd asked for the decisions, and she was going to get 
 ---
 
 Jack came in at six with a paper bag and two coffees and read my whole file standing up, in about ninety seconds, which is a thing he can do and I have stopped being impressed by out loud.
+
+He'd come from somewhere with better lighting than a crew room. He usually has. Jack Marsh dresses about one pay grade above the job — that morning it was a charcoal quarter-zip that fit him the way things fit people who get them altered, and dark jeans, and boots that had been polished by a human being — and the effect in a room full of guys in fleece vests is that everybody straightens up a little without deciding to. It isn't vanity. I've thought about it. It's a uniform. He puts it on for the same reason I check the brake indicators: because if the outside is right, nobody goes looking.
+
+He's a good-looking man. That's just a fact about him, the way six-two is a fact about me. Dark blond, a jaw you could level a shelf with, and a way of holding still and looking at you a half second longer than the conversation requires, so that people re-hear their own sentence and start explaining themselves to him. Line service kids get shy around him. Customs officers get chatty. He has never once, in two years, had to ask for anything twice.
 
 "She's paying us to deadhead to Anchorage."
 
@@ -118,7 +122,7 @@ He looked at the TAF for maybe four seconds.
 
 "No."
 
-"Good. I don't either." He pulled the other chair around backward and sat on it. "What's her real reason?"
+"Good. I don't either." He pulled the other chair around backward and sat on it, forearms across the back, and the sleeve of the quarter-zip was pushed up over a watch his mother gave him, and I looked at the TAF. "What's her real reason?"
 
 "I don't know."
 
@@ -133,6 +137,12 @@ Jack didn't say anything for a second. He gets very still when he's actually thi
 "Yeah."
 
 "Okay," he said, and got up, and stole half my breakfast on the way out the door, which he has done approximately four hundred times and has never once acknowledged.
+
+I sat there for a minute after he was gone.
+
+I'd like to say I don't know why I keep a list of things about him, but I do know, and I'm thirty-six years old and I've stopped lying to myself about small things because it turns out the small ones are load-bearing. So: I know exactly what it is. I have known since about the fourth month, which was a Tuesday in Bozeman with a fuel truck driver who wouldn't take no for an answer and Jack handling it so smoothly the guy thanked him afterward. It is not a mystery to me. It is a fact I am acquainted with, the way you're acquainted with a low ceiling on the coast in November: present, not surprising, and not something you argue with.
+
+What I do about it is nothing, and I do the nothing extremely well.
 
 ---
 
@@ -154,7 +164,7 @@ She went back to her desk, and I stood in the hallway for a minute doing what I 
 
 Five years ago I worked for an operator called Cascade Air Group, out of this same field, four hangars down. I found something in the training records that wasn't true. I did what you're supposed to do — I went inside first, and inside is where it died, and then I went to the FSDO, and after that the company needed a story that wasn't *we falsified records*, and it found one. The story was about me. It was a good story. It was built by somebody who knew exactly which parts of my life would make it land, and it landed, and I did not fly for money for two years.
 
-I have never told it to anybody in this building. Griff hired me without asking. Voss made one phone call and never said what was in it. And I have spent three years being the most transparent man on this airfield about absolutely everything except that, which I am aware is a strange way to be honest, and which works fine, and which I intend to keep doing.
+I have never told it to anybody in this building. Griff hired me without asking. Voss made one phone call and never said what was in it. And I have spent three years being the most transparent man on this airfield about absolutely everything except that, which is a strange way to be honest, and which works fine, and which I intend to keep doing.
 
 Somebody was asking. Somebody had been asking for about a week, going by what I'd already heard from a friend at another shop.
 
@@ -162,11 +172,13 @@ I decided it was a reporter, because that was the reasonable thing to decide, an
 
 ---
 
-I had dinner with Elias that night in Ballard.
+I saw Elias that night.
 
-Elias Ward is a structural engineer who does marine work — piers, ferry terminals, the unglamorous concrete that keeps a coastal city attached to itself — and he is a genuinely good man with a dry sense of humor and forearms from a sport I never asked about. We have been doing this for about a year. Dinner when the season allows. No questions past the ones you'd ask a colleague. It suits us both, or it suits me and he has never complained, which I have chosen to believe is the same thing.
+Elias Ward is thirty-eight, a structural engineer who does marine work — piers, ferry terminals, the unglamorous concrete that keeps a coastal city attached to itself. He grew up in Duluth, which he will tell you gave him a lifelong grudge against ice and a professional interest in what it does to pilings. He was with somebody for nine years and it ended three years ago, badly enough that he sold a house over it, and he has said, more than once and cheerfully, that he is on a break from meaning things.
 
-He asked how work was. I told him about the empty airplane going to Anchorage, because it was funny and because it was true and because it cost me nothing.
+Which is why we work. I want to be clear that I know exactly what our arrangement is, because he built it and told me the specifications, which is the most engineer thing about him.
+
+We eat at the same place in Ballard most times, a little Basque spot with eleven tables, because he likes knowing what he's going to order and I like a room where nobody's ever going to ask me about airplanes. He asked how work was. I told him about the empty airplane going to Anchorage, because it was funny and true and cost me nothing.
 
 "That's the whole trip?" he said. "Nobody in it?"
 
@@ -176,21 +188,43 @@ He asked how work was. I told him about the empty airplane going to Anchorage, b
 
 "I don't quote him."
 
-"Cole," Elias said, mildly, "you have quoted him twice tonight and we've been here forty minutes."
+"Cole," Elias said mildly, "you have quoted him twice tonight and we've been here forty minutes."
 
 I said something about how you get that way flying with a person, which is true, and he let it go, which is what he does, and we talked about a ferry terminal in Bremerton for a while, and it was a nice evening.
 
-He asked, later, at the door, whether I ever thought about doing something on a Saturday that wasn't dinner.
+Afterward we walked the six blocks to his place, which is the third floor of a brick building from the twenties, up near the locks, with fir floors that have gone the color of weak tea and windows that rattle when the wind comes off the water. There's a drafting table by the window that he actually uses, with a real lamp and real pencils, because he says he can't think in a screen. A wall of books about bridges. Plants that are alive, which impresses me more than it should. And over the table, in a plain black frame, a drawing his grandfather did of a lift bridge in Duluth in nineteen fifty-eight — hand-inked, every rivet, the kind of patience nobody's paid for in sixty years.
 
-There is a rule I have, and it isn't about Elias.
+He put a record on, because he owns records, and made coffee at nine at night for me because he knows I'll drink it and sleep anyway, a thing about me he finds personally insulting.
 
-The rule is that you do not, ever, get involved with somebody on your own crew. Not a first officer, not a mechanic, not a scheduler. Two people in a flight deck have to be able to disagree at four hundred knots without one of them managing the other's feelings, and the day that stops being true, the airplane has an extra system in it that nobody designed and nobody inspects. I've watched it. I know precisely what it costs, better than most, and I don't discuss why.
+It's good, with Elias. I want that on the record too, because it would be easy to make it sound like less than it was. He's unhurried and he's funny in the dark and he pays attention, and being paid attention to by somebody who has no stake in your competence is a rarer thing than it sounds when you spend your life being the man everybody trusts. Afterward he fell asleep with one arm across my chest and his face in the pillow, and the rattle came off the windows, and a boat went through the locks somewhere below us with its horn going.
 
-None of which has anything to do with a Saturday in Ballard.
+And I lay there in the dark doing something I would not have admitted to under oath, which was thinking about a crew room at six in the morning.
+
+I want to be precise about this, because it matters later and because I have never once let myself be imprecise about it.
+
+It isn't that I don't know. I know. It's that I have a rule, and the rule is not decoration.
+
+You do not get involved with somebody on your own crew. Not a first officer, not a mechanic, not a scheduler. Two people in a flight deck have to be able to disagree at four hundred knots without one of them managing the other's feelings, and the day that stops being true, the airplane has an extra system in it that nobody designed and nobody inspects and nobody can turn off. I've watched it. I know precisely what it costs, better than most, and I don't discuss why.
+
+And under the rule, further down, where I keep the things I don't take out and look at: the man is my friend. He is the best friend I have. He calls his father every Sunday and he stole half my breakfast this morning and if I made this his problem, one of two things would happen, and I have thought about both of them at length at two in the morning in a lot of hotels. Either he'd let me down gently, being kind about it, and be careful with me forever after — and I would rather be struck by lightning than be handled by Jack Marsh. Or he wouldn't. And then I'd have put the one good thing in my life inside an airplane with a system in it nobody designed.
+
+So. Nothing. Cheerfully, permanently, competently nothing.
+
+I got up at five, the way I always do, and found my shirt, and Elias woke up enough to watch me do it from the pillow with one eye.
+
+"You always leave at five," he said.
+
+"I've got a report to finish."
+
+"Mm." He rolled onto his back and looked at the ceiling. "Cole. Do you ever think about doing something on a Saturday that isn't dinner?"
+
+The record player had stopped hours ago. Down on the water somebody's diesel was running.
 
 "I'm in Anchorage Saturday," I said.
 
-"Right," said Elias. "Sure."
+"Right," said Elias, and put his forearm over his eyes, and I could hear him smiling and it wasn't a happy one. "Sure."
+
+He walked me to the door anyway, because he's a decent man, and said something about the ferry terminal, and I went down three flights of stairs into the dark with my shoes in my hand like a teenager and drove to the airport an hour and a half before I needed to be there.
 
 ---
 
