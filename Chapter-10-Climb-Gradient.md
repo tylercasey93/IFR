@@ -16,7 +16,29 @@ Theo saw it from the parking lot: the side door propped, the lights on, and Sam 
 
 "I know a man in Ketchikan who swore his would outclimb the company Chieftain, and one day in a fit of honesty we raced. Tell me about the annual."
 
-That was it. That was all it took. For twenty minutes Theo stood functionally orphaned while his father walked Wren Hale around the Bonanza — compressions, the new attitude indicator, the pitot-static cert stickers, the narrative arc of the 1998 pre-buy, which she received like scripture — and it ended, inevitably, at the card table, where Sam flipped a manila folder open with his good hand, trying and failing to be casual.
+That was it. That was all it took. For twenty minutes Theo stood functionally orphaned while his father walked Wren Hale around the Bonanza — compressions, the new attitude indicator, the pitot-static cert stickers — and then, at the tail, Sam planted his cane, gathered himself, and delivered the 1998 pre-buy story in its full concert length: the seller in Walla Walla who swore the airplane had *never seen weather* while it sat there wearing hail dimples like a golf ball; the borescope that revealed, in Sam's words, "a valve with a personal grudge"; the three-day negotiation conducted entirely through a mechanic named Bud who charged both sides by the hour and may not have existed; and the final handshake at a price Sam still recited to the penny, twenty-six years later, the way other men recited psalms.
+
+"And Ellen — Theo's mother — flew home with me that same afternoon," Sam finished. "Two hours of light chop, and she never once stopped photographing out the window. We got home, she had a hundred and forty frames of clouds and the back of my head, and she said—" his voice did the small thing it always did at this exact bend in the story, and he flew through it, the family technique "—she said, *'Well, Sam. Now we have a truck that sees over the weather.'* Named it. The Truck. Twenty-six years, that airplane's never once been anything fancier, and it's never once needed to be."
+
+Wren had listened to all of it the way she read placards — completely, without hurry — and at the end she stood looking at the Truck with her arms crossed, and traded like for like, which Theo had learned by now was the only currency she carried.
+
+"My dad bought my flying the same way," she said. "One envelope, one bad season's fish money, on a kitchen table in Ketchikan. He ran a salmon boat; never flew in his life. He watched the float planes off the stern for thirty years and then one October he came home, put the envelope down, and said, *'One of us should get to look down at the water for a change.'*" She touched the Bonanza's flap trailing edge lightly, one finger, the way she touched things she approved of. "He threw in a used E6-B from a retired bush pilot. Aluminum. Paint's worn off the wind side." A pause with a whole ocean in it. "He never got the ride. Weather, seasons. We kept thinking there'd be a better weekend."
+
+The hangar was quiet. Somewhere in the rafters a sparrow conducted its own pattern work.
+
+"Then you'll take his," Sam said.
+
+Wren looked up.
+
+"The ride," Sam Marsh said, gruff and utterly certain, as if the matter had been settled at the pre-buy in 1998 and everyone was only now being informed. "In the Truck. When I'm signed off, you're the second passenger I'm taking up, right after the boy. It won't be a float plane over Ketchikan, but she sees over the weather just fine, and — " he snapped the logbook shut for punctuation " — nobody who carries her father's E6-B should be walking around ride-less. It's untidy."
+
+Theo watched Wren Hale — who threatened men with cargo manifests, who had faced down Voss and Cascade and the entire eastern half of the Gulf of Alaska — open her mouth to deploy some standard-issue deflection, and close it again, and finally say, in a voice with a distinct crosswind in it, "I'd like that, Mr. Marsh."
+
+"Sam."
+
+"Sam."
+
+Then his father flipped open the manila folder with his good hand, trying and failing to be casual, and the morning got on with its business.
 
 Inside: a physician's checklist, signed. A course completion certificate, printed, dated Tuesday.
 

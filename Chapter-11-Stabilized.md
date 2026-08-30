@@ -88,7 +88,31 @@ The silence he left had a shimmer to it.
 
 ---
 
-They walked the beach at Leadbetter in the last of the light, because the layer had lifted into a high silver ceiling and the Pacific was putting on its evening show, and because neither of them had suggested it out loud — the walk had simply assembled itself, the way their coffees had, the way the debrief ritual had, the way everything between them accreted: quietly, structurally, one honest layer at a time.
+They got fish tacos from a truck near the harbor for dinner, because Wren had vetoed anywhere with a wine list on the grounds that the day had already contained enough performances, and they ate them at a picnic table in the blue evening with the marine layer regrouping offshore for tomorrow's siege.
+
+"So," Theo said, in the studiedly neutral tone of a man approaching a hold with an unfamiliar entry. "Jax Calloway."
+
+"There it is. I wondered how far into the tacos you'd make it."
+
+"I made it four bites. I want credit for the four bites." He wiped his hands with ceremony. "You don't have to brief me. But he looked at you like a man checking whether an old key still fits a lock, and you looked at him like a woman who'd changed the locks, and then you deployed *flying with someone* like ordnance, and as the someone in question — even in a strictly load-bearing capacity — I find I have a professional interest."
+
+Wren considered him across the taco wreckage. The old policy said deflect. The old policy, she noticed, had been losing altitude for weeks.
+
+"Jax was at Cascade when it happened," she said. "Not a villain. Worse, in a way — a *witness*. He was in the crew room for all of it: when Danny Ruiz was the golden captain and I was the up-and-comer he'd taken a shine to, and then when it went bad and the company needed a version of the story that kept its golden captain golden — Jax watched the whole thing get rewritten. Watched them turn 'she flagged his falsified logs' into 'she's difficult, unstable, a problem hire.' And he said—" she rolled her napkin into a precise cylinder, an activity requiring total concentration "—nothing. Not against me. Just — nothing. Him and a dozen others. And now every couple of years he surfaces with a job offer and this *wasted where you are* routine, because recruiting me would mean it all worked out, and if it all worked out, then the nothing he said was fine."
+
+Theo was quiet for a moment. On the water, a gull mugged another gull with terrible efficiency.
+
+"For the record," he said, "if I'm ever in the crew room when someone rewrites you, I'm going to be extremely loud about it. Career-endingly loud. Loud in a way that gets discussed at safety seminars."
+
+"I know," Wren said — and the thing was, she did; that was the entire problem with him, the load-bearing problem; the man had *Clause One* where other people had survival instincts. "That's why I said what I said at the counter."
+
+"That you're flying with someone."
+
+"That I'm flying with someone." She stood, gathered the wrappers, and closed the docket. "Don't unpack it. Walk with me — the light's doing the thing."
+
+*End of docket*, said her tone. *Beginning of beach*, said the evening. He didn't unpack it. He walked.
+
+They walked the beach at Leadbetter in the last of the light, because the layer had lifted into a high silver ceiling and the Pacific was putting on its evening show, and because the walk — like the coffees, like the debrief ritual, like everything between them — had by now become one more thing that assembled itself: quietly, structurally, one honest layer at a time.
 
 "Debrief," Wren said, hands in her jacket pockets, surf running white and cold to their left. "Non-precision. Go."
 
