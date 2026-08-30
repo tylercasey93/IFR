@@ -44,6 +44,28 @@ Priya was quiet a second. "That's either the healthiest or the most aviation-bra
 
 "It can be both," said Wren, and went back to writing the letter.
 
+Sam called her Thursday night.
+
+She almost didn't answer — the caller ID said MARSH, S. and her whole chest did something unprofessional — but you answer for family, even borrowed family, even now, so she picked up and said, "Sam," and heard the good mug clink down on the kitchen table two towns away.
+
+"I want it on the record," Sam Marsh said, without preamble, "that I am not calling to meddle. Ellen did the meddling in this family. I'm calling about the Bonanza." A pause precisely long enough to be a lie acknowledging itself. "The right tank's reading two gallons different from the dip. Probably the sender. Manny's booked out. You know senders."
+
+"I know senders." She closed her eyes. "Sam."
+
+"He showed up at my door Saturday night in the rain," Sam said, abandoning the sender without ceremony, "quoting furniture at me — *Clause Four*, whatever that is — and he's been flying your schedule all week and sleeping in his old room like it's 2012, and he won't say one word about it, which — Wren, I want you to understand — is not a Marsh trait. Marshes narrate. His mother narrated her own surgery. When this one goes quiet, it's not because there's nothing in the queue. It's because he's afraid of what transmits." The mug again, a man buying himself a second. "I'm not asking what happened. That's yours and his. I'm telling you the half I'm qualified on: whatever he thinks he heard, he's wrong about it — I raised him, I know his failure modes; the boy fixates like his instructor told him never to — and *also* he'd rather sit wrong in the dark than make you explain yourself, because some genius taught him that making people explain themselves is a sin." A breath. "So. Two aircraft, both squawking standby, each waiting for the other's transmitter. I've watched this weather before, kid. It doesn't clear by itself."
+
+Wren sat at her kitchen table with the letter half-written in front of her, three pages of longhand chronology, and the whole ridiculous grief of the week sitting on her chest like ice on a wing.
+
+"I'm working the procedure, Sam," she said, finally. "Findable and predictable. It's what I've got."
+
+"I know," Sam said, gentler. "For what it's worth — when *he* was silent, all week, I didn't push either. I just left the porch light on and made bad coffee where he could smell it." The smile came right through the phone, lopsided and kind. "You two were built in the same factory; don't think I haven't noticed. Fly the procedure, Captain. And Wren — when the frequency opens up? Say the important part first. Don't lead with the chronology. I know you've got a chronology."
+
+She looked at the three pages of chronology.
+
+"Fix your fuel sender, Sam," she said, unsteadily, and he laughed his lopsided laugh and let her go.
+
+She kept the chronology — she was who she was — but that night she rewrote the last paragraph, the one that mattered, and moved one sentence from the bottom of page three up into it, where it could be found first if the receiver only had a moment. *Receivers get checked before transmitters, Marsh. This is me, checking yours.*
+
 The letter was the part the procedure didn't cover, so she'd invented it: three pages, longhand, structured — God help her, she knew it, she'd embraced it — like a NASA safety report. *Nature of event: communications failure, two crew. Chronology follows.* The library sentence, completed this time, all the way to the end that Jax had never let her reach. The offer, and the reply she'd finally sent — *declined with thanks* — screenshot attached, timestamped Tuesday. The amendments, quoted from the legal pad. And the last paragraph, which took her until two in the morning:
 
 *Per the procedure, when communications are lost, each pilot flies to the clearance limit and begins the approach as close as possible to the time we agreed. You are the one who taught me the reason the rule works: because both airplanes trust the other one to be exactly where the promise said. So: I'll be at the airplane Friday, on the trip we're both assigned, at the time we filed, flying predictable and findable, the way you'd expect. No questions — the clause stands, it will always stand. But receivers get checked before transmitters, Marsh. You taught me that too. This is me, checking yours. — W.*

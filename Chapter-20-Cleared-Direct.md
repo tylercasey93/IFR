@@ -6,6 +6,18 @@ Spring came to Boeing Field the way it always did — sideways, in installments,
 
 Which is how, on a scrubbed-blue morning in April, Theo Marsh found himself walking to an airplane with Dale Voss, a folder, and the upgrade checkride he'd been building toward since a rainy October interview conducted at the base of a ladder.
 
+Wren drove him to the field that morning, ostensibly because his Subaru's heater had opinions, actually because some missions require an escort. At the door she didn't wish him luck — Wren Hale did not traffic in luck — but she reached into the left chest pocket of her flight jacket, the zippered one, the archive, and put something in his hand.
+
+The E6-B. Aluminum, heavy as a promise, the paint worn off the wind side by forty years of other people's weather. Her father's. The one object in her whole guarded inventory that predated all her armor.
+
+Theo looked at it, and then at her, and had nothing.
+
+"It's a loan," Wren said, in her fuel-slip voice, which fooled neither of them. "It's never once been in an airplane during a failed checkride, and I expect the streak maintained. Bring it back current." A pause. Her hand closed his fingers around the metal, and stayed there one beat longer than the hardware required. "He'd have liked you, Marsh. He liked people who point at the chain."
+
+Then she was gone toward dispatch before he could file a response — standard procedure for her largest transmissions, to the very end — and Theo Marsh walked in to meet Dale Voss with two knocks for the doorframe, his mother's luck, and her father's wind arm.
+
+The whole family aboard. As it should be, for a type ride.
+
 The oral ran two hours, and it was — there was no other word for it — the whole season, replayed in order.
 
 Voss started at the beginning, because Voss always started at the beginning: *qualifications*. And Theo heard himself answer in echoes — sixty-six-HIT and the six-month clock, the IPC, safety pilots and logging, BasicMed's boundaries — and saw a rain-slicked ramp and a captain auditing his currency like a custody hearing. *Weather*: TAFs in Zulu, TEMPO the threat and PROB30 the flinch, Sierra-Tango-Zulu, PIREPs as ground truth, datalink as history — and a legal pad with OPERATING AGREEMENT underlined twice. *Planning*: the one-two-three rule, six hundred and two or eight hundred and two, forty-five minutes of fuel wearing a legal costume, MEAs and MOCAs and the NOTAM with your name on it — and a woman across a table saying *we always need the alternate*. Systems and the flight deck check, GRABCARD and ARROW and AV1ATE, the MEL versus the two-thirteen tree — *standby's required equipment; no relief on that item*. Clearances: CRAFT, void times, readback-hearback, *unable* as a complete sentence, ninety-one point three at the bottom of the stack like bedrock. Holding: the seventy-degree line, the speeds, the EFC — *the lost-comm exit; no EFC means ask*. The instruments and the lying inner ear, roll-before-pull, the scan's fragile democracy. Green needles and arcs, *tune-identify or it's unusable*, the elegant dinosaur holding up the sky. Departures at two hundred feet per mile, *gradient times miles-per-minute*, descend-via and its dialects. And approaches — the long liturgy of approaches — MDA the floor and DA the decision, the VDP arithmetic, the red terminating bars, category as a speedometer, the circling commandments, and the missed approach: *not a failure; the system working; the most professional sentence in aviation.*
@@ -66,7 +78,9 @@ But that was all later. For now there was just the window seat, and the ring, an
 
 ---
 
-They flew home in the golden evening, Sam dozing in the back with the satisfied gravity of a mission commander, Wren flying the leg because Theo's hands were still not entirely trustworthy, and somewhere over Rosario Strait, with the water on fire with sunset and the whole green fleet of islands sliding astern, she keyed the intercom.
+They flew home in the golden evening, Sam dozing in the back with the satisfied gravity of a mission commander, Wren flying the leg because Theo's hands were still not entirely trustworthy. Over the strait he took the E6-B from his jacket — returned current, streak intact, one checkride the richer — and slid it back into her left chest pocket himself, and zipped the pocket, and patted it once, flat-handed, the way his father patted propellers. Wren watched the whole operation from the corner of her eye and said nothing at all, which was, on her instruments, everything.
+
+And somewhere over Rosario Strait, with the water on fire with sunset and the whole green fleet of islands sliding astern, she keyed the intercom.
 
 "Debrief," said Wren Hale — *Captain* Hale, fiancée, keeper of expired charts, with the ring throwing sunset around the cockpit like a beacon. "Final one of the season. The whole route, Marsh. Say it back so I know you know which thing."
 

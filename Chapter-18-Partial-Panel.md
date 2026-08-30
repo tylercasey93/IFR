@@ -4,7 +4,11 @@
 
 The outbound leg to Sun Valley was the quietest ninety minutes of Theo's flying life. Checklists, callouts, altimeter settings — the airplane wanted for nothing. The crew flew like a machine, and like a machine, nothing in it was alive.
 
-Okafor watched them all evening at the lodge — watched Wren excuse herself early, watched Theo study a glass of soda water like an approach plate — and said only one thing, at the foot of the great timber staircase, her hand light on his sleeve: "Theodore. When my husband and I fought — really fought, the twice in forty-one years it was real — the making up never once started with words. It started with weather." She patted the sleeve. "Sleep. Tomorrow has weather."
+Dinner at the lodge was the cruelest kind: beautiful. The long table, the fire, the last-trip toasts — and the seating chart, which had spent all season conspiring to put them shoulder to shoulder, doing it one more time out of pure habit, so that Theo passed Wren the bread basket with the flawless courtesy of a stranger and their sleeves never once touched over ninety minutes of candlelight.
+
+Chidinma found him at the coffee urn afterward. She didn't cross-examine — which from Chidinma was itself a verdict — just stood beside him fixing a cup she didn't want and said, quietly, eyes on the fire: "In my line of work, when a clean file suddenly reads dirty, the first thing we check isn't the file. It's whether somebody's been quoting it out of context." She clinked her cup against his, gently, like a gavel adjourning rather than ruling. "Goodnight, Captain-to-be. My aunt's not the only one in this family who did the diligence on you two."
+
+Okafor herself watched them all evening — watched Wren excuse herself early, watched Theo study a glass of soda water like an approach plate — and said only one thing, at the foot of the great timber staircase, her hand light on his sleeve: "Theodore. When my husband and I fought — really fought, the twice in forty-one years it was real — the making up never once started with words. It started with weather." She patted the sleeve. "Sleep. Tomorrow has weather."
 
 Tomorrow had weather.
 
