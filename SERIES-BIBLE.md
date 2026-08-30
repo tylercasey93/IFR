@@ -1,4 +1,4 @@
-# THE MERIDIAN FILES — Series Bible (Working Draft v5)
+# THE MERIDIAN FILES — Series Bible (Working Draft v7)
 
 *A three-book friends-to-lovers romance / aviation-thriller series set in the Part 135 charter world, engineered so every chapter still teaches the Instrument Rating ACS. Supersedes the single-book plan in [00-Story-Bible.md](00-Story-Bible.md) — that document remains the record of Draft One.*
 
@@ -22,6 +22,11 @@
 8. **Elliot Kang approved** as the Book 3 traitor, exactly as designed (the brother in Vladivostok; the saddest unmasking, not the most hateful).
 9. **Diane Hale stays in Alaska** — still in the Ketchikan house above the harbor. *(v5: Wren is now a supporting lead, so this thread shrinks but survives — see her dossier.)*
 10. **Danny Ruiz returns in Book 3, working for the Russians as the mole's handler.** He runs Kang as the local cut-out, authors the misdirection that aims the mole-hunt at the captain, and lends the sabotage its insider knowledge of 135 maintenance culture. He and Verin never meet on the page. His end is an interview, not a gunfight. *(v5: the captain he burned — and burns again — is Cole Bishop.)*
+
+## v7 decisions (locked by author — narration mode)
+
+18. **Sorokina, Mara, and Verin approved as drafted** (one-line sign-off).
+19. **First person, chronological, Clancy-paced.** Chapters are written in first person, one POV per chapter, marked at the chapter head. The rotation is **Jack (odd chapters) / Cole (even chapters)** so the reader always holds both interiors of the slow burn; Wren may take an occasional chapter in Books 2–3 when the crew splits. Chapters continue chronologically — a running mission clock once the op is live, no structural time-jumps; backstory arrives only as memory or dialogue inside a moving scene. The Clancy inheritance is momentum and procedure: every chapter advances the clock, and the narrator walks the reader through the work (the briefing, the paperwork, the approach) with a professional's eye — the teaching rides inside that narration instead of beside it.
 
 ## v6 decisions (locked by author)
 
@@ -196,6 +201,7 @@ Romance throttle (the contract, v3/v5): **three lines, one per book — Jack and
 
 Still open — react to any or all:
 
-1. **Sorokina / Mara / Verin** — one-line profiles delivered for sign-off; they harden as drafted unless steered.
-2. **Priya** — witting in Book 3 (recommended), earlier, or never?
-3. **Book titles** — *Winter Harbor* / *Position and Hold* / *Lost Comms* (working). *Cleared as Filed* is available as a series title.
+1. **Priya** — witting in Book 3 (recommended), earlier, or never?
+2. **Book titles** — *Winter Harbor* / *Position and Hold* / *Lost Comms* (working). *Cleared as Filed* is available as a series title.
+
+**Next artifact:** [BOOK-1-OUTLINE.md](BOOK-1-OUTLINE.md) — chapter-by-chapter, with POV, clock, romance throttle, and ACS load per chapter.
