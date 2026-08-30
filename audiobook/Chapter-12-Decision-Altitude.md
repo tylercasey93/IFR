@@ -70,6 +70,28 @@ He took her hand. In front of God, the client, and the fuel truck. Neither of th
 
 ---
 
+The lodge itself was an hour up the Rogue, all river rock and old growth, and while Okafor and the broker argued gross margins in front of a fireplace sized for burning pianos, Chidinma appropriated Wren for what she called "a walk about the grounds" and what Wren's spine correctly identified as a closing argument.
+
+They made it to the footbridge over the creek before the barrister came to the point.
+
+"I flew out from London to catch you two," Chidinma said, conversationally, watching the water. "You know that, I assume. Auntie falls in love with things — hotels, cities, people — and after Uncle died there was a stretch where some of the things she fell in love with were *arranged* for her to fall in love with. A pair of art dealers. A charity that wasn't one. I'm a fraud lawyer; I flew out to run diligence on a suspiciously charming flight crew." She turned around, leaned back against the rail, and looked at Wren with her aunt's exact brand of unhurried attention. "The couple story had holes, by the way. The timeline's soft, the flat's wrong, and the first-date flight doesn't appear in any logbook I could think how to check. I want you to know I *noticed* all of it."
+
+Wren kept her face level and her weight on both feet, the way you do when the gear-warning horn sounds. "And?"
+
+"And then I watched him, in an ice storm, brief the way out before the way in because you'd taught him to. I watched you ground a plane full of my aunt's money over a dizzy spare instrument, and hold for forty minutes over Portland like it was a spa treatment, and I watched the two of you at Medford this morning fly through the inside of a cloud with two hundred feet to spare, trusting each other with the speed of *reflex*." She shrugged, elegantly, the shrug of counsel resting. "Whatever the paperwork says, the diligence came back clean. It's real. I've watched people fake money, grief, and religion, Captain, but nobody can fake *crew*. So the report I'm giving Auntie tonight says she's safe with you two, in every sense I care about — and I'm staying through the winter purely for the entertainment."
+
+She pushed off the rail and headed up the path, and paused, and delivered the closer over her shoulder with a barrister's timing:
+
+"The holes in the timeline, though. Someday — not for the file, just for me — I'd love to hear what *actually* happened."
+
+Wren stood on the footbridge a while after she'd gone, above the moving water, feeling the strange double weight of it: the verdict she'd have chosen — *it's real, nobody can fake crew* — sitting directly on top of the one word in the summation that stung and kept stinging.
+
+*Safe.* Adaeze Okafor, who had been *arranged into* love before, was safe with them.
+
+She was still carrying that stone when the fog came back that evening, and it would be weeks yet before she understood what it was for.
+
+---
+
 The lodge broker took the client to dinner; the crew got the hotel bar's back patio, propane heaters, and the fog rolling past the railing like the day's approach hadn't quite finished with them. Wren had a bourbon and her jacket collar up. Theo had the day still humming in his hands.
 
 "Debrief's done," she said — they'd run it on the ramp, the whole recital, localizer to red bars — "so this is just—" she gestured with the glass at the heaters, the fog, the two of them, off-duty and audience-free "—this."

@@ -6,6 +6,24 @@ The morning after the kiss that didn't count, Wren got to the briefing room firs
 
 *Post-event physiological discharge.* She'd actually said that. Out loud. To a man whose mouth she'd just—
 
+Priya was at the dispatch counter when she came through at five-forty, because Priya's radar never slept, and she watched Wren badge in with the open interest of a controller acquiring an unidentified target.
+
+"You're here before *him*."
+
+"I'm here before everyone. It's a leadership behavior."
+
+"You have never once beaten him in. He gets here at quarter to six like a cuckoo clock; you get here at six-ten specifically so you can find something he's already done and improve it. It's your whole morning ritual; I've timed it." Priya leaned on the counter. "So either the schedule changed, or something *happened*."
+
+"Weather briefing," Wren said. "Big interference NOTAM. Complex airspace day."
+
+"Uh-huh. And the fact that you just put your coffee in the refrigerator?"
+
+Wren retrieved her coffee from the refrigerator with unbroken composure. "It's a warm morning."
+
+"It's *November*—"
+
+"Complex airspace day, Priya," said Wren, and walked to the briefing room with her spine at full extension and her ears on fire, pursued by the specific silence of a dispatcher deciding which page of her mental file to open.
+
 "Morning, Captain." Theo came through the door with two coffees and a manila expression, and set hers down at precisely the usual distance, and opened the weather at precisely the usual angle, and proceeded to be so flawlessly, surgically normal that it constituted its own form of commentary. Fine. Good. Two could fly that pattern.
 
 "NOTAMs," she said. "There's a fun one."
@@ -109,5 +127,29 @@ The FBO hummed around them. Theo went very still, the way he had on the Friday H
 "For the record," he said carefully, "I've had the inbound course set for weeks. I'm just waiting on the clearance."
 
 "I know," said Wren Hale, and stood, and squared the paperwork, and — because some transmissions can only be sent from the doorway, on the way out, half over the shoulder — added: "Expect it."
+
+---
+
+The closing went through at four-fifteen, and Adaeze Okafor celebrated the way she did everything: decisively, and with staff. By seven the hotel's rooftop bar had been partially annexed, the lodge attorneys were being taught some kind of clapping game by their new owner, and a bottle of champagne had been dispatched to a corner table with a card reading, in the assistant's hand at Okafor's dictation: *For my aviators. You circled beautifully today. — A.O.*
+
+"She means the DME arc," Theo said, examining the card.
+
+"She absolutely does not mean the DME arc."
+
+They drank her champagne anyway, at the corner table above the cold Boise night with the airport beacon turning green-white-green in the middle distance, and the conversation stayed professional for one entire glass, which was a company record for rooftop conditions. It was Theo who finally set his down and looked at her with the lights in his eyes and said, "So. 'Expect it.' Am I allowed to file a request for—"
+
+"No."
+
+"You don't know what I was—"
+
+"You were going to request an estimate," Wren said. "A time on the further clearance. And the answer is no, because the controlling authority is currently—" she considered her own glass, and the beacon, and the ridiculous lightness in her chest that champagne did not adequately explain "—working other traffic."
+
+"Copy," Theo said, entirely too gently, and refilled her glass instead of pushing, which was the whole problem with him, the entire structural problem: the man never once flew through her turbulence when he could ride the smooth air beside it and wait.
+
+Across the roof, Okafor raised her own glass in their direction — to the closing, ostensibly — and called out, with the timing of a woman who missed nothing: "To *expectations*, my dears!"
+
+"To expectations," the whole roof chorused, obediently, having no idea.
+
+Wren drank to it. It seemed dishonest not to.
 
 *End of Chapter Nine.*

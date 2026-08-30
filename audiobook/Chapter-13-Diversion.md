@@ -44,6 +44,22 @@ The inn was a hundred-year-old brick thing on Main Street with a lobby fireplace
 
 "—a couple," Okafor agreed, radiant, and swept toward the elevator with her goddaughter, pausing only to murmur, at a volume engineered for exactly two sets of ears: "The storm is not my doing, darlings. But I *will* be taking credit."
 
+Dinner happened first, because the inn's dining room was the only thing open in Pendleton by then and the storm had herded everyone into it: the crew, the client, the goddaughter, two stranded wheat brokers, and a high school wrestling coach who kept buying rounds for "the pilots who beat the snow."
+
+It was, Wren would think later, the last easy hour of the old arrangement — chowder and firelight and Okafor holding the room the way she held every room. It was Chidinma who wound her up: "Auntie. Tell them how Uncle proposed. It's a weather story; they'll like it."
+
+"It is *the* weather story." Okafor set down her spoon. "Nairobi, 1981. We had been — circling one another, your uncle and I, for three years by then. Different cities, careful letters, two careers like two flight schedules that never quite aligned. And that March I was to fly out for a conference, and he drove me to the airport, very quiet, very correct — and the rains came. Not polite rain. Biblical, grounding, roads-becoming-rivers rain. Every flight canceled. The whole terminal groaning. And your uncle looked out at it for a long moment, and then he took my suitcase back off the trolley, and he said—" she laid her hand flat on the table; Wren was coming to know the gesture, the setting down of the words like cards "—*'Adaeze. I have done the arithmetic. In good weather you are always leaving. I would like to marry you before the sky clears.'*"
+
+The wrestling coach put his hand over his heart. Chidinma mouthed the last line along with her, a woman who had grown up on it.
+
+"We were married eleven days later, in borrowed shoes, and the sun came out during the vows, which he claimed until his last year of life to have arranged personally." Okafor picked her spoon back up, entirely satisfied with the state of the table. "I have told you all before, children: everything that matters starts with weather. Weather is just the world asking whether you meant it." Her eyes, lamplit, rested a moment on the two pilots wedged shoulder to shoulder on the bench across from her — the seating chart having been, like so much of the season, arranged. "Some of us require more asking than others."
+
+Wren looked at her chowder with enormous professionalism.
+
+Under the table, unhurried, Theo's knee came to rest against hers — deniable, plausible, bench-geometry — and this time, instead of prosecuting the case, she left it there and finished her dinner, one careful spoonful at a time, while the storm asked its question against the windows.
+
+---
+
 The room was small and warm and had one bed, a radiator with opinions, and a window over Main Street where the snow came down through the streetlight like static. They stood inside the door with their flight bags, two people who had flown through ice and interference and each other's histories, undone at last by hotel inventory.
 
 "I'll take the chair," Theo said, at the same moment Wren said, "Don't take the chair."

@@ -48,6 +48,24 @@ Voss looked at him for a long moment over the folder. "That answer," he said, "i
 
 ---
 
+At the lunch break Theo took his sandwich to the parking lot for air and called his father, per treaty — Sam had demanded "telemetry at the half" like the whole day was a game he had money on.
+
+"How's the old buzzard treating you?"
+
+"He asked me eleven questions about alternates and made a mark I couldn't read. It's like being audited by fog."
+
+"Good sign. When Voss thinks you're hopeless he gets *chatty*." A clink of the good mug; Sam settling in. "Your mother used to say you'd end up a captain, you know. You'd have been — nine? Ten? You made the neighbor kids do a walkaround on their bikes before the big ride to the quarry. Full checklist. Tire pressure by thumb. She took a picture of it; it's in one of the albums — six bikes in a row and you pointing at a chain." A pause, the good kind. "She'd have liked Wren. Same species. The ones who point at the chain."
+
+"Dad."
+
+"I'm just saying it's in the albums," Sam said, innocent as a fair-weather cumulus. "Go fly the box. Don't let him fail your engine at anything low."
+
+"He's absolutely going to fail my engine at something low."
+
+"Well," said Sam Marsh, "then fly the half you've got left, and call me at the whistle."
+
+---
+
 The simulator did what simulators do: took every comfortable assumption Theo owned and fed them, one at a time, into a wood chipper.
 
 The first hour was almost pleasant — steep turns, an ILS, a missed approach into published holding, Voss's scenarios stacking weather on failure on distraction with a craftsman's pacing. Then, level at eight thousand in simulated night IMC, straight-and-level, autopilot off because Voss had quietly failed it forty minutes ago, the left engine let go.
