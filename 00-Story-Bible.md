@@ -67,14 +67,17 @@ A fake-dating-to-real-dating romance set in the modern Part 135 charter world, e
 | 19 | Wren | Squawk Sheet | **VIII.A** Postflight inspection, discrepancy documentation, 91.405/91.417 | Debrief-as-love-language; Okafor reveals she always knew; real first date; second open-door scene |
 | 20 | Theo | Cleared Direct | **Full-arc recap** via Theo's upgrade checkride vignette + Sam's BasicMed payoff flight | Spring; type-ride/upgrade passed; Sam flies the Bonanza to Friday Harbor; "cleared direct" epilogue |
 
-## Continuity ledger (update as chapters are written)
+## Continuity ledger (final, as written)
 
-- Aircraft: King Air 350, N135MA; Meridian Three Five. Boeing Field (KBFI) home base, Clay Lacy FBO stand-in "Rainier Aviation."
-- Wren drives a 20-year-old Tacoma; drinks drip coffee, black; chart-keeping habit is secret until Ch 11.
-- Theo's memory hooks introduced so far: (fill in as used) — Ch 1: 66-HIT, "current ≠ proficient," DPBS VOR-log jingle (mentioned only).
-- Okafor's standing order: ginger tea, no ice, served at top of climb.
-- The "operating agreement" (Ch 2): no lying to ATC or logbooks, act only in front of the client, either party may go missed at any time — no questions asked. (These clauses pay off in Ch 8, 12, 13.)
-- Timeline: begins early October (PNW icing season), ends the following spring.
+- Aircraft: King Air 350, N135MA; "Meridian Three-Five." Boeing Field (KBFI) home base. Sam's V35B Bonanza (IO-550) carries the BasicMed subplot. A second King Air arrives in Ch 20.
+- Theo drives a blue Subaru with a mismatched fender; Wren's chart-keeping shoebox is revealed to Theo in Ch 19.
+- Okafor's standing order: ginger tea, no ice, at top of climb. Her goddaughter Chidinma appears Ch 7, 9, 12, 13.
+- The operating agreement (Ch 2): Clause One — no lying to anyone wearing a headset; Clause Two — no performance without an audience (repealed by Amendment One, Ch 13); Clause Three — daily debrief, both directions; Clause Four — either party may "go missed," no questions asked (invoked Ch 16; Amendment Four adds the "confirm" rule, Ch 18). Amendments One–Three ratified in Pendleton (Ch 13).
+- Running props: the legal-pad agreement and the FUEL STATE: FAT coaster live in Wren's left chest jacket pocket (the zipper one); the sealed letter rides there in Ch 17–18; the failed bus-tie contactor becomes a hangar trophy (Ch 19).
+- Running gags: Wren counts Theo-induced laughs ("documented occurrences," 1–8+); Voss's pen clicks (two = ovation); "narration is free, assumptions are not"; "adequate" as highest praise; "boring on purpose" for good alternates.
+- Recurring phrases with arc weight: "current isn't proficient" (Ch 1 → Ch 20), "we always need the alternate" (Ch 3 → Ch 19), "standby's required equipment — no relief on that item" (Ch 5 → 18), "decide while you're rich" (Ch 13), "keep the lights on" (Ch 17 → 20), "cleared as filed"/"readback correct" (finale).
+- Cascade Air Group backstory: Captain Danny Ruiz; Jax Calloway (Pacific Corporate Air) is the Ch 11/15/16 complication. Voss gave Wren her 135 checks post-Cascade.
+- Timeline: early October through the following May. Gala at the Rainier Club mid-winter; Pasco emergency the following week; proposal at Friday Harbor in May.
 
 ## Accuracy guardrails
 
