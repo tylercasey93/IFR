@@ -14,15 +14,27 @@ I came across the ramp with two coffees and no umbrella, because I have never on
 
 Cole Bishop was under the wing with a flashlight in his teeth.
 
-He'd been out there long enough that his shoulders were dark and his hair had given up. He is a big man — six two, and built the way people get built when they grow up throwing things onto trucks — and he has a face that makes strangers ask him for directions in cities he's never been to. Two years I've flown with him. In that time I have watched about four hundred people decide within a minute of meeting him that he was the safest person on the field, and every single one of them was right, and not one of them learned a thing about him.
+He'd been out there long enough that his shirt had gone dark across the shoulders and quit pretending to be a separate object, and his hair had given up entirely. He is a big man — six two, and built the way people get built when they spend a childhood throwing things onto trucks — and he has a face that makes strangers ask him for directions in cities he's never been to. He was crouched under the wing with one forearm braced on his knee, and the sleeves were already rolled, and he had a flashlight in his teeth and somebody's logbook open on his thigh, and there is no version of that picture that isn't a good one.
+
+Two years I've flown with him. In that time I have watched about four hundred people decide within a minute of meeting him that he was the safest person on the field, and every single one of them was right, and not one of them learned a thing about him. I have decided this is what makes him interesting. It is a very serviceable explanation and I have never once put pressure on it.
 
 "You're wet," I said, and put the coffee where his hand would find it.
 
-"I'm aware." He didn't look up. "Tell me about the fill-in guy."
+"I'm aware."
 
-"Good morning to you too."
+"You're aware. You've been standing in it for an hour being aware."
 
-"Good morning. Tell me about the fill-in guy."
+"There's a roof forty feet that way," he said, not moving. "Tell me about the fill-in guy."
+
+"Good morning to you too. You know they make a garment for this. It's called a jacket. Enormously popular."
+
+"Marsh."
+
+"Some men wear two."
+
+He took the flashlight out of his teeth and looked up at me, and the rain was coming off his eyelashes, and he did the thing where he doesn't smile with any part of his face except about a millimeter at one corner of his mouth.
+
+"Good morning," he said. "Tell me about the fill-in guy."
 
 I have known Cole Bishop for two years, and the four seconds before he asks a question are where he actually lives. He'd been out here in the rain with somebody else's paperwork since before I parked. Whatever he wanted to hear, he already knew he wasn't going to.
 
@@ -228,9 +240,11 @@ My phone buzzed against my leg. Aaron, off shift, forwarding a photograph of som
 
 *Both,* I sent. *Palm Springs. Back late tonight.*
 
-*late is fine. late is my whole personality.*
+*late is fine. late is my whole personality. come over, i'll be horizontal and useless and extremely glad to see you.*
 
-I put the phone away and looked out at four hundred miles of morning, and thought, the way you do when the airplane is running well and everyone is where they belong, that this was a very good life and there was nothing in it I would trade.
+Aaron Brandt is a charge nurse at Harborview, thirty-three, built like somebody who takes the stairs, and the best-natured man I know. We have been doing this about a year. It works because his schedule is a war crime and mine is worse, so nothing between us has ever had to survive an ordinary Tuesday evening; we see each other at eleven at night or seven in the morning, and it is uncomplicated and generous and genuinely good, and neither of us has ever once said a sentence that started with *where is this going*. I like him enormously. I have never lain awake about him, which at thirty-one I had filed as a sign of maturity.
+
+*Deal,* I sent, and put the phone away, and looked out at four hundred miles of morning, and thought, the way you do when the airplane is running well and everyone is where they belong, that this was a very good life and there was nothing in it I would trade.
 
 ---
 
@@ -248,4 +262,8 @@ Cole did the post-flight walkaround himself, in the dark, in the weather, the sa
 
 "I know," he said. "That's why I said thanks."
 
-He went to lock the hangar. I stood in the doorway of a fifty-million-dollar airplane owned by a company nobody had ever met, and watched my best friend cross a wet ramp under the field lights, and thought: *he's going to catch cold.*
+He went to lock the hangar.
+
+I stood in the doorway of a fifty-million-dollar airplane owned by a company nobody had ever met, and watched him go — soaked through for the second time in one day, shirt stuck to his back, big and unhurried in the field lights, stopping halfway across to pick up somebody's dropped chock and set it where it belonged, because of course he did.
+
+*He's going to catch cold,* I thought, and I remember being pleased with the thought, the way you're pleased with a tidy sentence. It seemed like the whole of what I was feeling. It seemed, at the time, like a completely sufficient account.

@@ -196,7 +196,7 @@ Afterward we walked the six blocks to his place, which is the third floor of a b
 
 He put a record on, because he owns records, and made coffee at nine at night for me because he knows I'll drink it and sleep anyway, a thing about me he finds personally insulting.
 
-It's good, with Elias. I want that on the record too, because it would be easy to make it sound like less than it was. He's unhurried and he's funny in the dark and he pays attention, and being paid attention to by somebody who has no stake in your competence is a rarer thing than it sounds when you spend your life being the man everybody trusts. Afterward he fell asleep with one arm across my chest and his face in the pillow, and the rattle came off the windows, and a boat went through the locks somewhere below us with its horn going.
+It's good, with Elias. I want that on the record too, because it would be easy to make it sound like less than it was. He backed me into the drafting table before the coffee was cold and took his time about it, and he's unhurried and he's funny in the dark and he pays attention — and being paid attention to by somebody who has no stake whatsoever in your competence is a rarer thing than it sounds when you spend your life being the man everybody trusts. He said my name twice and once it was a question. Afterward he fell asleep with one arm across my chest and his face in the pillow, and the rattle came off the windows, and a boat went through the locks somewhere below us with its horn going.
 
 And I lay there in the dark doing something I would not have admitted to under oath, which was thinking about a crew room at six in the morning.
 
@@ -241,3 +241,57 @@ Empty airplanes fly like a completely different machine, light on the wheels and
 "You're the one who thinks everybody's up to something."
 
 "I'm the one who's usually right," Jack said comfortably, and put his feet on the footwell rail, and the low southwest of Kodiak spun another notch, fourteen hundred miles ahead of us, in no particular hurry at all.
+
+---
+
+Meridian's crew hotel policy is a single room with two beds, and has been since the spring Griff looked at the annual lodging number and made a noise I have not heard a human make before or since. Nobody argues about it. Priya books it, the rate is the rate, and if you want your own room on a Meridian trip you are welcome to pay the difference out of the money you don't have.
+
+So: two years. Something like a hundred and forty nights. Boise, Bozeman, Van Nuys, Palm Springs, three different Marriotts in Denver, a place in Elko with a rooster. Two beds and one bathroom and one alarm and a wall-mounted television neither of us has ever once turned off first.
+
+It is completely ordinary. I want to say that plainly, because it is true, and because the fact that it is completely ordinary is the entire problem.
+
+The Anchorage hotel had a lobby that smelled like carpet shampoo and a television bolted above the check-in desk playing a fishing show with the sound off. Room 412. Two queens, one window, a view of a parking lot and, past it, the Chugach with fresh snow on them going purple in the last of the light.
+
+We have a routine and neither of us invented it. He takes the bed by the window because he gets up at night and doesn't want to walk past me; I take the one by the door because that is apparently a thing I do and he noticed it in the first month and never said anything about it, he just started taking the window. He showers first, because he takes eleven minutes and I take four, and running it his way means the hot water works out. He orders. I write.
+
+That night he ordered from a Thai place with a bad website and a superb kitchen and got it wrong on purpose, which is to say he got me the thing I actually like instead of the thing I always say, and did not mention that he'd done it.
+
+I sat at the desk with the trip file and started her report.
+
+*Ms. Okafor — as requested, the decisions rather than the invoice.* Then the weather, laid out the way I'd built it. What the FM group meant. Why the TEMPO was a planning item and the PROB30 was a warning. What the SIGMET's window did to our Saturday. Why I'd moved us three hours earlier than any sane crew would want to be awake, and what I intended to do at the top of climb if the ceiling at Yakutat had come down faster than advertised, and what it would cost her if I turned around, and why I'd do it anyway.
+
+Behind me the shower ran and quit. He came out with a towel around his hips and another one going at his hair, and stood in the middle of the room reading something on his phone with steam coming off his shoulders, entirely unbothered, the way you are unbothered in a room with somebody you've flown a hundred and forty nights with.
+
+He is built like a man who does something serious three times a week and never mentions it. There is a mark on his ribs on the left side, a pale seam about two inches long, from a bicycle and a curb and a summer when he was nine, and I know that because he told me the story in a van in Elko, and I know exactly where it is, which is a different kind of knowing and I am aware of the difference.
+
+"Bishop."
+
+"Yeah."
+
+"You're typing very loudly."
+
+"I type at one volume."
+
+"You type like the keyboard owes you money." He dropped the hair towel over the back of the second chair, which is where it lives, in every hotel, in every city, for two years. "Read me the last line."
+
+"It's not done."
+
+"Read me the last line anyway. You do this thing where you write four drafts of a sentence in your head before you'll say it out loud, and I like getting the early ones."
+
+I read him the last line. It was about the top-of-climb gate. He listened with his head tipped, and then he told me to cut the third clause because it apologized, and he was right, so I cut it.
+
+Then he got into the bed by the window and put the fishing show on with the sound off, because that is also part of it, and inside four minutes he was asleep with one arm flung off the side of the mattress like a man who has never worried about anything.
+
+I sat at that desk for a while longer with the low southwest of Kodiak turning on my screen and a report to finish for a client who had paid forty thousand dollars to have an empty airplane flown carefully.
+
+There is a specific and slightly ridiculous fact about my life that I have made my peace with, and it is this: the loneliest I ever get is about nine feet from Jack Marsh, in a room with the heat set too high, listening to him breathe.
+
+I finished the report at eleven. I sent it at 0512 the next morning, before I woke him, because I did not want him reading it over my shoulder while I decided whether to keep the line about what I would do if the weather beat us.
+
+She replied in ninety seconds. It was six in the morning in Seattle and she answered in ninety seconds.
+
+*This is exactly what I asked for. Thank you, Captain. Fly home carefully — the front will be early.*
+
+The front was early.
+
+She had no way of knowing that.
