@@ -122,20 +122,16 @@ They walked the beach at Leadbetter in the last of the light, because the layer 
 
 "Debrief," Wren said, hands in her jacket pockets, surf running white and cold to their left. "Non-precision. Go."
 
-"MDA is a floor, not a decision — never below it till the runway environment and a normal descent are both in hand; DA you decide *through*, MDA you decide *at or before*. Dive-and-drive levels low and hunts; CDFA flies the glidepath the chart forgot to build — constant angle, stable, arrive at the MDA near the visual descent point and treat it as the decision. VDP: printed or built — height above touchdown over three hundred gives miles from the runway — and past it without the runway, the geometry's gone; the MAP is just the bureaucratic deadline. Minimums are negotiated: inop lights raise visibility per the table, speed sets category, NOTAMs get a vote. Stabilized by a thousand in the clouds — configured, on speed, sane descent, shared plan — or go around without discussion, because the go-around is the cheapest insurance nobody buys." He paused. The surf filled it. "And somewhere over the fence I apparently acquired a *flying-with* designation, which I intend to list under ratings."
+"MDA is a floor, not a decision — never below it till the runway environment and a normal descent are both in hand; DA you decide *through*, MDA you decide *at or before*. Dive-and-drive levels low and hunts; CDFA flies the glidepath the chart forgot to build — constant angle, stable, arrive at the MDA near the visual descent point and treat it as the decision. VDP: printed or built — height above touchdown over three hundred gives miles from the runway — and past it without the runway, the geometry's gone; the MAP is just the bureaucratic deadline. Minimums are negotiated: inop lights raise visibility per the table, speed sets category, NOTAMs get a vote. Stabilized by a thousand in the clouds — configured, on speed, sane descent, shared plan — or go around without discussion, because the go-around is the cheapest insurance nobody buys." He paused. The surf filled it. "And somewhere back at that counter, I apparently became the someone you're flying with. I'd like the record to show I'm taking it seriously."
 
-"Under experience," Wren corrected. "Ratings require a checkride."
+"I said it seriously," Wren said.
 
-"When's mine?"
+He said nothing to that — everything lightly, always, the finish coat over the structure, except when it mattered — and Wren stopped walking, and looked at him in the sea light, and let the hum in her chest run loud for once instead of managing it. She'd been standing at the edge of saying it for weeks, she thought. Close enough to see it. And waiting much longer wasn't going to be patience anymore — just fear, wearing patience's jacket.
 
-He said it lightly — everything lightly, always, the finish coat over the structure — and Wren stopped walking, and looked at him in the sea light, and let the hum in her chest run loud for once instead of managing it. Six hundred feet, she thought. She'd been at the MDA for weeks, level, in the gray, hunting the runway environment, and the honest arithmetic said the VDP was passing under her right about *now* — the point past which continuing without deciding wasn't patience anymore, just an unstable approach with a story attached.
+"Soon," she said. "There are things I want to say to you, and I want to say them in the right order, and one or two of them I have to say to other people first. But you'll be — " her hand left her pocket; her fingers found his jacket cuff, adjusted it, a small, proprietary, entirely unnecessary correction " — you'll be the one I say the important part to. That's a promise."
 
-"Soon," she said. "There's a checklist. I'm working it in order."
+"I'll hold you to it," Theo said, and didn't ask for more.
 
-Theo studied her face like a chart he'd flown before and loved anyway. "Any deferred items?"
-
-"One or two." Her hand left her pocket; her fingers found his jacket cuff, adjusted it — a small, proprietary, entirely unnecessary correction, the kind you make when the needle's centered and you just want your hands on the controls. "Nothing," she said, "with no relief."
-
-They walked back in the near-dark, shoulders brushing on the hard sand, stable, configured, on speed — and if the tower had asked, Wren Hale would have reported herself established on final, inside the fix, with the field expected in sight momentarily.
+They walked back in the near-dark, shoulders brushing on the hard sand, and neither of them hurried, because for the first time all season neither of them doubted where this was going — only when.
 
 *End of Chapter Eleven.*

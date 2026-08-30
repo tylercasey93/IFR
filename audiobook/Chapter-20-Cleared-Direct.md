@@ -56,23 +56,21 @@ And in the window seat of the cafe by the marina — the counter seat, *the one*
 
 Breakfast was pancakes, because of course it was. Sam held court at the counter with the landing already growing in the retelling; the cafe's owner, briefed months ago by a hopeful son over the phone, kept the coffee coming; and the marina glittered through the window like scattered foil.
 
-Theo waited until the plates were cleared. Then he stood, and reached into his jacket, and set a small box on the counter between the window and Wren Hale — and beside it, because he was who he was, a folded piece of paper.
+Theo waited until the plates were cleared. Then he stood, and reached into his jacket, and set a small box on the counter between the window and Wren Hale — and beside it, a folded piece of paper gone soft at the creases from months of carrying.
 
-"Copy this down," he said. His voice was almost steady. "Clearance available."
+"I wrote a speech," he said. His voice was almost steady. "Started it the morning after Pendleton. Forty-some drafts. Dad vetted the final; it's genuinely pretty good." He looked at her — at her face, at her still hands around the coffee cup, at her eyes gone enormous — and gave up on the paper entirely. "And I'm not going to read it, because standing here I can only remember one line of it anyway, and the line is: I don't want to do any of it without you."
 
-Wren looked at the box. At the paper. At him. And — because she was who she was — picked up a pen off the counter, flipped a napkin over, and said, with her heart in her eyes and the readback discipline of a woman who had never once busted a clearance: "Ready to copy."
+The cafe had gone quiet around them. The marina glittered through the window. Out on the field, the Bonanza sat in the morning sun.
 
-"Wren Hale," Theo said, "you are *cleared to* — forever. *Route*: direct. No airways, no doglegs, no preferred routing. Direct. *Altitude*: maintain — everything. All of it. Every altitude I have. *Frequency*: this one. The one we're on. It never changes, and I will never leave it. *Transponder*—" his voice went, finally, and he flew through it, the way she'd taught him, the way they'd taught each other "—squawk whatever you like, sweetheart, they can see us anyway. We've never once been off anybody's radar."
+"You're the most honest person I have ever known," Theo said. "You plan for the worst and then you show up anyway — every day, for everyone you love, whether or not they've earned it, whether or not it's easy. You gave my father back a piece of his life and acted like it was nothing. You let me all the way in, which I know cost you more than you'll ever say. Loving you is the easiest thing I have ever done, and I'd like to keep doing it for the rest of my life." He opened the box, and went down on one knee, right there on the worn floorboards of the cafe by the marina. "No contract this time. No clauses, no act, nothing to perform. Just me, asking. Marry me, Wren."
 
-The cafe had gone silent. The box was open. Sam had both hands over his mouth. Somewhere behind the counter, the owner was filming with the shameless steadiness of a man who'd been promised this shift.
+Sam had both hands over his mouth. Somewhere behind the counter, the owner was filming with the shameless steadiness of a man who'd been promised this shift.
 
-Wren Hale looked down at her napkin, where — pilot to the last, in front of the window with the runway in it — she had actually written it down: *C: forever. R: direct. A: all. F: this one. T: —*
+Wren Hale looked at the ring. At the runway through the window, where a whole family's long way home had just landed. At the man on the floor.
 
-She put down the pen.
+"Yes," she said — the plainest word she'd said all year, no conditions, no fine print, no exits. And then, reaching for him with both hands, laughing and wrecked at once: "Yes. Obviously, yes. Get up here."
 
-"Readback correct," she said, and reached for him with both hands.
-
-The cafe came up around them like a missed-approach climb, all noise and light — Sam whooping, the owner cheering, somebody's kid banging a spoon — and within the hour the texts would land like a formation arrival: Priya's forty-seven exclamation points; Griff's *DOES THIS AFFECT THE SCHEDULE* followed by *ignore that, congratulations, don't tell Priya I cried*; a single dry line from Voss — *June. She owes me fifty.* — and, from Adaeze Okafor, a photograph of cream cardstock on which, in her own magnificent calligraphy, was already written a single word: *Finally.*
+The cafe came up around them in a roar, all noise and light — Sam whooping, the owner cheering, somebody's kid banging a spoon — and within the hour the texts would land like a formation arrival: Priya's forty-seven exclamation points; Griff's *DOES THIS AFFECT THE SCHEDULE* followed by *ignore that, congratulations, don't tell Priya I cried*; a single dry line from Voss — *June. She owes me fifty.* — and, from Adaeze Okafor, a photograph of cream cardstock on which, in her own magnificent calligraphy, was already written a single word: *Finally.*
 
 But that was all later. For now there was just the window seat, and the ring, and the runway beyond the glass with the Bonanza parked beside it in the sun, and the two of them holding on at the counter where a whole family's flight plan had finally closed — on course, on time, at the exact place filed.
 
@@ -88,6 +86,8 @@ And Theo Marsh — captain, CFII, formerly fake and permanently real — looked 
 
 "Currency isn't proficiency, and the floor isn't the house. Brief the weather like it's out to teach you something, because it is. File the alternate; fly the fuel; the NOTAM you skip has your name on it. Trust the instruments over the body — the ear lies, the panel votes. Tune it, identify it, or it isn't real. Slow down before the fix. Know your entry, correct for the wind, and never hold without an EFC. The chart offers; the pilot accepts. Stabilized or go around — the miss is the system working, and it's never, ever a failure to come back around and fly a better approach." He reached across the pedestal, and her hand was already there, the way it had been all year, the way it would be at every fix on every route for the rest of the flight plan. "And when the radios fail — fly where you promised. Stay findable. Keep the lights on."
 
-"Readback correct," said Wren, and banked them gently home, direct, as filed, into the last of the light.
+"And that," said Wren Hale — captain, fiancée, keeper of expired charts — "is everything worth knowing." She squeezed his hand once, and flew.
+
+The Bonanza banked gently for home over the burning water, engine steady, family aboard, nothing left unsaid — cleared, at long last, exactly as filed.
 
 *The End.*

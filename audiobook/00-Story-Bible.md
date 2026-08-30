@@ -39,16 +39,20 @@ Character chemistry modeled on Evanovich & Goldberg's **Fox and O'Hare** pairing
 - Wren mentors a part-time SIC/instrument student thread and flies with Voss for recurrent checks.
 - Okafor loves listening to crew briefings on the jump-seat speaker and demands "the story of the flight" — the excuse for narrated planning scenes.
 
-## Series-long romance ↔ IFR metaphor spine
+## Flying/romance separation policy (revised by author direction)
 
-| Romance beat | IFR concept it rides on |
+**The flying is the flying; the romance is human.** The plot may *rhyme* with the aviation concepts at the structural level (the breakup falls in the lost-comm chapter; the reconciliation happens during an emergency), but the characters do not court each other in jargon:
+
+- Declarations, confessions, apologies, the Pendleton night, and the proposal are spoken in **plain human language** — no clearances, callouts, checklist formats, or radio phraseology as romantic dialogue.
+- In-world contract terms the characters wrote themselves survive as plot mechanics: the operating agreement, its clauses, and "going missed" as the agreed exit word.
+- Light pilot-flavored banter is allowed in *low-stakes* moments (it's how these people joke), but the bigger the emotional beat, the plainer the words.
+- Narration may carry an occasional structural echo (the title motif "cleared as filed"), used sparingly.
+
+| Structural rhyme (allowed) | Jargon romance (removed) |
 |---|---|
-| Guarded hearts, pretending | *Currency vs. proficiency* — legally current at pretending, not proficient at feeling |
-| Falling for real | *Trust the instruments, not your body* — her gut lies like an inner ear in IMC |
-| Deciding to confess | *DA/MDA* — decision altitude: at some point you look up and either see it or go missed |
-| The third-act breakup | *Lost communications (91.185)* — when comms fail, fly the route you were **A**ssigned, then **V**ectored, **E**xpected, **F**iled; both fly their promised routes back to each other |
-| Reconciliation | *Missed approach ≠ crash* — a miss is a planned, survivable maneuver; you set up and fly it again |
-| Epilogue | *Cleared as filed* — the flight plan they actually wanted all along |
+| The breakup lands in the lost-comm chapter; Wren copes by "staying findable" | Proposals/confessions delivered in CRAFT/readback format |
+| The reconciliation happens mid-emergency because crisis burns off the misunderstanding | "Cleared for the approach" as an invitation; cockpit callouts as intimacy |
+| The agreement's clauses drive the plot | Metaphor-duel conversations (holding/EFC, DME-arc, DA/red-bars) as courtship |
 
 ## Chapter map (ACS area → plot)
 
@@ -81,9 +85,9 @@ Character chemistry modeled on Evanovich & Goldberg's **Fox and O'Hare** pairing
 - Theo drives a blue Subaru with a mismatched fender; Wren's chart-keeping shoebox is revealed to Theo in Ch 19.
 - Okafor's standing order: ginger tea, no ice, at top of climb. Her goddaughter Chidinma appears Ch 7, 9, 12, 13.
 - The operating agreement (Ch 2): Clause One — no lying to anyone wearing a headset; Clause Two — no performance without an audience (repealed by Amendment One, Ch 13); Clause Three — daily debrief, both directions; Clause Four — either party may "go missed," no questions asked (invoked Ch 16; Amendment Four adds the "confirm" rule, Ch 18). Amendments One–Three ratified in Pendleton (Ch 13).
-- Running props: the legal-pad agreement and the FUEL STATE: FAT coaster live in Wren's left chest jacket pocket (the zipper one); the sealed letter rides there in Ch 17–18; the failed bus-tie contactor becomes a hangar trophy (Ch 19).
+- Running props: the legal-pad agreement and the coaster reading I'M NOT GOING ANYWHERE live in Wren's left chest jacket pocket (the zipper one); the sealed letter rides there in Ch 17–18; Theo's unread proposal speech (Ch 20); the failed bus-tie contactor becomes a hangar trophy (Ch 19).
 - Running gags: Wren counts Theo-induced laughs ("documented occurrences," 1–8+); Voss's pen clicks (two = ovation); "narration is free, assumptions are not"; "adequate" as highest praise; "boring on purpose" for good alternates.
-- Recurring phrases with arc weight: "current isn't proficient" (Ch 1 → Ch 20), "we always need the alternate" (Ch 3 → Ch 19), "standby's required equipment — no relief on that item" (Ch 5 → 18), "decide while you're rich" (Ch 13), "keep the lights on" (Ch 17 → 20), "cleared as filed"/"readback correct" (finale).
+- Recurring phrases with arc weight: "current isn't proficient" (Ch 1 → Ch 20), "we always need the alternate" (Ch 3 → Ch 19), "standby's required equipment — no relief on that item" (Ch 5 → 18), "decide while you're rich" (Ch 13), "keep the lights on" (Ch 17 → 20), "I'm not going anywhere" (Ch 7 coaster → Ch 13), "cleared as filed" (title motif: narration only, plus one Ch 19 joke).
 - Cascade Air Group backstory: Captain Danny Ruiz; Jax Calloway (Pacific Corporate Air) is the Ch 11/15/16 complication. Voss gave Wren her 135 checks post-Cascade.
 - Timeline: early October through the following May. Gala at the Rainier Club mid-winter; Pasco emergency the following week; proposal at Friday Harbor in May.
 

@@ -118,7 +118,7 @@ He gave it with her hand still warm in his memory: "ODPs are the pilot's fire ex
 
 "Somebody," Wren agreed. Her hand found the hangar switch; the lights went down in sequence, familiar now, their own private sunset. "For the record — when he flies that breakfast run, I already called the window seat. I filed months in advance."
 
-"I remember," Theo said. "Cleared as filed."
+"I remember," Theo said. "It's yours. I wouldn't dream of giving it away."
 
 They walked out into the dusk not-holding hands with the practiced discipline of two professionals who had, without ever once saying so, both begun flying the arrival.
 

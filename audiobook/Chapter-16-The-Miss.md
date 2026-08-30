@@ -90,11 +90,11 @@ He was wrong — catastrophically, fixation-blind wrong, one instrument mistaken
 
 The toast ended. The quartet resumed. Wren leaned close, under the applause, worry starting in her eyes — "Hey. You're white as a TAF. What—" — and Theo Marsh did the only honest thing left in his inventory.
 
-He briefed his exit.
+He used the only exit they had ever built.
 
-"Clause Four," he said quietly. The words came out level. Two thousand hours of teaching in actual weather will do that; the voice flies itself long after the pilot's gone missing. "Going missed."
+"Clause Four," he said quietly. The words came out level. Two thousand hours of teaching in actual weather will do that; the voice holds long after the man behind it has gone missing. "Going missed."
 
-He watched it hit — watched her whole panel light up at once, confusion, disbelief, the beginnings of a question — and then he watched *her own architecture* catch her, the clause she'd written with her own hand, no questions, not that day, not ever, and the question died on her lips because she was Wren Hale and she did not violate procedures, even the ones killing her.
+He watched it hit — watched her whole face light up at once with confusion, disbelief, the beginnings of a question — and then he watched *her own rules* catch her, the clause she'd written with her own hand, no questions, not that day, not ever, and the question died on her lips because she was Wren Hale and she did not break her word, even the word that was killing her.
 
 "Theo—"
 
@@ -114,9 +114,7 @@ Sam looked at him for a long moment — at the rain, the tie, the face doing its
 
 You keep the lights on, and you get them warm.
 
-Somewhere behind him, in a ballroom under chandeliers, the woman he loved stood perfectly still amid two hundred people with a clause in her chest like a knife she'd sharpened herself — required to fly the lateral track, forbidden to turn toward him before the MAP, holding, with no EFC, in the oldest procedure either of them knew:
-
-when the communications fail, and the sky goes quiet, *continue as assigned. Continue as expected. Continue as filed.*
+Somewhere behind him, in a ballroom under chandeliers, the woman he loved stood perfectly still amid two hundred people with a clause in her chest like a knife she'd sharpened herself — bound by her own promise to let him go without one single question, holding a sentence she had been three words from saying, with no idea, now, if she would ever get to finish it.
 
 The rain came down on Seattle. Neither of them slept.
 

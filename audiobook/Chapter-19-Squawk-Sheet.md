@@ -78,7 +78,7 @@ The alternate was the borrowed hangar with its doors open to the rain, a table s
 
 She looked at him across the table under the Cub's wing — this man who filed alternates for her stories and made them true, who had walked into her briefing room out of the rain and never once flinched at the full Wren Hale of it all — and she felt the last checklist item of a very long approach click complete.
 
-"Take me home, Marsh," she said. "VFR. Direct."
+"Take me home, Marsh," she said.
 
 ---
 
@@ -94,10 +94,10 @@ She set it on the coffee table between them and took the lid off, and let Theo M
 
 Theo looked at the box for a long time. When he looked up, his eyes were bright and blown, needles full-scale.
 
-"Wren Hale," he said, "keeper of expired charts, planner of alternates, writer of clauses — I am going to love you for the rest of my life, and I intend to log every hour of it."
+"Wren Hale," he said, "keeper of expired charts, planner of alternates, writer of clauses — I am going to love you for the rest of my life."
 
-"Dates, places, signatures," she said, unsteadily. "Or it never happened."
+"Say it again," she said, unsteadily. "Slower. I want to remember exactly how it sounded."
 
-"Oh, it's happening," said Theo, and reached over, and turned off the lamp — and the rain kept the record of the rest of it, on the windows of a small warm apartment above a silver city, where two pilots with no audience at all, and no act left to perform, and no clearance required from anyone but each other, flew on together through the beautiful dark: on course, on speed, established — and home.
+"For the rest of my life," said Theo, and reached over, and turned off the lamp — and the rain kept the record of the rest of it, on the windows of a small warm apartment above a silver city, where two people with no audience at all, and no act left to perform, and nothing left to prove to anyone, held on to each other in the beautiful dark — and were, at last, simply home.
 
 *End of Chapter Nineteen.*
