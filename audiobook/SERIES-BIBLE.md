@@ -23,6 +23,11 @@
 9. **Diane Hale stays in Alaska** — still in the Ketchikan house above the harbor. *(v5: Wren is now a supporting lead, so this thread shrinks but survives — see her dossier.)*
 10. **Danny Ruiz returns in Book 3, working for the Russians as the mole's handler.** He runs Kang as the local cut-out, authors the misdirection that aims the mole-hunt at the captain, and lends the sabotage its insider knowledge of 135 maintenance culture. He and Verin never meet on the page. His end is an interview, not a gunfight. *(v5: the captain he burned — and burns again — is Cole Bishop.)*
 
+## v6 decisions (locked by author)
+
+16. **Ruiz was Cole's ex — confirmed.** Cascade's smear ("the bitter ex with a grudge") was Ruiz's own authorship, deployed exactly once; Book 3's misdirection is him finishing the job.
+17. **Wren recurs in Books 2–3** as the crew's standing third pilot/cover officer — and she is **Jack's best friend**, a friendship forged inside the fake-dating op that outlives it. With Cole she is friendly, mutually respectful, and not close: two guarded professionals who like each other at arm's length.
+
 ## v5 decisions (locked by author — the leads)
 
 11. **The series romance is two male pilots: Captain Cole Bishop and First Officer Jack Marsh.** Friends-to-lovers, not fake-dating: they open Book 1 as Meridian's established crew — two years, one cockpit, best friends — and the trilogy is the slow detonation of that friendship into the real thing.
@@ -112,7 +117,7 @@ Tone: Tom Clancy with more aviation and romance — procedural authenticity, pro
 |---|---|---|
 | **Cole Bishop, 36** | *(new — inherits the captain's spine)* | Captain. Warm, approachable, handsome, out — the man everyone on the field likes and no one actually knows. Ex-Cascade: reported his own captain (and quiet partner) Danny Ruiz for falsified records, took the industry's punishment, sat out two years, hired by Griff on Voss's one phone call. His arc across three books: learning that being everyone's friend is its own kind of armor, and letting one person all the way inside it. Book 1: the manifest problem is aimed at his exact scar. Book 3: the mole-hunt is aimed at his file. |
 | **Jack Marsh, 31** | FO, charmer, ex-CFII | FO. Suave, a little intimidating, effortlessly excellent — the guy who is good at everything he tries and dresses like he knows it. Bi, straight-passing, out to his family since nineteen. His superpower and flaw are the same: he can make anyone believe anything, including himself. New ladder: unwitting audition (B1) → gifted student of tradecraft (B2) → the one who has to choose between a legend and the truth (B3). The fake-date assignment is his Book 1 crucible. |
-| **Wren Hale, 34** | Captain, guarded, Cascade scars | **BRIDGEBELL contract aviator & cover officer.** Ketchikan-raised freight veteran turned Agency contractor; keeps the E6-B, the M&Ms, the flat declaratives, the shoebox. Book 1: Jack's fake girlfriend and the first person to name what she's actually watching. Books 2–3: the crew's standing third pilot and driest ally. Straight; unimpressed; indispensable. |
+| **Wren Hale, 34** | Captain, guarded, Cascade scars | **BRIDGEBELL contract aviator & cover officer.** Ketchikan-raised freight veteran turned Agency contractor; keeps the E6-B, the M&Ms, the flat declaratives, the shoebox. Book 1: Jack's fake girlfriend and the first person to name what she's actually watching. Books 2–3: the crew's standing third pilot — and **Jack's best friend**, the fake relationship's one permanent artifact. Friendly with Cole at arm's length. Straight; unimpressed; indispensable. |
 | **Adaeze Okafor, 71** | Matchmaking whale client | §3. The series' third lead. Warmth intact — the delight in them was never an act; it is the last unclassified thing she owns. |
 | **Chidinma, 26** | Goddaughter, fraud barrister, skeptic | **Okafor's vetting officer** — the "diligence" was literal. Builds the couple legend's paperwork in Book 1; handler-of-record in Book 2; the one who refuses to let the mole file swallow Cole in Book 3. |
 | **Dale Voss, 58** | Check airman | Still the flinty examiner — and, revealed mid-Book 2, a retired **Air Branch** instructor who has quietly vetted "candidates" for Adaeze for twenty years. His "adequate" was always a recruitment grade. Trains the crew in Book 2's sim sequences (the ACS emergency content lives here). |
@@ -185,15 +190,12 @@ Romance throttle (the contract, v3/v5): **three lines, one per book — Jack and
 - The wiki stays the companion reference; each book's front matter maps its chapters to ACS areas.
 - Second-pass reinforcement happens naturally *across books* (holds taught in B1, flown operationally in B2, flown for survival in B3).
 
-## 9. Open questions for the author (v5)
+## 9. Open questions for the author (v6)
 
-*Resolved: the leads (Cole Bishop / Jack Marsh, friends-to-lovers), personas (Cole warm-approachable, Jack suave-intimidating-good-at-everything), fake-dating demoted to Book 1 op device (Jack + Wren), Wren re-slotted as BRIDGEBELL cover officer, Cole inherits Cascade/Ruiz/manifest, tone (Clancy-calibrated), reveal timing (~ch. 7), Book 1 plot (the Sorokina exfiltration), Kang, Ruiz, Diane-in-Ketchikan.*
+*Resolved: the leads (Cole Bishop / Jack Marsh, friends-to-lovers), personas, fake-dating demoted to Book 1 op device (Jack + Wren), Wren re-slotted as BRIDGEBELL cover officer and recurring as Jack's best friend, Cole inherits Cascade/Ruiz/manifest, Ruiz-as-Cole's-ex confirmed, tone (Clancy-calibrated), reveal timing (~ch. 7), Book 1 plot (the Sorokina exfiltration), Kang, Ruiz, Diane-in-Ketchikan.*
 
 Still open — react to any or all:
 
-1. **Ruiz and Cole — how close?** As drafted, Ruiz wasn't just Cole's captain: they were quietly together for two years (Ruiz's terms — discretion, "optics"), which is why the smear ("bitter ex with a grudge") worked so well and why Book 3's misdirection cuts so deep. Alternative if you want it cooler: Ruiz as mentor and best friend only, no romance. The dossiers assume the ex version — say the word and it dials back cleanly.
-2. **The asset's shape** — Yelena Sorokina, Russian EW/nav-warfare engineer, daughter Mara, Sapporo, GRU adversary. Happy, or steer it?
-3. **Mara** — keep or cut? (Recommend keep; she's stakes, warmth, and Wren's best scenes.)
-4. **Wren's standing role** — as drafted she recurs in Books 2–3 as the crew's third pilot/cover officer. Confirm, or keep her Book-1-only?
-5. **Priya** — witting in Book 3 (recommended), earlier, or never?
-6. **Book titles** — *Winter Harbor* / *Position and Hold* / *Lost Comms* (working). *Cleared as Filed* is available as a series title.
+1. **Sorokina / Mara / Verin** — one-line profiles delivered for sign-off; they harden as drafted unless steered.
+2. **Priya** — witting in Book 3 (recommended), earlier, or never?
+3. **Book titles** — *Winter Harbor* / *Position and Hold* / *Lost Comms* (working). *Cleared as Filed* is available as a series title.

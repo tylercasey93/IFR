@@ -114,7 +114,7 @@ Everything true in the old file stays true: flat declaratives; threats delivered
 
 ### Series function
 - **B1:** the professional who teaches Jack fake-dating tradecraft straight-faced (backstory drills, ring logistics, how couples stand at a check-in desk) — and clocks him inside a week: *"I've done six of these. You're the first one who keeps checking whether someone else is watching."* Her deadpan runs the device; her decency ends it kindly. Exit line at the debrief: *"Best fake fiancé I've had. Tell him, or I will."*
-- **B2–B3:** the crew's standing third pilot and driest ally; teaches Mara straight-and-level in cruise, hands on the yoke, the way Gus never got to; one Book 3 landing at Ketchikan — Diane's kitchen, the harbor, twenty minutes on the page that pay for the whole subplot. Holds the counter seat at Friday Harbor because someone asked her to be at the window to see the landing.
+- **B2–B3:** the crew's standing third pilot and driest ally — and **Jack's best friend**, the one permanent artifact of the fake relationship: the two of them keep the legend's private shorthand long after the op ends, and she is the only person he tells things in plain language. With Cole she is friendly at arm's length — two guarded professionals who respect each other completely and will never once say so. Teaches Mara straight-and-level in cruise, hands on the yoke, the way Gus never got to; one Book 3 landing at Ketchikan — Diane's kitchen, the harbor, twenty minutes on the page that pay for the whole subplot. Holds the counter seat at Friday Harbor because her best friend asked her to be at the window to see the landing.
 
 ### Canon anchors
 Ketchikan; the envelope and Gus's line; the E6-B; the shoebox; the M&Ms; Diane in the house above the harbor; "adequate"; six legends, none broken.
@@ -238,8 +238,8 @@ He and Verin never meet on the page; the professional despises the contractor he
 ## Relationship geometry (quick reference)
 
 - **Cole ↔ Jack:** the series romance. Two years of friendship → the legend detonates it → three books to the vow. His arc: open the perimeter. His: want something visibly. Their rule by Book 3: *no secrets between us, whatever the clearance.*
-- **Jack ↔ Wren:** the fake couple — op device, comedy engine, and the series' best platonic alliance; she names his feelings first and guards them like a flight plan.
-- **Cole ↔ Wren:** two integrity profiles from the same weather; mutual respect conducted entirely in understatement; she never once tells him what she watched in Sapporo. (He knows.)
+- **Jack ↔ Wren:** the fake couple who become actual best friends — op device, comedy engine, and the series' great platonic love story; she names his feelings first, guards them like a flight plan, and is the only person he tells things in plain language.
+- **Cole ↔ Wren:** friendly, not close — two integrity profiles from the same weather, mutual respect conducted entirely in understatement; she never once tells him what she watched in Sapporo. (He knows.)
 - **Cole ↔ Okafor:** integrity recognizing integrity across a generation; the manifest ask is the relationship's crucible; by Book 3 it's mother-son-shaped and neither will say so.
 - **Cole ↔ Sorokina:** mirrors (careers ended by falsified purposes); prickly → profound.
 - **Wren ↔ Mara:** Gus's unfinished flight, completed.
@@ -250,10 +250,8 @@ He and Verin never meet on the page; the professional despises the contractor he
 
 ## Open items for the author
 
-*Resolved: the leads (Cole Bishop × Jack Marsh); personas (Cole warm/approachable, Jack suave/intimidating/good-at-everything); Wren re-slotted as cover officer; Cole inherits Cascade/Ruiz/manifest; Kang; Ruiz as mole-runner; Diane stays in Ketchikan.*
+*Resolved: the leads (Cole Bishop × Jack Marsh); personas (Cole warm/approachable, Jack suave/intimidating/good-at-everything); Wren re-slotted as cover officer, recurring in Books 2–3, and Jack's best friend (friendly-not-close with Cole); Ruiz as Cole's ex — confirmed; Cole inherits Cascade/Ruiz/manifest; Kang; Ruiz as mole-runner; Diane stays in Ketchikan.*
 
-1. **Ruiz as Cole's ex** (as drafted) vs. mentor-and-best-friend only — the dossiers assume the ex version; it dials back cleanly if you'd rather keep it professional.
-2. Sorokina / Mara / Verin — any steering before these harden?
-3. Wren's standing role in Books 2–3 (third pilot/cover officer, as drafted) — confirm or keep her Book-1-only.
-4. Priya — witting in Book 3 (recommended)?
-5. Ready to proceed to the **Book 1 chapter-by-chapter outline**, or a scene-level treatment of the unmasking chapter first to taste the tone?
+1. Sorokina / Mara / Verin — one-line profiles delivered for sign-off; they harden as drafted unless steered.
+2. Priya — witting in Book 3 (recommended)?
+3. Ready to proceed to the **Book 1 chapter-by-chapter outline**, or a scene-level treatment of the unmasking chapter first to taste the tone?
