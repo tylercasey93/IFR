@@ -6,7 +6,7 @@ My father spent twenty-three years as a flight engineer, which means he spent tw
 
 Meridian Air Charter's four minutes, that Tuesday, went like this.
 
-Priya Chandra was at the scheduling desk in a parka over pajamas, eating cold pad thai and rebuilding a week that had died overnight. Griff was in his office with the door open, pretending to read a fuel contract he had already lost an argument with. And my captain was standing under the left wing of a fifty-million-dollar airplane, in the rain, reading another pilot's logbook like a man reading a letter he'd been warned about.
+Priya Chandra was already at the scheduling desk in a company fleece and a headset, hair up, second coffee at her elbow, rebuilding a week that had died overnight. Griff was in his office with the door open, pretending to read a fuel contract he had already lost an argument with. And my captain was standing under the left wing of a fifty-million-dollar airplane, in the rain, reading another pilot's logbook like a man reading a letter he'd been warned about.
 
 Four minutes. You could have filed the whole company from the doorway.
 
@@ -14,7 +14,7 @@ I came across the ramp with two coffees and no umbrella, because I have never on
 
 Cole Bishop was under the wing with a flashlight in his teeth.
 
-He'd been out there long enough that his shoulders were dark and his hair had given up. He is a big man — six two, and built the way people get built when they grow up throwing things onto trucks — and he has a face that makes strangers ask him for directions in cities he's never been to. Two years I've flown with him. In that time I have watched approximately four hundred people decide within a minute of meeting him that he was the safest person on the field, and every single one of them was right, and not one of them learned a thing about him.
+He'd been out there long enough that his shoulders were dark and his hair had given up. He is a big man — six two, and built the way people get built when they grow up throwing things onto trucks — and he has a face that makes strangers ask him for directions in cities he's never been to. Two years I've flown with him. In that time I have watched about four hundred people decide within a minute of meeting him that he was the safest person on the field, and every single one of them was right, and not one of them learned a thing about him.
 
 "You're wet," I said, and put the coffee where his hand would find it.
 
@@ -38,13 +38,13 @@ The book was open to March. Ruben Ortega had a neat hand and a habit of ruling h
 
 "Say it out loud," Cole said. "You're the instructor."
 
-That's a thing he does. It sounds like teaching. It's actually how he double-checks himself without ever once saying the words *check me on this*, and I let him get away with it because I like the sound of my own voice and because after two years I have stopped expecting him to ask for anything directly.
+That's a thing he does. It sounds like teaching. It's actually how he double-checks himself without ever once saying the words *check me on this*, and I let him get away with it because I like the sound of my own voice.
 
 "Under Part 135," I said, "if you're going to be pilot in command in instrument conditions, the regulation isn't the one everybody memorizes for their instrument rating. Six-one point five-seven is what keeps a private pilot legal — six approaches, holding, intercepting and tracking, inside six calendar months. Sixty-six HIT. I've taught it to teenagers with mnemonics."
 
 "And?"
 
-"And it doesn't apply to him. One thirty-five wants a check, not a checklist. One thirty-five point two ninety-seven — the instrument proficiency check, with a company check airman or an examiner, and you take it every six calendar months forever, and passing it also buys you out of the sixty-one point five-seven arithmetic. Which is the trade. They stop asking you to log it because they'd rather watch you fly it." I turned the page and turned it back, because I already knew what he'd found and I was hoping the next page would argue with me. "March twelfth."
+"And it doesn't apply to him. One thirty-five wants a check, not a checklist. One thirty-five point two ninety-seven — the instrument proficiency check, with a company check airman or an examiner, every six calendar months, forever. Passing it also buys you out of the six-one point five-seven arithmetic, which is the trade. They stop asking you to log it because they'd rather watch you fly it." I turned the page and turned it back, because I already knew what he'd found and I was hoping the next page would argue with me. "March twelfth."
 
 "Read the actual words," Cole said. "Not the summary. The words."
 
@@ -64,19 +64,17 @@ Count backward from October, and the sixth calendar month before it is April. No
 
 "Does he know?"
 
-"He will in about nine minutes." Cole took the book back and closed it, gently, the way you'd close a door on a sleeping kid. "I called Dallas last night when the training records came in late. Then I sat here and did it four more times hoping I'd made it up."
-
-Here is the part I want you to have, because everything that happened to us over the next nine weeks runs straight out of this and I didn't see one inch of it coming.
+"He will in about nine minutes." Cole took the book back and closed it, gently, the way you'd close a door on a sleeping kid. "I called Dallas last night when the training records came in late. Then I sat out here and did it four more times hoping I'd made it up."
 
 It was 0451 on a Tuesday in October. Our whale client — the entire reason Meridian Air Charter still had a hangar, a payroll, and a coffee machine — was scheduled to board that Gulfstream at 0630. There was a second airplane going to Boise with three paying passengers who had booked in June, and the only pilot we had for it was standing in his kitchen right now believing he was current. The company had six weeks of operating cash if you were an optimist. If Cole scrubbed the Boise turn we would refund the trip, eat the crew costs, hand a client to Pacific Corporate with a bow on it, and Griff would have to look at a number he'd been not-looking at since August.
 
-And there was, honestly, a version of the morning where nobody says anything. Ruben's check was good in March. He's a fine pilot; he'd have flown the Boise turn beautifully; the sky would not have noticed. Half this industry runs on the eleven inches of slack between what's legal and what's survivable, and everybody knows exactly where that slack is, and the whole art of being a working charter pilot is learning to live near it without leaning.
+And there was a version of the morning where nobody says anything. Ruben's check was good in March. He's a fine pilot; he'd have flown the Boise turn beautifully; the sky would not have noticed. Half this industry runs on the eleven inches of slack between what's legal and what's survivable, and everybody knows exactly where that slack is, and the whole art of being a working charter pilot is learning to live near it without leaning.
 
 I looked at my captain, who had been standing in the rain since four in the morning holding a piece of paper that was going to cost his company money.
 
 "You want me to call Priya," I said.
 
-"I want to call Ruben," he said. "You call Priya. Tell her to start with Boise and work forward, and tell her I'll do the client call myself at seven." He wiped his hand down his face, which did nothing, and then he did the thing I have watched him do maybe two hundred times and had never once put a word to. He rolled his sleeves. Two turns, right arm, then left, quick and square, like a man squaring up paperwork.
+"I want to call Ruben," he said. "You call Priya. Tell her to start with Boise and work forward, and tell her I'll do the client call myself at seven." He wiped his hand down his face, which did nothing, and then he rolled his sleeves. Two turns, right arm, then left, quick and square, like a man squaring up paperwork.
 
 That's the tell. Sleeves go up, the decision's already made, and the rest of the day is just the world catching up to it.
 
@@ -94,7 +92,7 @@ He made the call from the bottom of the airstairs with the door open, which is a
 
 I got maybe half of it while I set up the flight deck.
 
-"— no, listen to me, Ruben, before you do that. Nobody's saying you did anything. You flew a good check in March and you've flown good airplanes since." A pause. "Because it's a calendar month rule, and it turned over on us. I've had it happen. I had it happen to me in twenty-nineteen and a guy in Boise let me find out about it in front of a customer, and I've never forgotten what that felt like, so I'm calling you at five in the morning instead." Another pause, longer. "Yeah. I'll call Chris at the training center myself and see what he's got open this week. And Ruben — you're on the schedule in November. That's not charity, that's you being worth the phone call. Go back to bed."
+"— no, listen to me, Ruben, before you do that. Nobody's saying you did anything. You flew a good check in March and you've flown good airplanes since." A pause. "Because it's a calendar month rule, and it turned over on us. I've had it happen. It happened to me in twenty-nineteen and a guy in Boise let me find out about it in front of a customer, and I've never forgotten what that felt like, so I'm calling you at five in the morning instead." Another pause, longer. "Yeah. I'll call Chris at the training center myself and see what he's got open this week. And Ruben — you're on the schedule in November. That's not charity, that's you being worth the phone call. Go back to bed."
 
 He came up the stairs a minute later shaking the rain off, and I said, "That was a nice thing you just did," and he said, "It was the cheap part," and went to talk to Griff.
 
@@ -106,19 +104,21 @@ The expensive part happened in the office, with the door shut, and I couldn't he
 
 "Okay." He looked out the window at the Gulfstream. "Okay. Fly it good."
 
-Priya, who was on her fourth call and had switched from pad thai to a granola bar, put her hand over her phone and said to nobody, "Boise's rebooked on Pacific Corporate. Jax Calloway personally. He was *delighted*."
+Priya finished a call, made a note, and pulled her headset down around her neck.
+
+"Boise's rebooked on Pacific Corporate," she said. "Jax Calloway took it personally. He was *delighted*."
 
 "Of course he was," Cole said.
 
-"He asked if we were 'stabilizing.'"
+"He asked whether we were 'stabilizing.'"
 
 "Priya."
 
-"I said we were doing *great*," she said, radiantly, and went back to her call.
+"I told him we were doing great," she said, and put the headset back on.
 
 ---
 
-Adaeze Okafor arrived at 0621 in a black car she did not need, wearing a wool coat the color of a good burgundy, holding a travel cup of ginger tea that a member of her staff had made because she does not drink hotel coffee and does not pretend otherwise.
+Adaeze Okafor arrived at 0621 in a black car she did not need, wearing a wool coat the color of a good burgundy, holding a travel cup of ginger tea that a member of her staff had made, because she does not drink hotel coffee and does not pretend otherwise.
 
 She is seventy-one. She is about five foot four and manages to be the tallest thing in any building she enters. She has forty hotels on three continents, a widow's ferocity about her own time, and the specific gift of making a conversation feel like an event you were lucky to be invited to. In the eleven months Meridian had been flying her, I had watched her learn the name of every line service kid on that ramp, and their majors, and in two cases their mothers' medical situations.
 
@@ -130,7 +130,7 @@ The new kid at the FBO desk — Tyler, nineteen, three weeks in — came out wit
 
 "He's the captain," I said, and pointed with my chin.
 
-It happens about twice a month. I have never worked out precisely why; Cole says it's because I dress like I'm about to buy the company and he dresses like he's about to fix it. Whatever the reason, the correction comes out of me faster than thought, every single time, and I have never once examined that, either.
+It happens about twice a month. Cole says it's because I dress like I'm about to buy the company and he dresses like he's about to fix it.
 
 Tyler went red to the ears and took the clipboard four feet to his left. Cole took it, signed it, said, "Thanks, Tyler. How's the night class going?" and the kid was fine again inside a second and a half. That's the whole trick and I've never been able to do it.
 
@@ -142,15 +142,15 @@ Tyler went red to the ears and took the clipboard four feet to his left. Cole to
 
 "Morning, Adaeze."
 
-"Better. Barely." She looked between us, and her eyes did something quick and amused. "Something has happened. Marcus has the face he wears when the number is real."
+"Better. Barely." She looked between us. "Something has happened. Marcus has the face he wears when the number is real."
 
-There was a beat where I would have said *nothing worth your morning* and moved her toward the airstairs, because that's my job — I am, among other things, the man who keeps the client's shoes dry and her questions answered before she asks them.
+There was a beat where I would have said *nothing worth your morning* and moved her toward the airstairs, because that's part of my job — I am, among other things, the man who keeps the client's shoes dry and her questions answered before she asks them.
 
 Cole said, "We scrubbed our other trip today. A pilot's proficiency check went out of date over the weekend and none of us caught it until last night. My fault; I own the standards. The trip went to a competitor."
 
-I want to be clear that no part of that sentence had to be said.
+No part of that sentence had to be said.
 
-Okafor did not react the way clients react. She didn't say *oh dear* and she didn't say *how much*. She stood in the rain with her tea, and she looked at my captain for what felt like a long time, and then she asked exactly one question.
+Okafor did not react the way clients react. She didn't say *oh dear* and she didn't ask what it cost.
 
 "The pilot," she said. "Did he know?"
 
@@ -160,17 +160,11 @@ Okafor did not react the way clients react. She didn't say *oh dear* and she did
 
 "Yes."
 
-"Mm," said Adaeze Okafor.
-
-She went up the stairs. I remember thinking that it was a strange question — that a normal person asks what it cost, and a kind person asks after the pilot, but nobody asks *whether he knew*, because whether he knew doesn't change a single dollar of it.
-
-I filed that under *rich people are eccentric* and went flying.
-
-I have had eleven months to be embarrassed about that and I am not finished.
+"Mm," said Adaeze Okafor, and went up the stairs.
 
 ---
 
-Boeing Field at 0630 in October is a good airplane's best argument. We got our clearance on the ground — cleared to Palm Springs as filed, expect flight level four one zero one zero minutes after departure, departure frequency, squawk — and I read it back the way I've read back ten thousand of them, and Cole checked it against what we'd filed the way he checks everything, which is completely.
+Boeing Field at 0630 in October is a good airplane's best argument. We got our clearance on the ground — cleared to Palm Springs as filed, expect flight level four one zero, one zero minutes after departure, departure frequency, squawk — and I read it back the way I've read back ten thousand of them, and Cole checked it against what we'd filed the way he checks everything, which is completely.
 
 Then he briefed the departure, and the briefing had teeth in it, because Boeing Field sits in a bowl with terrain to the east that does not care how expensive your airplane is.
 
@@ -188,27 +182,23 @@ I flew it. The Gulfstream came off one four right the way she always does — th
 
 Before the takeoff roll, without thinking about it, I reached up and knocked twice on the glareshield.
 
-My mother used to do it on the doorframe, every time anyone left the house. Two knocks, no comment. She did it the last morning she was well enough to stand up in a doorway, and about four months after we buried her I caught myself doing it on a Navajo's glareshield in the dark over Hoquiam, and I have done it before every takeoff since. Cole flew with me for two solid months before he asked what it was. Two months. When he did ask, we were on the ground with the engines cold and nobody around, and he asked it once, and when I told him he said, "Okay," and never mentioned it again, and about a year later I noticed that when I'm flying the leg he waits — hands ready, silent — until I've done it before he calls for the checklist.
+My mother used to do it on the doorframe, every time anyone left the house. Two knocks, no comment. She did it the last morning she was well enough to stand up in a doorway, and about four months after we buried her I caught myself doing it on a Navajo's glareshield in the dark over Hoquiam, and I have done it before every takeoff since. Cole flew with me for two solid months before he asked what it was. When he did ask, we were on the ground with the engines cold and nobody around, and he asked it once, and when I told him he said, "Okay," and never mentioned it again. About a year later I noticed that when I'm flying the leg he waits — hands ready, silent — until I've done it before he calls for the checklist.
 
 Nobody put that in a manual. He just built the airplane around it.
-
-I don't know what to tell you. Some things you notice for two years and never once ask yourself why you keep them.
 
 ---
 
 Somewhere over central Oregon, with the sun properly up and California turning brown underneath us, Okafor came forward and stood in the flight deck doorway with her tea, which she did on about half our legs.
 
-"Jack. Your father — the flight engineer. Twenty-three years, you said, and then a corporate department."
+"Jack. Your father. The flight engineer."
 
 "That's right."
 
-"Boeing. The seven-twenty-seven, and then the older seven-forty-sevens, briefly, before the panels went away." She said it the way you'd hand someone a card. "And after — the department at Renton? Or the one at Paine Field?"
+"Twenty-three years, you said. The seven-twenty-sevens, and then a corporate department." She turned the cup slowly in both hands. "Renton, was it?"
 
-I had told her my father was a flight engineer. Once, in August, in about nine words, in a hangar, while somebody else was talking.
+"Renton. You've got a memory on you."
 
-"Renton," I said. "You've got a memory on you."
-
-"I have staff," she said comfortably. "And I like knowing whose hands I am in. It is the only real luxury, you know. Not the airplane." She sipped her tea. "Does he still fly?"
+"I have a great many people in my life and no children, which means I keep everyone's details in the front of the drawer." She said it lightly. "Does he still fly?"
 
 "Not since last year. He had a stroke."
 
@@ -218,7 +208,7 @@ I had told her my father was a flight engineer. Once, in August, in about nine w
 
 "Good," said Adaeze Okafor. "Then he is not finished," and she went back to her seat.
 
-Cole waited about thirty seconds after the door curtain swung.
+Cole waited about thirty seconds after the curtain swung.
 
 "She's something," he said.
 
@@ -228,27 +218,25 @@ Cole waited about thirty seconds after the door curtain swung.
 
 "Doesn't that seem—"
 
-"Yes," Cole said, in the tone that means *I've already run out that string and I'll tell you when I get to the end of it,* and then, because he can't help himself, "Fuel."
+"Yes," Cole said, in the tone that means *I've already run that string out and I'll tell you when I get to the end of it,* and then, because he can't help himself, "Fuel."
 
 "Twelve four, burning as planned, we're forty minutes fat on the alternate."
 
 "Good."
 
-My phone buzzed against my leg. Aaron, off shift, from a group text of a photo of somebody's disastrous break-room cake: *four car MVC, two codes, and now this cake. are you in a state? are you in the sky?*
+My phone buzzed against my leg. Aaron, off shift, forwarding a photograph of somebody's disastrous break-room cake: *four-car MVC, two codes, and now this cake. are you in a state? are you in the sky?*
 
-*Both,* I sent. *Palm Springs. Back tonight late.*
+*Both,* I sent. *Palm Springs. Back late tonight.*
 
 *late is fine. late is my whole personality.*
 
-I put the phone away and looked out at four hundred miles of morning and thought, the way you do when the airplane is running well and everyone is where they belong, that this was a very good life and there was nothing in it I would trade.
-
-I would like to point out, for the record, that I was thirty-one years old, I had ten thousand hours of paying attention for a living, and I could not have told you one true thing about my own life if you'd offered me money.
+I put the phone away and looked out at four hundred miles of morning, and thought, the way you do when the airplane is running well and everyone is where they belong, that this was a very good life and there was nothing in it I would trade.
 
 ---
 
 We were back on the ramp at Boeing Field at 2140 with the rain still going, because the rain was always going that fall.
 
-Cole did the post-flight walkaround himself, in the dark, in the weather, the same as he does after every leg. I stayed on the stairs with the flashlight I wasn't using and watched him go around that airplane, and when he came back around the nose he stopped and looked up at me with the water coming off the end of his nose and said:
+Cole did the post-flight walkaround himself, in the dark, in the weather, the same as he does after every leg. I stayed on the stairs with the flashlight I wasn't using and watched him go around that airplane, and when he came back around the nose he stopped and looked up at me with the water coming off the end of his nose.
 
 "Hey. Thanks for today."
 
@@ -260,8 +248,4 @@ Cole did the post-flight walkaround himself, in the dark, in the weather, the sa
 
 "I know," he said. "That's why I said thanks."
 
-He went to lock the hangar. I stood in the doorway of a fifty-million-dollar airplane owned by a company nobody had ever met, at the end of the last ordinary Tuesday any of us were going to get, and watched my best friend cross a wet ramp under the field lights.
-
-Nine days from that night, a woman I had never heard of was going to run out of a conference hotel in Singapore with a teenager and two suitcases, and everything I have just told you was going to become the last easy chapter of my life.
-
-But that Tuesday, all I thought was: *he's going to catch cold.*
+He went to lock the hangar. I stood in the doorway of a fifty-million-dollar airplane owned by a company nobody had ever met, and watched my best friend cross a wet ramp under the field lights, and thought: *he's going to catch cold.*
