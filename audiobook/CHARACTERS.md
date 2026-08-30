@@ -15,7 +15,7 @@
 - **2010–2013** — ratings at a windswept part-61 school in Ketchikan and later Anchorage; instructs briefly; flies right seat on floatplane tours. Develops the habit that defines her: written personal minimums, reviewed monthly, initialed.
 - **2014 (age 22)** — hired by an Anchorage freight outfit. Piper Chieftains. Ice, darkness, fish smell that never leaves the charts. Becomes "current isn't proficient" — first as her own private rule, then out loud.
 - **2016 (age 25)** — Gus dies. Engine-room accident, nothing dramatic; boats are honest about their risks. He never flew with her — weather, seasons, always a better weekend coming. She flies home for the funeral through the pass he used to watch her cross. The shoebox of expired charts begins here (his death makes the archive sacred).
-- **2017–2018** — the Zulu winter (Draft One canon): a senior captain flies known SLD icing for the schedule and is celebrated for it; the next pilot into the same system — Wren — turns around at the first side-window splash and is told she "cost the company a client." Writes her first formal minimums card that night. Leaves Alaska within the year, partly because Diane, unmoored after Gus, has moved to Arizona and Alaska is now a place made entirely of absences.
+- **2017–2018** — the Zulu winter (Draft One canon): a senior captain flies known SLD icing for the schedule and is celebrated for it; the next pilot into the same system — Wren — turns around at the first side-window splash and is told she "cost the company a client." Writes her first formal minimums card that night. Leaves Alaska within the year — Diane stays, in the house above the Ketchikan harbor, still teaching third grade; it's Wren who can't live in a town made of Gus-shaped absences. The distance between mother and daughter is emotional, not geographic: Diane never left, and some part of Wren has never forgiven herself for the fact that she did.
 - **2018 (age 26)** — hired at **Cascade Air Group** (Boeing Field; 135 charter, Navajos → King Airs). Meets Captain **Danny Ruiz** (dossier below). Within a year they are flying together; within two they are together. Rule one and rule two do not exist yet — Ruiz is where they come from.
 - **2021 (age 29)** — the fall. Wren discovers Ruiz has been pencil-whipping training records and duty-time logs across the operation — including some with her name on them. She reports it internally, then to the FSDO when internal dies quietly. Cascade needs its golden captain; the story gets rewritten: *difficult, emotional, a problem hire with a grudge*. Colleagues who know better — Jax Calloway among them — say nothing. She is "let go for cause"; Ruiz gets a tail-number transfer and a promotion arc. Two years of consulting-gig wilderness follow. The industry's version of her is the only version in circulation.
 - **2023 (age 31)** — **Dale Voss**, administering a 135 check for a tiny operator she's contracting for, watches her fly, reads the Cascade file *sideways*, and makes one phone call. **Marcus Griffin** hires her without asking a single question about Cascade. She has been Meridian's captain — and its de facto standards department — ever since.
@@ -23,7 +23,7 @@
 - **2026 (age 34)** — Book 1 opens. Three years of rebuilt reputation, guarded by design, running the safest small flight department in the Pacific Northwest.
 
 ### The wound
-Two-layered. Layer one is Ruiz: *love let someone use my integrity as a resource, and the institution sided with the liar.* Layer two is older and quieter: *the people I love die or drift with the important things unsaid* — Gus never got the flight; Diane and she orbit each other at holiday-card distance. Both layers produce the same behavior: plan alternates for everything, keep the archive sealed, never need anyone enough that their leaving changes your heading.
+Two-layered. Layer one is Ruiz: *love let someone use my integrity as a resource, and the institution sided with the liar.* Layer two is older and quieter: *the people I love die or drift with the important things unsaid* — Gus never got the flight; Diane is still in Ketchikan, in the same house, and she and Wren orbit each other at holiday-card distance across two thousand miles Wren chose. (Series use: Book 1's Alaska legs put Wren *over* home without landing — the Aleutian diversion is the closest she's been in years; Book 3's thaw is a landing.) Both layers produce the same behavior: plan alternates for everything, keep the archive sealed, never need anyone enough that their leaving changes your heading.
 
 ### Psychology
 - **Wants:** a flawless operation; a life with no exposure; to never again be in a story someone else gets to tell.
@@ -44,7 +44,7 @@ Voss's original assessment memo, quoted in Book 2: *"HALE: the rarest profile �
 ### Series arc
 - **B1:** the manifest decision; learns her integrity can serve something bigger than her record; ends Elias; shares more hotel rooms than she doesn't; and, the night after the asset is safe, stops pretending the wall between the beds ever worked — then refuses, with catastrophic professionalism, to discuss it.
 - **B2:** learns to carry a cover without becoming it; teaches Sorokina's daughter to fly straight-and-level (echo of Gus); the undiscussed arrangement keeps happening until the silence becomes the most expensive thing she owns — the words, at last, end of book.
-- **B3:** the suspicion inverts Cascade — this time an institution she *chose* doubts her; the growth is that she doesn't armor up alone: she lets the crew fight for her. Ends: engaged, archive open, Diane at the wedding-to-be.
+- **B3:** the suspicion inverts Cascade — this time an institution she *chose* doubts her; the growth is that she doesn't armor up alone: she lets the crew fight for her. Ends: engaged, archive open, and one flight north to Ketchikan — Diane's kitchen, the harbor, the things finally said.
 
 ### Canon anchors (survive all rewrites)
 Ketchikan; the envelope + line; the E6-B; the shoebox; "current isn't proficient"; personal minimums card initialed monthly; M&Ms double freezer-bagged as "ballast"; sleeps nearest the door; rules one and two; Cascade/Ruiz; hired via Voss's call and Griff's no-questions.
@@ -181,16 +181,35 @@ IA with a father's pride in the airplane; kid with braces on the company plan (c
 - **Gus Hale** — the envelope, the E6-B, "one of us should get to look down at the water." Never flew with her. Everything Wren does for Mara is his unfinished flight.
 - **Ellen Marsh** — the doorframe knock, the hundred and forty frames of clouds, "now we have a truck that sees over the weather." Jack's compass for what honest love looks like: patient, observant, never performed.
 - **Bernard Okafor** — the file shown before the proposal; the proof the series keeps offering that truth and tradecraft can share a house — at a price someone always pays.
-- **Danny Ruiz** — Cascade's golden captain; now flying for a Gulf-adjacent operator, one rung down each year. Never returns on-stage (recommended); he works better as weather. His single function: every institution that doubts Wren is briefly, unknowingly, on his side — and every person who chooses to believe her is the anti-Ruiz.
+- **Danny Ruiz** — see full dossier below. Through Books 1–2 he remains exactly this: weather, off-stage, the reason for rules one and two. ⚠ Book 3 promotes him to the flesh.
 
 ### Jax Calloway — 47. The useful idiot.
 Pacific Corporate fleet captain; was in the Cascade crew room and said nothing (canon — the sin of the bystander, not the villain). Vain, competent, transactional; recruits for his outfit like it's a lifestyle brand. ⚠ Books 2–3: his charter arm's new owners use him precisely because he repeats things at parties; his gala gossip blows an operational detail he never understood he had. Endgame: not punished by the plot so much as *seen* — Okafor's freeze-out (canon) plus the dawning, career-ending knowledge of what he almost caused. A Clancy world needs one man whose only ideology is his own reflection.
 
 ---
 
-## ⚠ PROPOSED (pending author verdict): the Book 3 traitor
+## ⚠ THE BOOK 3 TRAITOR (approved)
 
-**Elliot Kang — 49. BRIDGEBELL logistics coordinator (introduced mid-Book 2 as a friendly).** Twenty years Coast Guard (C-130 loadmaster, then logistics chief, Kodiak and Sacramento); recruited by Okafor 2023 to run ground support — fuel contracts, customs brokers, FBO relationships. Warm, rumpled, competent; the guy who always has the crew car warmed up. The lever: his younger brother **Daniel**, a merchant-marine engineer, arrested on manufactured charges when his ship called at Vladivostok in 2025. Verin's people made the offer through a lawyer in Seoul: schedules and tail numbers — never lives, they promised — for Daniel's treatment, then his release. Elliot feeds them "harmless" logistics data for a year, telling himself it's parking information… until the sabotage, which he never agreed to and cannot undo. His unmasking is Book 3's saddest scene, not its most hateful — and it hands the book its thesis in reverse: *he lied to protect someone he loved, which is exactly the road Wren refused, one compromise at a time.* Resolution: he turns himself in through the crew, testifies, takes his consequences; Daniel comes home in the epilogue's background. (If you'd rather no betrayal inside the family at all, the fallback remains the banal-explanation design — say which.)
+**Elliot Kang — 49. BRIDGEBELL logistics coordinator (introduced mid-Book 2 as a friendly).** Twenty years Coast Guard (C-130 loadmaster, then logistics chief, Kodiak and Sacramento); recruited by Okafor 2023 to run ground support — fuel contracts, customs brokers, FBO relationships. Warm, rumpled, competent; the guy who always has the crew car warmed up. The lever: his younger brother **Daniel**, a merchant-marine engineer, arrested on manufactured charges when his ship called at Vladivostok in 2025. The offer came through a lawyer in Seoul: schedules and tail numbers — never lives, they promised — for Daniel's treatment, then his release. Elliot feeds "harmless" logistics data for a year, telling himself it's parking information… until the sabotage, which he never agreed to and cannot undo. His unmasking is Book 3's saddest scene, not its most hateful — the book's thesis in reverse: *he lied to protect someone he loved, one compromise at a time — the road Wren refused.* Resolution: he turns himself in through the crew, testifies, takes his consequences; Daniel comes home in the epilogue's background.
+
+**His handler is Danny Ruiz.**
+
+## ⚠ DANNY RUIZ — 44. Cascade's golden captain. The mole-runner. (Book 3 antagonist — approved)
+
+### Timeline
+- **2018–2021** — Cascade Air Group's celebrated captain; charming upward, corrosive downward; pencil-whips training and duty records because rules, in his cosmology, are for people without talent. Burns Wren rather than face the FSDO.
+- **2021–2024** — the slide he can't feel happening: a tail-number transfer dressed as promotion, then a Gulf-adjacent operator, then a Part 91 gig flying a leased Gulfstream for shell-company owners who ask no questions and pay in wires. Each rung down confirms his belief that the system is rigged — never that he is the rigging.
+- **2025** — the shell companies turn out to have owners of their own. The network that quietly bought Pacific Corporate's charter arm identifies him in an afternoon: a disgraced American charter captain with industry access, expensive habits, a grievance narrative, and practice at falsifying exactly the kinds of records they need falsified. His recruitment is barely a seduction; they simply describe the job as consulting and pay him what he believes he was always worth.
+- **2026–Book 3** — courier and spotter work first; then, when Verin's directorate needs a local hand for the Kang channel, Ruiz becomes the cut-out: the "lawyer's" successor, the voice that collects Elliot's schedules and pays in hope about Daniel. He never learns Verin's name. He is a contractor to the end — which is the point of him.
+
+### Function in Book 3
+- **He runs the mole:** Kang's handler — meets, taskings, payments; the tradecraft is Verin's, the face is Ruiz's.
+- **He authors the misdirection:** when BRIDGEBELL's mole-hunt begins, the network feeds it Wren — and the feed is expert, because Ruiz wrote the original Cascade lie and knows precisely which entries in her history read two ways ("has falsified official documents under pressure" — the Book 1 manifest — is his suggestion). The institution's file on Wren was always half his authorship; in Book 3 he gets to finish the job, and nearly does.
+- **He informs the sabotage:** the network's plan against the G550 is built on his professional knowledge of 135 maintenance culture — where a contactor lives, what a busy shop defers, what a crew trusts.
+- **The confrontation:** not a gunfight — an interview. Endgame gives Wren fifteen minutes across a table from him (federal building, counsel present) and the discovery that he is *small*: no ideology, no plan, just grievance compounding at interest. She walks out unburdened, because the man who defined three years of her life turns out never to have understood a single thing about her. He goes to prison believing, to the last, that everyone else was doing it too.
+
+### Guardrails
+He and Verin never meet on the page; the professional despises the contractor he uses. Ruiz gets no redemption beat and no cartoon menace — his danger is exactly the banal competence of a man who knows how the industry works and owes it nothing. The reader's satisfaction is Wren's: not vengeance — *diagnosis*.
 
 ---
 
@@ -207,7 +226,7 @@ Pacific Corporate fleet captain; was in the Cascade crew room and said nothing (
 
 ## Open items for the author
 
-1. **Elliot Kang** as the Book 3 traitor — approve, modify, or revert to the banal explanation?
-2. **Diane Hale** (Wren's mother, alive in Arizona, holiday-card distance) — keep as low-frequency thread with a Book 3 thaw, or keep Wren's living family at zero?
-3. **Ruiz stays off-stage** (recommended) — or do you want him to surface once in Book 2–3?
-4. Sorokina/Mara/Verin details — any steering before these harden?
+*Resolved: Kang approved as the Book 3 traitor; Diane stays in Ketchikan (Book 3 thaw = a landing, not a phone call); Ruiz returns in Book 3 working for the network as the mole's handler and the author of the misdirection against Wren.*
+
+1. Sorokina / Mara / Verin details — any steering before these harden?
+2. Ready to proceed to the **Book 1 chapter-by-chapter outline**, or would you like a scene-level treatment of the unmasking chapter first to taste the tone?
