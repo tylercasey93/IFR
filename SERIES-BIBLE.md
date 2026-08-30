@@ -210,3 +210,13 @@ Still open — react to any or all:
 2. **Book titles** — *Winter Harbor* / *Position and Hold* / *Lost Comms* (working). *Cleared as Filed* is available as a series title.
 
 **Next artifact:** [BOOK-1-OUTLINE.md](BOOK-1-OUTLINE.md) — chapter-by-chapter, with POV, clock, romance throttle, and ACS load per chapter.
+
+---
+
+## Craft decisions log (Book 1 execution)
+
+*Author calls made during drafting. Not to be re-litigated.*
+
+- **C1. Jack's narrative voice: character-forward wry.** He opens on people, not equipment — his father's "first four minutes of the day" as the lens. Cool and evaluating rather than sunny; the wit is dry and the observation is the point. (Chosen from three tested openings.)
+- **C2. Reader ahead of Jack on the romance.** Through Act I Jack narrates Cole with obvious, unexamined attention — the details he keeps, the rule he never questions — and calls it knowing his captain. The reader sees the whole shape from page one; Jack doesn't until Act II. Maximum dramatic irony, and the ch. 11 realization lands as recognition rather than invention.
+- **C3. Teaching woven; Crew Debrief every two or three chapters.** Regulation and procedure arrive inside the narrated work, when a decision needs them. The debrief ritual survives but no longer closes every chapter — it lands where a chapter earns it (after the no-go, after the icing, after the diversion) so it never reads as mechanical recap.
