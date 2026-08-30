@@ -262,13 +262,13 @@ I sat at the desk with the trip file and started her report.
 
 Behind me the shower ran and quit. He came out with a towel around his hips and another one going at his hair, and stood in the middle of the room reading something on his phone with steam coming off his shoulders, entirely unbothered, the way you are unbothered in a room with somebody you've flown a hundred and forty nights with.
 
-He's long rather than big. Wide through the shoulders and then nothing wasted the whole way down, the kind of build a man gets from doing something hard three or four times a week and never once bringing it up. He reached up to towel the back of his head and his whole back moved at once, and a drop of water came off his hair and went all the way down it.
+He's long rather than big, and he has a back on him that I have never once managed to be casual about. He reached up to work the towel over the back of his head, and the whole thing came alive — every muscle in it standing out separate and clear, one after another, shoulders down to the hard taper at his waist, and a drop of water came off his hair and ran the entire length of it. Below that, a hotel towel doing a frankly inadequate job of covering an ass that has no business on a man who sits down for a living.
 
-That's the honest version: I watched it go.
+That's the honest version. I watched all of it.
 
-Flat stomach. The cut of his hips going down into a hotel towel he'd knotted about as carefully as a man ties a shoelace. Forearms I have never been able to account for. There's a mark on his ribs on the left side, a pale seam about two inches long, from a bicycle and a curb and a summer when he was nine, and I know that because he told me the story in a van in Elko, and I know exactly where it is, which is a different kind of knowing and I'm aware of the difference.
+Then he turned around, which was worse. Chest like somebody cut it on purpose. Stomach flat and ridged, the kind of abs most men in that hotel would have traded a vehicle for, and the towel knotted with about as much conviction as a man ties a shoelace. Forearms I have never been able to account for. And a mark on his ribs on the left side, a pale seam about two inches long, from a bicycle and a curb and a summer when he was nine, which I know because he told me the story in a van in Elko, and I know exactly where it is, which is a different kind of knowing and I'm aware of the difference.
 
-It isn't fair, is the thing. He doesn't even know he's doing it. He's standing in a Marriott in Anchorage reading a text from his father with steam coming off him and no idea in the world, and I'm nine feet away with a weather file open.
+It isn't fair, is the thing. He doesn't even know he's doing it. He's standing in a Marriott in Anchorage reading a text from his father with steam coming off his shoulders and no idea in the world, and I'm nine feet away with a weather file open.
 
 Two seconds. Maybe three. Then I looked at my screen and read the same sentence four times and couldn't have told you one word of it.
 
