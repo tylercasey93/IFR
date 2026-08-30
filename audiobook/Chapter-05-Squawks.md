@@ -70,6 +70,16 @@ Griff blinked. "What?"
 
 There was a silence while the owner of Meridian Air Charter looked at his two pilots standing accidentally shoulder to shoulder in his doorway, and whatever he saw made him snort and cap the marker. "One-thirty," he said. "Go manage your client, *couple*."
 
+Theo went ahead to intercept the lobby. Griff caught Wren's sleeve at the door.
+
+"Hey. The thing I said — telling her it's weather." He looked, suddenly, every one of his fifty-eight years. "You know I know better. I flew freight for twenty-two years; I've grounded airplanes on Christmas Eve with the box trucks idling. I just—" he gestured at the whiteboard, the schedule, the whole leaning enterprise "—Ellen's money is in this, Wren. All of it. When she got sick we sold the house, and after — after, the insurance came, and everyone said be sensible, index funds, Marcus. And I bought a King Air, because the only version of being alive I've ever understood has a ramp attached." He let go of the sleeve, embarrassed. "So when a client's standing in my lobby deciding whether we exist — sometimes the freight dog panics. That's the whole confession. It won't happen again."
+
+Wren looked at him — this soft-hearted, math-impaired, entirely decent man who had hired her when Cascade's version of her story was the only one in circulation, who had asked exactly zero questions about it, who paid Manny's kid's dental out of *miscellaneous* — and did something she almost never did with her own accord: she stepped in and hugged him, one firm freight-dog thump of a hug, brief as a touch-and-go.
+
+"Ellen's money is in an airplane that just refused to fly with a broken instrument," she said. "That's the safest place it's ever been. Now go apologize to the whiteboard; you've been erasing it with your thumb again."
+
+---
+
 And Okafor — standing in the lobby at eight-fifteen with an itinerary, exactly as forecast — listened to Wren's plain-language account of a drunk gyroscope, looked from captain to first officer and back with her bright unhurried eyes, and said: "Let me make sure I have this. The airplane has three of these horizons. Two are perfect. The spare — the spare's spare — is dizzy. And you will not fly me until the *spare's spare* is sober."
 
 "That's exactly it, ma'am."
@@ -98,13 +108,13 @@ He told her — without her asking, which she was learning was how he did his ow
 
 "I keep waiting to regret it," he said, turning his coffee cup a quarter-turn, a man checking trim. "Everyone promises I will. *You gave up the career track.* But I sat in that hospital doing the math and it wasn't close, Wren. Seniority numbers come out every year. There's one of him." He shrugged, palms up, the same gesture he used for weather. "Some decisions don't have a brief. You just fly the airplane you're in."
 
-Wren looked at him across the wreckage of breakfast — this man who walked in rain, who logged his own deficiencies in neat remarks columns, who'd stood in Griff's doorway and said *Clause One* like it was load-bearing steel, because it was, because she'd built it and he'd bolted it down — and felt something in her chest do exactly what the standby gyro had done that morning.
+Wren looked at him across the wreckage of breakfast — this man who walked in rain, who logged his own deficiencies in neat remarks columns, who'd stood in Griff's doorway and said *Clause One* like it was load-bearing steel — and felt something in her chest do exactly what the standby gyro had done that morning.
 
-Lean. Wander off level. Refuse, entirely, to re-erect.
+Lean. Wander off level.
 
-*It's the instrument we keep for the day the glass lies,* she'd told him. She had a horrible feeling she'd been describing more than the panel.
+She re-erected it immediately, because unlike the gyro she had discipline, and filed the entire event under *low blood sugar*, and ate the last of his pancake as evidence.
 
-"Your dad," she said, instead of any of it. "When he's flying the Bonanza again. Tell him I want a ride."
+"Your dad," she said, instead of anything on the actual squawk list. "When he's flying the Bonanza again. Tell him I want a ride."
 
 Theo looked up, surprised open — and there it was again, the approach-lights thing, except this time she was the one doing it, and knowing you're doing it, it turns out, does not help you stop.
 
@@ -130,6 +140,6 @@ He glanced over. "Which other thing, Captain?"
 
 Theo was quiet for a moment. Then, in his checklist voice, the one she now knew he also used for things that weren't on any checklist: "Standby's required equipment, Wren. No relief on that item. It's in the book."
 
-She did not ask which book. The airplane descended toward the river and the sea, all its instruments erect and agreeing, and the two pilots of Meridian Three-Five flew the arrival in a silence that had stopped being professional some days ago and had not yet found the nerve to say what it was instead.
+She did not ask which book, on the grounds that the answer might require a response, and she was flying. The airplane descended toward the river and the sea, all its instruments erect and agreeing, and the two pilots of Meridian Three-Five flew the arrival in a perfectly professional silence that was, by Wren's own honest instrument reading, running about a half-dot off center — a deviation she noted, declined to correct, and did not report to anyone.
 
 *End of Chapter Five.*

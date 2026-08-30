@@ -112,7 +112,55 @@ In the right seat, Theo looked out his window at nothing in particular for a whi
 
 ---
 
-They did Clause Three at the FBO counter over terrible celebratory churros — Okafor had sent churros back to the flight deck, unexplained, queenly — and Wren ran the recap like a proper debrief because ritual was the only container the day would fit in.
+That evening, Adaeze Okafor summoned her aviators to dinner.
+
+It was not presented as optional. The text from her assistant named a restaurant on the Embarcadero with a view of the bridge lights and a dress code, and Wren stood in her hotel room for ten full minutes staring at the go-bag wardrobe of a woman who had packed for a crew overnight, not a performance, before knocking on the connecting-room door and saying, with the gravity of a fuel emergency: "I have one dress and it has been folded since August."
+
+"It'll steam out in the bathroom," said Theo, who was somehow already wearing a jacket that fit, because of course he was. "Hang it up, run the shower hot. Instructor tip: everything wrinkled recovers with enough humidity and time."
+
+"Is that a metaphor?"
+
+"It's laundry, Wren. Not everything I say is a lesson." A beat. "The metaphors are free, though, if you find one."
+
+Dinner was the act's first night game, and Okafor ran it like a proficiency check. She ordered for the table in two languages, asked after Sam's therapy with genuine attention, and then, over the second course, turned the searchlight where Wren had known it would eventually swing.
+
+"Now. The solstice flight. Marcus tells me nothing, so *you* must. The first date. Details, children. Romance runs on details."
+
+Wren opened her mouth to deliver the certified version — flight, Sound, sunset, Rainier, no crying — and Theo got there first.
+
+"She planned the whole thing," he said, radiating fond sincerity like a man under oath. "Every leg of it. But here's the part I never told anyone, ma'am. Over the Sound, right at sunset, we flew past a whole pod of orcas — surfacing, backlit, the works — and Wren cut the power back and circled them, and she got very quiet, and then she said—" he took Wren's hand on the tablecloth, tenderly, like a man about to lay a wreath "—*'that's the only traffic pattern I respect.'*"
+
+Adaeze Okafor put her hand over her heart.
+
+Wren, smiling, laced her fingers through his and pressed down on the knuckles with precisely calibrated force. "He remembers it so well," she said, "considering he slept through the taxi in. Ma'am, has he told you about Bernoulli?"
+
+"Bernoulli?"
+
+"His teddy bear," said Wren. "He's had it since ground school. Little aviator cap. He can't sleep away from home without it — the first overnight we did, he FaceTimed it. The hotel pillow arrangement has to *approximate* Bernoulli, or he's useless the next day. It's why I sleep nearest the door, honestly, the bear takes up—"
+
+"That's classified," Theo said pleasantly, with the expression of a man taking a localizer needle full-scale and choosing to fly through it. "What she's not telling you, Ms. Okafor, is that she *packed* Bernoulli for this trip. Outside pocket of her flight bag. Under the fuel tester. In two freezer bags."
+
+"Those are M&Ms, and they're ballast—"
+
+"She feeds him," Theo confided, "the brown ones."
+
+By the time the entrées landed, Adaeze Okafor was wiping her eyes with a linen napkin and declaring them the finest dinner theater on the West Coast — *"you fight like people who have already lost the war, it's beautiful"* — and Wren had privately conceded two things. One: the man could improvise under fire like nobody she'd ever flown with, and the only way to survive him was to shoot back, which was — fine — the most fun she'd had at a client dinner in her career. Two: at some point during the orca fabrication she had forgotten to take her hand back, and it had sat there in his on the white linen for the better part of a course, and *that* particular squawk was going in no log kept by anyone.
+
+"You two," Okafor announced over coffee, radiant, "are exactly what I hoped. At my age one attends so many dinners where everyone performs and nothing is true. This was — well." Her eyes moved from one of them to the other, bright as strobes, and for a half-second the delight in them looked less like an audience's and more like an auditor's. "This was something."
+
+In the elevator afterward, floors ticking by in brass numerals, four inches of hotel air between their sleeves, Theo said, to the doors: "Orcas were a strong play. I stand by the orcas."
+
+"You gave fictional me a *catchphrase*. Now I have to say profound things near marine mammals forever."
+
+"And Bernoulli?"
+
+"Bernoulli," said Wren, with dignity, "was a warning shot. Escalate again and he acquires a tragic backstory." The elevator chimed at their floor. "Also — brief tomorrow's departure for eight. And Marsh." She stepped out, aimed one finger back through the doors without turning around. "Touch my M&Ms and they'll never find the wreckage."
+
+She heard him laughing all the way down the hall — an entirely unreasonable sound, warm as a lit runway — and she closed her door on it, and informed herself that the evening had gone exactly according to script, and lay awake for forty-five minutes prosecuting the case of the unreclaimed hand, and lost.
+
+---
+
+They did Clause Three the next morning at the FBO counter over terrible celebratory churros — Okafor had sent churros back to the flight deck, unexplained, queenly — and Wren ran the recap like a proper debrief because ritual was the only container the day would fit in.
 
 "Route and altitudes," she said.
 
@@ -132,9 +180,9 @@ They did Clause Three at the FBO counter over terrible celebratory churros — O
 
 Wren signed the fuel slip. Considered the exits. Took, deliberately, none of them.
 
-"I plan alternates," she said. "For everything. It's an old habit from a bad forecast. Someday I might even tell you the METAR." She pocketed the pen. "Wheels up at eight tomorrow. Tell your dad the churros were structurally deficient and I said so."
+"I plan alternates," she said. "For everything. It's an old habit from a bad forecast. Someday I might even tell you the METAR." She pocketed the pen. "Wheels up in ninety minutes. Tell your dad the churros were structurally deficient and I said so."
 
-It wasn't the story. It was the existence of the story, acknowledged — a fix identified, way off-route, signal faint but readable. From the look on Theo's face, walking out into the California evening, he knew exactly what he'd just received, and exactly what it had cost, and — this was the part that unsettled her, later, at a kitchen table set for one — he didn't push for more.
+It wasn't the story. It was the existence of the story, acknowledged — a fix identified, way off-route, signal faint but readable. From the look on Theo's face, walking out into the bright California morning, he knew exactly what he'd just received, and exactly what it had cost, and — this was the part that unsettled her, later, back at a kitchen table set for one — he didn't push for more.
 
 He just filed it, the way you file an alternate.
 

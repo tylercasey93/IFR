@@ -114,6 +114,40 @@ Sam would laugh his lopsided laugh and say: *Son. That's not a malfunction.*
 
 ---
 
+The lodge people insisted on feeding the crew before the return leg, and that was how Theo and Wren ended up at a long table of reclaimed timber under a wall of elk antlers, with Adaeze Okafor holding court over squash soup and telling, because the photographer's work had put her in the mood, the story of how she was married.
+
+"Lagos, 1978," she began, in the voice of a woman unwrapping something kept in tissue. "I was twenty-three, ferocious, and booked on a flight to London for a job interview at a hotel company that would eventually be foolish enough to teach me their entire business. And at the airport — chaos. Harmattan haze, the whole coast socked in, everything grounded. You know the harmattan?" She aimed the question at Theo, examiner-style.
+
+"Dust off the Sahara," he said. "Dry season. It can take visibility to nothing for days."
+
+"For *days*," Okafor agreed, with relish. "And in that terminal, in that sea of furious important men shouting at airline clerks about their very important schedules, there was one man — one — sitting calmly on his suitcase, reading a paperback western, with his tie already loosened. And I asked him, because I was furious too and wanted company in it, *'Aren't you angry? We could be here for days.'* And he looked out at the haze, and looked at me, and said—" she laid her hand flat on the timber, setting the words down like cards "—*'Madam, the weather is not asking our opinion. It is only asking our plans. I plan to read this book, and then I plan to buy you dinner.'*"
+
+Chidinma-to-be generations of the family had clearly grown up on this story; the assistant was mouthing the last line along with her.
+
+"Forty-one years," Okafor said. "Three continents. Forty hotels. And I will tell you the thing I have told every young person at every one of my tables since: I did not fall in love with his face, though it was a good face. I fell in love with a man who did not argue with weather. Who looked at a closed sky and adjusted his *plans* instead of his *character*." Her eyes moved, leisurely, entirely without innocence, from Theo to Wren and back. "It is the rarest quality. Most people, you understand, are only ever one canceled flight away from showing you exactly who they are."
+
+"And the interview?" Wren asked. "London?"
+
+"I took a later flight and got the job anyway." She waved it off as trivia. "The interview was never the important departure that week." She lifted her teacup — ginger, no ice, even here — and delivered the benediction that Theo would hear again, months later, on a staircase in the same valley, without understanding until much too late that it had been aimed the first time too: "Everything that matters in my life, children, started with weather. Weather is just the world asking whether you meant it."
+
+Walking back to the airplane through the cold sage light, Wren was quiet for most of the ramp. Then: "She's telling us something."
+
+"She's telling us a nice story about her husband."
+
+"She's a hotelier who reads rooms for a living, Marsh, and she aimed that moral like a localizer." Wren pulled her preflight gloves on, one sharp tug each. "*One canceled flight away from showing you who you are.* She's watching for the canceled flight."
+
+"Then we'd better hope I'm delightful in a crisis."
+
+"You briefed the exits before the entry today without being told," Wren said, to the cowling, in the tone of a woman reading an oil quantity. "So the preliminary data's not a disaster." She started up the airstair, then paused, two steps up, without turning around. "Don't put that in your file."
+
+"Too late. Framing it."
+
+"It was a *preliminary* finding—"
+
+"Getting it engraved. 'Not a disaster.' — W. Hale," Theo told the empty ramp happily, and followed his captain up the stairs.
+
+---
+
 They flew home empty that evening, repositioning under a high cold clear sky, the layer over the Cascades collapsed to broken shreds with the sun going down through them like a rescue. Somewhere over the Columbia, Wren looked over.
 
 "Debrief. Clause Three. Ice edition."

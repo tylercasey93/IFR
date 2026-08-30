@@ -4,7 +4,33 @@
 
 Wren knew the day was going to get complicated when Portland Approach said the word "expect," because in her experience the word "expect" was how the National Airspace System broke bad news gently.
 
-They were thirty miles out, descending through a stratus deck the color of wet aluminum, with Adaeze Okafor and her goddaughter Chidinma — visiting from London, twenty-six, observant in a way that ran in the family — settled in the back with tea and intentions. The ATIS at Portland had been unremarkable: eight hundred overcast, three miles in rain, approaches to runway one-zero-right in use. A workmanlike IFR morning.
+They were thirty miles out, descending through a stratus deck the color of wet aluminum, with Adaeze Okafor and her goddaughter Chidinma settled in the back with tea and intentions. The ATIS at Portland had been unremarkable: eight hundred overcast, three miles in rain, approaches to runway one-zero-right in use. A workmanlike IFR morning.
+
+The complication had boarded an hour earlier, at the FBO, wearing London tailoring and an expression of polite forensic interest.
+
+"Chidinma," Okafor had said, presenting her goddaughter like a subpoena. "Visiting from London. She's a barrister."
+
+"Commercial fraud," Chidinma had added pleasantly, shaking hands with each of them in turn, holding Wren's a half-second past custom. "Auntie's told me *everything* about you two. I begged to come along. I do so love a good story." The word *story* had arrived with a small, precise stress on it, like a chalk mark on a tire, and Wren — who had survived Voss, the FAA, and the entire state of Alaska — had felt her spine attempt to file a report.
+
+The pre-boarding interview had been brief and surgical. Where did you first meet — and had it really been summer, because Auntie remembered the argument in October seeming *awfully* fresh for an established couple. What did the captain's flat look like — oh, Theo hadn't mentioned it was a *fourth-floor* flat, interesting, merely interesting. And to Wren, gently, while Theo loaded bags: "He takes his coffee how?"
+
+"Large drip, one sugar, leaves the stick in," Wren had said. "It's a character defect."
+
+"Mm. And the bear's name?"
+
+"Bernoulli," Wren had replied, without one nanosecond of hesitation, and Chidinma's eyes had narrowed a fraction — a fencer acknowledging a parry — and she had smiled beautifully and boarded, and Wren had climbed into the left seat feeling like she'd just flown a checkride in a language she'd learned last month.
+
+"The goddaughter," she'd murmured to Theo over the pedestal, "is running a discovery process."
+
+"I noticed. She asked me your birthday."
+
+"Which you don't know."
+
+"March ninth," Theo had said, running the before-start flow, unbothered. "It's on your medical, which lives in the trip binder, which I read cover to cover my first week because I read *everything* — a fact that is about to save our whole operation, so a little gratitude." A beat. "I also know your eye color from the same document, but I'd have gotten there independently."
+
+"Fly the airplane, Marsh."
+
+"Gray," he'd said, to the checklist, insufferably. "Like a stable marine layer."
 
 Then: "Meridian Three-Five, Portland Approach. Portland's just closed the south runway — disabled aircraft, blown tires on rollout, equipment's rolling. Expect holding at BATTLE GROUND. Stand by for holding instructions."
 
@@ -120,6 +146,10 @@ Then she picked it up, folded it once, and put it in the left chest pocket — t
 
 "Clearance needs direction, fix, radial, leg length if DME, turns if nonstandard, altitude, EFC — and no EFC means ask, because it's the lost-comm exit. Speeds: two hundred to six thousand, two-thirty to fourteen, two-sixty-five above; slow within three minutes of the fix. Entries by the seventy-degree line — direct, parallel, teardrop — recommendations in service of the only law, which is protected airspace. Triple the inbound drift correction, opposite, outbound. Report entering, report leaving, time and altitude — narration is free. Fuel: log it where everyone can see it; *minimum fuel* means no undue delay, no priority; *emergency fuel* means say the word and live. And—" he nodded at her jacket pocket, once, "—know your fuel state before you enter. State it plainly to the crew. Pride is the only thing on this airplane with no legitimate function."
 
-"Adequate," Wren said, and under the table, eleven tables from anywhere, in the most organized boredom of her entire life, she let her ankle rest against his and did not move it for the rest of the evening.
+"Adequate," Wren said. She looked at the folded coaster's outline through the jacket pocket for a moment, then signaled for the check with the crisp authority of a woman closing out a flight plan. "We're leaving before you find another metaphor. You're buying."
+
+"We're fake dating. Shouldn't we split it?"
+
+"You're buying," said Wren, "because the EFC office bills for its time," and she was out of the booth and into her coat while he was still laughing — but she waited for him at the door, under the awning, out of the rain, the way you wait for the rest of your flight; and if they walked back to the crew hotel closer together than the sidewalk strictly required, the official cause of record was weather.
 
 *End of Chapter Seven.*
