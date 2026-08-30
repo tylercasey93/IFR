@@ -78,6 +78,12 @@ It came out in her ordinary voice, which was what made it land the way it did â€
 
 The silence he left had a shimmer to it.
 
+"If he ever leans on my airplane," Wren said, conversationally, watching the courtesy car pull away, "I want you to know the plan is fully developed. It involves the lav service cart, the international ramp, and a NOTAM I would write personally."
+
+"That's the most romantic thing you've ever said in front of me."
+
+"It wasn't said in front of you. You were eavesdropping on a threat assessment."
+
 "'Flying with someone,'" Theo repeated, at last, to the receipts.
 
 "Factual statement."

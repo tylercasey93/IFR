@@ -34,7 +34,15 @@ Theo was already talking to Center. Wren rolled the King Air out of the hold's f
 
 ---
 
-Pendleton delivered exactly the boredom advertised — a visual approach in crystalline cold air, the Blue Mountains white to the south, the runway dry where it mattered — and then the storm, with the whole night to work with, began spreading north like spilled ink. By the time the borrowed crew car reached town, snow was falling on Pendleton too, fat and unhurried, a done deal.
+Pendleton delivered exactly the boredom advertised — a visual approach in crystalline cold air, the Blue Mountains white to the south, the runway dry where it mattered. The FBO consisted of one recliner, one popcorn machine, and an elderly golden retriever the line guy introduced as Chandelle, and Theo assessed the establishment with the gravity of a Michelin inspector while Okafor's cars were arranged.
+
+"Popcorn's fresh, dog comes to you, line guy called the airplane 'she' with real feeling," he reported. "Five stars. Would emergency-divert again."
+
+"You rate FBOs."
+
+"I rate everything, Wren. It's a rich inner life." He accepted a respectful amount of retriever onto his shoe. "For the record, the one in Santa Barbara lost a star for cologne contamination."
+
+Then the storm, with the whole night to work with, began spreading north like spilled ink. By the time the borrowed crew car reached town, snow was falling on Pendleton too, fat and unhurried, a done deal.
 
 The inn was a hundred-year-old brick thing on Main Street with a lobby fireplace and, it emerged, exactly three rooms left ahead of a storm that had chased everyone indoors.
 

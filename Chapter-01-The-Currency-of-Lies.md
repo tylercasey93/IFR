@@ -32,6 +32,14 @@ A blue Subaru with a mismatched fender pulled through the gate, parked crooked, 
 
 "Eight hundred overcast," she said, shaking his hand once. "Tops reported around nine thousand. You current, Marsh?"
 
+"And a pleasure to meet you too, Captain. No, no — don't apologize for the warmth. I'll acclimate."
+
+"I'll ask again slower," Wren said. "You. Current. Yes or no. If the answer takes more than one word, you're riding in the back with the catering."
+
+"There's catering?"
+
+"There's a cooler with two waters in it, and you're one more remark from losing your water." She looked at him, level, rain dripping off the wing above them, and he grinned like she'd handed him a gift bag — which was her first data point on Theo Marsh, logged before the handshake was even cold: threats appeared to *nourish* him.
+
 If the question insulted him, he didn't show it. "As of last Thursday, yeah. Want the confession anyway?"
 
 "The confession?"
@@ -211,6 +219,10 @@ It was going to be a long season. She picked up the release and went flying anyw
 ---
 
 *The climb checklist was done and the airplane was in the sunlight on top before either of them spoke again — nine thousand feet, tops below them like a field of snow nobody would ever walk on.*
+
+Wren reached into the left outside pocket of her flight bag, extracted — from under the fuel tester, from inside what appeared to be two nested freezer bags — a ration of peanut M&Ms, ate four with the solemnity of communion, and resealed the entire apparatus without offering him any or acknowledging that it had occurred.
+
+Theo looked back at the windscreen and said nothing, in the manner of a man filing the single most useful piece of intelligence he'd gathered all day.
 
 "Debrief," Wren said, because ritual was how she apologized. "Back there, before the door opened. You were right about one thing. Say it back so I know you know which thing."
 

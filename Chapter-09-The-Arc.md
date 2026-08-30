@@ -58,7 +58,15 @@ The interference started, with military punctuality, eleven minutes after they l
 
 It didn't announce itself with drama. That was the insidious part, the part Wren made sure the flight deck said out loud for the record: the boxes just began to *doubt*. First a quiet annunciation on the number two — LOI, loss of integrity, the unit no longer able to promise its position was honest. Then the number one joined it, position source degrading, the moving map's confidence visibly loosening, and the autopilot still smoothly tracking a magenta line that had become, in the space of ninety seconds, a beautifully rendered guess.
 
-"And there it is," Theo said. "Integrity flags on both. RAIM's job in one act: the receiver cross-examines its own satellites, and when it can't guarantee the answer, it *says so* — that's the entire moral difference between GPS and a liar. The box isn't wrong yet. It's honest about the possibility. But honest doubt doesn't navigate an airplane, so: green needles."
+"And there it is," Theo said. "Integrity flags on both. RAIM's job in one act: the receiver cross-examines its own satellites, and when it can't guarantee the answer, it *says so* — that's the entire moral difference between GPS and a liar. The box isn't wrong yet. It's honest about the possibility. But honest doubt doesn't navigate an airplane, so: green needles. Also, I've named the jammer Gary."
+
+"You've — named the military's electronic warfare exercise."
+
+"Gary," Theo confirmed, spinning the OBS. "Personalizing your adversary builds healthy contempt. Instructor technique. Gary thinks he's ruined our morning; Gary has never met a VOR."
+
+"If you put 'defeated Gary' in the trip report, I'm sending it to the FAA unredacted."
+
+"That's fair. He'd want the recognition."
 
 They executed the fallback like they'd briefed it, because they'd briefed it. Nav One spun to the Boise VOR — ident on, the Morse spelling itself out, *dah-dah-dit-dit-dit, dah-dah-dah, dit-dit* — course set, needle alive and steady, an eighty-year-old idea coming off the bench without a word of complaint. Theo cross-checked DME against the last trustworthy GPS distance, called the delta — half a mile, sane — and Wren keyed the radio.
 
