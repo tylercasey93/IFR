@@ -132,10 +132,10 @@ He got in. Kissed her — parking lot; permitted; policy — and gave her the sh
 
 Her hand didn't move. That was the thing he'd tell Sam later — her hand didn't so much as flicker, but the whole car went as still as a hold with the EFC expired.
 
-"And I archived it," he said, "at a red light, without pulling over. Wren. I'm not holding for that clearance anymore. I canceled the flight plan. This—" the freeway, the rain starting, the ridiculous beloved airline of two "—is the route. As filed."
+"And I archived it," he said, "at a red light, without pulling over. Wren. I spent three years telling myself that seat was the life I'd deferred. It isn't. This is the life. The broke little company, and your father's slide rule, and my dad's Tuesday breakfasts, and you. I'm not waiting on anything else anymore. I already have the thing I want."
 
-Wren Hale let out a breath she had possibly been holding since October, brought his hand up, and pressed her mouth to his knuckles at sixty miles an hour in I-5 traffic, which was, she would maintain forever after, a fully stabilized maneuver.
+Wren Hale let out a breath she had possibly been holding since October, brought his hand up, and pressed her mouth to his knuckles at sixty miles an hour in I-5 traffic, which was, she would maintain forever after, perfectly responsible driving.
 
-"Cleared as filed," she said. "Fly the airplane, Marsh."
+"Good," she said, not quite steadily. "Because I wasn't planning on giving you back."
 
 *End of Chapter Fourteen.*

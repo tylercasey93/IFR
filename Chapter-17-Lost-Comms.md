@@ -64,11 +64,11 @@ She looked at the three pages of chronology.
 
 "Fix your fuel sender, Sam," she said, unsteadily, and he laughed his lopsided laugh and let her go.
 
-She kept the chronology — she was who she was — but that night she rewrote the last paragraph, the one that mattered, and moved one sentence from the bottom of page three up into it, where it could be found first if the receiver only had a moment. *Receivers get checked before transmitters, Marsh. This is me, checking yours.*
+She kept the chronology — she was who she was — but that night she moved one sentence from the bottom of page three up to the very top, where it would be found first if he only read one line. *The sentence you overheard had an ending, and you didn't stay for it.*
 
 The letter was the part the procedure didn't cover, so she'd invented it: three pages, longhand, structured — God help her, she knew it, she'd embraced it — like a NASA safety report. *Nature of event: communications failure, two crew. Chronology follows.* The library sentence, completed this time, all the way to the end that Jax had never let her reach. The offer, and the reply she'd finally sent — *declined with thanks* — screenshot attached, timestamped Tuesday. The amendments, quoted from the legal pad. And the last paragraph, which took her until two in the morning:
 
-*Per the procedure, when communications are lost, each pilot flies to the clearance limit and begins the approach as close as possible to the time we agreed. You are the one who taught me the reason the rule works: because both airplanes trust the other one to be exactly where the promise said. So: I'll be at the airplane Friday, on the trip we're both assigned, at the time we filed, flying predictable and findable, the way you'd expect. No questions — the clause stands, it will always stand. But receivers get checked before transmitters, Marsh. You taught me that too. This is me, checking yours. — W.*
+*I'm not going to chase a man who used the exit I built and asked for no questions. The clause stands; it always will. But it only ever bound me from demanding your reasons. It never stopped me from telling you what's true. So here is what's true, in writing, where you can audit it at two in the morning: the offer is declined — it was always going to be declined. The sentence you overheard had an ending, and you didn't stay for it. And I will be at the airplane Friday, where I said I'd be, because I am always going to be where I said I'd be. That's the only way I know how to love someone, Theo. Come ask me anything, whenever you're ready. The answer has been waiting the whole time. — W.*
 
 She sealed it, wrote his name on it, and did not mail it. Some transmissions you hold for when the receiver's in range.
 
@@ -112,7 +112,7 @@ Friday's trip sheet posted Thursday at four: OKAFOR — FINAL WINTER TRIP. Boein
 
 Wren stood at the dispatch desk a long time, looking at the two names side by side on the sheet, the way they'd been side by side all season, the way they were currently not.
 
-Then she went home, packed her overnight bag with the discipline of ten thousand overnights, and put the sealed letter in the flight jacket's left chest pocket — the zipper one, the archive, where the operating agreement lived, and the coaster with FUEL STATE: FAT, and every other load-bearing document of the best year of her life.
+Then she went home, packed her overnight bag with the discipline of ten thousand overnights, and put the sealed letter in the flight jacket's left chest pocket — the zipper one, the archive, where the operating agreement lived, and the coaster that said I'M NOT GOING ANYWHERE, and every other load-bearing document of the best year of her life.
 
 As assigned. As expected. As filed.
 

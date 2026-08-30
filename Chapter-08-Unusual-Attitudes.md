@@ -102,12 +102,12 @@ She pulled back three inches. Her eyes were enormous and appalled and shining.
 
 "It's not logged, Marsh. It doesn't count toward anything. It's — " she stepped back, re-armoring in real time, and he watched her do it with his heart going like a prop out of sync " — *not loggable*. There was no audience, so it wasn't the act, and it wasn't — it isn't — we have an *agreement*—"
 
-"Wren." He said it gently, and she stopped. The hangar hummed. And Theo Marsh, who had recovered from one unusual attitude already that night by trusting the instruments over the feeling, looked at every instrument he had — her hand, still half-raised toward his collar; the kiss still warm on his mouth; six weeks of coasters and clauses and doorways — and made the call. "Okay. Not logged. Simulated instrument time — doesn't count without a safety pilot anyway." He picked up his flight bag, walked to the door, held it open for her, and let the smile go all the way up. "But for the record, Captain: I'd call your recovery technique *outstanding*, and my inner ear and I are no longer speaking."
+"Wren." He said it gently, and she stopped. The hangar hummed. And Theo Marsh, who had recovered from one unusual attitude already that night by trusting the evidence over the feeling, looked at all the evidence he had — her hand, still half-raised toward his collar; the kiss still warm on his mouth; six weeks of coasters and clauses and doorways — and made the call not to push. "Okay," he said. "It didn't happen. Adrenaline. Documented phenomenon." He picked up his flight bag, walked to the door, held it open for her, and let the smile go all the way up. "But just so we both know I know: you kissed me, Captain. And starting tomorrow I am going to be absolutely unbearable about not mentioning it."
 
 "Marsh—"
 
-"Nose-high," he said, tapping his own chest by way of diagnosis, stepping out into the dark. "Airspeed decaying, altitude increasing. It's fine. I know the procedure."
+"Not mentioning it *constantly*," he said, stepping out into the dark. "Around the clock. You'll hardly be able to stand how much I'm not bringing it up."
 
-He heard her laugh — fourth documented occurrence, ragged and half against her will and worth the whole night — and behind them the hangar lights clicked off in sequence, and the two pilots of Meridian Three-Five walked to their separate cars through the quiet, both of them flying, by feel, in total darkness, an attitude neither of their panels had an instrument for.
+He heard her laugh — fourth documented occurrence, ragged and half against her will and worth the whole night — and behind them the hangar lights clicked off in sequence, and the two pilots of Meridian Three-Five walked to their separate cars through the quiet, both of them pretending, with great discipline, not to know exactly what had just become true.
 
 *End of Chapter Eight.*

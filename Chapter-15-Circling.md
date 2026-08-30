@@ -86,7 +86,7 @@ Wren looked at herself in the three-way mirror — turned once, checking the lin
 
 "And?"
 
-"And I don't mind." Wren met her own eyes in the mirror and said it plainly, the way she'd have read back a clearance, because some things you should hear yourself transmit at least once: "I'm happy. Certifiably. Log it — Thursday, eighteen-forty local, W. Hale reported happy, unable to determine cause."
+"And I don't mind." Wren met her own eyes in the mirror and said it plainly, because some things you should hear yourself say out loud at least once: "I'm happy, Priya. Actually happy. Write it down somewhere — I'll deny it later, but I want a witness."
 
 "Oh, we can determine the cause," said Priya, already back on her phone, photographing the dress tag for the budget. "The cause is six-one and files continuation training plans for fun. You're buying the dress."
 

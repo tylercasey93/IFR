@@ -128,13 +128,13 @@ Clause Three happened over paper cups in the Boise FBO while Okafor closed on he
 
 "The whole conventional structure is the ballast that lets the shiny stuff be trusted," Theo said. "The day the constellation gets shouted down, eighty years of radio geometry is still standing there, smelling faintly of the nineteen-fifties, holding the sky up." He crushed his cup, grinned. "Arcs forever. Fight me."
 
-Wren turned her own cup a quarter-turn — his tell; she'd caught it off him like a cold — and heard herself say, in a voice that was not entirely the captain's: "Fifteen miles is a stable arc, Marsh. Good winds, honest DME. A person could fly it indefinitely." She looked up. "But it's not an approach. At some point you take the lead radial or you admit you were never landing."
+Wren turned her own cup a quarter-turn — his tell; she'd caught it off him like a cold — and heard herself say, in a voice that was not entirely the captain's: "I figured something out today. Watching you fly that circle." She looked up. "I've been keeping you at a careful distance for months, Marsh. Very careful. Very constant. And somewhere over the Snake River it occurred to me that careful distance is still — orbiting. It's not the same thing as away."
 
-The FBO hummed around them. Theo went very still, the way he had on the Friday Harbor ramp, a man watching a needle come alive.
+The FBO hummed around them. Theo went very still, the way he had on the Friday Harbor ramp, a man being handed something fragile.
 
-"For the record," he said carefully, "I've had the inbound course set for weeks. I'm just waiting on the clearance."
+"For the record," he said carefully, "I noticed. Months ago. And I stayed exactly where you put me, because the view was worth it and because you asked." A beat. "I'm still here, Wren. Whenever."
 
-"I know," said Wren Hale, and stood, and squared the paperwork, and — because some transmissions can only be sent from the doorway, on the way out, half over the shoulder — added: "Expect it."
+"I know," said Wren Hale, and stood, and squared the paperwork, and — because some things can only be said from the doorway, on the way out, half over the shoulder — added: "Soon. I'm nearly there."
 
 ---
 
@@ -144,15 +144,15 @@ The closing went through at four-fifteen, and Adaeze Okafor celebrated the way s
 
 "She absolutely does not mean the DME arc."
 
-They drank her champagne anyway, at the corner table above the cold Boise night with the airport beacon turning green-white-green in the middle distance, and the conversation stayed professional for one entire glass, which was a company record for rooftop conditions. It was Theo who finally set his down and looked at her with the lights in his eyes and said, "So. 'Expect it.' Am I allowed to file a request for—"
+They drank her champagne anyway, at the corner table above the cold Boise night with the airport beacon turning green-white-green in the middle distance, and the conversation stayed professional for one entire glass, which was a company record for rooftop conditions. It was Theo who finally set his down and looked at her with the lights in his eyes and said, "So. 'Nearly there.' Am I allowed to ask—"
 
 "No."
 
 "You don't know what I was—"
 
-"You were going to request an estimate," Wren said. "A time on the further clearance. And the answer is no, because the controlling authority is currently—" she considered her own glass, and the beacon, and the ridiculous lightness in her chest that champagne did not adequately explain "—working other traffic."
+"You were going to ask for a date on the calendar," Wren said. "And the answer is no, because when I say the rest of it, I want to have picked the moment myself. Not champagne. Not a rooftop somebody else built." She considered her own glass, and the beacon, and the ridiculous lightness in her chest that champagne did not adequately explain. "You'll know it when you hear it."
 
-"Copy," Theo said, entirely too gently, and refilled her glass instead of pushing, which was the whole problem with him, the entire structural problem: the man never once flew through her turbulence when he could ride the smooth air beside it and wait.
+"Okay," Theo said, entirely too gently, and refilled her glass instead of pushing, which was the whole problem with him, the entire structural problem: the man never once pushed on her weather when he could sit quietly beside it and wait.
 
 Across the roof, Okafor raised her own glass in their direction — to the closing, ostensibly — and called out, with the timing of a woman who missed nothing: "To *expectations*, my dears!"
 

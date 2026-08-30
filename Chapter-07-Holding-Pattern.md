@@ -118,25 +118,21 @@ That was the problem, Wren thought, watching Theo argue cheerfully with the wait
 
 They lasted through the appetizers on shop talk. It was the pinot that did the entries in.
 
-"Question," Theo said. "Professional curiosity. Flight-standards inquiry." He turned his glass a quarter-turn, his tell, trim check before a transmission that mattered. "At what point does the crew acknowledge that we've been given holding instructions?"
-
-"Careful, Marsh."
-
-"I'm always careful. I'm *famously* careful. Direction from the fix, a radial, a leg length, turns—" he counted them off, gently, on the tablecloth between them "—we've got the full clearance, Wren. We've had it for weeks. We're established. Protected airspace, wind corrected, fuel logged. Textbook hold." He looked up, and the lightness was all the way off, structure showing plain. "The one thing nobody's issued is the EFC."
+"Question," Theo said. "Personal, not professional. You're allowed to decline it." He turned his glass a quarter-turn, his tell, the small adjustment before something that mattered. "What is this, Wren? Not the act — I know exactly what the act is; I helped write it. The rest. Because I know what I'm hoping for, and I don't know what you're deciding, and I'd rather hear a hard answer from you than keep guessing at a kind one."
 
 The restaurant did restaurant things around them: cutlery, weather on glass, other people's easy evenings.
 
-"Expect further clearance," Wren said slowly, "is issued by the controlling authority. And the controlling authority in this arrangement wrote herself a clause. Number Four. Either party can call the miss, any time, no questions — I wrote that clause because holds without exits are how people get hurt, Theo. I've flown that pattern. I held for someone once until the tanks were dry, and the EFC never came, and I told myself the whole time that patience was airmanship." She set her glass down. "It wasn't. It was a fuel emergency I was too proud to declare."
+"I don't have an answer yet," Wren said slowly. "And I need you to understand why, because it isn't about you. I wrote Clause Four — anybody leaves, any time, no questions — because I've been the person who couldn't leave. I waited on someone once, long past the point it was good for me. Told myself patience was loyalty. Told myself it would come around if I just stayed steady and asked for nothing." She set her glass down. "It wasn't loyalty. It was fear with better posture. And I promised myself I'd never again be in anything that didn't have a door."
 
 "Cascade," he said quietly. Not a question anymore.
 
-"Cascade." The name went down easier with pinot than it ever had with coffee. "So you should know what you're circling, before you burn another month of gas on me. The last man in my flight deck filed us as a crew and flew us as a solo. When it went down, he — took the vectors and left me in the hold." She heard her own voice do the thing, the flat Alaska thing, and let him hear it too, which was new. "I'm not her anymore. But the paperwork's still in the system somewhere. Ask your questions."
+"Cascade." The name went down easier with pinot than it ever had with coffee. "So you should know what you're getting close to, before you spend another month on me. The last man I trusted let me take the fall for something he did, and half the industry watched, and said nothing. I'm not her anymore. But she's still in here, checking the exits." She heard her own voice do the thing, the flat Alaska thing, and let him hear it too, which was new. "Ask your questions."
 
-Theo was silent for a moment. Then he did the single most Theo Marsh thing she had ever witnessed: he took out his pen, took the paper coaster from under his glass, and wrote on it, in the neat remarks-column handwriting, three words. He turned it around and slid it across the tablecloth.
+Theo was silent for a moment. Then he did the single most Theo Marsh thing she had ever witnessed: he took out his pen, took the paper coaster from under his glass, and wrote on it, in the neat remarks-column handwriting, four words. He turned it around and slid it across the tablecloth.
 
-*FUEL STATE: FAT.*
+*I'M NOT GOING ANYWHERE.*
 
-"For the record," he said. "Filed and logged. I'm not circling on fumes, Wren. I'm not close. You want to know my state before you issue anything — that's it, in writing, dated." He left the pen on the coaster. "And there's no rush on the EFC. That's the entire point of doing the fuel planning honestly. The airplane that waits well—" the smile came up, but the eyes stayed level "—gets to wait as long as the mission takes."
+"I'm not asking you for a date on a calendar," he said. "I'm telling you two things, and I wanted one of them in writing so you can check it later, when you're doing that thing where you audit people at two in the morning. One: I'm not running out of patience. That's not me being noble; waiting for you is genuinely not hard. Two—" the smile came up, but the eyes stayed level "—whenever you do have an answer, either answer, I'll be easy to find."
 
 Wren looked at the coaster for a long time.
 

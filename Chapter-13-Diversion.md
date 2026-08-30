@@ -76,15 +76,15 @@ The radiator ticked. Snow filled the streetlight.
 
 "Wren."
 
-"Here's my position," she said, and her voice did what it did on final — went quieter, and surer, both at once. "Clause Two says no performance without an audience. There's no audience, Theo. There hasn't been an audience for weeks and we both know it. Whatever this is, it hasn't been the act since—" the hangar; the coaster; the arc; she made a small gesture that included the entire fall "—inventory. And I'm done logging it as *not loggable*." She set her flight bag down, deliberate, a gear handle moved on schedule. "You told me once you'd had the inbound course set for weeks and you were waiting on the clearance." She looked up at him, snowlight and lamplight, and gave the transmission plainly, no doorway, no shoulder, dead ahead: "Meridian Three-Five, cleared for the approach."
+"Here's the truth," she said, and her voice went quieter and surer, both at once. "There's no audience in this room, Theo. There hasn't been an audience between us for weeks, and we both know it. Whatever this is, it stopped being the act a long time ago — the hangar, the coaster, all of it — and I'm done pretending otherwise, to you or to myself." She set her flight bag down, deliberate. "You wrote four words on a coaster and I've been carrying them around like they might expire. They don't expire. I checked." She looked up at him, snowlight and lamplight, and said it plainly, no doorway, no shoulder, dead ahead: "I want this. I want you. Stay."
 
-Theo Marsh crossed the room the way he'd walked through rain the first morning — unhurried, unbothered, like the weather was a colleague — and took her face in both hands and kissed her, and this time nobody filed anything.
+Theo Marsh crossed the room the way he'd walked through rain the first morning — unhurried, unbothered, like the weather was a colleague — and took her face in both hands and kissed her, and this time nobody pretended anything.
 
-It was not like the hangar. The hangar had been adrenaline finding a door; this was a decision made in motion, briefed for weeks, flown with both hands. Her fingers found his collar, then the buttons of it; his hands traced the line of her spine like a man reading an approach plate he'd memorized and wanted anyway; and when she laughed against his mouth — helpless, disbelieving, *fifth documented occurrence* — he pulled back an inch and said, hoarse, "Stabilized?"
+It was not like the hangar. The hangar had been adrenaline finding a door; this was a decision — one she had clearly made some time ago and had simply been waiting to be certain of, and there was nothing uncertain in her now. Her fingers found his collar, then the buttons of it; his hands traced the line of her spine like a man memorizing something he intended to know forever; and when she laughed against his mouth — helpless, disbelieving, *fifth documented occurrence* — he pulled back an inch and said, hoarse, "You're sure?"
 
-"Configured, on speed, needles centered," said Wren Hale, and pulled him toward the bed by the shirt-front, and switched off the lamp.
+"Completely," said Wren Hale, and pulled him toward the bed by the shirt-front, and switched off the lamp.
 
-The snow fell on Main Street all night, through the streetlight, over the crew car and the courthouse and the whole silver-quiet town, and the radiator ticked like a metronome nobody was flying to, and the room kept its own counsel — save to note that at some point, in the dark, laughing, breathless, one of them murmured *"positive rate,"* and the other one, without a heartbeat's hesitation, answered *"gear up,"* and after that there were no further radio calls for a long, long time.
+The snow fell on Main Street all night, through the streetlight, over the crew car and the courthouse and the whole silver-quiet town, and the radiator ticked on unheeded, and the room kept its own counsel — save to note that at some point, in the dark, one of them whispered something that made the other laugh, low and delighted and utterly unguarded, and after that there were no further words for a long, long time.
 
 ---
 

@@ -100,11 +100,11 @@ The lodge broker took the client to dinner; the crew got the hotel bar's back pa
 
 The propane hissed. Somewhere in the fog a train said something melancholy about Oregon.
 
-"I keep thinking about the asterisk rule," Wren said, at last, to her bourbon. "You get to DA. You see *something* — lights, a shape, a promise. And the rule says: you may keep coming, but only so far, unless the red shows. The real thing. The unambiguous thing." She turned the glass a quarter-turn, and he watched her borrow his tell with the fondness of a lender who never expected repayment. "I've been at a hundred feet for a while now, Theo. Over the lights. Holding altitude. Waiting to see—"
+"I keep starting a sentence," Wren said, at last, to her bourbon. "I've been starting it for about a month. I get three words in and I put it away again, because once I say it, everything changes shape, and I wanted to be sure — really sure, not champagne-sure — before I changed the shape of anything." She turned the glass a quarter-turn, and he watched her borrow his tell with the fondness of a lender who never expected repayment. "I'm sure now, Theo. I've been sure for a while. So I'm going to say it, and I'm only going to say it once, so—"
 
 "Wren."
 
-"—the red bars," she finished, and looked up, and the fog light did something to her eyes that the FAA had no chart for, and Theo Marsh set his glass down and reached across the little table for her hand, and the phone rang.
+"—so don't interrupt me," she finished, and looked up, and the fog light did something to her eyes that undid him completely, and Theo Marsh set his glass down and reached across the little table for her hand, and the phone rang.
 
 *Griff.* Wren's phone, buzzing itself in a slow circle on the metal table, the screen bright with the little contact photo of Griff in his lucky Meridian cap, and they both stared at it with the loathing of two pilots watching a perfectly stable approach get sent around by a runway incursion.
 
@@ -122,14 +122,16 @@ The line died. The heaters hissed. Wren put the phone face-down with exaggerated
 
 "Saturday after next," she said.
 
-"Wren, what you were saying—"
+"Wren, what you were about to say—"
 
-"Was a hundred-foot conversation," she said quietly, "and we just lost the visual." She stood, squeezed his shoulder — one press, *readback correct*, achingly insufficient — and gathered her glass. "Get some sleep, Marsh. You flew the hell out of that ILS."
+"Deserves better than Griff's timing," she said quietly. "That's all. It hasn't gone anywhere." She stood, squeezed his shoulder — one press, there and gone, achingly insufficient — and gathered her glass. "Get some sleep, Marsh. You flew the hell out of that ILS."
 
-She stopped at the patio door, though. Half over her shoulder, in the doorway, where all her hardest transmissions came from:
+She stopped at the patio door, though. Half over her shoulder, in the doorway, where all her hardest sentences came from:
 
-"For the record. It's not a missed approach." A breath. "It's a hold. There's a difference, and the difference is the EFC."
+"I'm not taking it back, Theo. Any of it." A breath. "I'm just asking you to hold on a little longer. Can you do that?"
 
-Then she was gone, and Theo Marsh sat alone under the propane heaters in the moving fog with his heart at a hundred feet — level, lights in sight, descending no further — waiting, with everything he had, for red.
+"As long as it takes," he said.
+
+Then she was gone, and Theo Marsh sat alone under the propane heaters in the moving fog with his heart three words from everything — close enough to see it — waiting, with all the patience he had ever owned, for the rest of the sentence.
 
 *End of Chapter Twelve.*
