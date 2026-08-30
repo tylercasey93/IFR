@@ -28,6 +28,22 @@ Sam laughed, which came out lopsided these days and was still the best sound The
 
 ---
 
+He took the long way to the airport, running the projections.
+
+Because here was the thing he had definitely not told Sam: this was, from a purely tactical standpoint, the greatest situation Theo Marsh had ever been handed. Three days into a new job, and the universe had dealt him a role in a long-running production opposite a woman who audited strangers' currency for sport, color-coded her flight bag, and had once — Priya was already an excellent source — alphabetized the crew fridge *by expiration date*. A woman who was going to have to stand next to him in front of a client and pretend to find him charming, on a contract, for months, while he was being *paid*.
+
+He'd had better job offers this month. A PC-12 gig in Scottsdale with catering. A King Air job in Bozeman with ski-town empty legs. He had taken the one with the failing company, the broken coffee maker, and the captain who'd looked at him on day one like a suspicious line item — partly for Sam's Tuesday physical therapy, twenty minutes away.
+
+Partly. Griff had said one thing on that interview call — *"you'd be flying with Hale; pilots who fly with Hale come out the other side better"* — and Theo, who had spent three years teaching the standard to people shopping for shortcuts, had wanted to see one up close.
+
+So: a season of professional make-believe with the most reluctant scene partner in the Pacific Northwest. He merged toward Boeing Field grinning like a man with theater tickets.
+
+There was exactly one flaw in the situation, small, manageable, noted for the record and then filed: on day one, in the rain, when she'd said *current isn't proficient* like it was scripture she'd paid for —
+
+he hadn't been acting at all.
+
+---
+
 Meridian's office at ten a.m. held the specific silence of a small company waiting to hear how it dies. Priya was at dispatch pretending to type. Griff was in the doorway of his office holding two cups of coffee like collateral. And Wren was already in the briefing room with the big monitor lit — surface analysis on the left half, the graphical forecast tool on the right — because of course she was. Theo was beginning to understand that Wren Hale arrived early to everything the way other people locked doors: habit, armor, and a message to anyone checking.
 
 "Marsh." She didn't look up. "Sit. Ceiling's coming down tomorrow and Griff has something to say that he's been not saying for ten minutes."
@@ -141,6 +157,68 @@ Wren picked up her card, and this time the smile actually landed, brief and real
 "Look at that," she said. "He briefs *and* he learns. Buy me a sandwich, sweetheart. We're on the clock."
 
 She was out the door before he could decide whether the endearment had been for practice, for Priya's benefit at the dispatch desk, or — this was the theory he shelved fastest — a test flight of something with no audience at all.
+
+---
+
+The sandwich shop across the field had six tables and a view of the runway, and it was there, over turkey on sourdough, that they built the dossier.
+
+"If we're doing this," Wren said, producing — of course — a fresh page of the legal pad, "we're doing it like a checkride. She's going to ask questions; it's how clients like her show affection. So we get the story straight *now*, in writing, and then I burn the page. Origin?"
+
+"We met here. Keep every lie one degree from true — easiest to maintain under cross-examination. Met at Meridian, worked together, it grew. Only fiction is the timeline: started this summer, before I was hired — you put in a word for me with Griff, which explains the secrecy *and* why Priya grins like that."
+
+"Priya grins like that about everything." But she was writing it down. "Anniversary. She'll want a date."
+
+"June twenty-first. Solstice. Memorable, plausibly romantic, and if she asks what we did, we flew — you can't fake a restaurant, but nobody can subpoena the sky." He leaned back, warming to it, aware he was enjoying this far beyond the professional requirement and electing not to fight it. "Sunset flight over the Sound. You cried a little at Rainier."
+
+"I did not cry at Rainier."
+
+"Fictional you cried at Rainier. Fictional you is a romantic."
+
+"Fictional me," said Wren, writing, "is beginning to regret her choices. Strike the crying." She initialed the strike like an amendment to a federal document — actually initialed it, W.H., with a date — and Theo added it to the growing private exhibit of things about this woman he had no intention of ever getting used to. "Interrogation rounds. Coffee order."
+
+"You're a large black drip that you deliberately let go lukewarm so you can drink half of it in one gulp like a pelican. I'm a large drip, one sugar."
+
+"You leave the stir stick in. It's a char defect."
+
+"Noted by whom?"
+
+"By anyone with eyes, Marsh; the cup has a *mast*." She did not explain how she knew his coffee order to the sugar, and he — visibly, insufferably — did not ask, and the not-asking sat there grinning at her. She moved on with the dignity of a woman changing frequencies. "Sleeping arrangements. She'll ask something wildly inappropriate; she's rich."
+
+"I sleep on the left, you steal blankets."
+
+"Reverse it. I sleep nearest the door." She said it flatly, and Theo opened his mouth for the obvious joke and then heard the flatness properly — that datum had a story with armor around it — and wrote *W: door side* without a single word. Wren watched him not-ask, and something in her shoulders came down a quarter inch, and he pretended not to see that either. It was shaping up to be a whole afternoon of professionally unnoticed things.
+
+"My round," he said instead. "Since we're proofing: you keep peanut M&Ms in the left outside pocket of your flight bag, under the fuel tester, in a freezer bag inside a second freezer bag, like contraband. Fictional boyfriend should know about the M&Ms."
+
+Wren stopped writing. "Those are ballast."
+
+"They're rotated, Wren. There's a *system*. Tuesday it was a fresh bag—"
+
+"That information is proprietary, and if it reaches Priya, you'll be listed as cargo on the next manifest," she said. "Non-revenue. Unaccompanied." She retrieved the pen with terrible calm. "Your side. What am *I* supposed to know? Give me one liability."
+
+"I talk in my sleep. Full sentences. My college roommate said I once gave an entire weather briefing."
+
+"Accurate?"
+
+"He didn't have the background to evaluate it. I like to think so." He tapped the glareshield of the table twice, absently, left hand — the same double tap she'd seen him give the airplane before every single takeoff — and she aimed the pen at it.
+
+"That. The knock-twice thing. You do it on the airplane. What is it?"
+
+And Theo — who had cheerfully surrendered his coffee order, his sleep-talking, and his entire employment history to the dossier — heard the answer queue up and declined to board it. *Mom. The doorframe. For luck.* Six years gone, and the one ritual he had left of her was not going in the props box of a fake romance, not for any contract on the coast.
+
+"Trade secret," he said, grin intact, door shut. "A gentleman never explains his preflight."
+
+"You explain *everything*. You explained the sugar packet."
+
+"And yet." He watched her study him — one beat, two — and watched her decide, visibly, on some private principle, not to pick the lock. Everybody got one pocket with a zipper, apparently. He wondered what was in hers, filed the wondering under *someday*, and moved the sandwich basket out of pen-throwing range as a precaution.
+
+"Fine," she said. "Keep your secrets. Fictional me doesn't care."
+
+"Fictional you is very supportive. It's one of her best qualities. She cried about it at Rainier."
+
+She burned the page that evening in the coffee can behind the hangar, exactly as promised, and the fake facts went up in a curl of smoke, memorized. Walking to his car, Theo did the day's honest arithmetic: forty minutes of interrogation-proofing, during which the most guarded captain in the Pacific Northwest had threatened him twice, struck one crying scene from the record, and never once — he'd watched — checked her watch.
+
+As omens went, he'd flown into worse.
 
 ---
 

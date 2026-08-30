@@ -66,6 +66,42 @@ And there it was — he'd said her own sermon back to her before she could preac
 
 ---
 
+Priya caught her at the dispatch counter twenty minutes later, while Theo was off surrendering paperwork to the copier.
+
+"So," Priya said.
+
+"No."
+
+"I haven't said anything."
+
+"You've been saying it since he parked. You say it with your whole face." Wren initialed the fuel release and did not look up, which with Priya was a tactical error, because Priya read averted eyes the way Wren read weather depictions.
+
+"He walked through the rain," Priya said. "You watched him do it. I watched *you* watch him do it, and I've worked this desk for four years, and captains don't watch new hires walk. They watch them preflight."
+
+"I was assessing his judgment."
+
+"Uh-huh. And?"
+
+"His judgment appears adequate," Wren said, and Priya made a small triumphant noise, because *adequate* was the top of Wren's scale and they both knew it.
+
+The truth — the part Wren didn't say, because saying it would have given it aerodynamic surfaces — was that she had rules about this, written the hard way, the same winter she'd written her first personal minimums card. Rule one: never fly with someone you're sleeping with. Rule two: never sleep with someone you fly with. The rules had a name and the name was Danny Ruiz, and the ink they were written in had cost her a company, a reputation, and two years of her life, and no first officer with good hands and a teacher's cadence was worth reopening the file.
+
+"There's also this." Priya slid a printout across the counter, lowering her voice into the register she saved for actual problems. "Came in while you were on the ramp. Fuel vendor's put us on cash-on-delivery. Again. And—" a second page "—Griff's truck is on one of those auto-sale sites. He listed it Tuesday night. He doesn't know I know."
+
+Wren looked at the pages for a long moment. The Meridian sign out front had been missing its second *i* since August, and Griff kept saying he'd ordered the letter, and everyone kept pretending to believe him. Twelve people worked here. Priya was putting her little brother through Green River on this desk. Manny's kid had braces on the company's dental plan, which Griff paid for out of a line item Wren was fairly sure was labeled *miscellaneous* because *personal savings* looked bad in an audit.
+
+"How bad," she said quietly.
+
+"Okafor-or-bust bad," Priya said. "If she renews, we make spring. If she doesn't—" Priya took the pages back, folded them with dispatcher's precision, and made them disappear. "So fly nice today, Captain. And be civil to the new guy. We can't afford turnover *or* your standards."
+
+"My standards keep this operation alive."
+
+"Your standards," Priya said, "are why you drive a truck older than my brother and check the fuel caps twice. Which — yes. Keep doing that. But Wren?" She glanced across the lobby, to where Theo Marsh was walking back from the copier reading his own new-hire paperwork like it might be on the test, mouthing something to himself — memorizing, actually memorizing the ops manual excerpts — and Priya's voice went gentle in a way that was worse than the teasing. "Not everyone who walks through rain is walking away from something. Some of them are just walking toward the airplane."
+
+Wren signed the last line of the release harder than the paper required.
+
+---
+
 Griff's office smelled like burned coffee and lease payments. He had the crew schedule on the whiteboard, OKAFOR written across four dates in a marker that was giving its life for the cause.
 
 "Adaeze Okafor," Griff said. "Hotels. You've flown her — Wren has, anyway. She books the airplane like other people book a table. Seattle, Portland, San Francisco, Santa Barbara, back around. She is, no exaggeration, forty percent of our revenue, and her contract's up for renewal at the end of the month." He looked at Theo. "Which is why the new guy rides today, and the new guy is perfect."

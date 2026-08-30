@@ -48,7 +48,33 @@ That Wren Hale, released from schedule and audience both, walked slower. That sh
 
 "When it happens," Wren said, "when he flies here — somebody should be at this window to see the landing." She said it lightly. She said it like logistics, like coverage planning, like anything other than what it was, which was Wren Hale volunteering, months in advance, for a seat at his family's finish line. Theo looked at his coffee and had a brief, vivid argument with himself about clauses.
 
-The afternoon went to walking it off. Harbor, bookshop, the little whale museum where Wren read every placard with the thoroughness she brought to MELs. The deck over the islands thickened on schedule, gray sliding over the green, and by five-fifteen, when Okafor's people texted that the cars were leaving Roche Harbor, the field had gone properly IFR — eight hundred overcast, the channel fading to pewter, the kind of evening where VFR was a rumor.
+The afternoon went to walking it off.
+
+The bookshop was the kind with a shop cat and no discernible organizational scheme, and they lost forty minutes in it. Theo surfaced from the aviation shelf with a water-stained paperback — a bush pilot's memoir, Alaska, the nineteen-sixties — and found Wren standing three feet away holding a second copy of the same book.
+
+They looked at each other's hands.
+
+"It's for Sam," Wren said, in the exact tone of a suspect establishing an alibi. "He's grounded, he's bored, and this one has the Wien Alaska chapters. It's a good book. It's a *famous* book."
+
+"It's out of print and there were two copies in the state, and we're holding both of them."
+
+"Then it's a good thing neither of us is reading anything into that." She took her copy to the register. Theo took his. The shop cat watched the entire transaction from the atlas shelf with the expression of a creature who had seen this exact situation before and knew precisely how it ended.
+
+"For the record," Theo said outside, "mine's not for anybody. I just wanted to know what kind of country produces you."
+
+"Chapter nine," said Wren, without breaking stride. "The Ketchikan winter. Multiply by ten."
+
+The whale museum was small and earnest and Wren read every placard with the thoroughness she brought to MELs, which Theo found more entertaining than the whales. At the hanging orca skeleton she stopped longest, arms crossed, head tipped, assessing the long white bones like a pre-buy inspection.
+
+"They navigate by sound," she said finally. "In the dark, in three dimensions, in weather that would kill anything else, in family groups, for seventy years. Nobody's ever lost." A pause. "It's the only traffic pattern I respect."
+
+Theo turned his head very slowly. "That's the line. That's the *fictional* line. I invented that line at dinner in San Francisco and put it in your fictional mouth, and you just said it. Organically. To an actual whale."
+
+Silence, of a caliber he had not previously encountered.
+
+"It's a *skeleton* of a whale," Wren said at last, with tremendous dignity, "and the line was always mine. You stole it in advance." And she moved off to the hydrophone exhibit at a pace that declined all further questions, leaving Theo standing under thirty feet of instrument-rated bones, grinning like a man who has just discovered that the fiction and the woman were never as far apart as advertised — and filing that discovery, with professional care, in the folder marked *someday*. There was a whole season ahead. He was, among his other qualities, patient as weather.
+
+The deck over the islands thickened on schedule, gray sliding over the green, and by five-fifteen, when Okafor's people texted that the cars were leaving Roche Harbor, the field had gone properly IFR — eight hundred overcast, the channel fading to pewter, the kind of evening where VFR was a rumor.
 
 Which meant the departure was about to become the day's syllabus.
 

@@ -68,6 +68,18 @@ They flew out of the wave band and fixed it out loud, because that was the house
 
 From the left seat, quietly: "That one goes in my column too."
 
+They flew a while in the smooth air beyond the wave, the flight deck settling, adrenaline draining down through the floor structure the way it does. And then Theo did the thing he did before every takeoff and, it turned out, after every survival: reached out, left hand, and tapped the glareshield twice.
+
+He felt her see it. The question had been sitting in her since a sandwich shop in October — *trade secret; a gentleman never explains his preflight* — and he could feel it sitting there now, disciplined, unasked, at a careful constant distance like everything else she wanted.
+
+"My mother," he said, to the windshield, before she could not-ask it again. "She knocked twice on the doorframe every morning when I left for school. For luck. Kept doing it when I left for college, for flying jobs — I'd be thirty years old backing out of the driveway and she'd be at the door, knock knock, like I was nine." The dark slid by, star-ceilinged, enormous. "She died six years ago. Spring. And the airplane's a doorframe, and I'm still leaving, so." He shrugged, one shoulder, the small one. "Now you know the trade secret. It's not a secret. It's just not for dinner parties."
+
+Wren was quiet for a moment. Then, in the tone she used for entering things in logs: "It didn't go in the dossier."
+
+"No."
+
+"Good," she said — just that — and reached over and turned the flight deck lights down one notch against the night, which from Wren Hale was approximately a eulogy, and Theo flew the airplane home understanding that she had just filed his mother somewhere with a zipper on it, next to whatever she kept in her own.
+
 ---
 
 Boeing Field at one in the morning was theirs alone — the tower closed, the field gone quiet, wind calm, the rain taking the night off. They put the airplane to bed in the hangar's yellow light, and the adrenaline, which had held professionally for ninety minutes, began looking around for somewhere to be filed.
