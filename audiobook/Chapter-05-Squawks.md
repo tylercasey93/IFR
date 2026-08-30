@@ -88,6 +88,16 @@ And Okafor — standing in the lobby at eight-fifteen with an itinerary, exactly
 
 Which is how, at nine in the morning on a grounded day, with no audience that mattered and Clause Two hanging unenforced in the air between them, Wren Hale ended up in a window booth at a ramp-side diner watching Theo Marsh order pancakes with the gravity of a man filing a flight plan.
 
+Wren ordered the logger's special, a side of hash browns, and a cinnamon roll "for the table," and met his raised eyebrow with the flat stare of a woman prepared to defend her airspace.
+
+"I said nothing."
+
+"You inventoried. I heard you inventory." She handed the menu back to the waitress. "I ran freight in Alaska, Marsh. You eat when the food is in front of you, because the next chance is a weather product, not a promise. It's not an appetite. It's *doctrine*."
+
+"For the record, I find the doctrine outstanding," Theo said. "I'm just saying the cinnamon roll isn't for the table. The table and I both know it."
+
+"The table," said Wren, "can file a report," and the cinnamon roll, when it arrived, was not for the table.
+
 ---
 
 They talked shop for the first twenty minutes because shop was the safe frequency. The VOR check, mostly — since Nav One's thirty days expired that week and they'd need it legal for the coastal work where the GPS NOTAMs had been ugly lately.

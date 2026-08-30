@@ -48,6 +48,14 @@ The ice stayed light and the boots stayed faithful. Wren ran the battery like a 
 
 "Descent from the final fix: three miles a minute at one-forty groundspeed — call it six-fifty a minute for the three-degree profile, level at MDA if we're still blind, VDP's at one-point-seven off the threshold, and the miss—" his mouth almost smiled around it, even then "—the miss is briefed: climbing straight ahead to two thousand, then as published, and we will not be flying it, because the weather's better than the story requires."
 
+"Confirmed on all of it. And Marsh."
+
+"Captain."
+
+"When we're down," Wren said, eyes on the standby altimeter, voice steady as a carrier wave, "I'm buying you the biggest breakfast in eastern Washington."
+
+"When we're down," said Theo, flying his two-inch horizon through the gray with everything he had, "I'm letting you."
+
 "Confirmed on all of it." A crackle of Center, half a sentence — *"...Pasco tower's been advised... light the field up for you..."* — and Wren pressed ident twice, which had become, by unspoken treaty on a broken frequency, *thank you.*
 
 They came down the wire of their own arithmetic in smooth gray silence, the standby altimeter unwinding, Wren calling the altitudes — "one thousand above... five hundred above..." — and at nine hundred and change the cloud let go of them the way it had at Medford, all at once, reluctantly, and there it was: the Columbia braided silver across brown winter flatland, and the runway, lit end to end, every approach light burning, the airport environment risen up out of the gray exactly where the promise had said it would be.

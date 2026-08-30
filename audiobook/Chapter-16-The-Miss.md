@@ -36,6 +36,10 @@ The dress was the color of a night sea, and Theo Marsh — who had watched this 
 
 She crossed to him through the crowd with her captain's walk, took one of the glasses he'd forgotten he was holding, and said, deadpan, by way of hello: "You're gaping, Marsh. Close the cowl flaps."
 
+"You're carrying contraband," he countered, because his powers of observation had survived even the dress: a cocktail napkin in her other hand, folded with flight-bag precision around what was unmistakably a cached supply of the little crab things from the passed trays. "The dress has no pockets, and you've established a forward operating base anyway. I've never been prouder."
+
+"The trays only come around every eleven minutes and the toast could run long. This is fuel planning." She ate one, unrepentant, magnificent. "Destination, alternate, and forty-five minutes of canapés. Don't teach it to the students; they're not ready."
+
 "You look—" he attempted.
 
 "Careful."
