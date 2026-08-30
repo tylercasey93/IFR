@@ -4,9 +4,9 @@ A fake-dating-to-real-dating romance set in the modern Part 135 charter world, e
 
 ## Format & voice
 
-- **Length target:** ~14 chapters, 3,500–5,000 words each (≈55–65k words; ≈6–7 hours narrated at 150 wpm).
+- **Length target:** 20 chapters, 3,800–4,800 words each (≈85k words; ≈9–10 hours narrated at 150 wpm).
 - **POV:** Close third person, alternating by chapter — **Wren** (odd chapters) and **Theo** (even chapters). Each chapter opens by naming the POV character in the first line so an audio listener never loses track.
-- **Heat level:** Closed-door / warm. Banter-forward, slow burn, kisses on the page, anything more behind the door. *(Adjustable — see open questions.)*
+- **Heat level:** Warm, mainstream romance. Banter-forward slow burn; two tasteful open-door scenes at the big beats (Ch 13 and Ch 19); fade discreetly rather than explicit.
 - **Tense:** Past.
 - **Audio-friendly rules:** Short scene breaks announced with a beat ("Later, in the FBO lobby—"), no long unattributed dialogue runs, numbers spoken naturally ("ninety-one one eighty-five" for 91.185 on second reference).
 - **Crew Debrief:** Every chapter ends with a 100–200 word in-story recap — one character quizzing the other — that restates the chapter's ACS content plainly. This is the retention engine.
@@ -47,19 +47,25 @@ A fake-dating-to-real-dating romance set in the modern Part 135 charter world, e
 | Ch | POV | Title | ACS content taught | Plot beat |
 |---|---|---|---|---|
 | 1 | Wren | The Currency of Lies | **I.A** Pilot qualifications: 61.57(c) 66-HIT, IPC, logging, BasicMed, proficiency vs. currency, safety pilots | New pairing; Theo's return to the line; the argument Okafor mistakes for a lovers' quarrel |
-| 2 | Theo | Terms and Conditions | **I.B** Weather: briefings, METAR/TAF/GFA, AIRMETs/SIGMETs, icing products, personal minimums, 1-2-3 rule | Griff's proposal; the fake-dating "operating agreement" negotiated over a weather briefing |
-| 3 | Wren | The Alternate | **I.C** XC planning: routes, MEA/MOCA, IFR cruising altitudes, 91.167 fuel, alternates, NOTAMs, filing | First flight as "a couple" — SEA→SFO with a deteriorating destination; Okafor's interrogation |
-| 4 | Theo | Known Icing | **II.A** Systems: anti-ice/deice, FIKI, pitot heat, AFCS | Cascades icing encounter; first crack in Wren's armor; hand-holding for the client, feelings noted |
-| 5 | Wren | Squawks | **II.B/II.C** Instruments & nav equipment, VOR check, GRABCARD, ARROW/AV1ATE, 91.213 inop equipment | A failed #2 nav before an Okafor leg: fly or scrub; Theo backs Wren's no against Griff |
-| 6 | Theo | Cleared as Filed | **III.A** Clearances: CRAFT, readback/hearback, void times, PIC emergency authority | Void-time scramble at a non-towered strip; first almost-kiss interrupted by clearance delivery |
+| 2 | Theo | Terms and Conditions | **I.B** Weather: briefing sources, METAR/TAF/GFA, AIRMETs/SIGMETs, PIREPs, FIS-B limits, personal minimums | Griff's proposal; the fake-dating "operating agreement" negotiated over a weather briefing |
+| 3 | Wren | The Alternate | **I.C** XC planning: routes, MEA/MOCA, IFR cruising altitudes, 91.167 fuel, 91.169 alternates & 1-2-3, NOTAMs, filing | First flight as "a couple" — SEA→SFO with a deteriorating destination; Okafor's interrogation |
+| 4 | Theo | Known Icing | **II.A** Systems: anti-ice vs. deice, FIKI, pitot heat, boots, AFCS use in IMC | Cascades icing encounter; first crack in Wren's armor; hand-holding for the client, feelings noted |
+| 5 | Wren | Squawks | **II.B/II.C** Instruments & nav equipment, VOR check (91.171), GRABCARD, ARROW/AV1ATE, 91.213 inop equipment | A failed #2 nav before an Okafor leg: fly or scrub; Theo backs Wren's no against Griff |
+| 6 | Theo | Void Time | **III.A** Clearances: CRAFT, readback/hearback, void times, similar call signs, PIC emergency authority | Void-time scramble at a non-towered strip; first almost-kiss interrupted by clearance delivery |
 | 7 | Wren | Holding Pattern | **III.B** Holding: entries, EFC, speeds, leg lengths, report entering/leaving, min fuel | Holding over Portland while Okafor plays matchmaker; "we're in a holding pattern, aren't we" conversation |
-| 8 | Theo | Unusual Attitudes | **IV.A/IV.B** Attitude instrument flying, scan errors, spatial disorientation, unusual attitude recovery | Night turbulence upset (autopilot trip); trust-the-instruments becomes trust-each-other; real first kiss, immediately filed as "for the act" |
-| 9 | Wren | The Arc | **V.A** VOR/GPS orientation, intercepts, DME arcs, RAIM, 91.187 reports | A GPS-out leg flown on green needles; Theo teaches the arc; Wren realizes she's circling him at constant distance on purpose |
-| 10 | Theo | Descend Via | **V.B** DPs/ODPs/SIDs, climb gradients, STARs, mandatory reports | Upgrade training leg; Sam Marsh meets Wren; "descend via" = letting someone bring you down easy |
-| 11 | Wren | Decision Altitude | **VI.A/VI.B** Approaches: ILS/LPV, DA vs MDA, 91.175(c) visual references, stabilized approach | ILS to minimums at Medford; at DA she sees the lights; that night she almost tells him it's real |
-| 12 | Theo | The Miss | **VI.C/VI.D/VI.E** Missed approach, circling, landing from an approach | The contract's end date lands; misunderstanding at Okafor's gala (he hears "it was always an act"); goes around emotionally — no turns before the MAP |
-| 13 | Wren | Lost Comms | **VII.A + VII.D** 91.185 AVE-F/MEA, 7600, partial panel, 91.187 | Not speaking; then a real emergency — vacuum/display failure in IMC with comms trouble — they fly the profile they briefed, land, and say the quiet things |
-| 14 | Theo | Cleared Direct | **VIII.A** Postflight, squawk documentation + full-arc recap | Debrief culture as love language; Okafor reveals she knew; real first date; epilogue checkride pass & upgrade — "cleared direct" |
+| 8 | Theo | Unusual Attitudes | **IV.A/IV.B** Attitude instrument flying, control/performance & primary/supporting, scan errors, spatial disorientation, upset recovery | Night turbulence upset (autopilot trip); trust-the-instruments becomes trust-each-other; real first kiss, immediately filed as "for the act" |
+| 9 | Wren | The Arc | **V.A** VOR/GPS orientation, tune-identify, intercepts, tracking, DME arcs, RAIM, 91.187/5-3-3 reports | A GPS-interference leg flown on green needles; Theo teaches the arc; Wren realizes she's circling him at constant distance on purpose |
+| 10 | Theo | Climb Gradient | **V.B** ODPs vs. SIDs, climb gradients, DVA, STARs & descend-via, mandatory reports; **I.A reprise** (BasicMed via Sam) | Upgrade training leg; Wren meets Sam Marsh; "descend via" = letting someone bring you down easy |
+| 11 | Wren | Stabilized | **VI.A** Non-precision approaches: MDA, VDP, CDFA, stabilized approach, adjusting minimums | Coastal-fog LNAV into Santa Barbara; a rival for Wren's attention makes Theo honest with himself |
+| 12 | Theo | Decision Altitude | **VI.B** Precision: ILS/LPV, DA vs. MDA, 91.175(c) visual references, 100-ft ALS rule | ILS to minimums at Medford; at DA the lights appear; near-confession that night |
+| 13 | Wren | Diversion | **I.B/III.B reprise** divert decision-making, holds for real, min fuel declaration | Snowed-in diversion overnight — one room at the inn; first open-door scene; morning-after renegotiation of the agreement |
+| 14 | Theo | The Oral | **Second pass, Areas I–III + VII.B/C**: mock upgrade oral with Voss; sim session incl. OEI (engine-out) instrument approach | Rapid-fire exam banter; Voss clocks the romance; Theo realizes mid-answer he's in love |
+| 15 | Wren | Circling | **VI.D/VI.E** Circling approaches, categories, protected areas, circling miss, landing illusions | Night-circling personal-minimums debate; Wren decides to confess; contract renewal complicates everything |
+| 16 | Theo | The Miss | **VI.C** Missed approach: 91.175(e), early miss lateral-track rule, climb gradients | Okafor's gala; he overhears "it was always an act" out of context and goes missed — invoking the no-questions clause |
+| 17 | Wren | Lost Comms | **VII.A** 91.185 route (AVE-F) & altitude (MEA), 7600, when to begin the approach — as the breakup metaphor | Not speaking; both "fly the route they were assigned"; Priya and Okafor run interference; one last trip pairs them |
+| 18 | Theo | Partial Panel | **VII.D + VII.A for real**: display/AHRS failure in IMC, standby instruments, comm loss, 91.187, no-gyro techniques | The crucible flight; they fly the profile they drilled in Ch 14; confessions on the ground |
+| 19 | Wren | Squawk Sheet | **VIII.A** Postflight inspection, discrepancy documentation, 91.405/91.417 | Debrief-as-love-language; Okafor reveals she always knew; real first date; second open-door scene |
+| 20 | Theo | Cleared Direct | **Full-arc recap** via Theo's upgrade checkride vignette + Sam's BasicMed payoff flight | Spring; type-ride/upgrade passed; Sam flies the Bonanza to Friday Harbor; "cleared direct" epilogue |
 
 ## Continuity ledger (update as chapters are written)
 
