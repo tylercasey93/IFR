@@ -17,6 +17,12 @@
 6. **Both start the series casually seeing other people.** Two adults with functioning, deliberately low-stakes arrangements that the cover (and then the mission, and then the feelings) squeezes out of their lives on-page.
 7. **Jack is bisexual; Wren is straight.** Jack's bisexuality is matter-of-fact — texture, not plotline. (One thematic beat reserved: when BRIDGEBELL's legend-builders draft his cover biography "simpler" — straight — Jack pushes back and wins, on Okafor's own doctrine: the best covers are true.)
 
+## v4 decisions (locked by author — Book 3 architecture)
+
+8. **Elliot Kang approved** as the Book 3 traitor, exactly as designed (the brother in Vladivostok; the saddest unmasking, not the most hateful).
+9. **Diane Hale stays in Alaska** — still in the Ketchikan house above the harbor. The mother-daughter distance is emotional, not geographic; Book 3's thaw is a landing, not a phone call.
+10. **Danny Ruiz returns in Book 3, working for the Russians as the mole's handler.** The network recruited the disgraced captain in 2025; he runs Kang as the local cut-out, authors the misdirection that aims the mole-hunt at Wren (he wrote the original Cascade lie and knows which of her file entries read two ways), and lends the sabotage its insider knowledge of 135 maintenance culture. He and Verin never meet on the page. His end is an interview, not a gunfight — Wren's satisfaction is diagnosis, not vengeance.
+
 ---
 
 ## 1. The elevator pitch
@@ -64,7 +70,7 @@ Tone: Tom Clancy with more aviation and romance — procedural authenticity, pro
 ### Opposition (build slowly)
 - **Book 1:** no villain on-stage. Background static only: someone else is also watching Meridian (a second buyer probing Griff's debts; a "journalist" asking about Wren's Cascade history; Jax's fractional sniffing around the G550's owner trust).
 - **Book 2:** the static resolves into **Pacific Corporate Air** — not evil itself, but its charter arm has been quietly bought by a logistics network fronting for a hostile service's West Coast collection effort. Jax isn't a spy; he's a useful idiot with a leased conscience, which is worse.
-- **Book 3:** the network's professionals arrive. The Draft One electrical-cascade emergency returns **as sabotage**. The gala misunderstanding returns spy-grade (§7, Book 3).
+- **Book 3:** the network's professionals arrive — and its local contractor gets a face: **Danny Ruiz**, recruited 2025, now running the Kang channel for Verin's directorate. The Draft One electrical-cascade emergency returns **as sabotage** designed on Ruiz's insider knowledge. The gala misunderstanding returns spy-grade (§7, Book 3).
 
 ### Rules for the spy content (tone guardrails — Clancy calibration)
 - **Competence is the aesthetic.** Procedure rendered lovingly and accurately — flight planning, customs, tradecraft, opposition surveillance — the way Clancy renders sonar rooms. The thriller engine is professionals doing hard things correctly under pressure, not chaos.
@@ -154,7 +160,7 @@ Romance throttle (the contract, v3): **three lines, one per book.**
 
 ### Book 3 — *LOST COMMS* (cannibalizes Ch 14–20 set pieces, spy-grade)
 - **ACS load:** Areas VII and VIII (lost comm, partial panel, emergencies, postflight) + full-series capstone review.
-- **Plot:** together and operational — and compartmentalization starts doing to them what lies do to everyone else. The mole hunt puts Wren under quiet suspicion (her Cascade file reads two ways). The gala returns as an operational party where Jack overhears Wren being debriefed out of context and believes the one unbearable thing: *that the relationship was tasked* — Clause Four, "going missed," spy edition. Eleven days of silence in which both keep flying the mission anyway. The sabotage flight (the electrical cascade, now enemy action) forces them back into one cockpit; they fly the partial-panel emergency as the crew they never stopped being; the truth lands on the ramp. Endgame: the network rolled up, the mole was never Wren (proposed: it's nobody — it's Jax's blown gossip, the banal explanation, very Evanovich), Okafor's program survives, and the crew sets terms: no secrets *between* them, ever again, whatever the clearance.
+- **Plot:** together and operational — and compartmentalization starts doing to them what lies do to everyone else. The mole hunt puts Wren under quiet suspicion — and the suspicion is *engineered*: the network's feed is authored by Danny Ruiz, who wrote the first lie about her at Cascade and knows precisely which entries in her file read two ways (her Book 1 manifest signature is his suggestion). The traitor is Elliot Kang, run by Ruiz, levered by a brother in a Vladivostok cell. The gala returns as an operational party where Jack overhears Wren being debriefed out of context and believes the one unbearable thing: *that the relationship was tasked* — Clause Four, "going missed," spy edition. Eleven days of silence in which both keep flying the mission anyway. The sabotage flight (the electrical cascade, now enemy action) forces them back into one cockpit; they fly the partial-panel emergency as the crew they never stopped being; the truth lands on the ramp. Endgame: the network rolled up; Kang unmasked in Book 3's saddest scene and surrendered through the crew; Ruiz taken not in a gunfight but in the paperwork, with Wren granted fifteen minutes across a federal table to discover how *small* he always was; Okafor's program survives; and the crew sets terms: no secrets *between* them, ever again, whatever the clearance. Jax's blown gossip remains a contributing thread — the useful idiot's role in the misdirection — without being the answer.
 - **Final chapter:** spring; Sam flies the Bonanza to Friday Harbor; the window-seat breakfast; the on-one-knee, plain-words proposal (already written, already human — it moves here nearly verbatim); "Yes. Obviously, yes."
 
 ---
@@ -176,5 +182,5 @@ Still open — react to any or all:
 3. **Mara** — the daughter raises stakes and warmth (and gives Wren a Book 1 relationship that isn't Jack). Keep or cut?
 4. **Book 1 title** — *Winter Harbor* (working). Alternatives on request; *Cleared as Filed* could move to series title or Book 3.
 5. **Priya** — witting in Book 3 (recommended), earlier, or never?
-6. **Mole resolution (Book 3)** — banal explanation via Jax's blown gossip (warmer, ironic) vs. a real traitor inside BRIDGEBELL (colder, more Clancy). With the new tone dial, a real traitor is now on the table — my updated recommendation is a **real but sympathetic** one: someone protecting a relative the opposition holds. Verdict?
-7. **The kiss** — Book 1's single denied kiss now lands on the ramp mid-mission (Act III). Keep there, or return it to the quiet hangar post-upset placement?
+
+*Resolved since v2: mole = Elliot Kang (real, sympathetic), handled by Danny Ruiz for the network; the kiss question is superseded by the v3 romance architecture (the night ends Book 1).*
