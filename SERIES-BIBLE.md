@@ -28,6 +28,11 @@
 18. **Sorokina, Mara, and Verin approved as drafted** (one-line sign-off).
 19. **First person, chronological, Clancy-paced.** Chapters are written in first person, one POV per chapter, marked at the chapter head. The rotation is **Jack (odd chapters) / Cole (even chapters)** so the reader always holds both interiors of the slow burn; Wren may take an occasional chapter in Books 2–3 when the crew splits. Chapters continue chronologically — a running mission clock once the op is live, no structural time-jumps; backstory arrives only as memory or dialogue inside a moving scene. The Clancy inheritance is momentum and procedure: every chapter advances the clock, and the narrator walks the reader through the work (the briefing, the paperwork, the approach) with a professional's eye — the teaching rides inside that narration instead of beside it.
 
+## v8 decisions (locked by author — four narrators, author in the loop)
+
+20. **Wren and Okafor narrate from the beginning** — not on a rotation, and less often than the leads: Wren takes three chapters of Book 1 and Okafor two, placed wherever the story can only move forward from their seat (the thriller thread the pilots can't see; the assessment they don't know they're taking; the two moments someone has to watch these men from outside). Jack and Cole still carry sixteen of twenty-one.
+21. **Execution runs with the author in the loop, several checkpoints per chapter** — pre-draft choices, a first-movement check, the mid-chapter fork, then the delivered draft. Decisions are logged here so nothing is re-litigated.
+
 ## v6 decisions (locked by author)
 
 16. **Ruiz was Cole's ex — confirmed.** Cascade's smear ("the bitter ex with a grudge") was Ruiz's own authorship, deployed exactly once; Book 3's misdirection is him finishing the job.
