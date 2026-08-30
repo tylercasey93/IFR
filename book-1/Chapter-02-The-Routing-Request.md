@@ -262,7 +262,11 @@ I sat at the desk with the trip file and started her report.
 
 Behind me the shower ran and quit. He came out with a towel around his hips and another one going at his hair, and stood in the middle of the room reading something on his phone with steam coming off his shoulders, entirely unbothered, the way you are unbothered in a room with somebody you've flown a hundred and forty nights with.
 
-He is built like a man who does something serious three times a week and never mentions it. There is a mark on his ribs on the left side, a pale seam about two inches long, from a bicycle and a curb and a summer when he was nine, and I know that because he told me the story in a van in Elko, and I know exactly where it is, which is a different kind of knowing and I am aware of the difference.
+He is built like a man who does something serious three or four times a week and has never once brought it up. Not big — long. Swimmer's shoulders that taper down hard into a back with actual architecture in it, the muscle laid on in flat planes instead of blocks, so it only really shows when he moves. Which he did, reaching up to towel the back of his head, and everything down his side went tight and then let go, and a line of water came off his hair and ran the length of his spine, and I watched the whole trip it took.
+
+Chest and stomach the same story — nothing showy, just no margin anywhere, the flat cut of his hips disappearing into a hotel towel he had knotted with about as much conviction as a man ties a shoelace. Forearms he gets from nothing I have ever identified. There is a mark on his ribs on the left side, a pale seam about two inches long, from a bicycle and a curb and a summer when he was nine, and I know that because he told me the story in a van in Elko, and I know exactly where it is, which is a different kind of knowing and I am aware of the difference.
+
+I looked at him for about two seconds, which is one and a half more than the situation required, and then I looked at my screen and read the same sentence four times.
 
 "Bishop."
 
