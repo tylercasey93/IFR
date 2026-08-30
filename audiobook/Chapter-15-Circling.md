@@ -74,6 +74,34 @@ Priya was quiet for a second. "She might laugh. She might also feel like a fool 
 
 ---
 
+Thursday after the schedule closed, Priya drove them both to a consignment shop in Georgetown that she described as "where good dresses go to get a second career," on the grounds that Wren's one dress had now been photographed twice and Adaeze Okafor's gala operated, sartorially speaking, in RVSM airspace.
+
+Wren tried on four dresses with the enthusiasm of a woman clearing customs. The fifth was the color of a night sea, and when she came out of the fitting room Priya put down her phone, which had never once happened in the history of their friendship.
+
+"Okay," Priya said. "That one. That one is a TFR. Nobody's getting through that without authorization."
+
+Wren looked at herself in the three-way mirror — turned once, checking the lines the way she checked control surfaces — and the strange thing, the thing she'd remember, was that the woman in the glass looked *lit from somewhere*, and it wasn't the shop's fluorescents doing it.
+
+"He's going to make a scene," she said, to the mirror, trying the thought on with the dress. "You know that. He'll see it and he'll say something ridiculous in front of two hundred people, and I'll have to pretend it's part of the act, and it isn't." She smoothed the fabric down, one pass, spine straight. "None of it's the act, Priya. I keep waiting to mind."
+
+"And?"
+
+"And I don't mind." Wren met her own eyes in the mirror and said it plainly, the way she'd have read back a clearance, because some things you should hear yourself transmit at least once: "I'm happy. Certifiably. Log it — Thursday, eighteen-forty local, W. Hale reported happy, unable to determine cause."
+
+"Oh, we can determine the cause," said Priya, already back on her phone, photographing the dress tag for the budget. "The cause is six-one and files continuation training plans for fun. You're buying the dress."
+
+"It's not in the—"
+
+"You're *buying the dress*, Wren. Saturday's a big night. Toast, confession weekend after, whole life starting — " Priya waved a hand at the general future, breezy as a terminal forecast, unaware, as forecasts are, of what was actually inbound. "Wear the good armor."
+
+Wren bought the dress. It rode home in the crew car's garment hook next to her flight jacket, silk and Cordura, the two uniforms of the whole strange season, and she caught herself smiling at them together at a red light like an absolute civilian.
+
+*Happy,* she thought. *Filed and logged.*
+
+She would think about that log entry many times in the week that followed, the way you think about the last routine radio call before the frequency goes quiet.
+
+---
+
 The debrief that closed the chapter of the week happened at the hangar Friday evening, the two of them under the wing in the yellow light with the gala one sleep away — Theo in a garment bag's custody dispute with a tuxedo, Wren with her dress hanging in the crew car like a co-conspirator.
 
 "Circling," she said. "Final recital before we go pretend to be fancy."

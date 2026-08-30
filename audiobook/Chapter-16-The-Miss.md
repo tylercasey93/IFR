@@ -28,7 +28,29 @@ The Rainier Club wore its hundred and thirty years the way Okafor wore silk: str
 
 Theo arrived late and alone — the tuxedo had required a second opinion from Sam, who had straightened the tie one-handed and said, gruffly, *"Your mother would have taken a hundred pictures,"* which had cost them both a minute — and by the time he'd surrendered his coat, the room was full and Wren was nowhere in it.
 
-She'd been strange since Friday. Not cold — *loaded*. He knew her instruments by now: the extra half-second before answers, the pending-folder look, a transmission drafted and held. At the hangar she'd said *adequate, plus* and almost said something else, and he'd let it go, because they had Saturday morning, and then Saturday morning had dissolved into guest shuttles and there'd been no briefing slot at all, and now he was holding two glasses of champagne in a room full of strangers, looking for his captain.
+She'd been strange since Friday. Not cold — *loaded*. He knew her instruments by now: the extra half-second before answers, the pending-folder look, a transmission drafted and held. At the hangar she'd said *adequate, plus* and almost said something else, and he'd let it go, because they had Saturday morning, and then Saturday morning had dissolved into guest shuttles and there'd been no briefing slot at all.
+
+And then the crowd shifted near the quartet, and there she was.
+
+The dress was the color of a night sea, and Theo Marsh — who had watched this woman de-ice a King Air at six a.m. in a parka the approximate shape of a fuel bladder, and had found *that* distracting — stood in a ballroom full of the West Coast's better wardrobes and forgot, briefly and completely, the location of his hands.
+
+She crossed to him through the crowd with her captain's walk, took one of the glasses he'd forgotten he was holding, and said, deadpan, by way of hello: "You're gaping, Marsh. Close the cowl flaps."
+
+"You look—" he attempted.
+
+"Careful."
+
+"—*airworthy*," Theo said, with feeling, "in an unlimited category," and had the enormous satisfaction of watching Wren Hale, decorated survivor of Alaska and Cascade and every interrogation Adaeze Okafor had ever mounted, go faintly pink above the neckline of the night sea.
+
+The quartet, which took its cues from Okafor, chose that moment to begin something slow. And because the room was watching — because the room was *always* watching, that was the job — she set down her glass and held out her hand, and said the thing she'd have said on any flight deck: "Well. We're on the schedule."
+
+They danced. He would keep that dance a long time — the way she followed the first two bars stiffly, auditing the choreography, and then stopped auditing; the way her hand settled at his collar exactly where it had landed in a hangar in October; the ridiculous rightness of holding her in a room full of chandeliers while Okafor beamed from the head table like a woman watching her own horse win. Halfway through, Wren looked up at him with something balanced on the edge of her expression — the pending folder, opening — and said, "After the toast tonight. There's something I need to — there's a briefing I owe you. Both of us, somewhere quiet."
+
+"Good briefing or bad briefing?"
+
+"Necessary briefing," she said, which from her was a whole weather product, and before he could file for further clearance the song ended, and Okafor's assistant materialized to reclaim the captain for photographs, and the room swallowed her — one flash of night-sea silk between dinner jackets — and Theo went to find champagne, unreasonably happy, thinking: *after the toast.*
+
+He would spend a long time, afterward, doing the arithmetic on that. If the photographs had run two minutes shorter. If he'd carried the glasses a different route. If the pending folder had opened on the dance floor instead of in a lamplit annex with the wrong man in it. The links of an accident chain, he'd taught a hundred students, are individually featherweight, and every one of them holds.
 
 "The crew's other half!" An investor he half-recognized caught his elbow. "Your better half's in the library annex, I think — the Pacific Corporate fellow swept her off for shop talk. Pilots, at a party! Incorrigible."
 
@@ -74,9 +96,19 @@ He watched it hit — watched her whole panel light up at once, confusion, disbe
 
 "You built the exit for a reason," he said. "You were right. It's a good procedure." He set his glass on the tray of a passing waiter, precise as a checklist item. "Tell Ms. Okafor I felt unwell. It'll even be true."
 
-And Theo Marsh walked out of the Rainier Club into the December rain — not running, never running, the weather a colleague to the last — got into the blue Subaru with the mismatched fender, and drove north through the streaming dark with the radio off.
+And Theo Marsh walked out of the Rainier Club into the December rain — not running, never running, the weather a colleague to the last — got into the blue Subaru with the mismatched fender, and drove through the streaming dark with the radio off.
 
 Both radios. All frequencies.
+
+He didn't go home. He drove on autopilot, and the autopilot — knowing better than the pilot, as it sometimes does — delivered him to Des Moines, to a porch light his father never turned off, and Sam Marsh opened the door at half past midnight to find his son standing in the rain in a tuxedo with his tie in his fist.
+
+"What happened?"
+
+"Clause Four," Theo said.
+
+Sam looked at him for a long moment — at the rain, the tie, the face doing its mother's trick of flying level through weather it had no business in. "I don't know what the hell a Clause Four is," he said at last, stepping back from the door, "but I know a diversion when one lands in my driveway. Get in here. I'll make the bad coffee." And he asked nothing else — not that night, and Theo would understand later that his father, forty years married and eighteen months rebuilt, had simply recognized the procedure: when an airplane arrives silent, you don't demand the story on the ramp.
+
+You keep the lights on, and you get them warm.
 
 Somewhere behind him, in a ballroom under chandeliers, the woman he loved stood perfectly still amid two hundred people with a clause in her chest like a knife she'd sharpened herself — required to fly the lateral track, forbidden to turn toward him before the MAP, holding, with no EFC, in the oldest procedure either of them knew:
 

@@ -11,28 +11,28 @@ Every chapter teaches one area of the ACS through the flying itself, and ends wi
 | # | Chapter | POV | ACS content | ~Words |
 |---|---|---|---|---|
 | — | [Story Bible](00-Story-Bible.md) | — | (production notes — not for narration) | — |
-| 1 | [The Currency of Lies](Chapter-01-The-Currency-of-Lies.md) | Wren | I.A — currency (66-HIT), IPC, logging, safety pilots, BasicMed | 3.0k |
-| 2 | [Terms and Conditions](Chapter-02-Terms-and-Conditions.md) | Theo | I.B — briefings, TAF/TEMPO, AIRMETs, SIGMETs, PIREPs, FIS-B, personal minimums | 3.2k |
-| 3 | [The Alternate](Chapter-03-The-Alternate.md) | Wren | I.C — routes, MEA/MOCA, 91.179, 1-2-3 rule, alternate mins, 91.167 fuel, NOTAMs | 2.6k |
-| 4 | [Known Icing](Chapter-04-Known-Icing.md) | Theo | II.A — anti-ice vs deice, FIKI, boots, SLD, autopilot in icing | 2.9k |
-| 5 | [Squawks](Chapter-05-Squawks.md) | Wren | II.B/C — flight deck check, GRABCARD, ARROW, AV1ATE, MEL vs 91.213, VOR check | 2.7k |
-| 6 | [Void Time](Chapter-06-Void-Time.md) | Theo | III.A — CRAFT, void times, one-in-one-out, readback/hearback, 91.3 | 2.7k |
-| 7 | [Holding Pattern](Chapter-07-Holding-Pattern.md) | Wren | III.B — hold clearances, EFC, entries, speeds, wind correction, min fuel | 2.6k |
-| 8 | [Unusual Attitudes](Chapter-08-Unusual-Attitudes.md) | Theo | IV.A/B — scan methods, illusions, upset recovery | 2.4k |
-| 9 | [The Arc](Chapter-09-The-Arc.md) | Wren | V.A — RAIM/interference, VOR work, intercepts, DME arcs, 91.187 | 2.2k |
-| 10 | [Climb Gradient](Chapter-10-Climb-Gradient.md) | Theo | V.B — ODP/SID/DVA, climb gradients, STARs, descend-via; BasicMed payoff | 2.3k |
-| 11 | [Stabilized](Chapter-11-Stabilized.md) | Wren | VI.A — MDA, VDP, CDFA, inop components, stabilized approach | 2.2k |
-| 12 | [Decision Altitude](Chapter-12-Decision-Altitude.md) | Theo | VI.B — ILS, DA, 91.175(c) references, 100-ft ALS rule | 2.2k |
-| 13 | [Diversion](Chapter-13-Diversion.md) | Wren | I.B/III.B reprise — divert doctrine; the arrangement turns real *(open-door scene)* | 2.2k |
-| 14 | [The Oral](Chapter-14-The-Oral.md) | Theo | Second-pass oral + VII.B/C — OEI, Vyse/Vmc, zero sideslip, commit height | 2.5k |
-| 15 | [Circling](Chapter-15-Circling.md) | Wren | VI.D/E — circling categories, protected areas, black hole, personal minimums | 2.0k |
-| 16 | [The Miss](Chapter-16-The-Miss.md) | Theo | VI.C — go-around vs published miss, early-miss rule; the misunderstanding | 1.9k |
-| 17 | [Lost Comms](Chapter-17-Lost-Comms.md) | Wren | VII.A — 7600, AVEF, highest-of-three, when to begin the approach | 2.3k |
-| 18 | [Partial Panel](Chapter-18-Partial-Panel.md) | Theo | VII.D + VII.A — electrical cascade, standby instruments, timed/compass turns, blind transmissions | 2.4k |
-| 19 | [Squawk Sheet](Chapter-19-Squawk-Sheet.md) | Wren | VIII.A — postflight, discrepancies, 91.405/417, ASRS *(open-door scene)* | 1.9k |
+| 1 | [The Currency of Lies](Chapter-01-The-Currency-of-Lies.md) | Wren | I.A — currency (66-HIT), IPC, logging, safety pilots, BasicMed | 3.5k |
+| 2 | [Terms and Conditions](Chapter-02-Terms-and-Conditions.md) | Theo | I.B — briefings, TAF/TEMPO, AIRMETs, SIGMETs, PIREPs, FIS-B, personal minimums | 4.4k |
+| 3 | [The Alternate](Chapter-03-The-Alternate.md) | Wren | I.C — routes, MEA/MOCA, 91.179, 1-2-3 rule, alternate mins, 91.167 fuel, NOTAMs | 3.4k |
+| 4 | [Known Icing](Chapter-04-Known-Icing.md) | Theo | II.A — anti-ice vs deice, FIKI, boots, SLD, autopilot in icing | 3.5k |
+| 5 | [Squawks](Chapter-05-Squawks.md) | Wren | II.B/C — flight deck check, GRABCARD, ARROW, AV1ATE, MEL vs 91.213, VOR check | 3.0k |
+| 6 | [Void Time](Chapter-06-Void-Time.md) | Theo | III.A — CRAFT, void times, one-in-one-out, readback/hearback, 91.3 | 3.1k |
+| 7 | [Holding Pattern](Chapter-07-Holding-Pattern.md) | Wren | III.B — hold clearances, EFC, entries, speeds, wind correction, min fuel | 3.1k |
+| 8 | [Unusual Attitudes](Chapter-08-Unusual-Attitudes.md) | Theo | IV.A/B — scan methods, illusions, upset recovery | 2.7k |
+| 9 | [The Arc](Chapter-09-The-Arc.md) | Wren | V.A — RAIM/interference, VOR work, intercepts, DME arcs, 91.187 | 2.7k |
+| 10 | [Climb Gradient](Chapter-10-Climb-Gradient.md) | Theo | V.B — ODP/SID/DVA, climb gradients, STARs, descend-via; BasicMed payoff | 2.9k |
+| 11 | [Stabilized](Chapter-11-Stabilized.md) | Wren | VI.A — MDA, VDP, CDFA, inop components, stabilized approach | 2.7k |
+| 12 | [Decision Altitude](Chapter-12-Decision-Altitude.md) | Theo | VI.B — ILS, DA, 91.175(c) references, 100-ft ALS rule | 2.7k |
+| 13 | [Diversion](Chapter-13-Diversion.md) | Wren | I.B/III.B reprise — divert doctrine; the arrangement turns real *(open-door scene)* | 2.6k |
+| 14 | [The Oral](Chapter-14-The-Oral.md) | Theo | Second-pass oral + VII.B/C — OEI, Vyse/Vmc, zero sideslip, commit height | 2.7k |
+| 15 | [Circling](Chapter-15-Circling.md) | Wren | VI.D/E — circling categories, protected areas, black hole, personal minimums | 2.4k |
+| 16 | [The Miss](Chapter-16-The-Miss.md) | Theo | VI.C — go-around vs published miss, early-miss rule; the misunderstanding | 2.5k |
+| 17 | [Lost Comms](Chapter-17-Lost-Comms.md) | Wren | VII.A — 7600, AVEF, highest-of-three, when to begin the approach | 2.8k |
+| 18 | [Partial Panel](Chapter-18-Partial-Panel.md) | Theo | VII.D + VII.A — electrical cascade, standby instruments, timed/compass turns, blind transmissions | 2.5k |
+| 19 | [Squawk Sheet](Chapter-19-Squawk-Sheet.md) | Wren | VIII.A — postflight, discrepancies, 91.405/417, ASRS *(open-door scene)* | 2.5k |
 | 20 | [Cleared Direct](Chapter-20-Cleared-Direct.md) | Theo | Full-arc recap via upgrade checkride; epilogue | 2.2k |
 
-Total ≈ **48,000 words** ≈ **5½ hours** narrated at a typical 150 wpm audiobook pace.
+Total ≈ **58,000 words** ≈ **6½ hours** narrated at a typical 150 wpm audiobook pace. Tone: sparring-forward slow burn in the tradition of Evanovich & Goldberg's Fox and O'Hare pairing — her exasperated competence, his delighted charm, feelings rationed out grudgingly across the season.
 
 ## Producing the audio (narration-ready workflow)
 

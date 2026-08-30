@@ -28,7 +28,19 @@ Wren and Theo looked at each other.
 
 ---
 
-The summons to tea arrived Friday, on cream cardstock, by courier, because Adaeze Okafor did not text.
+The contactor got its trophy ceremony Friday afternoon, because Priya decided the company needed one and Priya's decisions had the force of NOTAMs.
+
+Manny had mounted the scorched little villain on a walnut plaque from the hobby store, with a brass plate engraved SQUAWK OF THE YEAR — N135MA — "IT PICKED THAT MORNING," and the whole population of Meridian Air Charter gathered in the hangar under the wing to unveil it: Griff, misty before anyone had said a word; Priya with grocery-store cake; Manny's kid, released from homework for the occasion; Voss, who had "happened to be on the field" in the manner of a man who had driven forty minutes to happen to be there; and Sam, who had demanded attendance rights on the grounds that half the crew was his kid and the other half had a standing ride reservation in his airplane.
+
+Griff gave a speech. It was terrible and everyone loved it — it began with the fuel vendor putting them on cash-on-delivery in October and ended, by a route nobody could reconstruct, with Ellen's insurance money and the phrase "the safest place it's ever been," at which point he had to stop and study the ceiling for a while, and Wren, who had said those words to him in a doorway in the fall, found the ceiling extremely interesting herself.
+
+Then Manny hung the plaque on the tool crib wall, between the airworthiness posters, and Voss clicked his pen twice at it, and Priya cut the cake with a fuel-sampler she'd washed for the purpose, and Theo — standing at the edge of it with cake on a paper plate and his arm warm against Wren's shoulder in front of everybody, the copies all updated now, nothing left to hide from anyone — leaned down and said, quietly, just for the crew: "For the record, Captain. Best outfit I never planned to end up at."
+
+"Cleared as filed," Wren said, with her mouth full of grocery cake, and it was somehow the most romantic thing either of them had managed all week.
+
+---
+
+The summons to tea arrived Friday evening, on cream cardstock, by courier, because Adaeze Okafor did not text.
 
 She received them in the Fairmont suite with the pot already steaming, and she let Wren get exactly one sentence into the season-end gratitude speech before raising one hand, pouring three cups, and saying, serenely:
 
@@ -44,7 +56,7 @@ The suite went very quiet.
 
 "You let us lie to you for a season," Theo said, wondering.
 
-"I let you *think* you were lying to me, dear, which is a different transaction entirely — I was never deceived, so no harm ever reached me; the only people your performance fooled were the performers." She refilled his cup. "And when the captain sat where you are sitting and told me the truth unprompted, with her company's whole contract on the table — that, children, is when I signed the *next* three years. Which my assistant will send to Marcus on Monday, and which specifies — in calligraphy, if I can manage it — *the current crew*." She raised her teacup. "To Meridian. To honest instruments. And to my aviators — who are, at last, exactly what it said on the invitation."
+"I let you *think* you were lying to me, dear, which is a different transaction entirely — I was never deceived, so no harm ever reached me; the only people your performance fooled were the performers." She refilled his cup. "And while we are settling accounts: you may be interested to know that Pacific Corporate Air no longer flies for the Ellison group, the Marchetti family, or my lodge consortium. It seems a certain silver-templed captain was heard at *my* gala, in *my* club, retailing a private matter about *my* crew as cocktail entertainment. I made no decisions before tea, naturally. After tea I made several, and then I made some telephone calls, and this coast's aviation market is a small pond with a long memory." For one instant the warm brown eyes showed the entire executive underneath, and both pilots made a silent note never, ever, to be on the other side of that ledger. "Nobody quotes my aviators out of context twice. Now — where was I." "And when the captain sat where you are sitting and told me the truth unprompted, with her company's whole contract on the table — that, children, is when I signed the *next* three years. Which my assistant will send to Marcus on Monday, and which specifies — in calligraphy, if I can manage it — *the current crew*." She raised her teacup. "To Meridian. To honest instruments. And to my aviators — who are, at last, exactly what it said on the invitation."
 
 ---
 
