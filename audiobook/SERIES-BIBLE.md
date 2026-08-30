@@ -1,8 +1,14 @@
-# THE MERIDIAN FILES — Series Bible (Working Draft v1)
+# THE MERIDIAN FILES — Series Bible (Working Draft v2)
 
-*A three-book slow-burn romance / spy series set in the Part 135 charter world, engineered so every chapter still teaches the Instrument Rating ACS. Supersedes the single-book plan in [00-Story-Bible.md](00-Story-Bible.md) — that document remains the record of Draft One.*
+*A three-book slow-burn romance / aviation-thriller series set in the Part 135 charter world, engineered so every chapter still teaches the Instrument Rating ACS. Supersedes the single-book plan in [00-Story-Bible.md](00-Story-Bible.md) — that document remains the record of Draft One.*
 
 **Status: PLANNING. No chapters are rewritten until this bible is approved.**
+
+## v2 decisions (locked by author)
+
+1. **He is Jack Marsh.**
+2. **The mask comes off early in Book 1** — no season-long assessment mystery. Okafor reveals herself because she *needs* them: a CIA asset — a person — has to be smuggled back into the United States, and a charter Gulfstream with a clean history and a trustworthy crew is the way home. Book 1 is the exfiltration.
+3. **Tone: Tom Clancy with more aviation and romance.** Procedural techno-thriller authenticity — competent professionals, real tradecraft, a named adversary service, stakes with weight — carried by the flying and the slow burn. The Fox/O'Hare banter survives as the crew's pressure valve, not as the genre. (This supersedes v1's "capers, not carnage" dial.)
 
 ---
 
@@ -10,7 +16,7 @@
 
 A broke Seattle charter outfit's captain and first officer fake a relationship to keep the client who keeps the company alive — not knowing the client is a semi-retired CIA officer who has been auditioning them for eighteen months, and that "the couple" is exactly the cover legend she needs. Three books: the lie becomes a cover, the cover becomes a job, and the job nearly destroys the one thing that was never fake. They get engaged on the last pages of Book Three, and not one minute sooner.
 
-Tone: Evanovich/Goldberg Fox-and-O'Hare — capers with stakes, banter under fire, her exasperated competence against his delighted charm — over a spine of real instrument flying that quietly teaches the ACS.
+Tone: Tom Clancy with more aviation and romance — procedural authenticity, professional adversaries, danger with weight — while the crew's Fox-and-O'Hare chemistry (her exasperated competence, his delighted charm) supplies the heart and the pressure-valve humor. Underneath it all: a spine of real instrument flying that quietly teaches the ACS.
 
 ---
 
@@ -19,11 +25,13 @@ Tone: Evanovich/Goldberg Fox-and-O'Hare — capers with stakes, banter under fir
 | Draft One | Series version | Why |
 |---|---|---|
 | One book, engaged at the end | **Trilogy; engagement ends Book 3** | Room for a true slow burn and an espionage plot that earns its reveals |
-| King Air 350 | **Gulfstream G550** (see §6) | Range = international legs = spy plots; a jet raises every stake |
+| King Air 350 | **Gulfstream G550** (see §6) | Range = international legs = the exfil route; a jet raises every stake |
 | Okafor = hotel magnate matchmaker | **Okafor = hotel magnate AND veteran CIA officer** (cover identities are best when real) | The engine of the whole series |
 | Theo's captain-upgrade arc | **Removed** — replaced by the recruitment/tradecraft arc | Per author direction; the agency pipeline is the new professional ladder |
-| The fake-couple demand = whimsy | **Retcon: Okafor seized Griff's panicked lie because she needed a bonded two-person crew with a built-in cover legend** | Book 1 plays as romcom; re-read after the reveal, every scene was also an assessment |
-| Theo Marsh | **First name changing** — options in §5 | Per author direction (surname Marsh can stay so Sam's family stays intact) |
+| The fake-couple demand = whimsy | **Retcon: Okafor seized Griff's panicked lie because she needed a bonded two-person crew with a built-in cover legend** | The couple story is operational cover from the moment she hears it |
+| Theo Marsh | **Jack Marsh** (locked) | Author's pick; surname kept so Sam's family survives verbatim |
+| Slow reveal (Book 1 finale) | **Early reveal (~30% into Book 1): Okafor unmasks because she needs the crew for a live exfiltration** | Author direction; Book 1 becomes a mission novel, not a mystery |
+| Caper tone | **Clancy-calibrated techno-thriller** | Author direction |
 
 **What survives untouched:** Wren Hale entire; Sam Marsh and the BasicMed/Friday Harbor arc; Priya, Griff, Manny, Voss (re-purposed, §4); Chidinma (re-purposed, §4); the operating agreement and its clauses; the coaster ("I'M NOT GOING ANYWHERE"); the shoebox of expired charts; the E6-B; the Crew Debrief teaching ritual; the Fox/O'Hare voice calibration; the flying/romance separation policy (flying is flying, love is spoken plainly).
 
@@ -36,25 +44,40 @@ Tone: Evanovich/Goldberg Fox-and-O'Hare — capers with stakes, banter under fir
 
 ### Why she wants these two
 - **Wren** — the Cascade file. An aviator who reported her own captain's falsified logs, took the industry's punishment for it, and never once told the story to save herself. Integrity under documented pressure: the rarest asset profile there is. Plus freight-dog nerves and total procedural discipline.
-- **[Theo]** — the assessor's dream: a natural teacher who reads people compulsively, improvises legends for *fun* (the cover-story embellishment game is, unknowingly, a tradecraft audition), and walked away from his dream job for family without bitterness. Loyalty with a sense of humor.
+- **Jack** — the assessor's dream: a natural teacher who reads people compulsively, improvises legends for *fun* (the cover-story embellishment game is, unknowingly, a tradecraft audition), and walked away from his dream job for family without bitterness. Loyalty with a sense of humor.
 - **Together** — a crew whose CRM under failure (she engineers small tests all through Book 1) is better than most agency air branch pairs. And a cover — "the couple" — that no surveillance can crack, because by the time anyone checks, it will be true.
 
-### The recruitment ladder (series spine)
-1. **Assessment** (Book 1): Okafor charters oddly — strange routings, "forgotten" packages, a photographer who is not a photographer, the interference-NOTAM day, Chidinma's interrogations. Everything doubles as a test. The reader gets breadcrumbs; the crew gets a season of weirdly specific luck.
-2. **The approach** (Book 1 climax → Book 2): the mask comes off privately after the crew handles a genuine emergency with agency cargo aboard. "You have flown for me all season. Now I will tell you who *me* is."
-3. **Training & first tasks** (Book 2): couriers, surveillance detection routes flown as "scenic diversions," a defector pickup dressed as a lodge charter. Tradecraft lessons braided with the flying lessons — same Crew Debrief ritual, two syllabi.
-4. **The cost** (Book 3): a hostile service, a mole question, sabotage, and the discovery that secrets — even authorized ones — behave exactly like lies inside a relationship.
+### The recruitment ladder (series spine, v2)
+1. **Assessment, compressed** (Book 1, Act I): Okafor has already been watching Meridian for months before page one — the G550 management contract *was* the first move. The fake-couple accident hands her the final piece: a bonded crew with a cover story. She runs only two or three quiet confirmation tests (a no-go call she engineers, one odd routing) before deciding. The reader may clock the tests; the crew doesn't.
+2. **The unmasking** (Book 1, ~30% mark): not a victory lap — a necessity. An asset's exfiltration route has collapsed; the service hunting her is watching airline manifests, borders, and government aircraft. What nobody watches: a scheduled charter full of "lodge investors" on a Part 135 certificate with ten years of boring paperwork. Okafor needs Meridian's Gulfstream and its crew, witting, in nine days. She tells them the truth because the truth is the only way they'll be good enough.
+3. **The mission** (Book 1, Acts II–III): preparation, the outbound legs, the pickup, the run home. Detail-forward, Clancy-style: eAPIS and customs procedure, oceanic clearances, fuel criticality, the opposition's moves — all braided with the ACS teaching, because the mission *is* instrument flying done perfectly under pressure.
+4. **Training & standing tasks** (Book 2): they said yes once; now the Agency wants it formal. Voss's sim syllabus, tradecraft school, courier legs, surveillance-detection routes — and the discovery that the opposition remembers the Gulfstream from Book 1.
+5. **The cost** (Book 3): the mole question, sabotage, and the discovery that secrets — even authorized ones — behave exactly like lies inside a relationship.
 
 ### Opposition (build slowly)
 - **Book 1:** no villain on-stage. Background static only: someone else is also watching Meridian (a second buyer probing Griff's debts; a "journalist" asking about Wren's Cascade history; Jax's fractional sniffing around the G550's owner trust).
 - **Book 2:** the static resolves into **Pacific Corporate Air** — not evil itself, but its charter arm has been quietly bought by a logistics network fronting for a hostile service's West Coast collection effort. Jax isn't a spy; he's a useful idiot with a leased conscience, which is worse.
 - **Book 3:** the network's professionals arrive. The Draft One electrical-cascade emergency returns **as sabotage**. The gala misunderstanding returns spy-grade (§7, Book 3).
 
-### Rules for the spy content (tone guardrails)
-- Capers, not carnage: PG-13 danger; nobody the reader loves does wet work. Closest genre kin: Fox & O'Hare, not le Carré.
-- The tradecraft is as accurate as the flying: real SDR logic, real cover discipline, real "an asset is a person" ethics — taught with the same care as the 1-2-3 rule.
-- The Agency is neither halo nor devil: Okafor is honorable inside a machine that isn't always; that tension powers Book 3.
-- **The romance stays human** (existing policy): missions may *rhyme* with the relationship, but nobody flirts in cryptonyms.
+### Rules for the spy content (tone guardrails — Clancy calibration)
+- **Competence is the aesthetic.** Procedure rendered lovingly and accurately — flight planning, customs, tradecraft, opposition surveillance — the way Clancy renders sonar rooms. The thriller engine is professionals doing hard things correctly under pressure, not chaos.
+- **The danger is real and has weight.** People can die in this world; the asset's fear is genuine; the opposition is a professional service, not henchmen. On-page violence stays restrained (threats, pursuit, one or two sharp moments per book) — tension over gore.
+- **A named, plausible adversary** (§3a) with its own competence and logic; no cartoon villains. Jax remains a civilian useful idiot, not an officer.
+- **The tradecraft is as accurate as the flying:** real SDR logic, cover discipline, compartmentalization, "an asset is a person" ethics — taught with the same care as the 1-2-3 rule.
+- **The Agency is neither halo nor devil:** Okafor is honorable inside a machine that isn't always; that tension powers Book 3.
+- **The banter survives as a pressure valve** — crews joke in the worst weather; that's authentic, not tonal drift. But the jokes get shorter as the stakes rise.
+- **The romance stays human** (standing policy): missions may *rhyme* with the relationship, but nobody flirts in cryptonyms, and the big beats are spoken plainly.
+
+### 3a. The Book 1 operation — WINTER HARBOR (working name)
+
+**The asset: Dr. Yelena Sorokina, 44.** Senior electronic-warfare engineer — navigation-warfare specialist (GPS jamming and spoofing; her portfolio is the reason half the Pacific has interference NOTAMs). Decided to come over after her program was folded into targeting work she couldn't live with; passed material quietly for two years through a contact in Okafor's network. Burned three weeks ago by a counterintelligence sweep; ran mid-conference in Singapore with a go-bag and her teenage daughter, **Mara, 15**. Currently hidden in staff quarters of an Okafor hotel in **Sapporo, Japan** — safe for days, not weeks. She is brilliant, exhausted, allergic to being handled, and speaks flawless textbook English she learned from aviation manuals — which gives her and Wren an unexpected common language, and gives the *teaching* a second instructor: the woman who builds jammers explaining, from the jump seat, exactly why green needles saved them.
+**Why she matters (Clancy hook):** her head holds the adversary's nav-warfare order of battle — what they can jam, spoof, and blind, and where. Every GPS-integrity lesson in the series is her subject matter. In Book 3, the tech she warned about is what the opposition uses on the crew.
+
+**The adversary: the GRU's 8th Directorate technical-security apparatus** (fictionalized as needed) — the service she ran from. In Book 1 they are a search grid, not faces: manifest watchers, airport spotters, one traveling two-man team a half-step behind. Their competence is the clock.
+
+**The route (aviation spine of Book 1):** Boeing Field → Anchorage (tech stop; international ops teaching) → New Chitose/Sapporo under a genuine-looking lodge-investment charter built from Okafor's real hotel business → dwell day that goes wrong by hours, not days → return legs across the Aleutian chain with weather closing and a diversion decision that lands them at a gravel-adjacent Alaska alternate with the asset aboard → U.S. entry, customs, and the cold realities of arrival. Every leg carries ACS content; the finale's approach is flown to real minimums with everything on the line.
+
+**The moral engine — the manifest problem:** Wren Hale ended her career at Cascade rather than let falsified paperwork fly. The exfil requires a doctored manifest and two passengers who do not exist. Okafor — who chose Wren *because* of the Cascade file — must ask her to cross the one line that defines her, and the honest answer to "how is this different from Ruiz?" is the beating heart of Book 1: *Ruiz lied to protect himself; this lie protects someone else, and Wren signs her own name to it.* Jack's version of the problem: lying is easy for him — what terrifies him is discovering how easy, and what Sam would think. The book takes both problems seriously instead of waving them off.
 
 ---
 
@@ -63,7 +86,7 @@ Tone: Evanovich/Goldberg Fox-and-O'Hare — capers with stakes, banter under fir
 | Character | Draft One role | Series role |
 |---|---|---|
 | **Wren Hale, 34** | Captain, guarded, Cascade scars | Unchanged as a person; her arc across three books is learning that discretion and armor are not the same thing. The Cascade file is what got her *noticed* — the thing that broke her career is the thing that makes her extraordinary. Book 3 forces the question: how much silence can you owe a job before you're Ruiz? |
-| **[Theo] Marsh, 31** | FO, charmer, ex-CFII | Same man, new ladder: from unwitting audition (Book 1) to gifted student of tradecraft (Book 2) to the one who has to choose between a legend and the truth (Book 3). His superpower and flaw are the same: he can make anyone believe anything, including himself. |
+| **Jack Marsh, 31** | FO, charmer, ex-CFII | Same man, new ladder: from unwitting audition (Book 1) to gifted student of tradecraft (Book 2) to the one who has to choose between a legend and the truth (Book 3). His superpower and flaw are the same: he can make anyone believe anything, including himself. |
 | **Adaeze Okafor, 71** | Matchmaking whale client | §3. The series' third lead. Warmth intact — the delight in them was never an act; it is the last unclassified thing she owns. |
 | **Chidinma, 26** | Goddaughter, fraud barrister, skeptic | **Okafor's vetting officer** — the "diligence" was literal. Genuinely her goddaughter (family firm, in every sense). Becomes the crew's handler-of-record in Book 2; the closest thing Wren gets to a girlfriend who knows *everything*. |
 | **Dale Voss, 58** | Check airman | Re-purposed: still the flinty examiner — and, revealed mid-Book 2, a retired **Air Branch** instructor who has quietly vetted "candidates" for Adaeze for twenty years. His "adequate" was always a recruitment grade. Trains them in Book 2's sim sequences (the ACS emergency content now lives here, no upgrade arc needed). |
@@ -75,18 +98,9 @@ Tone: Evanovich/Goldberg Fox-and-O'Hare — capers with stakes, banter under fir
 
 ---
 
-## 5. The name (options for [Theo])
+## 5. The name — RESOLVED
 
-Keeping **Marsh** (so Sam, Ellen, and the family texture survive verbatim). First-name candidates, each with the vibe it brings:
-
-1. **Jake Marsh** — classic American charmer; "Jake" reads easy-going with steel underneath; wears both a flight deck and a cover identity well.
-2. **Cole Marsh** — a little cooler, a little more mysterious; suits the spy layer; "Captain Cole Marsh" has weight.
-3. **Ben Marsh** — warm, trustworthy, boy-next-door; maximizes the "nobody suspects the nice one" irony when he turns out to be the natural spook.
-4. **Wes Marsh** — slightly vintage, aviation-flavored (very "grew up around hangars"); distinctive without being showy.
-5. **Charlie Marsh** — playful, self-deprecating charm; doubles as a radio-alphabet joke the book can have fun with exactly once.
-6. **Nick Marsh** — maximum Fox-and-O'Hare homage; risk: it's *very* on the nose.
-
-(If you'd rather change the surname too, say the word and I'll bring surname options — but I recommend keeping Marsh.)
+**Jack Marsh.** Surname kept: Sam, Ellen, and the family texture survive verbatim. "Jack" carries the easy American charm with steel underneath, wears a flight deck and a cover identity equally well, and — bonus the books never need to say out loud — sits comfortably on the same shelf as the genre's other Jacks.
 
 ---
 
@@ -105,22 +119,26 @@ Keeping **Marsh** (so Sam, Ellen, and the family texture survive verbatim). Firs
 
 Romance throttle (the contract): **Book 1 ends with zero kisses admitted into evidence.** The hangar kiss stays as Book 1's climax-adjacent spark — instantly denied, never repeated on-page in that book. **Book 2** is cover-intimacy torture (holding hands for legends, hotel rooms for ops, everything almost) and ends with the *real* turn — Pendleton's descendant — as the final chapter. **Book 3** is together-under-secrets, the spy-grade rupture, reconciliation, and engagement in the last chapter. Total burn: three books, exactly as ordered.
 
-### Book 1 — *CLEARED AS FILED* (rework of existing Ch 1–8 + new material)
-- **ACS load:** Areas I, II, III, IV (prep, procedures, clearances, holding, attitude flying, unusual attitudes).
-- **Plot:** the meet, the lie, the operating agreement, the season of "coincidences." Icing encounter, grounded-airplane no-go, Friday Harbor void-time day, the Portland hold, the night upset — each doubling (invisibly, first read) as one of Adaeze's tests. Background static: someone probing Meridian's debts and Wren's history.
-- **Romance ceiling:** sparring → respect → the one adrenaline kiss, denied ("it didn't happen"). Ends with them agreeing, out loud, that it didn't happen, while the prose makes clear neither believes it.
-- **Spy reveal (final two chapters):** a genuine in-flight emergency with a courier package aboard; the crew performs; and in the last chapter Adaeze pours the tea, sets down her cup, and retires the hotel-magnate mask. Cliffhanger: the offer, unanswered.
-- **Existing material reuse:** ~70% of current Ch 1–8 survives with the airplane swap, name swap, and seeded test-clues.
+### Book 1 — *WINTER HARBOR* (working title; reworks existing Ch 1-8 material around the exfil)
+
+- **ACS load:** Areas I, II, III, IV (prep, weather, planning, procedures, clearances, holding, attitude flying, unusual attitudes) + international-ops bonus content the mission demands.
+- **Act I — the lie (ch. 1-6, largely reusable from Draft One):** the meet, the misread argument, Griff's invention, the operating agreement, the dossier, the first client legs — with the G550 and its odd owner trust seeded from page one, plus the background static (a "journalist" asking about Cascade; someone probing Meridian's debts). Okafor's two quiet confirmation tests live inside existing set pieces (the grounded-airplane no-go becomes a test she engineered; one strange routing request).
+- **The unmasking (ch. 7, the 30% hinge):** after the icing encounter proves the crew under real weather, Okafor cancels the week's schedule, books the briefing room, and retires the hotel-magnate mask — Sorokina, Mara, Sapporo, nine days. She offers them the truth, the stakes, and the door: anyone may walk away, once, now, no consequence. The chapter ends on Wren asking the only question that matters to her: "Who signs the manifest?"
+- **Act II — preparation (ch. 8-13):** Clancy-mode planning rendered with love: building the lodge-investor legend from Okafor's real holdings; the cover passengers (Chidinma runs the paperwork); eAPIS, customs brokers, oceanic and international clearances, fuel criticality; Voss appears "coincidentally" for recurrent sims that are obviously rehearsal; Jack learns tradecraft the way he learned teaching; Wren fights the manifest problem to a private decision — and tells no one what it costs her. Romance throttle: proximity and respect compounding under shared secrecy; one almost-moment (the Friday Harbor descendant) interrupted by op traffic; nothing admitted.
+- **Act III — the run (ch. 14-19):** Boeing Field to Anchorage to Sapporo. The dwell day collapses by hours; the pickup goes off-script (Mara's papers; a spotter at the FBO); the return across the Aleutians into deteriorating weather with the searchers a half-step behind — holding, the diversion decision, an Alaska alternate at minimums, and a customs arrival where the paperwork must be perfect *and* false. The adrenaline kiss lives here — on the ramp at the end of the worst leg — and is denied by mutual, breathless agreement inside ninety seconds.
+- **Final chapter (ch. 20):** decompression; Sorokina and Mara handed off safely, with one unsanctioned goodbye that tells the reader who these pilots are; the debrief; and Okafor's formal offer — not a mission this time, a *job*. Cliffhanger: neither answer shown.
+- **Romance ceiling for Book 1:** sparring, then respect, then trust under fire, then one denied kiss. Nothing else on the record.
 
 ### Book 2 — *POSITION AND HOLD* (mostly new; cannibalizes Ch 9–13 set pieces)
 - **ACS load:** Areas V and VI (nav systems, DME arcs, departures/arrivals, every approach type) + VII.B/C in Voss's sims.
-- **Plot:** they say yes (separately, for different reasons — hers is the mission, his is her). Tradecraft school braided with recurrent training; first courier legs; the GPS-interference day becomes a live exercise; the Boise "closing" is a meet; a defector family comes out of a mountain lodge as "lodge investors." Pacific Corporate revealed as the opposition's front; Jax circles Wren professionally, blind to what he's carrying.
+- **Opening:** the answer to Book 1's cliffhanger — they say yes, separately, for different reasons (hers is the mission and the manifest debt she now carries; his is, honestly, her — and Sorokina, whose safety made the work real).
+- **Plot:** formal training braided with recurrent checks; standing courier legs; the GPS-interference day becomes a live exercise with Sorokina consulting from a safehouse (the asset becomes a recurring voice — the woman who builds jammers, teaching); the Boise "closing" is a meet; Pacific Corporate revealed as the opposition's front — the GRU network hunting the leak that let Sorokina run has traced the exfil to a West Coast charter profile, and is buying its way into the industry to find the airplane. Jax circles Wren professionally, blind to what he's carrying.
 - **Romance throttle:** cover-couple duty forces every intimacy they've been avoiding — with an audience, which by Clause Two makes it "not real," which stops working. Mid-book: the almost at the void-time ramp, reprised and interrupted *by an op*. **Final chapter:** snowed-in safehouse (Pendleton's descendant), no audience, no op, no clause left standing — real, spoken plainly, at last.
 - **Cliffhanger:** morning after: Chidinma at the door. One of Book 2's packages was flagged. There may be a leak inside BRIDGEBELL.
 
 ### Book 3 — *LOST COMMS* (cannibalizes Ch 14–20 set pieces, spy-grade)
 - **ACS load:** Areas VII and VIII (lost comm, partial panel, emergencies, postflight) + full-series capstone review.
-- **Plot:** together and operational — and compartmentalization starts doing to them what lies do to everyone else. The mole hunt puts Wren under quiet suspicion (her Cascade file reads two ways). The gala returns as an operational party where [Theo] overhears Wren being debriefed out of context and believes the one unbearable thing: *that the relationship was tasked* — Clause Four, "going missed," spy edition. Eleven days of silence in which both keep flying the mission anyway. The sabotage flight (the electrical cascade, now enemy action) forces them back into one cockpit; they fly the partial-panel emergency as the crew they never stopped being; the truth lands on the ramp. Endgame: the network rolled up, the mole was never Wren (proposed: it's nobody — it's Jax's blown gossip, the banal explanation, very Evanovich), Okafor's program survives, and the crew sets terms: no secrets *between* them, ever again, whatever the clearance.
+- **Plot:** together and operational — and compartmentalization starts doing to them what lies do to everyone else. The mole hunt puts Wren under quiet suspicion (her Cascade file reads two ways). The gala returns as an operational party where Jack overhears Wren being debriefed out of context and believes the one unbearable thing: *that the relationship was tasked* — Clause Four, "going missed," spy edition. Eleven days of silence in which both keep flying the mission anyway. The sabotage flight (the electrical cascade, now enemy action) forces them back into one cockpit; they fly the partial-panel emergency as the crew they never stopped being; the truth lands on the ramp. Endgame: the network rolled up, the mole was never Wren (proposed: it's nobody — it's Jax's blown gossip, the banal explanation, very Evanovich), Okafor's program survives, and the crew sets terms: no secrets *between* them, ever again, whatever the clearance.
 - **Final chapter:** spring; Sam flies the Bonanza to Friday Harbor; the window-seat breakfast; the on-one-knee, plain-words proposal (already written, already human — it moves here nearly verbatim); "Yes. Obviously, yes."
 
 ---
@@ -131,11 +149,16 @@ Romance throttle (the contract): **Book 1 ends with zero kisses admitted into ev
 - The wiki stays the companion reference; each book's front matter maps its chapters to ACS areas.
 - Second-pass reinforcement now happens naturally *across books* (holds taught in B1, flown operationally in B2, flown for survival in B3) instead of via the deleted upgrade-checkride arc.
 
-## 9. Open questions for the author
+## 9. Open questions for the author (v2)
 
-1. **The name** — pick from §5 (or ask for surname options too).
-2. **Book 1's reveal timing** — mask-off in the final chapter as written above, or hold the explicit reveal for Book 2's opening and end Book 1 on pure suspicion? (I recommend the final-chapter reveal: it converts the whole book on re-read and sells Book 2.)
-3. **The kiss budget** — Book 1 currently keeps the one denied hangar kiss. Keep it, or push even that to Book 2 for maximum burn?
-4. **Spy darkness dial** — capers-with-stakes as specced (recommended), or colder/more le Carré?
+*Resolved: name (Jack), reveal timing (early, ~ch. 7), tone (Clancy-calibrated), Book 1 plot (the Sorokina exfiltration).*
+
+Still open — react to any or all:
+
+1. **The asset's shape** — Yelena Sorokina, Russian EW/nav-warfare engineer, with teenage daughter Mara, hidden in an Okafor hotel in Sapporo, adversary = GRU technical service. Happy with nationality/specialty/route, or steer it (e.g., Chinese MSS and a Taiwan-adjacent route; no child; a male asset)? Her specialty was chosen so the series' GPS-jamming content becomes *her* subject.
+2. **The manifest problem** — Book 1's moral spine is Wren being asked to sign false paperwork, the exact sin that ended her career when Ruiz did it. Proposed resolution: she does it, eyes open, and it costs her — the cost echoing into Book 3's mole suspicion (a woman who falsified a manifest once reads differently in a file). Confirm you want it played this seriously, or softer.
+3. **Mara** — the daughter raises stakes and warmth (and gives Wren a Book 1 relationship that isn't Jack). Keep or cut?
+4. **Book 1 title** — *Winter Harbor* (working). Alternatives on request; *Cleared as Filed* could move to series title or Book 3.
 5. **Priya** — witting in Book 3 (recommended), earlier, or never?
-6. **Mole resolution** — the "banal explanation" (recommended, very Evanovich) vs. a real traitor (raises stakes, costs warmth)?
+6. **Mole resolution (Book 3)** — banal explanation via Jax's blown gossip (warmer, ironic) vs. a real traitor inside BRIDGEBELL (colder, more Clancy). With the new tone dial, a real traitor is now on the table — my updated recommendation is a **real but sympathetic** one: someone protecting a relative the opposition holds. Verdict?
+7. **The kiss** — Book 1's single denied kiss now lands on the ramp mid-mission (Act III). Keep there, or return it to the quiet hangar post-upset placement?
