@@ -262,11 +262,15 @@ I sat at the desk with the trip file and started her report.
 
 Behind me the shower ran and quit. He came out with a towel around his hips and another one going at his hair, and stood in the middle of the room reading something on his phone with steam coming off his shoulders, entirely unbothered, the way you are unbothered in a room with somebody you've flown a hundred and forty nights with.
 
-He is built like a man who does something serious three or four times a week and has never once brought it up. Not big — long. Swimmer's shoulders that taper down hard into a back with actual architecture in it, the muscle laid on in flat planes instead of blocks, so it only really shows when he moves. Which he did, reaching up to towel the back of his head, and everything down his side went tight and then let go, and a line of water came off his hair and ran the length of his spine, and I watched the whole trip it took.
+He's long rather than big. Wide through the shoulders and then nothing wasted the whole way down, the kind of build a man gets from doing something hard three or four times a week and never once bringing it up. He reached up to towel the back of his head and his whole back moved at once, and a drop of water came off his hair and went all the way down it.
 
-Chest and stomach the same story — nothing showy, just no margin anywhere, the flat cut of his hips disappearing into a hotel towel he had knotted with about as much conviction as a man ties a shoelace. Forearms he gets from nothing I have ever identified. There is a mark on his ribs on the left side, a pale seam about two inches long, from a bicycle and a curb and a summer when he was nine, and I know that because he told me the story in a van in Elko, and I know exactly where it is, which is a different kind of knowing and I am aware of the difference.
+That's the honest version: I watched it go.
 
-I looked at him for about two seconds, which is one and a half more than the situation required, and then I looked at my screen and read the same sentence four times.
+Flat stomach. The cut of his hips going down into a hotel towel he'd knotted about as carefully as a man ties a shoelace. Forearms I have never been able to account for. There's a mark on his ribs on the left side, a pale seam about two inches long, from a bicycle and a curb and a summer when he was nine, and I know that because he told me the story in a van in Elko, and I know exactly where it is, which is a different kind of knowing and I'm aware of the difference.
+
+It isn't fair, is the thing. He doesn't even know he's doing it. He's standing in a Marriott in Anchorage reading a text from his father with steam coming off him and no idea in the world, and I'm nine feet away with a weather file open.
+
+Two seconds. Maybe three. Then I looked at my screen and read the same sentence four times and couldn't have told you one word of it.
 
 "Bishop."
 
