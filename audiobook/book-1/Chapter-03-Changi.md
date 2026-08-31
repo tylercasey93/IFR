@@ -4,9 +4,9 @@
 
 I have a rule about passengers. I don't learn their names.
 
-Not the real ones, not the ones on the manifest, not the ones they give you at the top of the airstairs with their hand out. I load them, I fly them, I unload them, and if you asked me a week later I could tell you their weight to the nearest ten pounds and nothing else. It is not coldness. It is a load sheet. A hundred and sixty pounds in seat two goes in the arithmetic the same whether it's a fisheries lawyer or a woman running for her life, and the arithmetic is the part that keeps her alive.
+I want to be clear that it is not because I don't care about them. It is because I do, immediately and stupidly and every single time, and because a person who is busy caring about the woman in seat two is not a person doing arithmetic, and the arithmetic is what actually keeps her alive. A hundred and sixty pounds goes in the weight and balance the same whether it belongs to a fisheries lawyer or somebody running for her life. So I learn the weight. I skip the name. It's not armor. It's more like taking your ring off before you put your hands in an engine.
 
-I have held that rule for four years, through six of these.
+I have held that rule for four years, through six of these, and it has cost me something every time.
 
 I broke it that Thursday, at thirty-nine thousand feet over the Philippine Sea, because a fifteen-year-old asked me what the airplane was called.
 
@@ -28,7 +28,11 @@ Not *how are you*. I like her enormously.
 
 "A woman and her daughter," Chidinma said. "That is genuinely all you need, and it is also all I am going to enjoy saying, so let us both move on. Wren — this is a real one."
 
-She didn't have to tell me that. You can hear a real one in the gaps. In the practice legs, the courier runs, the milk runs with a sealed case in the baggage bay, there's a rhythm to how the office talks to you: unhurried, faintly bored, everything in the passive voice. This was somebody reading me a time.
+She didn't have to tell me that. You can hear a real one in the gaps. On the practice legs and the courier runs and the milk runs with a sealed case in the baggage bay, there's a rhythm to how the office talks to you — unhurried, faintly bored, everything in the passive voice. This was Chidinma reading me a time off a page, and Chidinma does not read things off pages. She recites. When she reads, it's because her hands aren't steady enough to trust her memory.
+
+"Hey," I said. "Are you all right?"
+
+"No," she said. "Thank you for asking. Please go and be brilliant."
 
 "What's the clock?"
 
@@ -74,17 +78,39 @@ Then the general declaration — the gen dec, the crew and passenger list that g
 
 The names on the gen dec were not the names those two women were born with. I read them once, on purpose, and then I did the thing I do, which is stop.
 
-Farid, my copilot, is thirty-four, Malaysian, and has the best hands in a crosswind I have personally seen. He knows exactly what our operator is and does not ask, because he's paid extremely well not to and because he's got a kid in an international school in KL. He looked at the fuel figure and said, "Twenty-eight hundred nautical, that's tight-ish with the winds tonight."
+Farid, my copilot, is thirty-four, Malaysian, and has the best hands in a crosswind I have personally seen, which I have told him exactly once, in a way he is still trying to get me to repeat. He knows roughly what our operator is and asks nothing, because he is paid extremely well not to and because he has a nine-year-old at an international school in KL who plays the violin with more enthusiasm than accuracy.
+
+He came into the office with two coffees and put one in front of me without being asked, which is the single most efficient thing anybody has ever done for me.
+
+"Twenty-eight hundred nautical," he said, looking over my shoulder. "That's tight-ish with the winds tonight."
 
 "It is."
 
-"Tankering out of here or a stop?"
+"Tankering out of here, or a stop?"
 
 "No stop."
 
-He didn't argue. He got out the performance tables, and I got out my father's E6-B — aluminum, heavier than it needs to be, the paint gone off the wind side — and ran the winds aloft by hand while the computer ran them too, because I like knowing when they disagree and by how much. They disagreed by four minutes.
+"Okay." He sat down. "You know that when you say 'no stop' in that voice, it means we are not stopping and also that I should not ask a second question."
 
-We would land in Sapporo with an hour and change over the alternate. Adequate.
+"Does it."
+
+"It's a very specific voice, Captain. I could pick it out of a lineup." He got out the performance tables. "How was your Tuesday?"
+
+"I ate three meals and slept eight hours."
+
+"That is the most alarming sentence you have ever said to me."
+
+I got out my father's E6-B — aluminum, heavier than it needs to be, the paint worn off the wind side by forty years of somebody else's weather — and ran the winds aloft by hand while the computer ran them too, because I like knowing when the two of them disagree and by how much. They disagreed by four minutes.
+
+We would land at Sapporo with an hour and change over the alternate.
+
+"Adequate," I said.
+
+"She says *adequate*," Farid told the empty room, "and the mountains tremble." He slid the M&Ms back across the desk to me. "Your recital thing. It's Saturday, isn't it."
+
+He looked up. "How do you—"
+
+"You've mentioned it eleven times." I wrote the fuel figure in the box. "We'll be back Friday night. Go.
 
 ---
 
@@ -106,29 +132,31 @@ The mother stopped at the bottom of the stairs and looked at me for a long momen
 
 "I get that."
 
-She almost smiled. She was too tired to complete it. "How long is the flight?"
+She almost smiled. She was too tired to finish it. "How long is the flight?"
 
-"Six forty on the plan. Probably six fifty tonight."
+"Six forty on the plan. Probably six fifty tonight — there's weather off Luzon we'll go around."
 
 "And you have done this before."
 
-I have found that people ask that question for one of two reasons, and the reason determines the answer.
+People ask that question for one of two reasons, and which one it is decides the answer. She wasn't checking my credentials. She was asking whether she was allowed to stop holding it up for six hours.
 
-"I've flown that route eleven times," I said, which was true, and which was not what she'd asked, and which was what she needed.
+"I've flown that route eleven times," I said. "Nothing about tonight is going to be interesting. There's a blanket in the third bin on the left and the coffee is genuinely good, and if you want to sleep, sleep. I'll wake you an hour out."
 
-She nodded once and went up.
+She looked at me for a second longer than the answer needed.
 
-The girl stopped in front of me instead. Up close her eyes were red and she'd been crying somewhere in the last hour and had done a bad job of hiding it, and she stuck her chin out at me the way you do when you have decided that you would rather be furious than whatever the other thing is.
+"Thank you," she said, and went up.
 
-"Do I have to sit anywhere specific," she said.
+The girl stopped in front of me instead. Up close her eyes were red and she'd been crying somewhere in the last hour and had done a bad job of hiding it, and she stuck her chin out at me the way you do when you have decided you'd rather be furious than whatever the other thing is.
+
+"Do I have to sit anywhere specific," she said, in a tone designed to start a fight.
 
 "Yes. Third seat back on the right, until I say otherwise."
 
 "Why."
 
-"Because that's where the weight goes."
+"Because that's where the weight goes." I held out the freezer bag. "Take some. You're allowed to be rude to me later, that part's free."
 
-She thought about arguing and decided not to. She went up.
+She looked at the bag like it might be a trick. Then she took a handful, badly, spilling two, and stuffed them in her hoodie pocket and went up the stairs without saying thank you, which was fine. Thank you is a thing people can afford on other days.
 
 The handling agent brought the paperwork out. Twenty-two, blazer, name badge, doing this for the ninth time that day. He compared the gen dec to two passports, and he looked at the photographs, and he looked at the faces through the cabin window, and it took him eleven seconds, and in the ninth second a man in a polo shirt came out of the terminal doors behind him and stood there with a phone, not using it.
 
@@ -176,9 +204,11 @@ She looked at it for about four minutes without saying anything, which I respect
 
 "That's not a name, that's a *license plate*." She said it with enormous scorn, and it was the first thing out of her all night that sounded like a person instead of a survivor. "Ships have names. This is like a ship."
 
-I should have said *it's a Challenger 605*. That is the correct answer and it is also, in this line of work, the entire correct posture: give them the make and model, give them the flight time, do not give them anything with your fingerprints on it.
+I should have said *it's a Challenger 605*. That's the correct answer, and it's also the entire correct posture in this line of work: give them the make and model, give them the flight time, don't give them anything with your fingerprints on it.
 
-Instead I heard myself say: "My father had a boat called the *Marta June*."
+And I sat there in the dark with a kid three feet away who had packed for this like a field trip, and I thought: absolutely not.
+
+"My father had a boat called the *Marta June*," I said.
 
 "Was that his wife?"
 
@@ -200,13 +230,13 @@ The girl laughed. It surprised both of us — a real one, cracked in the middle,
 
 Which is how I learned her name, at thirty-nine thousand feet, four hours from Japan, in violation of a rule I had kept for four years and six operations.
 
-I have thought about it since. I don't think I broke it because she was a kid, exactly. I think it was the two-shoulder backpack. I think it was that somebody, at some point in the last seventy-two hours, had told that girl to pack one bag, and she had packed it the way you pack for school.
+I've thought about it since. It wasn't that she was a kid, exactly. It was the two-shoulder backpack. Somebody, at some point in the last seventy-two hours, had told that girl to pack one bag, and she had packed it the way you pack for school.
 
-My father put a summer's money in an envelope on a kitchen table in Ketchikan when I was seventeen so I could go learn to do this, in a year when there wasn't a summer's money, and told me that one of us should get to look down at the water for a change. He never flew with me. There was always another season, and then there wasn't.
+My father put a summer's money in an envelope on a kitchen table in Ketchikan when I was seventeen, in a year when there wasn't a summer's money, so I could go and learn to do this. He said one of us should get to look down at the water for a change. He never flew with me. There was always going to be another season, and then there wasn't.
 
-I don't talk about that. I don't think about it much either, most days.
+I don't talk about that much. But there is a specific thing that happens in me when a parent has put a child on an airplane and then gone to sleep, trusting the person up front to be worth it, and it is not professional, and it does not appear anywhere on the load sheet, and I have stopped apologizing to myself for it.
 
-But there is a specific thing that happens in me when a parent has put a child in an airplane and gone to sleep, and it is not professional, and it does not appear anywhere on the load sheet.
+Around two in the morning she fell asleep on the jumpseat with her head against the bulkhead at an angle that was going to cost her something in the neck. I put my jacket over her and went back to work.
 
 ---
 
@@ -234,9 +264,15 @@ The car was in the freight lot, a plain gray van with a hotel's crest on the doo
 
 "I'm not going to know anything you'd have to think about later," I said.
 
-She looked at me for a second with an expression I have seen exactly twice before, both times on people who had been holding something up alone for a long while and had just felt somebody put a hand under the other end of it.
+She looked at me with an expression I have seen exactly twice before, both times on people who'd been holding something up alone for a long while and had just felt somebody put a hand under the other end of it.
 
 "Then I will tell you one thing you did not ask," she said. "My daughter has not laughed since the fourteenth of September."
+
+"She laughed last night," I said. "Somewhere over the Philippines. It was extremely loud and she was embarrassed about it."
+
+Dr. Sorokina put her hand over her mouth, briefly, and then took it away and got herself back in about four seconds, which I have thought about a great deal since.
+
+"Thank you, Captain," she said. "That is a better thing than the flight."
 
 She got in the van.
 
