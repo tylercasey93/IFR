@@ -1,0 +1,351 @@
+Chapter Three: Changi.
+
+There is a version of this job that people imagine when I tell them what I do, and there is the version where I have been sitting in a rented corner of a hangar at Seletar for nine days, watching other people's airplanes get washed.
+
+I fly a Challenger 605 for a management company you have never heard of, on a contract I couldn't describe to you even if I were allowed to, and most of what that means, most days, is waiting. Professionals wait. It's the bulk of the work. Soldiers know it, fishermen know it, and my father knew it best of all — he used to say a season is two weeks of fishing and three months of fixing net, and the men who couldn't stand the net-fixing were the ones who sank.
+
+So I fix net. Day nine in Singapore went like this: I ran the auxiliary power unit at eight because turbines want running, walked the airplane at nine because airplanes want walking, and spent the morning rebuilding the weight-and-balance sheets, because the last crew had been rounding to the nearest fifty pounds and I round to the nearest five. I ate lunch at the hawker stall two gates down, where the auntie has stopped asking what I want because the answer has been the same for nine days. I ate peanut M&Ms out of a doubled freezer bag, four at a time, which is how I eat them, and no, there's no reason, and yes, everyone asks.
+
+And at two o'clock I sat on a folding chair in the hangar door with the heat coming off the ramp in sheets, and took out the postcard.
+
+I'd bought it in the airport on day one. Merlion on the front, spitting its water. On the back I had written, so far, Dear Mom. I had been working on the second sentence for nine days. My mother lives in Ketchikan, Alaska, in the house above the harbor I grew up in, and she teaches third grade, and we talk on the first Sunday of the month for eleven minutes, and neither of us has ever once said an unkind word to the other, which somehow has not fixed a thing. [quietly] Some rooms you can only get into with a running start, and I have been standing still at that particular door for about ten years.
+
+I got as far as The weather here — and my phone rang.
+
+The line clicked twice before it opened, which meant it was the office, and I put the postcard in my shirt pocket, where it stayed for the rest of this story, going soft at the corners.
+
+[cut-glass precision, pleasant] "How long do you need," said Chidinma.
+
+Not hello. Not how are you. [dry] I like her enormously.
+
+[flat, clipped, dry] "For what?"
+
+[cut-glass precision, pleasant] "Two passengers. Pickup at the Changi Business Aviation Centre, wheels up tonight, destination New Chitose. The aeroplane is fuelled. Your copilot is Farid — I am told you have flown together twice."
+
+[flat, clipped, dry] "Three times." I was already up and walking. "Who are they?"
+
+[cut-glass precision, pleasant] "A woman and her daughter. That is genuinely all you need, and it is also all I am going to enjoy saying, so let us move on."
+
+Here's a thing about Chidinma Adeyemi. She is twenty-six years old, she is a barrister, and she is the most precise human being I have ever worked for, and I include air traffic controllers and my own mother in that. She does not read from pages. She recites — clean, from memory, slightly amused, like the whole world is an exam she finished early. And that afternoon, down a line from wherever she was, I could hear paper. She was reading. Her voice was doing everything right and there was paper in it.
+
+[quietly, warmer] "Hey," I said. "Are you all right?"
+
+The pause was about a second and a half, which for her is a filibuster.
+
+[cut-glass precision, pleasant] "No," she said. "Thank you for asking. Please go and be brilliant."
+
+[flat, clipped, dry] "What's my clock?"
+
+[cut-glass precision, pleasant] "Their conference concludes its afternoon session at sixteen hundred. There is a delegation coach to the hotel at sixteen fifteen. They will not be on it, and a liaison officer will notice that by dinner. Possibly sooner." Paper again, a page turning. "Wren. This one is real."
+
+She didn't have to say it. On the courier runs and the practice legs and the milk runs with a sealed case strapped in the baggage bay, the office talks to you in the passive voice, unhurried, faintly bored. Nobody bored was on this call.
+
+[deadpan] "Then I'd better go be brilliant," I said, and she laughed, one syllable, and was gone before it finished.
+
+I stood on the ramp for a moment with the phone in my hand and the heat shimmering the far fence line into water.
+
+Sixteen hundred was two hours away. Dinner was four, maybe five. Call it four hours from they will not be on the coach to someone official starts asking where two conference delegates have gone — and inside those four hours I had to conjure, out of a hot afternoon, the only thing that would get two human beings across four countries' worth of sky without a single person looking at them twice.
+
+People think the airplane is the escape. It isn't. I could fuel that Challenger and fire it up and be off Seletar's runway in twenty minutes, and we would make it about ninety minutes before the first controller asked a question I couldn't answer, and then we would be the most interesting airplane in Asia, and interesting is the one thing in this work you do not survive.
+
+The thing that actually gets you out is made of paper.
+
+Before that airplane moves a foot, a second airplane has to exist — a paper one, filed and stamped and cross-checked, flying a route eight different bureaucracies have already agreed to ignore. Every box of it has to be true enough to survive a bored professional reading it twice. Build the paper airplane right, and the aluminum one is just the part that makes noise.
+
+I called Farid. He answered on the second ring with a violin sawing away somewhere behind him, his daughter mid-practice, enthusiasm comfortably ahead of accuracy.
+
+[warm, quick, competent] "Captain."
+
+[flat, clipped, dry] "Tonight. How fast can you be at Seletar?"
+
+[warm, quick, competent] "That depends," he said, "on whether I am allowed to break the land speed record on the PIE," and the violin stopped, and I heard him kiss his kid on the head on his way out the door.
+
+Then I sat down at the little desk in the back of the hangar, in front of a computer older than my rule about names, and started to build the airplane that mattered.
+
+---
+
+People think the flight plan is a formality. Let me tell you what it actually is.
+
+An international flight plan — the ICAO form, the real one — is a treaty. It is a single page that eight countries' computers will read tonight, and every box on it is a promise made to a stranger, and the whole civilized miracle of crossing four borders in one evening rests on those promises being boring.
+
+I built it slowly, because I was going to fly it fast.
+
+Item 7, the aircraft identification: the registration, which had better match the letters on the tail to the millimeter, because tonight there would be people whose entire job was checking.
+
+Item 8: flight rules and type. I for instrument flight rules — this whole flight would happen inside the system, on published airways, exactly where everyone could see us, because you don't hide beside the river, you get in it. G for general aviation, which is a lovely, drowsy word for what we were doing.
+
+Item 10, the equipment string: a row of letters declaring what this airplane can do — the navigation performance we're certified for, the datalink, the transponder's flavor. Every letter is a capability somebody may call on. Put one letter in that box you can't back up, and somewhere over the South China Sea a controller asks you for something you can't deliver, and now you're a story he tells at shift change. Memorable. The one thing we cannot be.
+
+Item 15: the route itself, speed and level and the thread of named waypoints — up the airway structure past Vietnam, the long dogleg east of the Chinese coast, Taiwan's flight information region, then the handoff to Fukuoka Control and the descent into Hokkaido. I filed the boring route, the one flown nightly by half the business jets in Asia. A river of aluminum. We would be one more drop in it.
+
+Item 16: destination and elapsed time — six hours forty — and the alternates. Two of them, not the legal minimum one, because a jet carrying people who cannot be turned around at a border needs somewhere to go that isn't back.
+
+Item 18, where truth lives in abbreviations: registration, date of flight, navigation codes, the operator's name — a company that exists, wholly and legally, and says nothing.
+
+And Item 19. Supplementary information. Fuel endurance in hours and minutes. Survival equipment, life jackets, dinghies and their color.
+
+And persons on board.
+
+A number in a box. Four.
+
+I have typed that box more than six hundred times, and I'll tell you what it's for, because it is not a philosophical instrument. If we go into the water off Luzon tonight, a Philippine coast guard officer will read that number at three in the morning, and he will send boats, and the boats will look until they have found four people, and then — this is the part that matters — they will stop looking. That is the whole purpose of the number. It is how many of us there are to lose.
+
+Four was true. Two crew, two passengers. Everything on either side of that four had been arranged by professionals, but the four itself was solid ground, and I remember being glad of it, the way you're glad of one dry rock in a river.
+
+Then the general declaration — the gen dec, the old-fashioned document you still physically hand to officers at each end, listing crew and passengers, names and passport numbers and dates of birth. Then Japan's landing permission, which the office already held, dated eleven days ago — because Chidinma does not wake up and start solving problems, she wakes up and finishes problems she started solving three weeks before you heard of them. Then the handler at Changi, the customs notifications, the slot.
+
+The names on the gen dec were not the names those two women were born with. I typed them once, carefully, checking each letter against the passport copies in the package, and did the thing I do, which is stop there.
+
+Farid arrived at four with two coffees and handed me one without being asked, which remains the most efficient act of kindness I know of.
+
+[warm, quick, competent] "Twenty-eight hundred nautical tonight," he said, reading over my shoulder. "Tight-ish, with the winds."
+
+[flat, clipped, dry] "It is."
+
+[warm, quick, competent] "Tankering, or a stop?"
+
+[flat, clipped, dry] "No stop."
+
+[warm, quick, competent] "Ah." He sat down and pulled the performance tables over. "That voice. You know I can identify that voice out of a lineup now. The no-stop voice."
+
+[flat, clipped, dry] "It's the same voice I always have."
+
+[warm, quick, competent] "Captain," he said, "with enormous respect, it is not," and he ran his numbers and I ran mine, his on the computer and mine on my father's E6-B — aluminum, heavier than it needs to be, paint worn off the wind side by forty years of somebody else's weather — and where the computer and the aluminum disagreed, it was by four minutes, and I wrote down the aluminum's answer, because I like knowing whose four minutes I'm spending.
+
+We repositioned the nine miles from Seletar to Changi at six, a flight so short the gear barely warmed, and taxied to the Business Aviation Centre as the sun went down the color of an old bruise.
+
+That was when I read the package one more time — the full document set, every page against every page, which is a habit that has never once paid for itself in six operations.
+
+It paid at 6:51 p.m.
+
+The daughter's passport — the legend one, the one she'd be handing to a Japanese immigration officer in seven hours — spelled the family name with an i. Seven letters. The gen dec I'd typed matched it, because I type from the document. But the passenger annex on Japan's landing permission — filed eleven days ago, riding under everything like a keel — spelled it with a y. Eight letters.
+
+One letter. A transliteration fork, the kind that happens when one tired person romanizes a name at midnight and another tired person romanizes it again three weeks later.
+
+[quietly] Except no one in our office is ever tired in that particular way, and I knew — the way you know weather — exactly which night that keel had been laid, and whose hands had been unsteady on the paper, and I felt something go through me that was not fear and was not anger and had a child in it.
+
+Here is what one letter does. Nothing, ninety-nine times. The hundredth time, a careful officer in Sapporo lays the permit annex beside the passport, and the letters disagree, and he is not suspicious — he is thorough, which is worse. He asks the young lady to wait. He makes a call to resolve the discrepancy. And the call goes to a system, and systems talk to systems, and by dawn the two most hunted names in Asia have a flag on them in a database, spelled both ways.
+
+You cannot fix a passport on a ramp. That's not a sentence in my line of work; it's a law of physics. What you can fix is everything around the passport — because a permit annex is just paper, and paper gets corrected every day, everywhere, by bored people, for boring reasons.
+
+The trick is that the correction has to be boring too.
+
+My phone clicked twice.
+
+But it wasn't Chidinma. The voice that came on was one I'd heard exactly four times in four years — low, warm, unhurried, with fifty years of Lagos and London and everywhere folded into it.
+
+[grand, warm, unhurried, strong Nigerian accent] "Captain Hale," said the woman who holds my contract. "My goddaughter has just told me what she found in her own paperwork tonight. She is currently being sick in my washroom, which she does not know I know. So: tell me what you need. I can have a corrected document set couriered airside in four hours, or I can make one telephone call to a gentleman in Tokyo, and either of those will happen before you finish this sentence."
+
+[deadpan] "Neither," I said.
+
+A pause, with a smile inside it somewhere.
+
+[still — the executive register] "Neither," she repeated.
+
+[testing] "A courier at this hour is an event, and your gentleman in Tokyo is a favor, and favors get remembered. I don't need four hours. I need about forty minutes and nobody helping me." I was already walking toward the handling desk. "It's a clerical error, ma'am. The most common one in international aviation. So I'm going to walk inside and be a captain whose head office can't spell, and I'm going to be annoyed about it, at a normal volume, and the handler is going to refile a one-letter amendment to a passenger annex the way he does nine times a week, and no one will remember it by Thursday, because there will be nothing to remember."
+
+[grand, warm, unhurried, strong Nigerian accent] "And the timing," she said. "An amendment tonight, hours before departure."
+
+[flat, clipped, dry] "Amendments happen tonight, hours before departure. That's when they happen — that's when people finally read their own paperwork. Ma'am, the only way to make this memorable is to treat it like it matters."
+
+The pause this time was longer, and when she spoke again there was something in her voice I couldn't classify at the time, though I've had reason to think about it since.
+
+[theatrical, delighted] "How wonderful," said Adaeze Okafor. "Proceed, Captain. I'll tell my goddaughter she may stop being sick."
+
+The handler on the evening desk was named Kelvin, twenty-two, blazer, doing his ninth departure of the day. I put the annex and the gen dec on his counter side by side, sighed like a woman with a long night ahead of her, and said, [deadpan] "Look at this. The y. My office. I swear they hire them straight from the—" and Kelvin, who has an office too, made the face of a man in fellowship with all victims of head offices everywhere, and said amendments to the annex went through the agent portal, and it was honestly no problem, he did these all the time.
+
+It took him eleven minutes. I complained mildly about my ops department for two of them, accepted his coffee, signed twice.
+
+While I stood there being boring, a man came out of the terminal doors onto the apron edge and stood there with a phone he wasn't using. Thirties, polo shirt, no lanyard, no bag. He watched the ramp generally and our Challenger particularly for about six minutes, and then he went back inside.
+
+He might have been waiting for a Gulfstream. He might have been on a break.
+
+[quietly] I put him in the report and I did not put him in my chest, which is a distinction I've spent eleven years learning and still get wrong.
+
+---
+
+The car came across the apron at 7:41, forty minutes behind schedule, which is the longest forty minutes I have spent standing still.
+
+Two women got out. One in the kind of good gray coat you buy for a conference, laptop bag, rolling case, and the flat, scoured calm of somebody running on the far side of adrenaline. The other one was fifteen and looked it — hood up, earbuds in, backpack worn on both shoulders like a kid on a field trip, glaring at the Challenger as though it had personally insulted her.
+
+The mother stopped at the bottom of the airstairs.
+
+[tired, composed] "You are the captain."
+
+[flat, clipped, dry] "I am."
+
+[tired, composed] "Not what I expected."
+
+[deadpan] "I get that a lot."
+
+She almost smiled; she was too tired to finish it. [tired, composed] "How long is the flight?"
+
+[quietly, warmer] "Six forty on the plan, probably six fifty tonight — there's weather off Luzon we'll go around." And because people ask the next question for one of two reasons, and hers was not about my logbook: "I've flown this route eleven times. Nothing about tonight is going to be interesting. There's a blanket in the third bin on the left and the coffee is genuinely good, and if you sleep, I'll wake you an hour out."
+
+She looked at me one second longer than the answer needed.
+
+[tired, composed] "Thank you," she said, and went up.
+
+The girl planted herself in front of me instead, chin out, eyes rimmed red from crying she'd done a bad job of hiding.
+
+[sharp-tongued, teenage, quoting a manual] "Do I have to sit anywhere specific," she said, in a tone engineered to start a fight.
+
+[flat, clipped, dry] "Third seat back on the right, until I say otherwise."
+
+[sharp-tongued, teenage, quoting a manual] "Why."
+
+[quietly, warmer] "Because that's where the weight goes." I held out the freezer bag. "Take some. You're allowed to be rude to me later; that part's free."
+
+She looked at the bag like it might be a trick, then took a graceless handful, spilling two, and stuffed them into her hoodie pocket and stomped up the stairs without a word of thanks — which was fine. Thank you is a thing people can afford on other days.
+
+Kelvin brought the amended paperwork out, compared two passports to two faces through the window, eleven seconds, and wished me a pleasant flight.
+
+The letters agreed with the letters. Everywhere, with everything.
+
+We were wheels up at 8:27 into the last of the light, out over the Strait where the anchored ships lie lit up like a spilled drawer of jewelry, and made the long left turn north.
+
+---
+
+The airplane did what Challengers do, which is go a long way without complaining. Vietnamese control, then the levels stepping up, the re-route around the Luzon weather that Farid negotiated in his second-best voice, position reports sliding by on time. Farid told me about Saturday's violin recital, at which his daughter would be performing something by a composer who did not deserve it, and to which he would now — he checked his watch, did the arithmetic of our return leg, and relaxed — comfortably make it.
+
+[warm, quick, competent] "You knew that," he said, catching my face. "When you built the schedule. You put me home Friday."
+
+[deadpan] "The winds put you home Friday."
+
+[warm, quick, competent] "Mm," said Farid. "The winds," and let it go with the smile of a man adding an entry to a private file.
+
+Around eleven the cabin door opened and the girl came up and stood in the flight deck doorway with her hood down.
+
+[sharp-tongued, teenage, quoting a manual] "My mother's asleep," she said, like an accusation.
+
+[flat, clipped, dry] "Good."
+
+[scared, hiding it] "She hasn't slept since Sunday."
+
+[quietly, warmer] "Then it's very good."
+
+She hung there, doing the thing fifteen-year-olds do in doorways when they've decided you owe them something and can't name it.
+
+[flat, clipped, dry] "Sit down if you're staying," I said, and pointed at the jumpseat, and she sat down hard, the way they do.
+
+In front of us the sky had gone perfectly black and perfectly clear. The stars over the Philippine Sea at thirty-nine thousand feet are not the stars anyone sees from the ground — there's not enough air left above you to make them shimmer, so they don't twinkle, they just sit there, hard and fixed all the way down to a horizon you can find because it's where they stop.
+
+She looked at it for four straight minutes without a word, which I respected.
+
+[sharp-tongued, teenage, quoting a manual] "What's it called," she said finally.
+
+[flat, clipped, dry] "What's what called?"
+
+[sharp-tongued, teenage, quoting a manual] "The plane. It has to have a name. Everything has a name."
+
+[flat, clipped, dry] "It has a registration."
+
+[sharp-tongued, teenage, quoting a manual] "That's not a name, that's a license plate." Enormous scorn — and the first thing out of her all night that sounded like a person instead of a survivor. "Ships have names. This is like a ship."
+
+The correct answer was it's a Challenger 605. That's the whole posture of this work: make and model, flight time, nothing with your fingerprints on it. I have a rule about exactly this, held four years through six operations, and it isn't coldness — it's that I attach immediately and stupidly and every single time, and a person busy caring about seat two isn't doing the arithmetic that keeps seat two alive. You learn the weight. You skip the name. It's not armor; it's taking your ring off before you put your hands in an engine.
+
+And I sat there in the dark with a kid three feet away who had packed for the end of her whole world the way you pack for school, and I thought: absolutely not.
+
+[quietly, warmer] "My father had a boat called the Marta June," I said.
+
+[sharp-tongued, teenage, quoting a manual] "Was that his wife?"
+
+[quietly, warmer] "His mother."
+
+[sharp-tongued, teenage, quoting a manual] "Was she nice?"
+
+[deadpan] "Never met her. He said she was mean as a snake and could gut ninety fish an hour."
+
+The girl laughed. It surprised us both — a real one, cracked in the middle, much too loud for a flight deck. Her hand flew up over her mouth and she looked back toward the cabin.
+
+[quietly, warmer] "She's asleep," I said. "You're allowed."
+
+[sharp-tongued, teenage, quoting a manual] "Okay." She pulled her sleeves down over her hands. "Then this one is Marta June. Until you get a better one."
+
+[deadpan] "That's not how registration works."
+
+[sharp-tongued, teenage, quoting a manual] "I don't care," said Mara, and looked back out at the stars.
+
+Which is how I learned her name — off her own lips, twenty minutes later, along with the name of a dog she'd left with a neighbor and her considered opinion of Singaporean cafeteria food — at thirty-nine thousand feet, four hours out of Japan, in violation of the best rule I have.
+
+[quietly] My father put a summer's money in an envelope on a kitchen table in Ketchikan when I was seventeen, in a year when there wasn't a summer's money, so I could go learn to do this. He said one of us should get to look down at the water for a change. He never flew with me. There was always going to be another season, and then there wasn't.
+
+I don't talk about that much. But there's a specific thing that happens in me when a parent has put a child on an airplane and gone to sleep, trusting the front seats to be worth it, and it isn't professional, and it appears nowhere on the load sheet, and I've stopped apologizing to myself for it.
+
+Around two in the morning Mara fell asleep on the jumpseat with her head against the bulkhead at an angle that was going to cost her neck something. I put my jacket over her and went back to work.
+
+---
+
+We landed at New Chitose at 6:12 local, into low cloud and a wet runway and that Hokkaido gray that has no bottom edge.
+
+Japanese arrival procedure is precise and unhurried and completely humorless, which I have always liked. Quarantine, immigration, customs, in that order, each at its own counter, each working from paper I'd filed nine hours ago from a folding chair in a hangar.
+
+The officer read the general declaration. He read the passports. He laid the permit annex beside them — and I watched him do it, with my face set to long night, looking forward to breakfast — and the letters agreed with the letters, everywhere, because a bored young man named Kelvin had fixed a typo the way he does nine times a week.
+
+Twenty-six minutes, start to finish. The four in Item 19 walked down the airstairs on eight legs, all present, none looked for.
+
+The van in the freight lot was plain gray with a hotel crest on the door. The mother stopped halfway to it, turned, and came back three steps to where I stood with my flight bag.
+
+[tired, composed] "Thank you," she said.
+
+[flat, clipped, dry] "You're welcome."
+
+[tired, composed] "You have not asked me one question. All night."
+
+[flat, clipped, dry] "No."
+
+[tired, composed] "That is unusual. In my experience, everyone asks. Even the ones who are not supposed to."
+
+[quietly, warmer] "I'm not going to know anything you'd have to think about later," I said.
+
+She looked at me then with an expression I have seen exactly twice before, both times on people who'd been holding something up alone for a long time and had just felt someone put a hand under the other end of it.
+
+[quiet, unguarded] "Then I will tell you one thing you did not ask," she said. "My daughter has not laughed since the fourteenth of September."
+
+[quietly, warmer] "She laughed last night," I said. "Over the Philippines. It was extremely loud and she was embarrassed about it."
+
+The woman put her hand over her mouth, briefly, the identical gesture at one-third the speed, and then took the hand away and had herself back inside four seconds — which I have thought about a great deal since.
+
+[quiet, unguarded] "Thank you, Captain," she said. "That is a better thing than the flight."
+
+She got in the van. Mara got in after her, then cranked the window down two inches and said through the gap, [sharp-tongued, teenage, quoting a manual] "Bye, Marta June," and had the window up again before I could answer, which was the correct tactical decision, because I had nothing.
+
+---
+
+I wrote the report at 8:10 from the corner of the crew lounge, next to a coffee I wasn't drinking.
+
+[flat, clipped, dry] Delivered 0612L, no incident. Documents survived full scrutiny both ends. One clerical discrepancy in the permit annex identified pre-departure and amended through the handling agent as routine; details attached; recommend no process change — it was caught by the checking that exists. Unidentified male, thirties, polo shirt, airside at the Changi BAC without evident purpose for approx. six minutes during our ground handling. Probably nothing. Filing him anyway.
+
+Passengers in good order. Mother exhausted and holding. Daughter is fifteen.
+
+On the hide: the staff quarters are clean. The crest on the van is not. There are one hundred forty employees at that property and any one of them can count. Days, not weeks.
+
+The reply came before the coffee stopped steaming, which meant it was quarter past five in the evening in Seattle and she had been waiting by the phone.
+
+[still — the executive register] Understood, and I agree — days, not weeks. I have already begun.
+
+Then, thirty seconds later:
+
+[gracious, absolute] A thing I wish you to know, Captain. Tonight I offered you a courier, a favor in Tokyo, and the assistance of the most capable person I have ever trained, and you declined all three and asked instead to be allowed to be ordinary at a service counter. I have known case officers of twenty years' standing who could not have made that choice under a running clock. My goddaughter's error will keep her honest for a decade; your repair of it will keep her alive to enjoy the decade. I am in your debt, and unlike most people who say that, I keep books.
+
+I typed It was one letter and deleted it. I typed Anyone would have and deleted that too, because it wasn't true, and she and I both keep books.
+
+[grand, warm, unhurried, strong Nigerian accent] The daughter, she wrote then. Fifteen, you said.
+
+[flat, clipped, dry] Yes.
+
+The pause was a minute and a half, which for her is a geological age.
+
+[still — the executive register] Then when we move them onward, it will not be through an airline terminal. A girl who has been taught to fear every camera between here and safety — I will not do that to her twice. We will want an aircraft nobody has any reason to look at twice, and a crew I would trust with my own life.
+
+[flat, clipped, dry] Do you have one?
+
+[gracious, absolute] I have been finding out for eleven months, wrote Adaeze Okafor. Go to sleep, Wren.
+
+I finished not drinking the coffee. Somewhere west of me by about four thousand miles, it was Friday morning in Seattle, and two pilots I had never heard of were walking out to a Gulfstream in the rain.
+
+I took the postcard out of my shirt pocket and looked at the second sentence for a while.
+
+The weather here, it still said.
+
+[quietly] I put it back. Some seasons you fix net.
