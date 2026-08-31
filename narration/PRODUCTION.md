@@ -70,7 +70,7 @@ export ELEVENLABS_API_KEY=...      # or put the key in .elevenlabs_key (gitignor
 python3 generate_audio.py          # renders every tagged/chNN.txt not already in output/
 python3 generate_audio.py 09       # or just the chapters you list
 ```
-Requires `ffmpeg` on PATH. Output lands in `audiobook/narration/output/` (gitignored — mp3s are not committed to the repo; hand them to the author directly). The script chunks each tagged file at scene breaks and the ~3,800-char limit, calls the ElevenLabs API per chunk (`eleven_v3` — note this model does **not** currently accept `previous_text`/`next_text` conditioning; don't add it back), and concatenates with `ffmpeg`, inserting a longer silence at true scene breaks and a short one at length-driven splits. It skips any chunk mp3 that already exists, so a failed run can just be re-run.
+Requires `ffmpeg` on PATH. Output lands in `audiobook/narration/output/` and **is committed to the repo** (author's call — the finished mp3s live alongside the tagged text they came from). The script chunks each tagged file at scene breaks and the ~3,800-char limit, calls the ElevenLabs API per chunk (`eleven_v3` — note this model does **not** currently accept `previous_text`/`next_text` conditioning; don't add it back), and concatenates with `ffmpeg`, inserting a longer silence at true scene breaks and a short one at length-driven splits. It skips any chunk mp3 that already exists, so a failed run can just be re-run. Per-chunk working files (`output/chNN/chunk_*.mp3`, the concat list, the silence pads) are scratch — fine to `git add` just the final `Chapter-NN-*.mp3` files, or clean the `chNN/` subdirs out before committing.
 
 ## QC
 
