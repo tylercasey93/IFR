@@ -305,4 +305,48 @@ final class StudyStore {
         saveContext()
         revision += 1
     }
+
+    @discardableResult
+    func submitAdventureAnswer(_ question: Question, selectedIndex: Int) -> Bool {
+        let correct = selectedIndex == question.correctIndex
+        applyReview(question, grade: Grade(mcCorrect: correct))
+        context.insert(ReviewRecord(date: .now, questionID: question.id,
+                                    gradeRaw: nil, wasCorrect: correct, inQuiz: true))
+        addXP(XPEngine.points(for: .quizAnswer(correct: correct, difficulty: question.difficulty)),
+              reason: "adventure")
+        afterAnswer()
+        return correct
+    }
+
+    func drawEncounterDeck(count: Int, categories: [IFRCore.Category]?) -> [Question] {
+        _ = revision
+        return EncounterDeck(scheduler: scheduler).draw(count: count, categories: categories,
+                                                         bank: bank, states: cardStates,
+                                                         now: .now, using: &rng)
+    }
+
+    func adventureMastery(for category: IFRCore.Category) -> (retention: Double, level: MasteryLevel) {
+        _ = revision
+        let calc = MasteryCalculator(scheduler: scheduler)
+        let r = calc.reviewedRetention(category, bank: bank, states: cardStates, at: .now)
+        return (r, MasteryLevel.level(forRetention: r))
+    }
+
+    func retentionByCategory() -> [IFRCore.Category: Double] {
+        _ = revision
+        let states = cardStates
+        let calc = MasteryCalculator(scheduler: scheduler)
+        return Dictionary(uniqueKeysWithValues: IFRCore.Category.allCases.map {
+            ($0, calc.categoryRetention($0, bank: bank, states: states, at: .now))
+        })
+    }
+
+    func reviewedRetentionByCategory() -> [IFRCore.Category: Double] {
+        _ = revision
+        let states = cardStates
+        let calc = MasteryCalculator(scheduler: scheduler)
+        return Dictionary(uniqueKeysWithValues: IFRCore.Category.allCases.map {
+            ($0, calc.reviewedRetention($0, bank: bank, states: states, at: .now))
+        })
+    }
 }

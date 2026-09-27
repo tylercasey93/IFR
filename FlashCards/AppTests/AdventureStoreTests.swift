@@ -85,4 +85,84 @@ final class AdventureStoreTests: XCTestCase {
         XCTAssertEqual(fetched.first?.correct, 9)
         XCTAssertEqual(fetched.first?.total, 12)
     }
+
+    func testSubmitAdventureAnswerReviewsCardAwardsXPAndLogsInQuiz() throws {
+        let (store, container) = try makeStore()
+        let question = store.bank.questions.first { $0.difficulty == 1 && $0.isMultipleChoiceCapable }!
+        let correct = store.submitAdventureAnswer(question, selectedIndex: question.correctIndex!)
+        XCTAssertTrue(correct)
+        XCTAssertEqual(store.totalXP, 15)
+        XCTAssertEqual(store.answeredToday, 1)
+
+        let context = ModelContext(container)
+        let xp = try context.fetch(FetchDescriptor<XPRecord>()).first!
+        XCTAssertEqual(xp.reason, "adventure")
+        let review = try context.fetch(FetchDescriptor<ReviewRecord>()).first!
+        XCTAssertTrue(review.inQuiz)
+    }
+
+    func testWrongAdventureAnswerOnNeverReviewedQuestionIsDueWithinTwoDays() throws {
+        let (store, container) = try makeStore()
+        let question = store.bank.questions.first { $0.category == .regulations && $0.isMultipleChoiceCapable }!
+        let wrongIndex = (question.correctIndex! + 1) % question.options!.count
+        store.submitAdventureAnswer(question, selectedIndex: wrongIndex)
+
+        let context = ModelContext(container)
+        let record = try context.fetch(FetchDescriptor<CardStateRecord>()).first!
+        XCTAssertEqual(record.reps, 1)
+        XCTAssertLessThanOrEqual(record.due.timeIntervalSinceNow, 2 * 86_400)
+    }
+
+    func testAdventureAnswerMatchesQuizGradeMapping() throws {
+        let (adventureStore, adventureContainer) = try makeStore()
+        let (quizStore, quizContainer) = try makeStore()
+        let question = adventureStore.bank.questions.first { $0.category == .regulations && $0.isMultipleChoiceCapable }!
+        let correctIndex = question.correctIndex!
+
+        adventureStore.submitAdventureAnswer(question, selectedIndex: correctIndex)
+        quizStore.submitMultipleChoice(question, selectedIndex: correctIndex, inQuiz: true)
+
+        let adventureRecord = try ModelContext(adventureContainer).fetch(FetchDescriptor<CardStateRecord>()).first!
+        let quizRecord = try ModelContext(quizContainer).fetch(FetchDescriptor<CardStateRecord>()).first!
+        XCTAssertEqual(adventureRecord.stability, quizRecord.stability, accuracy: 0.0001)
+        XCTAssertEqual(adventureRecord.difficulty, quizRecord.difficulty, accuracy: 0.0001)
+    }
+
+    func testAdventureAnswersCountTowardDailyGoal() throws {
+        let (store, _) = try makeStore()
+        let goal = store.settings.dailyGoalCards
+        let questions = store.bank.questions.filter(\.isMultipleChoiceCapable).prefix(goal)
+        for question in questions {
+            store.submitAdventureAnswer(question, selectedIndex: question.correctIndex!)
+        }
+        XCTAssertTrue(store.goalMetToday)
+    }
+
+    func testAdventureAnswerConsumesNewCardAllowance() throws {
+        let (store, _) = try makeStore()
+        let before = store.todaySession().count
+        let question = store.todaySession().first { $0.isMultipleChoiceCapable }!
+        store.submitAdventureAnswer(question, selectedIndex: question.correctIndex!)
+        let after = store.todaySession().count
+        XCTAssertEqual(after, before - 1)
+    }
+
+    func testDrawEncounterDeckIsMCCapableAndInCategory() throws {
+        let (store, _) = try makeStore()
+        let drawn = store.drawEncounterDeck(count: 10, categories: [.regulations])
+        XCTAssertEqual(drawn.count, 10)
+        XCTAssertTrue(drawn.allSatisfy { $0.category == .regulations && $0.isMultipleChoiceCapable })
+        let regulationsIDs = Set(store.bank.questions(in: .regulations).map(\.id))
+        XCTAssertTrue(drawn.allSatisfy { regulationsIDs.contains($0.id) })
+    }
+
+    func testAdventureMasteryUsesReviewedRetention() throws {
+        let (store, _) = try makeStore()
+        let tenRegulations = store.bank.questions(in: .regulations).filter(\.isMultipleChoiceCapable).prefix(10)
+        for question in tenRegulations {
+            store.submitAdventureAnswer(question, selectedIndex: question.correctIndex!)
+        }
+        let mastery = store.adventureMastery(for: .regulations)
+        XCTAssertGreaterThan(mastery.level.rawValue, MasteryLevel.novice.rawValue)
+    }
 }

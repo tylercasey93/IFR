@@ -44,6 +44,13 @@ public struct MasteryCalculator: Sendable {
         mean(retention(of: bank.questions, states: states, at: date))
     }
 
+    public func reviewedRetention(_ category: Category, bank: QuestionBank, states: [String: CardState],
+                                  at date: Date, minimumReviewed: Int = 10) -> Double {
+        let reviewed = bank.questions(in: category).compactMap { states[$0.id] }.filter { $0.reps > 0 }
+        guard reviewed.count >= minimumReviewed else { return 0 }
+        return mean(reviewed.map { scheduler.retrievability(of: $0, at: date) })
+    }
+
     private func retention(of questions: [Question], states: [String: CardState], at date: Date) -> [Double] {
         questions.map { q in
             states[q.id].map { scheduler.retrievability(of: $0, at: date) } ?? 0
