@@ -11,6 +11,7 @@ final class BattleScreenModel {
     private(set) var answerRevealed = false
     private(set) var finishBattleCallCount = 0
     private(set) var dismissed = false
+    var showingBag = false
 
     let run: BattleRun
     private let store: StudyStore
@@ -81,6 +82,16 @@ final class BattleScreenModel {
         default:
             break
         }
+    }
+
+    func openBag() {
+        showingBag = true
+    }
+
+    func useItem(_ item: Item) {
+        showingBag = false
+        state = BattleEngine.useItem(state, effect: item.effect)
+        store.useInventoryItem(item.id)
     }
 
     func quit(at date: Date) {

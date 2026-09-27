@@ -5,9 +5,14 @@ import IFRCore
 extension OverworldScreenModel {
     func step(at date: Date) {
         guard let direction = nextDirection() else { return }
+        move(direction, at: date)
+    }
+
+    func move(_ direction: Direction, at date: Date) {
         let result = OverworldTurn.advancing(
             state, direction: direction, save: save, map: map,
             trainers: content.trainers, rival: content.rival, using: &rng)
+        lastDirection = direction
         state = result.state
         save = result.save
         stepPhaseStart = date
@@ -44,8 +49,17 @@ extension OverworldScreenModel {
         switch outcome {
         case .encounter(let category): presentCloudBattle(category: category)
         case .warp(let airportID): approachAirport(airportID)
+        case .sighted(let trainer): presentTrainerBattle(trainer)
+        case .rival(let index): presentRivalBattle(encounterIndex: index)
+        case .pickup(let itemID): handlePickup(itemID)
+        case .sign(let text): dialogue = DialogueScript(pages: [text])
         default: persistIfPathComplete()
         }
+    }
+
+    func handlePickup(_ itemID: String) {
+        save = Inventory.adding(itemID, to: save)
+        persistIfPathComplete()
     }
 
     func persistIfPathComplete() {

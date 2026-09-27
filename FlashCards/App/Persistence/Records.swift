@@ -142,6 +142,7 @@ final class SettingsRecord {
     var reminderEnabled: Bool = true
     var streakRiskEnabled: Bool = true
     var examDate: Date?
+    var dpadEnabled: Bool = false
 
     init() {}
 

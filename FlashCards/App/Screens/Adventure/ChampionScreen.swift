@@ -34,6 +34,6 @@ struct ChampionScreen: View {
             introDialogue: content.dialogue[content.champion.dialogue.intro] ?? DialogueScript(pages: []),
             winDialogue: content.dialogue[content.champion.dialogue.win] ?? DialogueScript(pages: []),
             loseDialogue: content.dialogue[content.champion.dialogue.lose] ?? DialogueScript(pages: []),
-            firstTime: store.adventureSave.championWins == 0, returnTo: nil)
+            firstTime: store.adventureSave.championWins == 0, returnTo: nil, items: content.items)
     }
 }

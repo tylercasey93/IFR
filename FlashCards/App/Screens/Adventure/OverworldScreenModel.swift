@@ -12,6 +12,9 @@ final class OverworldScreenModel {
     var dialogue: DialogueScript?
     var challengeableGymID: GymID?
     var activeBattle: BattleRun?
+    var showingEliteFour = false
+    var showingChampion = false
+    var showingBag = false
     var stepPhaseStart: Date
 
     let content: AdventureContent
@@ -20,6 +23,9 @@ final class OverworldScreenModel {
     let now: () -> Date
     var rng: SeededRNG
     var battlesLostBeforeBattle = 0
+    var lastDirection: Direction?
+    var pendingTrainerID: String?
+    var pendingRivalIndex: Int?
 
     init(
         content: AdventureContent, store: StudyStore, now: @escaping () -> Date = { Date() },
@@ -52,6 +58,12 @@ final class OverworldScreenModel {
         step(at: date)
     }
 
+    func dpadStep(_ direction: Direction) {
+        guard activeBattle == nil, dialogue == nil else { return }
+        state = state.interrupted()
+        move(direction, at: now())
+    }
+
     func dialogueFinished() {
         dialogue = nil
     }
@@ -71,8 +83,40 @@ final class OverworldScreenModel {
     func battleDismissed() {
         activeBattle = nil
         save = store.adventureSave
-        guard save.battlesLost > battlesLostBeforeBattle else { return }
+        let won = save.battlesLost == battlesLostBeforeBattle
+        settleTrainerAndRival(won: won)
+        guard !won else { return }
         respawnAfterLoss()
+    }
+
+    func settleTrainerAndRival(won: Bool) {
+        if let trainerID = pendingTrainerID {
+            if won { store.markTrainerDefeated(trainerID) }
+            pendingTrainerID = nil
+            save = store.adventureSave
+        }
+        if let rivalIndex = pendingRivalIndex {
+            store.markRivalEncounterDone(rivalIndex)
+            pendingRivalIndex = nil
+            save = store.adventureSave
+        }
+    }
+
+    func eliteFourDismissed() {
+        showingEliteFour = false
+        state.facing = .down
+        persist()
+    }
+
+    func championDismissed() {
+        showingChampion = false
+        state.facing = .down
+        persist()
+    }
+
+    func warpTo(_ point: GridPoint) {
+        state = OverworldState(position: point, facing: .down)
+        persist()
     }
 
     func sceneDidEnterBackground() {

@@ -31,7 +31,7 @@ final class EliteFourScreenModel {
             introDialogue: content.dialogue[member.dialogue.intro] ?? DialogueScript(pages: []),
             winDialogue: content.dialogue[member.dialogue.win] ?? DialogueScript(pages: []),
             loseDialogue: content.dialogue[member.dialogue.lose] ?? DialogueScript(pages: []),
-            firstTime: false, returnTo: nil)
+            firstTime: false, returnTo: nil, items: content.items)
     }
 
     func clearActiveBattle() {

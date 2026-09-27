@@ -30,6 +30,21 @@ final class SmokeTests: XCTestCase {
         save.hallOfFame = [Date(timeIntervalSince1970: 1_700_000_000), Date(timeIntervalSince1970: 1_800_000_000)]
         return save
     }
+
+    private func doorApproachSave(x: Int, y: Int, badges: Int = 0) -> AdventureSave {
+        var save = save(withBadges: badges)
+        save.position = GridPoint(x: x, y: y)
+        save.facing = .up
+        return save
+    }
+
+    private func tapUp(_ overworld: XCUIElement, times: Int = 10) {
+        let above = overworld.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.35))
+        for _ in 0..<times {
+            above.tap()
+        }
+    }
+
     func testAppLaunches() {
         let app = XCUIApplication()
         app.launch()
@@ -100,69 +115,103 @@ final class SmokeTests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
         app.tabBars.buttons["Adventure"].tap()
-        XCTAssertTrue(app.otherElements["regionMap"].waitForExistence(timeout: 15))
-        XCTAssertTrue(app.buttons["airport-KHYP"].isHittable)
+        XCTAssertTrue(app.otherElements["overworldScreen"].waitForExistence(timeout: 15))
+        XCTAssertTrue(app.buttons["regionMapButton"].exists)
         XCTAssertTrue(app.buttons["badgeCase"].exists)
         XCTAssertTrue(app.buttons["hallOfFame"].exists)
     }
 
-    func testStartingFirstGymShowsQuestionAndOptions() {
-        let app = XCUIApplication()
-        app.launch()
+    func testUnlockedGymDoorTypesIntroAndShowsChallenge() {
+        let app = launch(withSave: doorApproachSave(x: 3, y: 15))
         app.tabBars.buttons["Adventure"].tap()
-        app.buttons["airport-KHYP"].tap()
-        app.buttons["gym-humanFactors"].tap()
-        XCTAssertTrue(app.buttons["battleOption-0"].waitForExistence(timeout: 15))
-    }
-
-    func testAnsweringOptionAdvancesTurn() {
-        let app = XCUIApplication()
-        app.launch()
-        app.tabBars.buttons["Adventure"].tap()
-        app.buttons["airport-KHYP"].tap()
+        let overworld = app.otherElements["overworldScreen"]
+        XCTAssertTrue(overworld.waitForExistence(timeout: 15))
+        tapUp(overworld, times: 6)
+        XCTAssertTrue(app.buttons["gym-humanFactors"].waitForExistence(timeout: 15))
         app.buttons["gym-humanFactors"].tap()
         XCTAssertTrue(app.buttons["battleOption-0"].waitForExistence(timeout: 15))
         app.buttons["battleOption-0"].tap()
         XCTAssertTrue(app.buttons["battleQuit"].waitForExistence(timeout: 5))
+        app.buttons["battleQuit"].tap()
+        XCTAssertTrue(overworld.waitForExistence(timeout: 15))
     }
 
-    func testBattleQuitReturnsToRegionMap() {
-        let app = XCUIApplication()
-        app.launch()
+    func testLockedGymDoorTypesLockedMessageAndStepsBack() {
+        let app = launch(withSave: doorApproachSave(x: 7, y: 15))
         app.tabBars.buttons["Adventure"].tap()
-        app.buttons["airport-KHYP"].tap()
-        app.buttons["gym-humanFactors"].tap()
-        XCTAssertTrue(app.buttons["battleQuit"].waitForExistence(timeout: 15))
-        app.buttons["battleQuit"].tap()
-        XCTAssertTrue(app.otherElements["regionMap"].waitForExistence(timeout: 15))
+        let overworld = app.otherElements["overworldScreen"]
+        XCTAssertTrue(overworld.waitForExistence(timeout: 15))
+        tapUp(overworld, times: 6)
+        XCTAssertTrue(app.staticTexts["You need the Oxygen Badge first."].waitForExistence(timeout: 15))
+        XCTAssertFalse(app.buttons["gym-instrumentsAndSystems"].exists)
+    }
+
+    func testEliteFourDoorPushesScreenWhenUnlocked() {
+        let app = launch(withSave: doorApproachSave(x: 34, y: 15, badges: 8))
+        app.tabBars.buttons["Adventure"].tap()
+        let overworld = app.otherElements["overworldScreen"]
+        XCTAssertTrue(overworld.waitForExistence(timeout: 15))
+        tapUp(overworld, times: 6)
+        XCTAssertTrue(app.otherElements["eliteFourScreen"].waitForExistence(timeout: 15))
+    }
+
+    func testChampionDoorTypesLockedMessageWhenLocked() {
+        let app = launch(withSave: doorApproachSave(x: 37, y: 15, badges: 8))
+        app.tabBars.buttons["Adventure"].tap()
+        let overworld = app.otherElements["overworldScreen"]
+        XCTAssertTrue(overworld.waitForExistence(timeout: 15))
+        tapUp(overworld, times: 6)
+        XCTAssertTrue(app.staticTexts["We finish the exam, pilot. Every question counts."].waitForExistence(timeout: 15))
+    }
+
+    func testDirectToPickerOpensFromMapButton() {
+        var seeded = save(withBadges: 1)
+        seeded.visitedAirportIDs = ["KHYP"]
+        let app = launch(withSave: seeded)
+        app.tabBars.buttons["Adventure"].tap()
+        XCTAssertTrue(app.buttons["regionMapButton"].waitForExistence(timeout: 15))
+        app.buttons["regionMapButton"].tap()
+        XCTAssertTrue(app.otherElements["directToPicker"].waitForExistence(timeout: 15))
+        XCTAssertTrue(app.buttons["directTo-KHYP"].exists)
     }
 
     func testSeededSaveWithEightBadgesUnlocksEliteFour() {
-        let app = launch(withSave: save(withBadges: 8))
+        let app = launch(withSave: doorApproachSave(x: 34, y: 15, badges: 8))
         app.tabBars.buttons["Adventure"].tap()
-        app.buttons["airport-KELF"].tap()
+        let overworld = app.otherElements["overworldScreen"]
+        XCTAssertTrue(overworld.waitForExistence(timeout: 15))
+        tapUp(overworld, times: 6)
         XCTAssertTrue(app.otherElements["eliteFourScreen"].waitForExistence(timeout: 15))
     }
 
     func testEliteFourLockedUntilEightBadges() {
-        let app = launch(withSave: save(withBadges: 4))
+        let app = launch(withSave: doorApproachSave(x: 34, y: 15, badges: 4))
         app.tabBars.buttons["Adventure"].tap()
-        app.buttons["airport-KELF"].tap()
+        let overworld = app.otherElements["overworldScreen"]
+        XCTAssertTrue(overworld.waitForExistence(timeout: 15))
+        tapUp(overworld, times: 6)
         XCTAssertTrue(app.staticTexts["You need the Charts Badge first."].waitForExistence(timeout: 15))
     }
 
     func testChampionLockedUntilEliteFourCleared() {
-        let app = launch(withSave: save(withBadges: 8))
+        let app = launch(withSave: doorApproachSave(x: 37, y: 15, badges: 8))
         app.tabBars.buttons["Adventure"].tap()
-        app.buttons["airport-KCHP"].tap()
-        XCTAssertTrue(app.staticTexts["You need to clear the Elite Four first."].waitForExistence(timeout: 15))
+        let overworld = app.otherElements["overworldScreen"]
+        XCTAssertTrue(overworld.waitForExistence(timeout: 15))
+        tapUp(overworld, times: 6)
+        XCTAssertTrue(app.staticTexts["We finish the exam, pilot. Every question counts."].waitForExistence(timeout: 15))
     }
 
     func testChampionChallengeStartsSixtyQuestionBattleAsTheDPE() {
-        let app = launch(withSave: eliteFourClearedSave())
+        var seeded = eliteFourClearedSave()
+        seeded.position = GridPoint(x: 37, y: 15)
+        seeded.facing = .up
+        let app = launch(withSave: seeded)
         app.tabBars.buttons["Adventure"].tap()
-        app.buttons["airport-KCHP"].tap()
-        XCTAssertTrue(app.buttons["gym-champion"].waitForExistence(timeout: 15))
+        let overworld = app.otherElements["overworldScreen"]
+        XCTAssertTrue(overworld.waitForExistence(timeout: 15))
+        tapUp(overworld, times: 6)
+        XCTAssertTrue(app.otherElements["championScreen"].waitForExistence(timeout: 15))
         app.buttons["gym-champion"].tap()
         XCTAssertTrue(app.buttons["battleOption-0"].waitForExistence(timeout: 15))
         XCTAssertTrue(app.staticTexts["THE DPE"].exists)
@@ -199,7 +248,6 @@ final class SmokeTests: XCTestCase {
         app.launchArguments += ["-adventureSeed", "7"]
         app.launch()
         app.tabBars.buttons["Adventure"].tap()
-        app.buttons["walkButton"].tap()
         let overworld = app.otherElements["overworldScreen"]
         XCTAssertTrue(overworld.waitForExistence(timeout: 15))
         let cloudTarget = overworld.coordinate(withNormalizedOffset: CGVector(dx: 0.7, dy: 0.6))

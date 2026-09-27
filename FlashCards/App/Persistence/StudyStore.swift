@@ -305,6 +305,29 @@ final class StudyStore {
         revision += 1
     }
 
+    func markTrainerDefeated(_ trainerID: String) {
+        var next = adventureSave
+        next.defeatedTrainerIDs.insert(trainerID)
+        updateAdventureSave(next)
+    }
+
+    func markRivalEncounterDone(_ index: Int) {
+        var next = adventureSave
+        next.rivalEncountersDone.insert(index)
+        updateAdventureSave(next)
+    }
+
+    func collectItem(_ itemID: String) {
+        var next = Inventory.adding(itemID, to: adventureSave)
+        next.collectedItemIDs.insert(itemID)
+        updateAdventureSave(next)
+    }
+
+    func useInventoryItem(_ itemID: String) {
+        guard let next = Inventory.using(itemID, from: adventureSave) else { return }
+        updateAdventureSave(next)
+    }
+
     @discardableResult
     func submitAdventureAnswer(_ question: Question, selectedIndex: Int) -> Bool {
         let correct = selectedIndex == question.correctIndex

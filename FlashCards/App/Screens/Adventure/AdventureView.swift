@@ -4,8 +4,8 @@ import IFRCore
 struct AdventureView: View {
     @Environment(StudyStore.self) private var store
     @State private var content: AdventureContent?
-    @State private var activeBattle: BattleRun?
-    @State private var showingOverworld = false
+    @State private var showingBadgeCase = false
+    @State private var showingHallOfFame = false
 
     private let seed: UInt64?
     private let seededSave: AdventureSave?
@@ -19,7 +19,7 @@ struct AdventureView: View {
         NavigationStack {
             Group {
                 if let content {
-                    RegionMapScreen(content: content, startBattle: { activeBattle = $0 })
+                    OverworldScreen(content: content, seed: seed)
                 } else {
                     ProgressView()
                         .onAppear { load() }
@@ -27,16 +27,15 @@ struct AdventureView: View {
             }
             .toolbar {
                 if content != nil {
-                    ToolbarItem { Button("Walk") { showingOverworld = true }.accessibilityIdentifier("walkButton") }
+                    ToolbarItem { Button("Badges") { showingBadgeCase = true }.accessibilityIdentifier("badgeCase") }
+                    ToolbarItem { Button("Hall of Fame") { showingHallOfFame = true }.accessibilityIdentifier("hallOfFame") }
                 }
             }
-        }
-        .fullScreenCover(item: $activeBattle) { run in
-            BattleScreen(run: run)
-        }
-        .fullScreenCover(isPresented: $showingOverworld) {
-            if let content {
-                OverworldScreen(content: content, seed: seed)
+            .navigationDestination(isPresented: $showingBadgeCase) {
+                if let content { BadgeCaseScreen(content: content) }
+            }
+            .navigationDestination(isPresented: $showingHallOfFame) {
+                HallOfFameScreen()
             }
         }
     }

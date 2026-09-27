@@ -50,6 +50,14 @@ struct BattleScreen: View {
                         Button("Quit") { model.quit(at: context.date) }
                             .accessibilityIdentifier("battleQuit")
                     }
+                    ToolbarItem {
+                        Button("Bag") { model.openBag() }
+                            .accessibilityIdentifier("battleBag")
+                    }
+                }
+                .sheet(isPresented: bagBinding(model)) {
+                    BagSheet(items: run.items, inventory: store.adventureSave.inventory,
+                            onUse: { model.useItem($0) })
                 }
             }
         }
@@ -70,5 +78,9 @@ struct BattleScreen: View {
 
     private func handleTap(model: BattleScreenModel, at date: Date) {
         if model.phase == .ended { model.dismissEnded() }
+    }
+
+    private func bagBinding(_ model: BattleScreenModel) -> Binding<Bool> {
+        Binding(get: { model.showingBag }, set: { model.showingBag = $0 })
     }
 }
