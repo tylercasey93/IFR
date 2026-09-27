@@ -8,7 +8,8 @@ enum LeaderboardID {
     static let weeklyXP = "ifr.weekly.xp"
     static let allTimeXP = "ifr.alltime.xp"
     static let longestStreak = "ifr.longest.streak"
-    static let all = [weeklyXP, allTimeXP, longestStreak]
+    static let towerFloor = "ifr.tower.floor"
+    static let all = [weeklyXP, allTimeXP, longestStreak, towerFloor]
 }
 
 /// Highest-score-wins outbox for offline submissions, persisted to UserDefaults.
@@ -160,6 +161,11 @@ final class GameCenterService {
                      weekStart: StudyStore.mondayWeekStart(for: .now, calendar: .current))
         queue.record(leaderboardID: LeaderboardID.allTimeXP, score: allTime)
         queue.record(leaderboardID: LeaderboardID.longestStreak, score: longestStreak)
+        if isAuthenticated { flushQueue() }
+    }
+
+    func submitTowerFloor(_ floor: Int) {
+        queue.record(leaderboardID: LeaderboardID.towerFloor, score: floor)
         if isAuthenticated { flushQueue() }
     }
 

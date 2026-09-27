@@ -216,6 +216,11 @@ final class AdventureStoreTests: XCTestCase {
                  spriteID: "cloud-humanFactors", tier: .cloud, maxHP: maxHP)
     }
 
+    private func towerOpponent(floor: Int, maxHP: Int) -> Opponent {
+        Opponent(id: "tower-floor-\(floor)", name: "FLOOR \(floor) PILOT", nameplateName: "FLOOR\(floor)",
+                 spriteID: "leader-hypoxia", tier: .tower, maxHP: maxHP)
+    }
+
     private func emptyDialogue() throws -> DialogueScript {
         try JSONDecoder().decode(DialogueScript.self, from: Data("{\"pages\":[]}".utf8))
     }
@@ -378,6 +383,51 @@ final class AdventureStoreTests: XCTestCase {
         let xpBefore = store.totalXP
         store.finishBattle(won)
         XCTAssertEqual(store.totalXP - xpBefore, 5)
+    }
+
+    func testTowerWinAwardsTenXPAndBestFloor() throws {
+        let (store, _) = try makeStore()
+        let deck = Array(store.bank.questions.filter { $0.category == .humanFactors && $0.isMultipleChoiceCapable }.prefix(1))
+        let opponent = towerOpponent(floor: 3, maxHP: 1)
+        let opening = BattleEngine.start(opponent: opponent, deck: deck, playerMaxHP: 100)
+        let (won, _) = BattleEngine.answer(opening, selectedIndex: deck[0].correctIndex!, answerSeconds: 10)
+        XCTAssertEqual(won.outcome, .won)
+
+        let xpBefore = store.totalXP
+        let save = store.finishBattle(won)
+
+        XCTAssertEqual(store.totalXP - xpBefore, 10)
+        XCTAssertEqual(save.bestTowerFloor, 3)
+    }
+
+    func testBestFloorRecordedInSave() throws {
+        let (store, _) = try makeStore()
+        let deck = Array(store.bank.questions.filter { $0.category == .humanFactors && $0.isMultipleChoiceCapable }.prefix(1))
+
+        let firstOpening = BattleEngine.start(opponent: towerOpponent(floor: 4, maxHP: 1), deck: deck, playerMaxHP: 100)
+        let (firstWon, _) = BattleEngine.answer(firstOpening, selectedIndex: deck[0].correctIndex!, answerSeconds: 10)
+        store.finishBattle(firstWon)
+        XCTAssertEqual(store.adventureSave.bestTowerFloor, 4)
+
+        let secondOpening = BattleEngine.start(opponent: towerOpponent(floor: 2, maxHP: 1), deck: deck, playerMaxHP: 100)
+        let (secondWon, _) = BattleEngine.answer(secondOpening, selectedIndex: deck[0].correctIndex!, answerSeconds: 10)
+        store.finishBattle(secondWon)
+
+        XCTAssertEqual(store.adventureSave.bestTowerFloor, 4)
+    }
+
+    func testLeavingTowerEndsRunWithoutLoss() throws {
+        let (store, _) = try makeStore()
+        let deck = Array(store.bank.questions.filter { $0.category == .humanFactors && $0.isMultipleChoiceCapable }.prefix(1))
+        let opening = BattleEngine.start(opponent: towerOpponent(floor: 1, maxHP: 1), deck: deck, playerMaxHP: 100)
+        let (won, _) = BattleEngine.answer(opening, selectedIndex: deck[0].correctIndex!, answerSeconds: 10)
+        store.finishBattle(won)
+        let battlesLostAfterWin = store.adventureSave.battlesLost
+        let battlesWonAfterWin = store.adventureSave.battlesWon
+
+        XCTAssertEqual(battlesLostAfterWin, 0)
+        XCTAssertEqual(battlesWonAfterWin, 1)
+        XCTAssertEqual(store.adventureSave.battlesLost, battlesLostAfterWin)
     }
 
     func testItemPickupPersistsInSave() throws {

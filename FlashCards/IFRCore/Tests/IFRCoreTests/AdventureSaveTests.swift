@@ -60,6 +60,7 @@ final class AdventureSaveTests: XCTestCase {
         XCTAssertEqual(decoded.visitedAirportIDs, ["KHYP", "KGYR"])
         XCTAssertEqual(decoded.position, GridPoint(x: 14, y: 1))
         XCTAssertEqual(decoded.facing, .right)
+        XCTAssertEqual(decoded.bestTowerFloor, 4)
     }
 
     func testDecodingOlderSaveMissingKeysUsesDefaults() throws {
@@ -98,6 +99,12 @@ final class AdventureSaveTests: XCTestCase {
         let decoded = try JSONDecoder().decode(AdventureSave.self, from: Data(json.utf8))
         XCTAssertEqual(decoded.seenCompanionStages, [:])
         XCTAssertEqual(decoded.seenCompanionStages["humanFactors"] ?? CompanionStage.hatchling.rawValue, CompanionStage.hatchling.rawValue)
+    }
+
+    func testOlderSaveWithoutTowerFloorDecodes() throws {
+        let json = "{\"badges\":[]}"
+        let decoded = try JSONDecoder().decode(AdventureSave.self, from: Data(json.utf8))
+        XCTAssertEqual(decoded.bestTowerFloor, 0)
     }
 
     func testOlderSaveWithoutRematchNoticeDecodes() throws {

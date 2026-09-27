@@ -20,6 +20,7 @@ public struct AdventureSave: Codable, Equatable, Sendable {
     public var facing: Direction?
     public var rivalEncountersDone: Set<Int>
     public var seenCompanionStages: [String: Int]
+    public var bestTowerFloor: Int
     public var lastRematchNotice: Date?
 
     public static let new = AdventureSave(
@@ -34,7 +35,7 @@ public struct AdventureSave: Codable, Equatable, Sendable {
         championWins: Int, hallOfFame: [Date], battlesWon: Int, battlesLost: Int, visitedAirportIDs: Set<String>,
         defeatedTrainerIDs: Set<String> = [], collectedItemIDs: Set<String> = [], inventory: [String: Int] = [:],
         repelStepsLeft: Int = 0, position: GridPoint? = nil, facing: Direction? = nil, rivalEncountersDone: Set<Int> = [],
-        seenCompanionStages: [String: Int] = [:], lastRematchNotice: Date? = nil
+        seenCompanionStages: [String: Int] = [:], bestTowerFloor: Int = 0, lastRematchNotice: Date? = nil
     ) {
         self.saveVersion = saveVersion
         self.badges = badges
@@ -53,6 +54,7 @@ public struct AdventureSave: Codable, Equatable, Sendable {
         self.facing = facing
         self.rivalEncountersDone = rivalEncountersDone
         self.seenCompanionStages = seenCompanionStages
+        self.bestTowerFloor = bestTowerFloor
         self.lastRematchNotice = lastRematchNotice
     }
 
@@ -60,7 +62,7 @@ public struct AdventureSave: Codable, Equatable, Sendable {
         case saveVersion, badges, badgeQuestionIDs, eliteFourCleared, championWins,
              hallOfFame, battlesWon, battlesLost, visitedAirportIDs, defeatedTrainerIDs,
              collectedItemIDs, inventory, repelStepsLeft, position, facing, rivalEncountersDone,
-             seenCompanionStages, lastRematchNotice
+             seenCompanionStages, bestTowerFloor, lastRematchNotice
     }
 
     public init(from decoder: Decoder) throws {
@@ -86,6 +88,7 @@ public struct AdventureSave: Codable, Equatable, Sendable {
         self.facing = try container.decodeIfPresent(Direction.self, forKey: .facing)
         self.rivalEncountersDone = try container.decodeIfPresent(Set<Int>.self, forKey: .rivalEncountersDone) ?? []
         self.seenCompanionStages = try container.decodeIfPresent([String: Int].self, forKey: .seenCompanionStages) ?? [:]
+        self.bestTowerFloor = try container.decodeIfPresent(Int.self, forKey: .bestTowerFloor) ?? 0
         self.lastRematchNotice = try container.decodeIfPresent(Date.self, forKey: .lastRematchNotice)
     }
 }

@@ -29,6 +29,9 @@ final class StudyStore {
     /// Task 7 (Game Center) assigns this to push fresh totals after XP changes.
     var onXPChanged: (() -> Void)?
 
+    /// M3-04 (Battle Tower) assigns this to push the tower leaderboard after a floor climb.
+    var onTowerFloorReached: ((Int) -> Void)?
+
     init(context: ModelContext, bank: QuestionBank) {
         self.context = context
         self.bank = bank
@@ -257,7 +260,7 @@ final class StudyStore {
             masteredCategories: mastered, hourOfDay: calendar.component(.hour, from: .now),
             totalXP: totalXP, quizzesCompleted: quizCount, daysAwayBeforeToday: daysAway,
             gymBadges: save.badges.count, eliteFourCleared: save.eliteFourCleared,
-            championDefeated: save.championWins > 0, bestTowerFloor: 0)
+            championDefeated: save.championWins > 0, bestTowerFloor: save.bestTowerFloor)
         for badge in BadgeEngine.newlyEarned(snapshot: snapshot, already: Set(earnedBadges)) {
             context.insert(BadgeRecord(badge: badge, earnedOn: .now))
         }
@@ -376,14 +379,26 @@ final class StudyStore {
     func finishBattle(_ state: BattleState) -> AdventureSave {
         let outcome = state.outcome ?? .lost
         let previous = adventureSave
-        let next = BattleResolution.apply(outcome, opponent: state.opponent, deck: state.deck, to: previous, at: .now)
+        var next = BattleResolution.apply(outcome, opponent: state.opponent, deck: state.deck, to: previous, at: .now)
+        if outcome == .won, state.opponent.tier == .tower, let floor = towerFloorNumber(from: state.opponent.id) {
+            next.bestTowerFloor = max(next.bestTowerFloor, floor)
+        }
         insertBattleRecord(for: state, outcome: outcome)
         writeAdventureSave(next)
         awardBattleXP(state: state, outcome: outcome, previous: previous)
         awardBadges()
         saveContext()
         revision += 1
+        if next.bestTowerFloor > previous.bestTowerFloor {
+            onTowerFloorReached?(next.bestTowerFloor)
+        }
         return next
+    }
+
+    private func towerFloorNumber(from opponentID: String) -> Int? {
+        let prefix = "tower-floor-"
+        guard opponentID.hasPrefix(prefix) else { return nil }
+        return Int(opponentID.dropFirst(prefix.count))
     }
 
     func finishEliteFourRun(_ run: EliteFourRun) -> AdventureSave {

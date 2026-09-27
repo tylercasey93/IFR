@@ -85,6 +85,20 @@ final class GameCenterServiceTests: XCTestCase {
         XCTAssertTrue(pendingScores(in: defaults).isEmpty)
     }
 
+    func testTowerFloorQueuedInPendingScoresWhenOffline() async {
+        let defaults = makeDefaults()
+        var submitted: [Int] = []
+        let service = GameCenterService(defaults: defaults) { score, leaderboardID in
+            if leaderboardID == "ifr.tower.floor" { submitted.append(score) }
+        }
+        service.isAuthenticated = false
+
+        service.submitTowerFloor(5)
+
+        XCTAssertEqual(pendingScores(in: defaults)["ifr.tower.floor"], 5)
+        XCTAssertTrue(submitted.isEmpty)
+    }
+
     func testStaleWeeklyScoreFromPreviousWeekIsNeverSubmitted() async {
         let defaults = makeDefaults()
         // An unflushed weekly score persisted last week (e.g. offline Sunday

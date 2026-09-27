@@ -60,6 +60,9 @@ struct IFRFlashCardsApp: App {
                                                        allTime: store.totalXP,
                                                        longestStreak: store.longestStreak)
                     }
+                    store.onTowerFloorReached = { floor in
+                        gameCenter.submitTowerFloor(floor)
+                    }
                 }
                 // `initial: true` fires once at launch with the current phase
                 // (.active), so notifications are rescheduled from fresh state
