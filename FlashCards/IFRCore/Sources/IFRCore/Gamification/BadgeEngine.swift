@@ -7,6 +7,8 @@ public enum Badge: String, Codable, CaseIterable, Sendable {
     case perfectQuiz, quizzes10, quizzes50, mockExamPassed
     case categoryMastered, allCategoriesMastered
     case xp10k, earlyBird, nightOwl, comeback
+    case firstGymBadge, fourGymBadges, allGymBadges
+    case eliteFourCleared, regionChampion, towerFloor10
 
     public var displayName: String {
         switch self {
@@ -27,6 +29,12 @@ public enum Badge: String, Codable, CaseIterable, Sendable {
         case .earlyBird: "Early Bird"
         case .nightOwl: "Night Owl"
         case .comeback: "Comeback Kid"
+        case .firstGymBadge: "Wings Pinned"
+        case .fourGymBadges: "Halfway Round"
+        case .allGymBadges: "Circuit Complete"
+        case .eliteFourCleared: "Four Corners"
+        case .regionChampion: "Region Champion"
+        case .towerFloor10: "Tower Ten"
         }
     }
 }
@@ -41,10 +49,15 @@ public struct BadgeSnapshot: Sendable {
     public let totalXP: Int
     public let quizzesCompleted: Int
     public let daysAwayBeforeToday: Int
+    public let gymBadges: Int
+    public let eliteFourCleared: Bool
+    public let championDefeated: Bool
+    public let bestTowerFloor: Int
 
     public init(totalReviews: Int, streak: Int, lastQuizPerfect: Bool, mockExamPassed: Bool,
                 masteredCategories: Int, hourOfDay: Int, totalXP: Int, quizzesCompleted: Int,
-                daysAwayBeforeToday: Int) {
+                daysAwayBeforeToday: Int, gymBadges: Int = 0, eliteFourCleared: Bool = false,
+                championDefeated: Bool = false, bestTowerFloor: Int = 0) {
         self.totalReviews = totalReviews
         self.streak = streak
         self.lastQuizPerfect = lastQuizPerfect
@@ -54,6 +67,10 @@ public struct BadgeSnapshot: Sendable {
         self.totalXP = totalXP
         self.quizzesCompleted = quizzesCompleted
         self.daysAwayBeforeToday = daysAwayBeforeToday
+        self.gymBadges = gymBadges
+        self.eliteFourCleared = eliteFourCleared
+        self.championDefeated = championDefeated
+        self.bestTowerFloor = bestTowerFloor
     }
 }
 
@@ -80,6 +97,12 @@ public enum BadgeEngine: Sendable {
         award(.earlyBird, when: s.totalReviews >= 1 && s.hourOfDay < 6)
         award(.nightOwl, when: s.totalReviews >= 1 && s.hourOfDay >= 22)
         award(.comeback, when: s.totalReviews >= 1 && s.daysAwayBeforeToday >= 7)
+        award(.firstGymBadge, when: s.gymBadges >= 1)
+        award(.fourGymBadges, when: s.gymBadges >= 4)
+        award(.allGymBadges, when: s.gymBadges >= 8)
+        award(.eliteFourCleared, when: s.eliteFourCleared)
+        award(.regionChampion, when: s.championDefeated)
+        award(.towerFloor10, when: s.bestTowerFloor >= 10)
         return earned
     }
 }
