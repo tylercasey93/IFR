@@ -14,6 +14,13 @@ public struct Gym: Codable, Equatable, Sendable {
     public let badgeName: String
     public let questionCount: Int
     public let dialogue: DialogueRefs
+
+    public func opponent(maxHP: Int, airportID: String) -> Opponent {
+        Opponent(
+            id: id.rawValue, name: leaderName, nameplateName: nameplateName, spriteID: leaderSpriteID,
+            tier: .gym, maxHP: maxHP, gymID: id.rawValue, airportID: airportID
+        )
+    }
 }
 
 public struct EliteMember: Codable, Equatable, Sendable {
