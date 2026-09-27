@@ -1,6 +1,6 @@
 import Foundation
 
-public struct GridPoint: Equatable, Sendable {
+public struct GridPoint: Hashable, Codable, Sendable {
     public let x: Int
     public let y: Int
 
