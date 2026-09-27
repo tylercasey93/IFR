@@ -7,9 +7,11 @@ struct AdventureView: View {
     @State private var activeBattle: BattleRun?
 
     private let seed: UInt64?
+    private let seededSave: AdventureSave?
 
     init() {
         seed = AdventureView.readSeedArgument(CommandLine.arguments)
+        seededSave = AdventureView.readSaveArgument(CommandLine.arguments)
     }
 
     var body: some View {
@@ -19,7 +21,7 @@ struct AdventureView: View {
                     RegionMapScreen(content: content, startBattle: { activeBattle = $0 })
                 } else {
                     ProgressView()
-                        .onAppear { content = try? AdventureContent.load() }
+                        .onAppear { load() }
                 }
             }
         }
@@ -28,9 +30,23 @@ struct AdventureView: View {
         }
     }
 
+    private func load() {
+        content = try? AdventureContent.load()
+        if let seededSave {
+            store.updateAdventureSave(seededSave)
+        }
+    }
+
     private static func readSeedArgument(_ arguments: [String]) -> UInt64? {
         guard let flagIndex = arguments.firstIndex(of: "-adventureSeed"),
               arguments.indices.contains(flagIndex + 1) else { return nil }
         return UInt64(arguments[flagIndex + 1])
+    }
+
+    private static func readSaveArgument(_ arguments: [String]) -> AdventureSave? {
+        guard let flagIndex = arguments.firstIndex(of: "-adventureSaveJSON"),
+              arguments.indices.contains(flagIndex + 1),
+              let data = arguments[flagIndex + 1].data(using: .utf8) else { return nil }
+        return try? JSONDecoder().decode(AdventureSave.self, from: data)
     }
 }

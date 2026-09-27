@@ -9,6 +9,10 @@ struct RegionMapScreen: View {
 
     @State private var dialogue: DialogueScript?
     @State private var challengeableGymID: GymID?
+    @State private var showingEliteFour = false
+    @State private var showingChampion = false
+    @State private var showingBadgeCase = false
+    @State private var showingHallOfFame = false
 
     var body: some View {
         GeometryReader { geometry in
@@ -30,9 +34,13 @@ struct RegionMapScreen: View {
         }
         .accessibilityIdentifier("regionMap")
         .toolbar {
-            ToolbarItem { Button("Badges") {}.accessibilityIdentifier("badgeCase") }
-            ToolbarItem { Button("Hall of Fame") {}.accessibilityIdentifier("hallOfFame") }
+            ToolbarItem { Button("Badges") { showingBadgeCase = true }.accessibilityIdentifier("badgeCase") }
+            ToolbarItem { Button("Hall of Fame") { showingHallOfFame = true }.accessibilityIdentifier("hallOfFame") }
         }
+        .navigationDestination(isPresented: $showingEliteFour) { EliteFourScreen(content: content) }
+        .navigationDestination(isPresented: $showingChampion) { ChampionScreen(content: content) }
+        .navigationDestination(isPresented: $showingBadgeCase) { BadgeCaseScreen(content: content) }
+        .navigationDestination(isPresented: $showingHallOfFame) { HallOfFameScreen() }
     }
 
     private var mapFrame: PixelFrame {
@@ -61,8 +69,20 @@ struct RegionMapScreen: View {
     }
 
     private func tap(_ airport: Airport) {
-        guard airport.role == .gym, let gymID = airport.gymID,
-              let gym = content.gyms.first(where: { $0.id == gymID }) else { return }
+        switch airport.role {
+        case .gym:
+            tapGym(airport)
+        case .eliteFour:
+            tapEliteFour()
+        case .champion:
+            tapChampion()
+        case .waypoint:
+            break
+        }
+    }
+
+    private func tapGym(_ airport: Airport) {
+        guard let gymID = airport.gymID, let gym = content.gyms.first(where: { $0.id == gymID }) else { return }
         if CircuitRules.isUnlocked(gymID, save: store.adventureSave) {
             dialogue = content.dialogue[gym.dialogue.intro]
             challengeableGymID = gymID
@@ -72,10 +92,34 @@ struct RegionMapScreen: View {
         }
     }
 
+    private func tapEliteFour() {
+        challengeableGymID = nil
+        if CircuitRules.isEliteFourUnlocked(save: store.adventureSave) {
+            showingEliteFour = true
+        } else {
+            dialogue = content.systemLine(.gymLocked, filling: ["badge": nextMissingBadgeName()])
+        }
+    }
+
+    private func tapChampion() {
+        challengeableGymID = nil
+        if CircuitRules.isChampionUnlocked(save: store.adventureSave) {
+            showingChampion = true
+        } else {
+            dialogue = DialogueScript(pages: ["You need to clear the Elite Four first."])
+        }
+    }
+
     private func previousBadgeName(before gymID: GymID) -> String {
         guard let previous = gymID.previous, let previousGym = content.gyms.first(where: { $0.id == previous })
         else { return "" }
         return previousGym.badgeName
+    }
+
+    private func nextMissingBadgeName() -> String {
+        guard let missing = GymID.allCases.first(where: { !store.adventureSave.badges.contains($0) }),
+              let gym = content.gyms.first(where: { $0.id == missing }) else { return "" }
+        return gym.badgeName
     }
 
     private func startGymBattle(_ gymID: GymID) {
