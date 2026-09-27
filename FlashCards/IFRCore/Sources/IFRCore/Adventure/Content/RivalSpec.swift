@@ -26,4 +26,11 @@ public struct RivalSpec: Codable, Equatable, Sendable {
         self.questionCount = questionCount
         self.encounters = encounters
     }
+
+    public func opponent(maxHP: Int) -> Opponent {
+        Opponent(
+            id: "rival", name: name, nameplateName: nameplateName, spriteID: spriteID,
+            tier: .trainer, maxHP: maxHP
+        )
+    }
 }
