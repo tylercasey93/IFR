@@ -313,6 +313,16 @@ final class AdventureContentTests: XCTestCase {
         }
     }
 
+    func testEveryTrainerAndRivalEncounterHasIntroWinLoseDialogue() throws {
+        let base = try loadedContent()
+        var dialogue = base.dialogue
+        dialogue.removeValue(forKey: "ana-win")
+        let content = replacingDialogue(base, with: dialogue)
+        XCTAssertThrowsError(try content.validate()) {
+            XCTAssertEqual($0 as? AdventureContentError, .unknownReference(from: "student-ana", to: "ana-win"))
+        }
+    }
+
     func testEverySpriteIDResolvesInSpriteCatalog() throws {
         let base = try loadedContent()
         let content = replacingGym(base, id: .humanFactors) { gym in

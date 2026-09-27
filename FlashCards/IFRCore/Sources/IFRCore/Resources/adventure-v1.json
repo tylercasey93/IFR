@@ -540,6 +540,54 @@
       "pages": [
         "Close, but the DPE does not round up. Study on."
       ]
+    },
+    "ana-intro": {
+      "pages": [
+        "I've been studying hypoxia symptoms all week.",
+        "Let's see who really knows their oxygen limits!"
+      ]
+    },
+    "ana-win": {
+      "pages": [
+        "Wow, you really know your stuff up there."
+      ]
+    },
+    "ana-lose": {
+      "pages": [
+        "Ha! Guess I need to hit the books more."
+      ]
+    },
+    "skyler-1-intro": {
+      "pages": [
+        "Hey! I heard you got your first badge.",
+        "Let's see if you can handle my weak spots too."
+      ]
+    },
+    "skyler-1-win": {
+      "pages": [
+        "Not bad. I'll catch up to you eventually."
+      ]
+    },
+    "skyler-1-lose": {
+      "pages": [
+        "Ha, still got it. Study up and try again."
+      ]
+    },
+    "skyler-2-intro": {
+      "pages": [
+        "Four badges already? I've been cramming too.",
+        "Let's settle this once and for all."
+      ]
+    },
+    "skyler-2-win": {
+      "pages": [
+        "You're really pulling ahead of me now."
+      ]
+    },
+    "skyler-2-lose": {
+      "pages": [
+        "Still got some tricks left, huh?"
+      ]
     }
   },
   "system": {
@@ -624,5 +672,203 @@
         "kind": "directTo"
       }
     }
-  ]
+  ],
+  "tileMap": {
+    "width": 40,
+    "height": 30,
+    "rows": [
+      "########################################",
+      "#......................................#",
+      "#......................................#",
+      "#......................................#",
+      "#......................................#",
+      "#......................................#",
+      "#......................................#",
+      "#......................................#",
+      "#......................................#",
+      "#......................................#",
+      "#......................................#",
+      "#......................................#",
+      "#......................................#",
+      "#.BBB.BBB.BBB.BBB.BBB.BBB.BBB.BBBBBBBBB#",
+      "#.BDB.BDB.BDB.BDB.BDB.BDB.BDB.BDBBDBBDB#",
+      "#======================================#",
+      "#......................................#",
+      "#.........~~~~~~~~~~~..................#",
+      "#.........~~~~~~~~~~~..................#",
+      "#.........~~~~~~~~~~~..................#",
+      "#......................................#",
+      "#......................................#",
+      "#....wwww..............................#",
+      "#....wwww..............................#",
+      "#......................................#",
+      "#......................................#",
+      "#......................................#",
+      "#......................................#",
+      "#......................................#",
+      "########################################"
+    ],
+    "spawn": {
+      "x": 2,
+      "y": 15
+    },
+    "areas": [
+      {
+        "id": "nimbus-approach",
+        "category": "weather",
+        "rect": {
+          "x": 10,
+          "y": 17,
+          "w": 11,
+          "h": 3
+        }
+      }
+    ],
+    "warps": [
+      {
+        "at": {
+          "x": 3,
+          "y": 14
+        },
+        "airportID": "KHYP"
+      },
+      {
+        "at": {
+          "x": 7,
+          "y": 14
+        },
+        "airportID": "KGYR"
+      },
+      {
+        "at": {
+          "x": 11,
+          "y": 14
+        },
+        "airportID": "KREG"
+      },
+      {
+        "at": {
+          "x": 15,
+          "y": 14
+        },
+        "airportID": "KVIC"
+      },
+      {
+        "at": {
+          "x": 19,
+          "y": 14
+        },
+        "airportID": "KPLT"
+      },
+      {
+        "at": {
+          "x": 23,
+          "y": 14
+        },
+        "airportID": "KNIM"
+      },
+      {
+        "at": {
+          "x": 27,
+          "y": 14
+        },
+        "airportID": "KMAY"
+      },
+      {
+        "at": {
+          "x": 31,
+          "y": 14
+        },
+        "airportID": "KILS"
+      },
+      {
+        "at": {
+          "x": 34,
+          "y": 14
+        },
+        "airportID": "KELF"
+      },
+      {
+        "at": {
+          "x": 37,
+          "y": 14
+        },
+        "airportID": "KCHP"
+      }
+    ],
+    "signs": [
+      {
+        "at": {
+          "x": 30,
+          "y": 17
+        },
+        "text": "VICTOR AIRWAYS AHEAD. MAINTAIN YOUR ALTITUDE."
+      }
+    ],
+    "itemDrops": [
+      {
+        "id": "drop-1",
+        "at": {
+          "x": 25,
+          "y": 17
+        },
+        "itemID": "potion"
+      }
+    ]
+  },
+  "trainers": [
+    {
+      "id": "student-ana",
+      "name": "Student Pilot Ana",
+      "nameplateName": "ANA",
+      "spriteID": "trainer-student",
+      "position": {
+        "x": 5,
+        "y": 17
+      },
+      "facing": "right",
+      "range": 4,
+      "questionCount": 4,
+      "categories": [
+        "humanFactors"
+      ],
+      "dialogue": {
+        "intro": "ana-intro",
+        "win": "ana-win",
+        "lose": "ana-lose"
+      }
+    }
+  ],
+  "rival": {
+    "name": "Skyler",
+    "nameplateName": "SKYLER",
+    "spriteID": "rival",
+    "questionCount": 6,
+    "encounters": [
+      {
+        "at": {
+          "x": 13,
+          "y": 19
+        },
+        "afterBadges": 1,
+        "dialogue": {
+          "intro": "skyler-1-intro",
+          "win": "skyler-1-win",
+          "lose": "skyler-1-lose"
+        }
+      },
+      {
+        "at": {
+          "x": 26,
+          "y": 19
+        },
+        "afterBadges": 4,
+        "dialogue": {
+          "intro": "skyler-2-intro",
+          "win": "skyler-2-win",
+          "lose": "skyler-2-lose"
+        }
+      }
+    ]
+  }
 }

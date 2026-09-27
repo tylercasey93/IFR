@@ -15,6 +15,14 @@ extension AdventureContent {
         try checkEliteFourCoverage()
         try checkGymQuestionPools()
         try checkSpriteReferences()
+        try checkDoorsHaveWarps()
+        try checkEveryAirportHasExactlyOneDoor()
+        try checkSpawnIsWalkable()
+        try checkEveryDoorReachableFromSpawn()
+        try checkTrainersStandOnWalkableTilesFacingWalkableLine()
+        try checkItemDropsAndSignsAreWalkable()
+        try checkEveryCloudTileLiesInExactlyOneArea()
+        try checkRivalEncountersAreWalkable()
     }
 
     private func checkUniqueIDs() throws {

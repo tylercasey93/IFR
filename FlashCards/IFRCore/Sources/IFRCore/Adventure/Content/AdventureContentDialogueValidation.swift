@@ -5,6 +5,10 @@ extension AdventureContent {
         var owners: [(String, DialogueRefs)] = gyms.map { ($0.id.rawValue, $0.dialogue) }
         owners += eliteFour.map { ($0.id, $0.dialogue) }
         owners.append((champion.name, champion.dialogue))
+        owners += trainers.map { ($0.id, $0.dialogue) }
+        if let rival {
+            owners += rival.encounters.enumerated().map { ("\(rival.name)-\($0.offset)", $0.element.dialogue) }
+        }
         for (owner, refs) in owners {
             for key in [refs.intro, refs.win, refs.lose] {
                 guard let script = dialogue[key] else {
