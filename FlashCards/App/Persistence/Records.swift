@@ -106,6 +106,33 @@ final class BadgeRecord {
 }
 
 @Model
+final class AdventureSaveRecord {
+    var json: Data = Data()
+    var updatedOn: Date = .distantPast
+
+    init() {}
+}
+
+@Model
+final class BattleRecord {
+    var date: Date
+    var tierRaw: String
+    var opponentID: String
+    var won: Bool
+    var correct: Int
+    var total: Int
+
+    init(date: Date, tierRaw: String, opponentID: String, won: Bool, correct: Int, total: Int) {
+        self.date = date
+        self.tierRaw = tierRaw
+        self.opponentID = opponentID
+        self.won = won
+        self.correct = correct
+        self.total = total
+    }
+}
+
+@Model
 final class SettingsRecord {
     var newCardsPerDay: Int = 20
     var dailyGoalCards: Int = 10
@@ -115,6 +142,8 @@ final class SettingsRecord {
     var reminderEnabled: Bool = true
     var streakRiskEnabled: Bool = true
     var examDate: Date?
+    var dpadEnabled: Bool = false
+    var soundEnabled: Bool = false
 
     init() {}
 

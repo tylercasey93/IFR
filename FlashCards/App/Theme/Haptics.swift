@@ -6,4 +6,6 @@ enum Haptics {
     static func correct() { UINotificationFeedbackGenerator().notificationOccurred(.success) }
     static func incorrect() { UINotificationFeedbackGenerator().notificationOccurred(.error) }
     static func flip() { UIImpactFeedbackGenerator(style: .light).impactOccurred() }
+    static func critical() { UIImpactFeedbackGenerator(style: .heavy).impactOccurred() }
+    static func tick() { UISelectionFeedbackGenerator().selectionChanged() }
 }
