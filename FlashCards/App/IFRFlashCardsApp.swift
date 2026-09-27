@@ -23,6 +23,7 @@ struct IFRFlashCardsApp: App {
     private let container: ModelContainer
     private let store: StudyStore
     private let router = NotificationTapRouter()
+    private let adventureContent: AdventureContent?
     @State private var gameCenter = GameCenterService()
     @State private var notifications = NotificationScheduler()
     @Environment(\.scenePhase) private var scenePhase
@@ -33,6 +34,7 @@ struct IFRFlashCardsApp: App {
                                         BadgeRecord.self, SettingsRecord.self,
                                         AdventureSaveRecord.self, BattleRecord.self)
         store = StudyStore(context: container.mainContext, bank: try! QuestionBank.load())
+        adventureContent = try? AdventureContent.load()
         // Assigned here (not in RootView.onAppear) so a notification tap that
         // cold-starts the app is captured — onAppear runs too late for that path.
         UNUserNotificationCenter.current().delegate = router
@@ -67,7 +69,9 @@ struct IFRFlashCardsApp: App {
                 // staleness.
                 .onChange(of: scenePhase, initial: true) { _, phase in
                     guard phase == .background || phase == .active else { return }
-                    notifications.refresh(
+                    let save = store.adventureSave
+                    let notices = rematchNotices(for: save)
+                    let scheduled = notifications.refresh(
                         reminderEnabled: store.settings.reminderEnabled,
                         reminderHour: store.settings.reminderHour,
                         reminderMinute: store.settings.reminderMinute,
@@ -76,8 +80,24 @@ struct IFRFlashCardsApp: App {
                         // if new cards came due after the goal was already met.
                         goalMetToday: store.goalRecordedToday || store.goalMetToday,
                         streak: store.streakDisplay,
-                        dueCount: store.dueCount)
+                        dueCount: store.dueCount,
+                        rematches: notices,
+                        lastRematchNotice: save.lastRematchNotice)
+                    if scheduled {
+                        var next = save
+                        next.lastRematchNotice = .now
+                        store.updateAdventureSave(next)
+                    }
                 }
         }
+    }
+
+    private func rematchNotices(for save: AdventureSave) -> [RematchNotice] {
+        guard let content = adventureContent else { return [] }
+        let reviewed = store.reviewedRetentionByCategory()
+        let categoryRetention = Dictionary(uniqueKeysWithValues: GymID.allCases.map { ($0, reviewed[$0.category] ?? 0) })
+        return RematchAdvisor.gymsAtRisk(
+            save: save, categoryRetention: categoryRetention, badgeQuestionRetention: store.badgeQuestionRetention()
+        ).compactMap { RematchNotice.notice(for: $0, content: content) }
     }
 }

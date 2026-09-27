@@ -1,5 +1,6 @@
 import Foundation
 import UserNotifications
+import IFRCore
 
 final class NotificationScheduler {
     static let dailyID = "dailyReminder"
@@ -13,12 +14,17 @@ final class NotificationScheduler {
 
     /// Idempotent: clears and reschedules both notifications from current state.
     /// Call at launch, on scene-background, and after settings changes.
+    /// Returns true when a rematch request was scheduled, so the caller can
+    /// stamp `AdventureSave.lastRematchNotice`.
     @MainActor
+    @discardableResult
     func refresh(reminderEnabled: Bool, reminderHour: Int, reminderMinute: Int,
                  streakRiskEnabled: Bool, goalMetToday: Bool, streak: Int, dueCount: Int,
-                 now: Date = .now, calendar: Calendar = .current) {
+                 now: Date = .now, calendar: Calendar = .current,
+                 rematches: [RematchNotice] = [], lastRematchNotice: Date? = nil) -> Bool {
         let center = UNUserNotificationCenter.current()
-        center.removePendingNotificationRequests(withIdentifiers: [Self.dailyID, Self.riskID])
+        center.removePendingNotificationRequests(
+            withIdentifiers: [Self.dailyID, Self.riskID] + Self.allRematchIDs)
         if reminderEnabled {
             center.add(Self.dailyReminderRequest(hour: reminderHour, minute: reminderMinute,
                                                  dueCount: dueCount))
@@ -32,6 +38,19 @@ final class NotificationScheduler {
             && calendar.component(.hour, from: now) < 20 {
             center.add(Self.streakRiskRequest(streak: streak))
         }
+        guard reminderEnabled, let notice = rematches.first,
+              Self.isRematchDue(lastRematchNotice: lastRematchNotice, now: now, calendar: calendar) else {
+            return false
+        }
+        center.add(Self.rematchRequest(notice, hour: reminderHour, minute: reminderMinute,
+                                       now: now, calendar: calendar))
+        return true
+    }
+
+    private static func isRematchDue(lastRematchNotice: Date?, now: Date, calendar: Calendar) -> Bool {
+        guard let last = lastRematchNotice else { return true }
+        let days = calendar.dateComponents([.day], from: last, to: now).day ?? Int.max
+        return days >= 7
     }
 
     static func dailyReminderRequest(hour: Int, minute: Int, dueCount: Int) -> UNNotificationRequest {
@@ -65,5 +84,26 @@ final class NotificationScheduler {
         case "adventure": .adventure
         default: nil
         }
+    }
+
+    static func rematchID(_ gym: GymID) -> String {
+        "gymRematch-\(gym.rawValue)"
+    }
+
+    static let allRematchIDs = GymID.allCases.map(rematchID)
+
+    static func rematchRequest(_ notice: RematchNotice, hour: Int, minute: Int,
+                               now: Date, calendar: Calendar) -> UNNotificationRequest {
+        let content = UNMutableNotificationContent()
+        content.title = "Rematch available"
+        content.body = "Your \(notice.badgeName) is tarnishing. Rematch \(notice.leaderName) at \(notice.airportID)."
+        content.sound = .default
+        content.userInfo = ["tab": "adventure"]
+        let nextDay = calendar.date(byAdding: .day, value: 1, to: now) ?? now
+        var components = calendar.dateComponents([.year, .month, .day], from: nextDay)
+        components.hour = hour
+        components.minute = minute
+        let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: false)
+        return UNNotificationRequest(identifier: rematchID(notice.gym), content: content, trigger: trigger)
     }
 }

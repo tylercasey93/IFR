@@ -100,6 +100,12 @@ final class AdventureSaveTests: XCTestCase {
         XCTAssertEqual(decoded.seenCompanionStages["humanFactors"] ?? CompanionStage.hatchling.rawValue, CompanionStage.hatchling.rawValue)
     }
 
+    func testOlderSaveWithoutRematchNoticeDecodes() throws {
+        let json = "{\"badges\":[]}"
+        let decoded = try JSONDecoder().decode(AdventureSave.self, from: Data(json.utf8))
+        XCTAssertNil(decoded.lastRematchNotice)
+    }
+
     func testSaveFromNewerVersionThrows() {
         let json = "{\"saveVersion\": 2}"
         XCTAssertThrowsError(try JSONDecoder().decode(AdventureSave.self, from: Data(json.utf8))) {
