@@ -9,7 +9,8 @@ import IFRCore
 final class StudyStoreTests: XCTestCase {
     private func makeStore() throws -> StudyStore {
         let schema = Schema([CardStateRecord.self, ReviewRecord.self, XPRecord.self,
-                             StreakRecord.self, BadgeRecord.self, SettingsRecord.self])
+                             StreakRecord.self, BadgeRecord.self, SettingsRecord.self,
+                             AdventureSaveRecord.self, BattleRecord.self])
         let container = try ModelContainer(
             for: schema,
             configurations: ModelConfiguration(isStoredInMemoryOnly: true))

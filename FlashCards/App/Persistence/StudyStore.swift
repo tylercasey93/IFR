@@ -278,4 +278,31 @@ final class StudyStore {
         _ = revision
         return MasteryCalculator(scheduler: scheduler).readiness(bank: bank, states: cardStates, at: examDate)
     }
+
+    // MARK: - Adventure save
+
+    private var adventureSaveRecord: AdventureSaveRecord {
+        if let existing = try? context.fetch(FetchDescriptor<AdventureSaveRecord>()).first { return existing }
+        let created = AdventureSaveRecord()
+        context.insert(created)
+        return created
+    }
+
+    var adventureSave: AdventureSave {
+        _ = revision
+        guard let decoded = try? JSONDecoder().decode(AdventureSave.self, from: adventureSaveRecord.json) else {
+            return .new
+        }
+        return decoded
+    }
+
+    func updateAdventureSave(_ save: AdventureSave) {
+        if let encoded = try? JSONEncoder().encode(save) {
+            let record = adventureSaveRecord
+            record.json = encoded
+            record.updatedOn = .now
+        }
+        saveContext()
+        revision += 1
+    }
 }

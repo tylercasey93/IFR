@@ -30,7 +30,8 @@ struct IFRFlashCardsApp: App {
     init() {
         container = try! ModelContainer(for: CardStateRecord.self, ReviewRecord.self,
                                         XPRecord.self, StreakRecord.self,
-                                        BadgeRecord.self, SettingsRecord.self)
+                                        BadgeRecord.self, SettingsRecord.self,
+                                        AdventureSaveRecord.self, BattleRecord.self)
         store = StudyStore(context: container.mainContext, bank: try! QuestionBank.load())
         // Assigned here (not in RootView.onAppear) so a notification tap that
         // cold-starts the app is captured — onAppear runs too late for that path.
