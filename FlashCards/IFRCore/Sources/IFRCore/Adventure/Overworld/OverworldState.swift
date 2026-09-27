@@ -30,11 +30,31 @@ public struct OverworldState: Codable, Equatable, Sendable {
         }
         var moved = turned
         moved.position = destination
+        moved.pendingPath = advancingPendingPath(after: destination)
         return (moved, event(for: kind, at: destination, in: map))
+    }
+
+    public func targeting(_ goal: GridPoint, in map: TileMap, blocked: Set<GridPoint>) -> OverworldState {
+        guard let kind = map[goal], kind.isWalkable else { return self }
+        guard let path = Pathfinder.path(from: position, to: goal, in: map, blocked: blocked) else { return self }
+        var targeted = self
+        targeted.pendingPath = path
+        return targeted
+    }
+
+    public func interrupted() -> OverworldState {
+        var interrupted = self
+        interrupted.pendingPath = []
+        return interrupted
     }
 
     private func destination(from origin: GridPoint, moving direction: Direction) -> GridPoint {
         GridPoint(x: origin.x + direction.delta.x, y: origin.y + direction.delta.y)
+    }
+
+    private func advancingPendingPath(after destination: GridPoint) -> [GridPoint] {
+        guard let head = pendingPath.first, head == destination else { return [] }
+        return Array(pendingPath.dropFirst())
     }
 
     private func event(for kind: TileKind, at point: GridPoint, in map: TileMap) -> OverworldEvent {
