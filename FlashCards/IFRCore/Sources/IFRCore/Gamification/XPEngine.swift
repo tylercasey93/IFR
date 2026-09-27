@@ -4,6 +4,13 @@ public enum XPEvent: Equatable, Sendable {
     case quizAnswer(correct: Bool, difficulty: Int)
     case mockExamCompleted(passed: Bool)
     case dailyGoalMet
+    case cloudCleared
+    case trainerDefeated
+    case gymBadgeEarned(firstTime: Bool)
+    case eliteMemberDefeated
+    case championCrowned(firstTime: Bool)
+    case towerFloorCleared
+    case linkBattleFinished
 }
 
 public enum XPEngine: Sendable {
@@ -20,6 +27,20 @@ public enum XPEngine: Sendable {
             passed ? 100 : 40
         case .dailyGoalMet:
             50
+        case .cloudCleared:
+            5
+        case .trainerDefeated:
+            25
+        case .gymBadgeEarned(let firstTime):
+            firstTime ? 100 : 40
+        case .eliteMemberDefeated:
+            75
+        case .championCrowned(let firstTime):
+            firstTime ? 200 : 60
+        case .towerFloorCleared:
+            10
+        case .linkBattleFinished:
+            20
         }
     }
 

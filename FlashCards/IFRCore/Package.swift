@@ -8,7 +8,7 @@ let package = Package(
     targets: [
         .target(
             name: "IFRCore",
-            resources: [.copy("Resources/bank-v1.json")]
+            resources: [.copy("Resources/bank-v1.json"), .copy("Resources/adventure-v1.json")]
         ),
         .testTarget(name: "IFRCoreTests", dependencies: ["IFRCore"]),
     ]

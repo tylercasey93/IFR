@@ -27,4 +27,16 @@ final class XPEngineTests: XCTestCase {
         XCTAssertEqual(XPEngine.points(for: .mockExamCompleted(passed: false)), 40)
         XCTAssertEqual(XPEngine.points(for: .dailyGoalMet), 50)
     }
+
+    func testAdventureWinPayoutsByEvent() {
+        XCTAssertEqual(XPEngine.points(for: .cloudCleared), 5)
+        XCTAssertEqual(XPEngine.points(for: .trainerDefeated), 25)
+        XCTAssertEqual(XPEngine.points(for: .gymBadgeEarned(firstTime: true)), 100)
+        XCTAssertEqual(XPEngine.points(for: .gymBadgeEarned(firstTime: false)), 40)
+        XCTAssertEqual(XPEngine.points(for: .eliteMemberDefeated), 75)
+        XCTAssertEqual(XPEngine.points(for: .championCrowned(firstTime: true)), 200)
+        XCTAssertEqual(XPEngine.points(for: .championCrowned(firstTime: false)), 60)
+        XCTAssertEqual(XPEngine.points(for: .towerFloorCleared), 10)
+        XCTAssertEqual(XPEngine.points(for: .linkBattleFinished), 20)
+    }
 }
