@@ -6,6 +6,8 @@ struct AdventureView: View {
     @State private var content: AdventureContent?
     @State private var showingBadgeCase = false
     @State private var showingHallOfFame = false
+    @State private var showingCompanions = false
+    @State private var evolutionQueue: [CompanionEvolution] = []
 
     private let seed: UInt64?
     private let seededSave: AdventureSave?
@@ -19,7 +21,7 @@ struct AdventureView: View {
         NavigationStack {
             Group {
                 if let content {
-                    OverworldScreen(content: content, seed: seed)
+                    OverworldScreen(content: content, seed: seed, onBattleFinished: checkEvolutions)
                 } else {
                     ProgressView()
                         .onAppear { load() }
@@ -29,6 +31,7 @@ struct AdventureView: View {
                 if content != nil {
                     ToolbarItem { Button("Badges") { showingBadgeCase = true }.accessibilityIdentifier("badgeCase") }
                     ToolbarItem { Button("Hall of Fame") { showingHallOfFame = true }.accessibilityIdentifier("hallOfFame") }
+                    ToolbarItem { Button("Companions") { showingCompanions = true }.accessibilityIdentifier("companions") }
                 }
             }
             .navigationDestination(isPresented: $showingBadgeCase) {
@@ -36,6 +39,15 @@ struct AdventureView: View {
             }
             .navigationDestination(isPresented: $showingHallOfFame) {
                 HallOfFameScreen()
+            }
+            .navigationDestination(isPresented: $showingCompanions) {
+                if let content { CompanionScreen(content: content) }
+            }
+            .onAppear { checkEvolutions() }
+            .fullScreenCover(isPresented: evolutionShowingBinding()) {
+                if let content, let evolution = evolutionQueue.first {
+                    EvolutionScreen(evolution: evolution, content: content, onFinished: { evolutionQueue.removeFirst() })
+                }
             }
         }
     }
@@ -45,6 +57,14 @@ struct AdventureView: View {
         if let seededSave {
             store.updateAdventureSave(seededSave)
         }
+    }
+
+    private func checkEvolutions() {
+        evolutionQueue.append(contentsOf: store.pendingEvolutions())
+    }
+
+    private func evolutionShowingBinding() -> Binding<Bool> {
+        Binding(get: { !evolutionQueue.isEmpty }, set: { showing in if !showing { evolutionQueue.removeAll() } })
     }
 
     private static func readSeedArgument(_ arguments: [String]) -> UInt64? {

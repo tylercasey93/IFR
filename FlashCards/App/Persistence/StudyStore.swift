@@ -403,6 +403,26 @@ final class StudyStore {
         return ChampionBattle.deck(bank: bank, states: cardStates, scheduler: scheduler, now: .now, using: &rng)
     }
 
+    func pendingEvolutions() -> [CompanionEvolution] {
+        _ = revision
+        let previous = adventureSave
+        var save = previous
+        let rises = IFRCore.Category.allCases.compactMap { evolution(for: $0, save: &save) }
+        if save != previous {
+            updateAdventureSave(save)
+        }
+        return rises
+    }
+
+    private func evolution(for category: IFRCore.Category, save: inout AdventureSave) -> CompanionEvolution? {
+        let stored = save.seenCompanionStages[category.rawValue].flatMap(CompanionStage.init) ?? .hatchling
+        let current = CompanionStage.stage(for: adventureMastery(for: category).level)
+        guard current != stored else { return nil }
+        save.seenCompanionStages[category.rawValue] = current.rawValue
+        return CompanionStage.evolved(from: stored, to: current)
+            ? CompanionEvolution(category: category, from: stored, to: current) : nil
+    }
+
     func badgeQuestionRetention() -> [GymID: Double] {
         _ = revision
         let states = cardStates

@@ -93,6 +93,13 @@ final class AdventureSaveTests: XCTestCase {
         XCTAssertNil(decoded.facing)
     }
 
+    func testSeenCompanionStagesDecodeWithDefault() throws {
+        let json = "{\"badges\":[]}"
+        let decoded = try JSONDecoder().decode(AdventureSave.self, from: Data(json.utf8))
+        XCTAssertEqual(decoded.seenCompanionStages, [:])
+        XCTAssertEqual(decoded.seenCompanionStages["humanFactors"] ?? CompanionStage.hatchling.rawValue, CompanionStage.hatchling.rawValue)
+    }
+
     func testSaveFromNewerVersionThrows() {
         let json = "{\"saveVersion\": 2}"
         XCTAssertThrowsError(try JSONDecoder().decode(AdventureSave.self, from: Data(json.utf8))) {

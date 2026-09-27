@@ -166,6 +166,32 @@ final class AdventureStoreTests: XCTestCase {
         XCTAssertGreaterThan(mastery.level.rawValue, MasteryLevel.novice.rawValue)
     }
 
+    func testEvolutionPlaysOnceWhenMasteryCrossesStage() throws {
+        let (store, _) = try makeStore()
+        let tenRegulations = store.bank.questions(in: .regulations).filter(\.isMultipleChoiceCapable).prefix(10)
+        for question in tenRegulations {
+            store.submitAdventureAnswer(question, selectedIndex: question.correctIndex!)
+        }
+        let expectedStage = CompanionStage.stage(for: store.adventureMastery(for: .regulations).level)
+
+        let evolutions = store.pendingEvolutions()
+
+        XCTAssertEqual(evolutions, [CompanionEvolution(category: .regulations, from: .hatchling, to: expectedStage)])
+        XCTAssertTrue(store.pendingEvolutions().isEmpty)
+    }
+
+    func testStageFallStoresSilently() throws {
+        let (store, _) = try makeStore()
+        var save = store.adventureSave
+        save.seenCompanionStages[IFRCore.Category.regulations.rawValue] = CompanionStage.captain.rawValue
+        store.updateAdventureSave(save)
+
+        let evolutions = store.pendingEvolutions()
+
+        XCTAssertTrue(evolutions.isEmpty)
+        XCTAssertEqual(store.adventureSave.seenCompanionStages[IFRCore.Category.regulations.rawValue], CompanionStage.hatchling.rawValue)
+    }
+
     private func gymOpponent(gymID: GymID = .humanFactors, airportID: String = "KHYP", maxHP: Int) -> Opponent {
         Opponent(id: gymID.rawValue, name: "Dr. Hypoxia", nameplateName: "HYPOXIA", spriteID: "leader-hypoxia",
                  tier: .gym, maxHP: maxHP, gymID: gymID.rawValue, airportID: airportID)

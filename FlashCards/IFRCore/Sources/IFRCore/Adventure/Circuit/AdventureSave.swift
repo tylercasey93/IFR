@@ -19,6 +19,7 @@ public struct AdventureSave: Codable, Equatable, Sendable {
     public var position: GridPoint?
     public var facing: Direction?
     public var rivalEncountersDone: Set<Int>
+    public var seenCompanionStages: [String: Int]
 
     public static let new = AdventureSave(
         saveVersion: currentVersion, badges: [], badgeQuestionIDs: [:], eliteFourCleared: false,
@@ -31,7 +32,8 @@ public struct AdventureSave: Codable, Equatable, Sendable {
         saveVersion: Int, badges: Set<GymID>, badgeQuestionIDs: [String: [String]], eliteFourCleared: Bool,
         championWins: Int, hallOfFame: [Date], battlesWon: Int, battlesLost: Int, visitedAirportIDs: Set<String>,
         defeatedTrainerIDs: Set<String> = [], collectedItemIDs: Set<String> = [], inventory: [String: Int] = [:],
-        repelStepsLeft: Int = 0, position: GridPoint? = nil, facing: Direction? = nil, rivalEncountersDone: Set<Int> = []
+        repelStepsLeft: Int = 0, position: GridPoint? = nil, facing: Direction? = nil, rivalEncountersDone: Set<Int> = [],
+        seenCompanionStages: [String: Int] = [:]
     ) {
         self.saveVersion = saveVersion
         self.badges = badges
@@ -49,12 +51,14 @@ public struct AdventureSave: Codable, Equatable, Sendable {
         self.position = position
         self.facing = facing
         self.rivalEncountersDone = rivalEncountersDone
+        self.seenCompanionStages = seenCompanionStages
     }
 
     private enum CodingKeys: String, CodingKey {
         case saveVersion, badges, badgeQuestionIDs, eliteFourCleared, championWins,
              hallOfFame, battlesWon, battlesLost, visitedAirportIDs, defeatedTrainerIDs,
-             collectedItemIDs, inventory, repelStepsLeft, position, facing, rivalEncountersDone
+             collectedItemIDs, inventory, repelStepsLeft, position, facing, rivalEncountersDone,
+             seenCompanionStages
     }
 
     public init(from decoder: Decoder) throws {
@@ -79,5 +83,6 @@ public struct AdventureSave: Codable, Equatable, Sendable {
         self.position = try container.decodeIfPresent(GridPoint.self, forKey: .position)
         self.facing = try container.decodeIfPresent(Direction.self, forKey: .facing)
         self.rivalEncountersDone = try container.decodeIfPresent(Set<Int>.self, forKey: .rivalEncountersDone) ?? []
+        self.seenCompanionStages = try container.decodeIfPresent([String: Int].self, forKey: .seenCompanionStages) ?? [:]
     }
 }

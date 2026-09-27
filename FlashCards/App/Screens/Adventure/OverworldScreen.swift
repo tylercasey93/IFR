@@ -7,6 +7,7 @@ struct OverworldScreen: View {
     @Environment(\.scenePhase) private var scenePhase
     let content: AdventureContent
     let seed: UInt64?
+    var onBattleFinished: () -> Void = {}
 
     @State private var model: OverworldScreenModel?
     @State private var showingMap = false
@@ -64,7 +65,10 @@ struct OverworldScreen: View {
         .onChange(of: model.showingEliteFour) { _, showing in if !showing { model.eliteFourDismissed() } }
         .onChange(of: model.showingChampion) { _, showing in if !showing { model.championDismissed() } }
         .fullScreenCover(item: activeBattleBinding(model)) { run in
-            BattleScreen(run: run).onDisappear { model.battleDismissed() }
+            BattleScreen(run: run).onDisappear {
+                model.battleDismissed()
+                onBattleFinished()
+            }
         }
     }
 
