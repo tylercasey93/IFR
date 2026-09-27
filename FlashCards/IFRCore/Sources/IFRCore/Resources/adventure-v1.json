@@ -870,5 +870,111 @@
         }
       }
     ]
-  }
+  },
+  "companions": [
+    {
+      "category": "humanFactors",
+      "stageNames": [
+        "Hypoxling",
+        "Oxymander",
+        "Pressurizor"
+      ],
+      "spriteIDs": [
+        "comp-hf-1",
+        "comp-hf-2",
+        "comp-hf-3"
+      ]
+    },
+    {
+      "category": "instrumentsAndSystems",
+      "stageNames": [
+        "Gyrolet",
+        "Gyrowing",
+        "Gyrosteed"
+      ],
+      "spriteIDs": [
+        "comp-ins-1",
+        "comp-ins-2",
+        "comp-ins-3"
+      ]
+    },
+    {
+      "category": "regulations",
+      "stageNames": [
+        "Regpup",
+        "Regustar",
+        "Regumarshal"
+      ],
+      "spriteIDs": [
+        "comp-reg-1",
+        "comp-reg-2",
+        "comp-reg-3"
+      ]
+    },
+    {
+      "category": "navigation",
+      "stageNames": [
+        "Vectorlet",
+        "Vectorwing",
+        "Vectorlord"
+      ],
+      "spriteIDs": [
+        "comp-nav-1",
+        "comp-nav-2",
+        "comp-nav-3"
+      ]
+    },
+    {
+      "category": "chartsAndPlanning",
+      "stageNames": [
+        "Plotlet",
+        "Plotwing",
+        "Plotmaster"
+      ],
+      "spriteIDs": [
+        "comp-cnp-1",
+        "comp-cnp-2",
+        "comp-cnp-3"
+      ]
+    },
+    {
+      "category": "weather",
+      "stageNames": [
+        "Nimblet",
+        "Nimbuswing",
+        "Nimbustorm"
+      ],
+      "spriteIDs": [
+        "comp-wx-1",
+        "comp-wx-2",
+        "comp-wx-3"
+      ]
+    },
+    {
+      "category": "emergencies",
+      "stageNames": [
+        "Maydaylet",
+        "Maydaywing",
+        "Maydayguard"
+      ],
+      "spriteIDs": [
+        "comp-emg-1",
+        "comp-emg-2",
+        "comp-emg-3"
+      ]
+    },
+    {
+      "category": "approaches",
+      "stageNames": [
+        "Ilsalet",
+        "Ilsawing",
+        "Ilsapilot"
+      ],
+      "spriteIDs": [
+        "comp-app-1",
+        "comp-app-2",
+        "comp-app-3"
+      ]
+    }
+  ]
 }

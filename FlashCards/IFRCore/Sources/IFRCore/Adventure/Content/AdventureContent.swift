@@ -16,8 +16,6 @@ public enum AdventureContentError: Error, Equatable, Sendable {
     case unreachableDoor(airportID: String)
 }
 
-public struct CompanionSpecies: Codable, Equatable, Sendable {}
-
 public struct AdventureContent: Codable, Sendable {
     public let version: Int
     public let region: RegionMap
