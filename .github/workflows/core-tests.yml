@@ -1,0 +1,15 @@
+name: Core tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  core-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Swift
+        run: sudo bash FlashCards/scripts/install-swift-linux.sh
+      - name: Run IFRCore tests
+        run: bash FlashCards/scripts/test-core.sh
