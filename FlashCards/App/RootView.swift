@@ -2,7 +2,7 @@
 import SwiftUI
 
 enum AppTab: Hashable {
-    case today, study, quiz, progress
+    case today, study, quiz, progress, adventure
 }
 
 struct RootView: View {
@@ -24,6 +24,9 @@ struct RootView: View {
             ProgressTabView()
                 .tabItem { Label("Progress", systemImage: "chart.line.uptrend.xyaxis") }
                 .tag(AppTab.progress)
+            AdventureView()
+                .tabItem { Label("Adventure", systemImage: "gamecontroller.fill") }
+                .tag(AppTab.adventure)
         }
         .onAppear {
             router.onTab = { selectedTab = $0 }

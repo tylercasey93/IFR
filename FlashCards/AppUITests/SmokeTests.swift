@@ -68,6 +68,16 @@ final class SmokeTests: XCTestCase {
         XCTAssertTrue(app.tabBars.buttons["Study"].isSelected)
     }
 
+    func testAdventureTabShowsRegionMap() {
+        let app = XCUIApplication()
+        app.launch()
+        app.tabBars.buttons["Adventure"].tap()
+        XCTAssertTrue(app.otherElements["regionMap"].waitForExistence(timeout: 15))
+        XCTAssertTrue(app.buttons["airport-KHYP"].isHittable)
+        XCTAssertTrue(app.buttons["badgeCase"].exists)
+        XCTAssertTrue(app.buttons["hallOfFame"].exists)
+    }
+
     func testStartingFirstGymShowsQuestionAndOptions() {
         let app = XCUIApplication()
         app.launch()

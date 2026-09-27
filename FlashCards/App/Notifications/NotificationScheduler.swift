@@ -62,6 +62,7 @@ final class NotificationScheduler {
         switch userInfo["tab"] as? String {
         case "study": .study
         case "today": .today
+        case "adventure": .adventure
         default: nil
         }
     }

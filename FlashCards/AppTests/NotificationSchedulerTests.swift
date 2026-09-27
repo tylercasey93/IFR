@@ -7,6 +7,10 @@ final class NotificationSchedulerTests: XCTestCase {
         XCTAssertNil(NotificationScheduler.handledTab(from: [:]))
     }
 
+    func testHandledTabMapsAdventure() {
+        XCTAssertEqual(NotificationScheduler.handledTab(from: ["tab": "adventure"]), .adventure)
+    }
+
     func testRequestBuildersProduceExpectedTriggers() {
         let daily = NotificationScheduler.dailyReminderRequest(hour: 18, minute: 30, dueCount: 14)
         let trigger = daily.trigger as! UNCalendarNotificationTrigger
