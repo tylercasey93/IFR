@@ -7,6 +7,7 @@ struct AdventureView: View {
     @State private var showingBadgeCase = false
     @State private var showingHallOfFame = false
     @State private var showingCompanions = false
+    @State private var showingLink = false
     @State private var evolutionQueue: [CompanionEvolution] = []
 
     private let seed: UInt64?
@@ -32,6 +33,7 @@ struct AdventureView: View {
                     ToolbarItem { Button("Badges") { showingBadgeCase = true }.accessibilityIdentifier("badgeCase") }
                     ToolbarItem { Button("Hall of Fame") { showingHallOfFame = true }.accessibilityIdentifier("hallOfFame") }
                     ToolbarItem { Button("Companions") { showingCompanions = true }.accessibilityIdentifier("companions") }
+                    ToolbarItem { Button("Link") { showingLink = true }.accessibilityIdentifier("linkBattle") }
                 }
             }
             .navigationDestination(isPresented: $showingBadgeCase) {
@@ -42,6 +44,9 @@ struct AdventureView: View {
             }
             .navigationDestination(isPresented: $showingCompanions) {
                 if let content { CompanionScreen(content: content) }
+            }
+            .sheet(isPresented: $showingLink) {
+                if let content { LinkShareSheet(content: content) }
             }
             .onAppear { checkEvolutions() }
             .fullScreenCover(isPresented: evolutionShowingBinding()) {

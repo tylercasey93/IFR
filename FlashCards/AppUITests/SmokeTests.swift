@@ -256,4 +256,18 @@ final class SmokeTests: XCTestCase {
         }
         XCTAssertTrue(app.buttons["battleOption-0"].waitForExistence(timeout: 20))
     }
+
+    func testEnteringCodeAndStartingOpensBattle() {
+        let app = XCUIApplication()
+        app.launch()
+        app.tabBars.buttons["Adventure"].tap()
+        XCTAssertTrue(app.buttons["linkBattle"].waitForExistence(timeout: 15))
+        app.buttons["linkBattle"].tap()
+        XCTAssertTrue(app.textFields["linkCodeField"].waitForExistence(timeout: 15))
+        let code = LinkBattleCode.encode(seed: 42, bankVersion: 2)
+        app.textFields["linkCodeField"].tap()
+        app.textFields["linkCodeField"].typeText(code)
+        app.buttons["linkStart"].tap()
+        XCTAssertTrue(app.buttons["battleOption-0"].waitForExistence(timeout: 15))
+    }
 }
