@@ -1,5 +1,35 @@
 import Foundation
 
+public struct GridRect: Codable, Equatable, Sendable {
+    public let x: Int
+    public let y: Int
+    public let w: Int
+    public let h: Int
+
+    public init(x: Int, y: Int, w: Int, h: Int) {
+        self.x = x
+        self.y = y
+        self.w = w
+        self.h = h
+    }
+
+    public func contains(_ point: GridPoint) -> Bool {
+        point.x >= x && point.x < x + w && point.y >= y && point.y < y + h
+    }
+}
+
+public struct TileArea: Codable, Equatable, Sendable {
+    public let id: String
+    public let category: Category
+    public let rect: GridRect
+
+    public init(id: String, category: Category, rect: GridRect) {
+        self.id = id
+        self.category = category
+        self.rect = rect
+    }
+}
+
 public struct TileMap: Codable, Equatable, Sendable {
     public let width: Int
     public let height: Int
@@ -7,9 +37,11 @@ public struct TileMap: Codable, Equatable, Sendable {
     public let doorAirportIDs: [GridPoint: String]
     public let signTexts: [GridPoint: String]
     public let itemDropItemIDs: [GridPoint: String]
+    public let spawn: GridPoint
+    public let areas: [TileArea]
 
     private enum CodingKeys: String, CodingKey {
-        case width, height, rows, warps, signs, itemDrops
+        case width, height, rows, warps, signs, itemDrops, spawn, areas
     }
 
     private struct Warp: Codable { let at: GridPoint; let airportID: String }
@@ -20,7 +52,9 @@ public struct TileMap: Codable, Equatable, Sendable {
         width: Int, height: Int, rows: [[TileKind]],
         doorAirportIDs: [GridPoint: String] = [:],
         signTexts: [GridPoint: String] = [:],
-        itemDropItemIDs: [GridPoint: String] = [:]
+        itemDropItemIDs: [GridPoint: String] = [:],
+        spawn: GridPoint = GridPoint(x: 0, y: 0),
+        areas: [TileArea] = []
     ) {
         self.width = width
         self.height = height
@@ -28,6 +62,8 @@ public struct TileMap: Codable, Equatable, Sendable {
         self.doorAirportIDs = doorAirportIDs
         self.signTexts = signTexts
         self.itemDropItemIDs = itemDropItemIDs
+        self.spawn = spawn
+        self.areas = areas
     }
 
     public init(from decoder: Decoder) throws {
@@ -42,6 +78,8 @@ public struct TileMap: Codable, Equatable, Sendable {
         signTexts = Dictionary(uniqueKeysWithValues: signs.map { ($0.at, $0.text) })
         let itemDrops = try container.decodeIfPresent([ItemDrop].self, forKey: .itemDrops) ?? []
         itemDropItemIDs = Dictionary(uniqueKeysWithValues: itemDrops.map { ($0.at, $0.itemID) })
+        spawn = try container.decodeIfPresent(GridPoint.self, forKey: .spawn) ?? GridPoint(x: 0, y: 0)
+        areas = try container.decodeIfPresent([TileArea].self, forKey: .areas) ?? []
     }
 
     public func encode(to encoder: Encoder) throws {
@@ -52,6 +90,8 @@ public struct TileMap: Codable, Equatable, Sendable {
         try container.encode(doorAirportIDs.map { Warp(at: $0.key, airportID: $0.value) }, forKey: .warps)
         try container.encode(signTexts.map { Sign(at: $0.key, text: $0.value) }, forKey: .signs)
         try container.encode(itemDropItemIDs.map { ItemDrop(id: "\($0.key.x)-\($0.key.y)", at: $0.key, itemID: $0.value) }, forKey: .itemDrops)
+        try container.encode(spawn, forKey: .spawn)
+        try container.encode(areas, forKey: .areas)
     }
 
     public subscript(_ point: GridPoint) -> TileKind? {
@@ -59,6 +99,10 @@ public struct TileMap: Codable, Equatable, Sendable {
         let row = rows[point.y]
         guard row.indices.contains(point.x) else { return nil }
         return row[point.x]
+    }
+
+    public func category(at point: GridPoint) -> Category? {
+        areas.first { $0.rect.contains(point) }?.category
     }
 
     private static func decodeRows(_ glyphRows: [String]) throws -> [[TileKind]] {

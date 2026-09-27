@@ -8,4 +8,8 @@ public struct GridPoint: Hashable, Codable, Sendable {
         self.x = x
         self.y = y
     }
+
+    public func manhattanDistance(to other: GridPoint) -> Int {
+        abs(x - other.x) + abs(y - other.y)
+    }
 }
