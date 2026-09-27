@@ -68,6 +68,16 @@ final class SourceGuardTests: XCTestCase {
         }
     }
 
+    func testAdventureSourceFilesOutsideSpritesStayUnderOneHundredFiftyLines() throws {
+        assertAdventureDirectoryExists()
+        let spriteFragment = "Pixel/Sprites/"
+        for file in swiftFiles(under: adventureRoot) where !file.path.contains(spriteFragment) {
+            let text = try String(contentsOf: file, encoding: .utf8)
+            let lineCount = text.split(separator: "\n", omittingEmptySubsequences: false).count
+            XCTAssertLessThanOrEqual(lineCount, 150, file.lastPathComponent)
+        }
+    }
+
     func testCoreWorkflowInstallsSwiftThenRunsCoreScript() throws {
         let workflow = try coreWorkflowText()
         let positions = workflowMarkers.map { workflow.range(of: $0)?.lowerBound }

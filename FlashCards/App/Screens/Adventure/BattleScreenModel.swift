@@ -104,11 +104,8 @@ final class BattleScreenModel {
     }
 
     var currentDialogue: DialogueScript {
-        switch state.outcome {
-        case .won: run.winDialogue
-        case .lost: run.loseDialogue
-        case nil: run.introDialogue
-        }
+        BattleDialogue.current(
+            outcome: state.outcome, intro: run.introDialogue, win: run.winDialogue, lose: run.loseDialogue)
     }
 
     private func transition(to newPhase: BattlePhase, at date: Date) {

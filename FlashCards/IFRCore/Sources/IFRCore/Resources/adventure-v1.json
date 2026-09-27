@@ -2,127 +2,627 @@
   "version": 1,
   "region": {
     "airports": [
-      {"id": "KHYP", "name": "Hypoxia Field", "position": {"x": 3, "y": 12}, "gymID": "humanFactors", "role": "gym"},
-      {"id": "KGYR", "name": "Gyro Municipal", "position": {"x": 7, "y": 10}, "gymID": "instrumentsAndSystems", "role": "gym"},
-      {"id": "KREG", "name": "Marshal Field", "position": {"x": 11, "y": 8}, "gymID": "regulations", "role": "gym"},
-      {"id": "KVIC", "name": "Victor Intl", "position": {"x": 15, "y": 6}, "gymID": "navigation", "role": "gym"},
-      {"id": "KPLT", "name": "Plotter County", "position": {"x": 19, "y": 4}, "gymID": "chartsAndPlanning", "role": "gym"},
-      {"id": "KNIM", "name": "Nimbus Regional", "position": {"x": 21, "y": 8}, "gymID": "weather", "role": "gym"},
-      {"id": "KMAY", "name": "Mayday Field", "position": {"x": 17, "y": 11}, "gymID": "emergencies", "role": "gym"},
-      {"id": "KILS", "name": "Ilsa Approach", "position": {"x": 13, "y": 12}, "gymID": "approaches", "role": "gym"},
-      {"id": "KELF", "name": "Four Corners Field", "position": {"x": 26, "y": 2}, "gymID": null, "role": "eliteFour"},
-      {"id": "KCHP", "name": "Examiner's Office", "position": {"x": 28, "y": 6}, "gymID": null, "role": "champion"}
+      {
+        "id": "KHYP",
+        "name": "Hypoxia Field",
+        "position": {
+          "x": 3,
+          "y": 12
+        },
+        "gymID": "humanFactors",
+        "role": "gym"
+      },
+      {
+        "id": "KGYR",
+        "name": "Gyro Municipal",
+        "position": {
+          "x": 7,
+          "y": 10
+        },
+        "gymID": "instrumentsAndSystems",
+        "role": "gym"
+      },
+      {
+        "id": "KREG",
+        "name": "Marshal Field",
+        "position": {
+          "x": 11,
+          "y": 8
+        },
+        "gymID": "regulations",
+        "role": "gym"
+      },
+      {
+        "id": "KVIC",
+        "name": "Victor Intl",
+        "position": {
+          "x": 15,
+          "y": 6
+        },
+        "gymID": "navigation",
+        "role": "gym"
+      },
+      {
+        "id": "KPLT",
+        "name": "Plotter County",
+        "position": {
+          "x": 19,
+          "y": 4
+        },
+        "gymID": "chartsAndPlanning",
+        "role": "gym"
+      },
+      {
+        "id": "KNIM",
+        "name": "Nimbus Regional",
+        "position": {
+          "x": 21,
+          "y": 8
+        },
+        "gymID": "weather",
+        "role": "gym"
+      },
+      {
+        "id": "KMAY",
+        "name": "Mayday Field",
+        "position": {
+          "x": 17,
+          "y": 11
+        },
+        "gymID": "emergencies",
+        "role": "gym"
+      },
+      {
+        "id": "KILS",
+        "name": "Ilsa Approach",
+        "position": {
+          "x": 13,
+          "y": 12
+        },
+        "gymID": "approaches",
+        "role": "gym"
+      },
+      {
+        "id": "KELF",
+        "name": "Four Corners Field",
+        "position": {
+          "x": 26,
+          "y": 2
+        },
+        "gymID": null,
+        "role": "eliteFour"
+      },
+      {
+        "id": "KCHP",
+        "name": "Examiner's Office",
+        "position": {
+          "x": 28,
+          "y": 6
+        },
+        "gymID": null,
+        "role": "champion"
+      }
     ],
     "airways": [
-      {"id": "V1", "from": "KHYP", "to": "KGYR"},
-      {"id": "V2", "from": "KGYR", "to": "KREG"},
-      {"id": "V3", "from": "KREG", "to": "KVIC"},
-      {"id": "V4", "from": "KVIC", "to": "KPLT"},
-      {"id": "V5", "from": "KPLT", "to": "KNIM"},
-      {"id": "V6", "from": "KNIM", "to": "KMAY"},
-      {"id": "V7", "from": "KMAY", "to": "KILS"},
-      {"id": "V8", "from": "KPLT", "to": "KELF"},
-      {"id": "V9", "from": "KELF", "to": "KCHP"}
+      {
+        "id": "V1",
+        "from": "KHYP",
+        "to": "KGYR"
+      },
+      {
+        "id": "V2",
+        "from": "KGYR",
+        "to": "KREG"
+      },
+      {
+        "id": "V3",
+        "from": "KREG",
+        "to": "KVIC"
+      },
+      {
+        "id": "V4",
+        "from": "KVIC",
+        "to": "KPLT"
+      },
+      {
+        "id": "V5",
+        "from": "KPLT",
+        "to": "KNIM"
+      },
+      {
+        "id": "V6",
+        "from": "KNIM",
+        "to": "KMAY"
+      },
+      {
+        "id": "V7",
+        "from": "KMAY",
+        "to": "KILS"
+      },
+      {
+        "id": "V8",
+        "from": "KPLT",
+        "to": "KELF"
+      },
+      {
+        "id": "V9",
+        "from": "KELF",
+        "to": "KCHP"
+      }
     ]
   },
   "gyms": [
-    {"id": "humanFactors", "leaderName": "Dr. Hypoxia", "nameplateName": "HYPOXIA", "leaderSpriteID": "leader-hypoxia",
-     "badgeName": "Oxygen Badge", "questionCount": 10,
-     "dialogue": {"intro": "hypoxia-intro", "win": "hypoxia-win", "lose": "hypoxia-lose"}},
-    {"id": "instrumentsAndSystems", "leaderName": "Gyro", "nameplateName": "GYRO", "leaderSpriteID": "leader-gyro",
-     "badgeName": "Gyro Badge", "questionCount": 10,
-     "dialogue": {"intro": "gyro-intro", "win": "gyro-win", "lose": "gyro-lose"}},
-    {"id": "regulations", "leaderName": "Marshal Reg", "nameplateName": "REG", "leaderSpriteID": "leader-reg",
-     "badgeName": "Regulations Badge", "questionCount": 10,
-     "dialogue": {"intro": "reg-intro", "win": "reg-win", "lose": "reg-lose"}},
-    {"id": "navigation", "leaderName": "Victor", "nameplateName": "VICTOR", "leaderSpriteID": "leader-victor",
-     "badgeName": "Navigation Badge", "questionCount": 10,
-     "dialogue": {"intro": "victor-intro", "win": "victor-win", "lose": "victor-lose"}},
-    {"id": "chartsAndPlanning", "leaderName": "Plotter", "nameplateName": "PLOTTER", "leaderSpriteID": "leader-plotter",
-     "badgeName": "Charts Badge", "questionCount": 10,
-     "dialogue": {"intro": "plotter-intro", "win": "plotter-win", "lose": "plotter-lose"}},
-    {"id": "weather", "leaderName": "Nimbus", "nameplateName": "NIMBUS", "leaderSpriteID": "leader-nimbus",
-     "badgeName": "Weather Badge", "questionCount": 10,
-     "dialogue": {"intro": "nimbus-intro", "win": "nimbus-win", "lose": "nimbus-lose"}},
-    {"id": "emergencies", "leaderName": "Mayday", "nameplateName": "MAYDAY", "leaderSpriteID": "leader-mayday",
-     "badgeName": "Emergency Badge", "questionCount": 10,
-     "dialogue": {"intro": "mayday-intro", "win": "mayday-win", "lose": "mayday-lose"}},
-    {"id": "approaches", "leaderName": "Ilsa", "nameplateName": "ILSA", "leaderSpriteID": "leader-ilsa",
-     "badgeName": "Approach Badge", "questionCount": 10,
-     "dialogue": {"intro": "ilsa-intro", "win": "ilsa-win", "lose": "ilsa-lose"}}
+    {
+      "id": "humanFactors",
+      "leaderName": "Dr. Hypoxia",
+      "nameplateName": "HYPOXIA",
+      "leaderSpriteID": "leader-hypoxia",
+      "badgeName": "Oxygen Badge",
+      "questionCount": 10,
+      "dialogue": {
+        "intro": "hypoxia-intro",
+        "win": "hypoxia-win",
+        "lose": "hypoxia-lose"
+      }
+    },
+    {
+      "id": "instrumentsAndSystems",
+      "leaderName": "Gyro",
+      "nameplateName": "GYRO",
+      "leaderSpriteID": "leader-gyro",
+      "badgeName": "Gyro Badge",
+      "questionCount": 10,
+      "dialogue": {
+        "intro": "gyro-intro",
+        "win": "gyro-win",
+        "lose": "gyro-lose"
+      }
+    },
+    {
+      "id": "regulations",
+      "leaderName": "Marshal Reg",
+      "nameplateName": "REG",
+      "leaderSpriteID": "leader-reg",
+      "badgeName": "Regulations Badge",
+      "questionCount": 10,
+      "dialogue": {
+        "intro": "reg-intro",
+        "win": "reg-win",
+        "lose": "reg-lose"
+      }
+    },
+    {
+      "id": "navigation",
+      "leaderName": "Victor",
+      "nameplateName": "VICTOR",
+      "leaderSpriteID": "leader-victor",
+      "badgeName": "Navigation Badge",
+      "questionCount": 10,
+      "dialogue": {
+        "intro": "victor-intro",
+        "win": "victor-win",
+        "lose": "victor-lose"
+      }
+    },
+    {
+      "id": "chartsAndPlanning",
+      "leaderName": "Plotter",
+      "nameplateName": "PLOTTER",
+      "leaderSpriteID": "leader-plotter",
+      "badgeName": "Charts Badge",
+      "questionCount": 10,
+      "dialogue": {
+        "intro": "plotter-intro",
+        "win": "plotter-win",
+        "lose": "plotter-lose"
+      }
+    },
+    {
+      "id": "weather",
+      "leaderName": "Nimbus",
+      "nameplateName": "NIMBUS",
+      "leaderSpriteID": "leader-nimbus",
+      "badgeName": "Weather Badge",
+      "questionCount": 10,
+      "dialogue": {
+        "intro": "nimbus-intro",
+        "win": "nimbus-win",
+        "lose": "nimbus-lose"
+      }
+    },
+    {
+      "id": "emergencies",
+      "leaderName": "Mayday",
+      "nameplateName": "MAYDAY",
+      "leaderSpriteID": "leader-mayday",
+      "badgeName": "Emergency Badge",
+      "questionCount": 10,
+      "dialogue": {
+        "intro": "mayday-intro",
+        "win": "mayday-win",
+        "lose": "mayday-lose"
+      }
+    },
+    {
+      "id": "approaches",
+      "leaderName": "Ilsa",
+      "nameplateName": "ILSA",
+      "leaderSpriteID": "leader-ilsa",
+      "badgeName": "Approach Badge",
+      "questionCount": 10,
+      "dialogue": {
+        "intro": "ilsa-intro",
+        "win": "ilsa-win",
+        "lose": "ilsa-lose"
+      }
+    }
   ],
   "eliteFour": [
-    {"id": "elite-sierra", "order": 1, "name": "Controller Sierra", "nameplateName": "SIERRA", "spriteID": "elite-sierra",
-     "questionCount": 12, "categories": ["regulations", "emergencies"],
-     "dialogue": {"intro": "sierra-intro", "win": "sierra-win", "lose": "sierra-lose"}},
-    {"id": "elite-tango", "order": 2, "name": "Briefer Tango", "nameplateName": "TANGO", "spriteID": "elite-tango",
-     "questionCount": 12, "categories": ["weather", "chartsAndPlanning"],
-     "dialogue": {"intro": "tango-intro", "win": "tango-win", "lose": "tango-lose"}},
-    {"id": "elite-uniform", "order": 3, "name": "Examiner Uniform", "nameplateName": "UNIFORM", "spriteID": "elite-uniform",
-     "questionCount": 12, "categories": ["navigation", "instrumentsAndSystems"],
-     "dialogue": {"intro": "uniform-intro", "win": "uniform-win", "lose": "uniform-lose"}},
-    {"id": "elite-whiskey", "order": 4, "name": "Captain Whiskey", "nameplateName": "WHISKEY", "spriteID": "elite-whiskey",
-     "questionCount": 12, "categories": ["approaches", "humanFactors"],
-     "dialogue": {"intro": "whiskey-intro", "win": "whiskey-win", "lose": "whiskey-lose"}}
+    {
+      "id": "elite-sierra",
+      "order": 1,
+      "name": "Controller Sierra",
+      "nameplateName": "SIERRA",
+      "spriteID": "elite-sierra",
+      "questionCount": 12,
+      "categories": [
+        "regulations",
+        "emergencies"
+      ],
+      "dialogue": {
+        "intro": "sierra-intro",
+        "win": "sierra-win",
+        "lose": "sierra-lose"
+      }
+    },
+    {
+      "id": "elite-tango",
+      "order": 2,
+      "name": "Briefer Tango",
+      "nameplateName": "TANGO",
+      "spriteID": "elite-tango",
+      "questionCount": 12,
+      "categories": [
+        "weather",
+        "chartsAndPlanning"
+      ],
+      "dialogue": {
+        "intro": "tango-intro",
+        "win": "tango-win",
+        "lose": "tango-lose"
+      }
+    },
+    {
+      "id": "elite-uniform",
+      "order": 3,
+      "name": "Examiner Uniform",
+      "nameplateName": "UNIFORM",
+      "spriteID": "elite-uniform",
+      "questionCount": 12,
+      "categories": [
+        "navigation",
+        "instrumentsAndSystems"
+      ],
+      "dialogue": {
+        "intro": "uniform-intro",
+        "win": "uniform-win",
+        "lose": "uniform-lose"
+      }
+    },
+    {
+      "id": "elite-whiskey",
+      "order": 4,
+      "name": "Captain Whiskey",
+      "nameplateName": "WHISKEY",
+      "spriteID": "elite-whiskey",
+      "questionCount": 12,
+      "categories": [
+        "approaches",
+        "humanFactors"
+      ],
+      "dialogue": {
+        "intro": "whiskey-intro",
+        "win": "whiskey-win",
+        "lose": "whiskey-lose"
+      }
+    }
   ],
-  "champion": {"name": "The DPE", "nameplateName": "THE DPE", "spriteID": "champion",
-               "dialogue": {"intro": "champion-intro", "win": "champion-win", "lose": "champion-lose"}},
+  "champion": {
+    "name": "The DPE",
+    "nameplateName": "THE DPE",
+    "spriteID": "champion",
+    "dialogue": {
+      "intro": "champion-intro",
+      "win": "champion-win",
+      "lose": "champion-lose"
+    }
+  },
   "dialogue": {
-    "hypoxia-intro": {"pages": ["Fly in the clouds? Prove you can think up there.", "Above 12,500 feet your brain lacks oxygen. Has yours?"]},
-    "hypoxia-win": {"pages": ["Your consciousness held up. Take the OXYGEN BADGE."]},
-    "hypoxia-lose": {"pages": ["Cyanosis and poor judgment. Breathe and return."]},
-    "gyro-intro": {"pages": ["Spin, precess, tumble. My gauges never lie. Do yours?"]},
-    "gyro-win": {"pages": ["Attitude, heading, turn. Take the GYRO BADGE."]},
-    "gyro-lose": {"pages": ["Your vacuum pump failed. Partial panel, pilot."]},
-    "reg-intro": {"pages": ["Know the rules before you fly. Recite them."]},
-    "reg-win": {"pages": ["Clean logbook, clean checkride. Take the badge."]},
-    "reg-lose": {"pages": ["That is a violation waiting to happen. Study the FARs."]},
-    "victor-intro": {"pages": ["Find your way from VOR to VOR, pilot. No shortcuts."]},
-    "victor-win": {"pages": ["Right on course. Take the NAVIGATION BADGE."]},
-    "victor-lose": {"pages": ["You are off the airway. Recompute and try again."]},
-    "plotter-intro": {"pages": ["A good plan beats a good save every time."]},
-    "plotter-win": {"pages": ["Fuel, weight, alternates checked. Take the badge."]},
-    "plotter-lose": {"pages": ["That flight plan never leaves the ground."]},
-    "nimbus-intro": {"pages": ["Read the sky before it reads you."]},
-    "nimbus-win": {"pages": ["You saw the front coming. Take the WEATHER BADGE."]},
-    "nimbus-lose": {"pages": ["That cell was closer than you thought."]},
-    "mayday-intro": {"pages": ["Engine out, lost comm, fire aboard. Stay calm and fly."]},
-    "mayday-win": {"pages": ["Textbook emergency handling. Take the EMERGENCY BADGE."]},
-    "mayday-lose": {"pages": ["You froze at the worst moment. Drill it again."]},
-    "ilsa-intro": {"pages": ["Needles alive at minimums. Fly a stable approach."]},
-    "ilsa-win": {"pages": ["Right down the centerline. Take the APPROACH BADGE."]},
-    "ilsa-lose": {"pages": ["You busted the missed approach point. Go around."]},
-    "sierra-intro": {"pages": ["Regulations and emergencies. Show your judgment."]},
-    "sierra-win": {"pages": ["Solid judgment under pressure. Onward."]},
-    "sierra-lose": {"pages": ["Judgment failed you there. Come back sharper."]},
-    "tango-intro": {"pages": ["Weather and planning decide the flight before takeoff."]},
-    "tango-win": {"pages": ["You planned around every hazard. Onward."]},
-    "tango-lose": {"pages": ["That plan would have flown you into the weather."]},
-    "uniform-intro": {"pages": ["Navigate on instruments alone. No excuses."]},
-    "uniform-win": {"pages": ["Needles pinned the whole way. Onward."]},
-    "uniform-lose": {"pages": ["You lost situational awareness. Reset now."]},
-    "whiskey-intro": {"pages": ["Approaches and human limits. The exam's last mile."]},
-    "whiskey-win": {"pages": ["You held on to minimums. The circuit is yours."]},
-    "whiskey-lose": {"pages": ["Fatigue beat you today. Rest and return."]},
-    "champion-intro": {"pages": ["We finish the exam, pilot. Every question counts."]},
-    "champion-win": {"pages": ["Congratulations. You are the Region Champion."]},
-    "champion-lose": {"pages": ["Close, but the DPE does not round up. Study on."]}
+    "hypoxia-intro": {
+      "pages": [
+        "Fly in the clouds? Prove you can think up there.",
+        "Above 12,500 feet your brain lacks oxygen. Has yours?"
+      ]
+    },
+    "hypoxia-win": {
+      "pages": [
+        "Your consciousness held up. Take the OXYGEN BADGE."
+      ]
+    },
+    "hypoxia-lose": {
+      "pages": [
+        "Cyanosis and poor judgment. Breathe and return."
+      ]
+    },
+    "gyro-intro": {
+      "pages": [
+        "Spin, precess, tumble. My gauges never lie. Do yours?",
+        "Trust your instruments over your inner ear."
+      ]
+    },
+    "gyro-win": {
+      "pages": [
+        "Attitude, heading, turn. Take the GYRO BADGE."
+      ]
+    },
+    "gyro-lose": {
+      "pages": [
+        "Your vacuum pump failed. Partial panel, pilot."
+      ]
+    },
+    "reg-intro": {
+      "pages": [
+        "Know the rules before you fly. Recite them.",
+        "One violation is one too many. Fly by the book."
+      ]
+    },
+    "reg-win": {
+      "pages": [
+        "Clean logbook, clean checkride. Take the badge."
+      ]
+    },
+    "reg-lose": {
+      "pages": [
+        "That is a violation waiting to happen. Study the FARs."
+      ]
+    },
+    "victor-intro": {
+      "pages": [
+        "Find your way from VOR to VOR, pilot. No shortcuts.",
+        "A wrong heading burns fuel and burns time."
+      ]
+    },
+    "victor-win": {
+      "pages": [
+        "Right on course. Take the NAVIGATION BADGE."
+      ]
+    },
+    "victor-lose": {
+      "pages": [
+        "You are off the airway. Recompute and try again."
+      ]
+    },
+    "plotter-intro": {
+      "pages": [
+        "A good plan beats a good save every time.",
+        "Weight, balance, fuel, alternates. All checked?"
+      ]
+    },
+    "plotter-win": {
+      "pages": [
+        "Fuel, weight, alternates checked. Take the badge."
+      ]
+    },
+    "plotter-lose": {
+      "pages": [
+        "That flight plan never leaves the ground."
+      ]
+    },
+    "nimbus-intro": {
+      "pages": [
+        "Read the sky before it reads you.",
+        "A front waits for no pilot. Watch the trends."
+      ]
+    },
+    "nimbus-win": {
+      "pages": [
+        "You saw the front coming. Take the WEATHER BADGE."
+      ]
+    },
+    "nimbus-lose": {
+      "pages": [
+        "That cell was closer than you thought."
+      ]
+    },
+    "mayday-intro": {
+      "pages": [
+        "Engine out, lost comm, fire aboard. Stay calm and fly.",
+        "Checklist first, radio second, panic never."
+      ]
+    },
+    "mayday-win": {
+      "pages": [
+        "Textbook emergency handling. Take the EMERGENCY BADGE."
+      ]
+    },
+    "mayday-lose": {
+      "pages": [
+        "You froze at the worst moment. Drill it again."
+      ]
+    },
+    "ilsa-intro": {
+      "pages": [
+        "Needles alive at minimums. Fly a stable approach.",
+        "Missed approach point passed? Go around, now."
+      ]
+    },
+    "ilsa-win": {
+      "pages": [
+        "Right down the centerline. Take the APPROACH BADGE."
+      ]
+    },
+    "ilsa-lose": {
+      "pages": [
+        "You busted the missed approach point. Go around."
+      ]
+    },
+    "sierra-intro": {
+      "pages": [
+        "Regulations and emergencies. Show your judgment."
+      ]
+    },
+    "sierra-win": {
+      "pages": [
+        "Solid judgment under pressure. Onward."
+      ]
+    },
+    "sierra-lose": {
+      "pages": [
+        "Judgment failed you there. Come back sharper."
+      ]
+    },
+    "tango-intro": {
+      "pages": [
+        "Weather and planning decide the flight before takeoff."
+      ]
+    },
+    "tango-win": {
+      "pages": [
+        "You planned around every hazard. Onward."
+      ]
+    },
+    "tango-lose": {
+      "pages": [
+        "That plan would have flown you into the weather."
+      ]
+    },
+    "uniform-intro": {
+      "pages": [
+        "Navigate on instruments alone. No excuses."
+      ]
+    },
+    "uniform-win": {
+      "pages": [
+        "Needles pinned the whole way. Onward."
+      ]
+    },
+    "uniform-lose": {
+      "pages": [
+        "You lost situational awareness. Reset now."
+      ]
+    },
+    "whiskey-intro": {
+      "pages": [
+        "Approaches and human limits. The exam's last mile."
+      ]
+    },
+    "whiskey-win": {
+      "pages": [
+        "You held on to minimums. The circuit is yours."
+      ]
+    },
+    "whiskey-lose": {
+      "pages": [
+        "Fatigue beat you today. Rest and return."
+      ]
+    },
+    "champion-intro": {
+      "pages": [
+        "We finish the exam, pilot. Every question counts."
+      ]
+    },
+    "champion-win": {
+      "pages": [
+        "Congratulations. You are the Region Champion."
+      ]
+    },
+    "champion-lose": {
+      "pages": [
+        "Close, but the DPE does not round up. Study on."
+      ]
+    }
   },
   "system": {
-    "welcome": {"pages": ["Welcome to Victor region. {leader} awaits at {airport}."]},
-    "gymLocked": {"pages": ["You need the {badge} first."]},
-    "victory": {"pages": ["{opponent} was defeated!"]},
-    "whiteout": {"pages": ["You whited out... Your misses come back sooner."]},
-    "retreat": {"pages": ["Out of questions. You retreat to the FBO."]},
-    "championPinned": {"pages": ["We finish the exam, pilot. Every question counts."]},
-    "superEffective": {"pages": ["It's super effective!"]},
-    "criticalHit": {"pages": ["A critical hit!"]},
-    "revived": {"pages": ["The oxygen mask brings you back!"]}
+    "welcome": {
+      "pages": [
+        "Welcome to Victor region. {leader} awaits at {airport}."
+      ]
+    },
+    "gymLocked": {
+      "pages": [
+        "You need the {badge} first."
+      ]
+    },
+    "victory": {
+      "pages": [
+        "{opponent} was defeated!"
+      ]
+    },
+    "whiteout": {
+      "pages": [
+        "You whited out... Your misses come back sooner."
+      ]
+    },
+    "retreat": {
+      "pages": [
+        "Out of questions. You retreat to the FBO."
+      ]
+    },
+    "championPinned": {
+      "pages": [
+        "You must clear the Elite Four first."
+      ]
+    },
+    "superEffective": {
+      "pages": [
+        "It's super effective!"
+      ]
+    },
+    "criticalHit": {
+      "pages": [
+        "A critical hit!"
+      ]
+    },
+    "revived": {
+      "pages": [
+        "The oxygen mask brings you back!"
+      ]
+    }
   },
   "items": [
-    {"id": "potion", "name": "Potion", "spriteID": "item-potion", "effect": {"kind": "heal", "amount": 30}},
-    {"id": "oxygen-mask", "name": "Oxygen Mask", "spriteID": "item-mask", "effect": {"kind": "reviveOnce"}},
-    {"id": "vfr-window", "name": "VFR Window", "spriteID": "item-window", "effect": {"kind": "repel", "steps": 50}},
-    {"id": "direct-to", "name": "Direct-To", "spriteID": "item-direct", "effect": {"kind": "directTo"}}
+    {
+      "id": "potion",
+      "name": "Potion",
+      "spriteID": "item-potion",
+      "effect": {
+        "kind": "heal",
+        "amount": 30
+      }
+    },
+    {
+      "id": "oxygen-mask",
+      "name": "Oxygen Mask",
+      "spriteID": "item-mask",
+      "effect": {
+        "kind": "reviveOnce"
+      }
+    },
+    {
+      "id": "vfr-window",
+      "name": "VFR Window",
+      "spriteID": "item-window",
+      "effect": {
+        "kind": "repel",
+        "steps": 50
+      }
+    },
+    {
+      "id": "direct-to",
+      "name": "Direct-To",
+      "spriteID": "item-direct",
+      "effect": {
+        "kind": "directTo"
+      }
+    }
   ]
 }

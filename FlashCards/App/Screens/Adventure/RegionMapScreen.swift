@@ -83,43 +83,27 @@ struct RegionMapScreen: View {
 
     private func tapGym(_ airport: Airport) {
         guard let gymID = airport.gymID, let gym = content.gyms.first(where: { $0.id == gymID }) else { return }
-        if CircuitRules.isUnlocked(gymID, save: store.adventureSave) {
-            dialogue = content.dialogue[gym.dialogue.intro]
-            challengeableGymID = gymID
-        } else {
-            dialogue = content.systemLine(.gymLocked, filling: ["badge": previousBadgeName(before: gymID)])
-            challengeableGymID = nil
-        }
+        let result = GymApproach.approaching(gym, content: content, save: store.adventureSave)
+        dialogue = result.dialogue
+        challengeableGymID = result.challengeableGymID
     }
 
     private func tapEliteFour() {
         challengeableGymID = nil
-        if CircuitRules.isEliteFourUnlocked(save: store.adventureSave) {
-            showingEliteFour = true
+        if let locked = GymApproach.eliteFourLockedDialogue(content: content, save: store.adventureSave) {
+            dialogue = locked
         } else {
-            dialogue = content.systemLine(.gymLocked, filling: ["badge": nextMissingBadgeName()])
+            showingEliteFour = true
         }
     }
 
     private func tapChampion() {
         challengeableGymID = nil
-        if CircuitRules.isChampionUnlocked(save: store.adventureSave) {
-            showingChampion = true
+        if let locked = GymApproach.championLockedDialogue(content: content, save: store.adventureSave) {
+            dialogue = locked
         } else {
-            dialogue = DialogueScript(pages: ["You need to clear the Elite Four first."])
+            showingChampion = true
         }
-    }
-
-    private func previousBadgeName(before gymID: GymID) -> String {
-        guard let previous = gymID.previous, let previousGym = content.gyms.first(where: { $0.id == previous })
-        else { return "" }
-        return previousGym.badgeName
-    }
-
-    private func nextMissingBadgeName() -> String {
-        guard let missing = GymID.allCases.first(where: { !store.adventureSave.badges.contains($0) }),
-              let gym = content.gyms.first(where: { $0.id == missing }) else { return "" }
-        return gym.badgeName
     }
 
     private func startGymBattle(_ gymID: GymID) {

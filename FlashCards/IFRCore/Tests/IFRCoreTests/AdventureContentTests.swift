@@ -287,6 +287,32 @@ final class AdventureContentTests: XCTestCase {
         }
     }
 
+    func testEveryLeaderIntroHasTwoPagesAndWinLoseHaveOne() throws {
+        let content = try loadedContent()
+        for gym in content.gyms {
+            let intro = try XCTUnwrap(content.dialogue[gym.dialogue.intro], gym.dialogue.intro)
+            let win = try XCTUnwrap(content.dialogue[gym.dialogue.win], gym.dialogue.win)
+            let lose = try XCTUnwrap(content.dialogue[gym.dialogue.lose], gym.dialogue.lose)
+            XCTAssertEqual(intro.pages.count, 2, gym.dialogue.intro)
+            XCTAssertEqual(win.pages.count, 1, gym.dialogue.win)
+            XCTAssertEqual(lose.pages.count, 1, gym.dialogue.lose)
+        }
+    }
+
+    func testEveryEliteAndChampionDialogueIsAuthored() throws {
+        let content = try loadedContent()
+        let refs = content.eliteFour.map(\.dialogue) + [content.champion.dialogue]
+        for ref in refs {
+            for key in [ref.intro, ref.win, ref.lose] {
+                let script = try XCTUnwrap(content.dialogue[key], key)
+                XCTAssertFalse(script.pages.isEmpty, key)
+                for page in script.pages {
+                    XCTAssertFalse(page.contains("TODO"), key)
+                }
+            }
+        }
+    }
+
     func testEverySpriteIDResolvesInSpriteCatalog() throws {
         let base = try loadedContent()
         let content = replacingGym(base, id: .humanFactors) { gym in

@@ -59,4 +59,19 @@ final class SpriteCatalogTests: XCTestCase {
             XCTAssertNotNil(SpriteCatalog.sprite(named: id), id)
         }
     }
+
+    func testNoSpriteIsAnEmptySilhouette() {
+        for (id, sprite) in SpriteCatalog.all {
+            var opaqueCount = 0
+            for y in 0..<sprite.height {
+                for x in 0..<sprite.width {
+                    if sprite[x, y] != Palette.transparent {
+                        opaqueCount += 1
+                    }
+                }
+            }
+            let minimum = sprite.width == 32 ? 128 : 12
+            XCTAssertGreaterThanOrEqual(opaqueCount, minimum, id)
+        }
+    }
 }
