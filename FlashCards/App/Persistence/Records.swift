@@ -143,6 +143,7 @@ final class SettingsRecord {
     var streakRiskEnabled: Bool = true
     var examDate: Date?
     var dpadEnabled: Bool = false
+    var soundEnabled: Bool = false
 
     init() {}
 
