@@ -94,19 +94,7 @@ public struct AdventureContent: Codable, Sendable {
         DialogueTemplate.filled(system[key.rawValue] ?? DialogueScript(pages: []), with: values)
     }
 
-    public func validate() throws {
-        try checkUniqueIDs()
-    }
-
-    private func checkUniqueIDs() throws {
-        let ids = region.airports.map(\.id)
-            + gyms.map(\.id.rawValue)
-            + eliteFour.map(\.id)
-            + items.map(\.id)
-            + trainers.map(\.id)
-        var seen = Set<String>()
-        for id in ids {
-            guard seen.insert(id).inserted else { throw AdventureContentError.duplicateID(id) }
-        }
+    func opponentNames() -> [String] {
+        gyms.map(\.leaderName) + eliteFour.map(\.name) + [champion.name]
     }
 }
