@@ -250,11 +250,14 @@ final class StudyStore {
         let mastered = IFRCore.Category.allCases
             .filter { categoryRetention(for: $0, states: states).level == .instrumentMaster }
             .count
+        let save = adventureSave
         let snapshot = BadgeSnapshot(
             totalReviews: allReviews.count, streak: streakRecord.current,
             lastQuizPerfect: lastQuizPerfect, mockExamPassed: mockExamPassed,
             masteredCategories: mastered, hourOfDay: calendar.component(.hour, from: .now),
-            totalXP: totalXP, quizzesCompleted: quizCount, daysAwayBeforeToday: daysAway)
+            totalXP: totalXP, quizzesCompleted: quizCount, daysAwayBeforeToday: daysAway,
+            gymBadges: save.badges.count, eliteFourCleared: save.eliteFourCleared,
+            championDefeated: save.championWins > 0, bestTowerFloor: 0)
         for badge in BadgeEngine.newlyEarned(snapshot: snapshot, already: Set(earnedBadges)) {
             context.insert(BadgeRecord(badge: badge, earnedOn: .now))
         }
@@ -297,11 +300,7 @@ final class StudyStore {
     }
 
     func updateAdventureSave(_ save: AdventureSave) {
-        if let encoded = try? JSONEncoder().encode(save) {
-            let record = adventureSaveRecord
-            record.json = encoded
-            record.updatedOn = .now
-        }
+        writeAdventureSave(save)
         saveContext()
         revision += 1
     }
@@ -348,5 +347,85 @@ final class StudyStore {
         return Dictionary(uniqueKeysWithValues: IFRCore.Category.allCases.map {
             ($0, calc.reviewedRetention($0, bank: bank, states: states, at: .now))
         })
+    }
+
+    @discardableResult
+    func finishBattle(_ state: BattleState) -> AdventureSave {
+        let outcome = state.outcome ?? .lost
+        let previous = adventureSave
+        let next = BattleResolution.apply(outcome, opponent: state.opponent, deck: state.deck, to: previous, at: .now)
+        insertBattleRecord(for: state, outcome: outcome)
+        writeAdventureSave(next)
+        awardBattleXP(state: state, outcome: outcome, previous: previous)
+        awardBadges()
+        saveContext()
+        revision += 1
+        return next
+    }
+
+    func finishEliteFourRun(_ run: EliteFourRun) -> AdventureSave {
+        var next = adventureSave
+        if run.isCleared {
+            next.eliteFourCleared = true
+        }
+        writeAdventureSave(next)
+        awardBadges()
+        saveContext()
+        revision += 1
+        return next
+    }
+
+    func championDeck() -> [Question] {
+        _ = revision
+        return ChampionBattle.deck(bank: bank, states: cardStates, scheduler: scheduler, now: .now, using: &rng)
+    }
+
+    func badgeQuestionRetention() -> [GymID: Double] {
+        _ = revision
+        let states = cardStates
+        return adventureSave.badgeQuestionIDs.reduce(into: [GymID: Double]()) { result, entry in
+            guard let gymID = GymID(rawValue: entry.key) else { return }
+            let values = entry.value.map { states[$0].map { scheduler.retrievability(of: $0, at: .now) } ?? 0 }
+            result[gymID] = values.isEmpty ? 0 : values.reduce(0, +) / Double(values.count)
+        }
+    }
+
+    private func insertBattleRecord(for state: BattleState, outcome: BattleOutcome) {
+        context.insert(BattleRecord(
+            date: .now, tierRaw: state.opponent.tier.rawValue, opponentID: state.opponent.id,
+            won: outcome == .won, correct: state.results.filter { $0 }.count, total: state.results.count))
+    }
+
+    private func awardBattleXP(state: BattleState, outcome: BattleOutcome, previous: AdventureSave) {
+        guard outcome == .won else { return }
+        addXP(XPEngine.points(for: battleWinEvent(for: state, previous: previous)), reason: "adventureWin")
+        if state.opponent.tier == .champion && state.results.count == 60 {
+            finishQuiz(results: state.results, isMockExam: true)
+        }
+    }
+
+    private func battleWinEvent(for state: BattleState, previous: AdventureSave) -> XPEvent {
+        switch state.opponent.tier {
+        case .cloud: return .cloudCleared
+        case .trainer: return .trainerDefeated
+        case .gym: return .gymBadgeEarned(firstTime: isFirstGymWin(for: state, previous: previous))
+        case .eliteFour: return .eliteMemberDefeated
+        case .champion: return .championCrowned(firstTime: previous.championWins == 0)
+        case .tower: return .towerFloorCleared
+        case .link: return .linkBattleFinished
+        }
+    }
+
+    private func isFirstGymWin(for state: BattleState, previous: AdventureSave) -> Bool {
+        guard let gymID = state.opponent.gymID.flatMap(GymID.init(rawValue:)) else { return true }
+        return !previous.badges.contains(gymID)
+    }
+
+    private func writeAdventureSave(_ save: AdventureSave) {
+        if let encoded = try? JSONEncoder().encode(save) {
+            let record = adventureSaveRecord
+            record.json = encoded
+            record.updatedOn = .now
+        }
     }
 }

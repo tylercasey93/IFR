@@ -165,4 +165,103 @@ final class AdventureStoreTests: XCTestCase {
         let mastery = store.adventureMastery(for: .regulations)
         XCTAssertGreaterThan(mastery.level.rawValue, MasteryLevel.novice.rawValue)
     }
+
+    private func gymOpponent(gymID: GymID = .humanFactors, airportID: String = "KHYP", maxHP: Int) -> Opponent {
+        Opponent(id: gymID.rawValue, name: "Dr. Hypoxia", nameplateName: "HYPOXIA", spriteID: "leader-hypoxia",
+                 tier: .gym, maxHP: maxHP, gymID: gymID.rawValue, airportID: airportID)
+    }
+
+    private func championOpponent() -> Opponent {
+        Opponent(id: "champion", name: "The DPE", nameplateName: "THE DPE", spriteID: "champion",
+                 tier: .champion, maxHP: ChampionBattle.opponentHP)
+    }
+
+    func testFinishGymBattleAwardsBadgeXPAndBattleRecord() throws {
+        let (store, container) = try makeStore()
+        let deck = Array(store.bank.questions.filter { $0.category == .humanFactors && $0.isMultipleChoiceCapable }.prefix(10))
+        let opening = BattleEngine.start(opponent: gymOpponent(maxHP: 1), deck: deck, playerMaxHP: 100)
+        let (won, _) = BattleEngine.answer(opening, selectedIndex: opening.currentQuestion!.correctIndex!, answerSeconds: 10)
+        XCTAssertEqual(won.outcome, .won)
+
+        let save = store.finishBattle(won)
+        XCTAssertEqual(save.badges, [.humanFactors])
+        XCTAssertEqual(save.badgeQuestionIDs["humanFactors"], deck.map(\.id))
+        XCTAssertEqual(store.totalXP, 100)
+        XCTAssertTrue(store.earnedBadges.contains(.firstGymBadge))
+
+        let records = try ModelContext(container).fetch(FetchDescriptor<BattleRecord>())
+        XCTAssertEqual(records.count, 1)
+        XCTAssertEqual(records.first?.won, true)
+        XCTAssertEqual(records.first?.opponentID, "humanFactors")
+    }
+
+    func testFinishLostBattleAwardsNothingButKeepsReviews() throws {
+        let (store, container) = try makeStore()
+        let reviewedQuestion = store.bank.questions.first(where: \.isMultipleChoiceCapable)!
+        store.submitAdventureAnswer(reviewedQuestion, selectedIndex: reviewedQuestion.correctIndex!)
+        let xpBeforeBattle = store.totalXP
+
+        let deck = Array(store.bank.questions.filter { $0.category == .humanFactors && $0.isMultipleChoiceCapable }.prefix(10))
+        let opening = BattleEngine.start(opponent: gymOpponent(maxHP: 1_000), deck: deck, playerMaxHP: 100)
+        let (lost, _) = BattleEngine.forfeit(opening)
+
+        let save = store.finishBattle(lost)
+        XCTAssertTrue(save.badges.isEmpty)
+        XCTAssertEqual(save.battlesLost, 1)
+        XCTAssertEqual(store.totalXP, xpBeforeBattle)
+        XCTAssertFalse(store.earnedBadges.contains(.firstGymBadge))
+        XCTAssertEqual(try ModelContext(container).fetch(FetchDescriptor<ReviewRecord>()).count, 1)
+    }
+
+    func testFinishForfeitedChampionBattleSkipsMockExam() throws {
+        let (store, _) = try makeStore()
+        let opening = BattleEngine.start(opponent: championOpponent(), deck: store.championDeck(),
+                                         playerMaxHP: ChampionBattle.playerHP)
+        let (forfeited, _) = BattleEngine.forfeit(opening)
+
+        let save = store.finishBattle(forfeited)
+        XCTAssertEqual(save.championWins, 0)
+        XCTAssertFalse(store.earnedBadges.contains(.mockExamPassed))
+        XCTAssertFalse(store.earnedBadges.contains(.regionChampion))
+        XCTAssertEqual(store.totalXP, 0)
+    }
+
+    func testFinishChampionBattleAlsoFinishesMockExam() throws {
+        let (store, _) = try makeStore()
+        var state = BattleEngine.start(opponent: championOpponent(), deck: store.championDeck(),
+                                       playerMaxHP: ChampionBattle.playerHP)
+        while let question = state.currentQuestion {
+            (state, _) = BattleEngine.answer(state, selectedIndex: question.correctIndex!, answerSeconds: 10)
+        }
+        XCTAssertEqual(state.outcome, .won)
+        XCTAssertEqual(state.results.count, 60)
+
+        let save = store.finishBattle(state)
+        XCTAssertEqual(save.championWins, 1)
+        XCTAssertEqual(store.totalXP, 300)
+        XCTAssertTrue(store.earnedBadges.contains(.mockExamPassed))
+        XCTAssertTrue(store.earnedBadges.contains(.regionChampion))
+    }
+
+    func testFinishEliteFourRunSetsClearedOnlyWhenRunIsCleared() throws {
+        let (store, _) = try makeStore()
+        let partial = EliteFourRun(memberIndex: 2, playerHP: 50, playerMaxHP: 100)
+        let saveAfterPartial = store.finishEliteFourRun(partial)
+        XCTAssertFalse(saveAfterPartial.eliteFourCleared)
+        XCTAssertFalse(store.earnedBadges.contains(.eliteFourCleared))
+
+        let cleared = EliteFourRun(memberIndex: 4, playerHP: 50, playerMaxHP: 100)
+        let saveAfterCleared = store.finishEliteFourRun(cleared)
+        XCTAssertTrue(saveAfterCleared.eliteFourCleared)
+        XCTAssertTrue(store.earnedBadges.contains(.eliteFourCleared))
+    }
+
+    func testChampionDeckHasSixtyQuestionsInMockExamBlueprint() throws {
+        let (store, _) = try makeStore()
+        let deck = store.championDeck()
+        XCTAssertEqual(deck.count, 60)
+        for category in IFRCore.Category.allCases {
+            XCTAssertEqual(deck.filter { $0.category == category }.count, category.examWeight)
+        }
+    }
 }
