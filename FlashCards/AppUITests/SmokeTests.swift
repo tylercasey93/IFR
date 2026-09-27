@@ -67,4 +67,35 @@ final class SmokeTests: XCTestCase {
         }
         XCTAssertTrue(app.tabBars.buttons["Study"].isSelected)
     }
+
+    func testStartingFirstGymShowsQuestionAndOptions() {
+        let app = XCUIApplication()
+        app.launch()
+        app.tabBars.buttons["Adventure"].tap()
+        app.buttons["airport-KHYP"].tap()
+        app.buttons["gym-humanFactors"].tap()
+        XCTAssertTrue(app.buttons["battleOption-0"].waitForExistence(timeout: 15))
+    }
+
+    func testAnsweringOptionAdvancesTurn() {
+        let app = XCUIApplication()
+        app.launch()
+        app.tabBars.buttons["Adventure"].tap()
+        app.buttons["airport-KHYP"].tap()
+        app.buttons["gym-humanFactors"].tap()
+        XCTAssertTrue(app.buttons["battleOption-0"].waitForExistence(timeout: 15))
+        app.buttons["battleOption-0"].tap()
+        XCTAssertTrue(app.buttons["battleQuit"].waitForExistence(timeout: 5))
+    }
+
+    func testBattleQuitReturnsToRegionMap() {
+        let app = XCUIApplication()
+        app.launch()
+        app.tabBars.buttons["Adventure"].tap()
+        app.buttons["airport-KHYP"].tap()
+        app.buttons["gym-humanFactors"].tap()
+        XCTAssertTrue(app.buttons["battleQuit"].waitForExistence(timeout: 15))
+        app.buttons["battleQuit"].tap()
+        XCTAssertTrue(app.otherElements["regionMap"].waitForExistence(timeout: 15))
+    }
 }
