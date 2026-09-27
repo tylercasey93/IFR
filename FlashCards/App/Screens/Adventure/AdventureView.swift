@@ -5,6 +5,7 @@ struct AdventureView: View {
     @Environment(StudyStore.self) private var store
     @State private var content: AdventureContent?
     @State private var activeBattle: BattleRun?
+    @State private var showingOverworld = false
 
     private let seed: UInt64?
     private let seededSave: AdventureSave?
@@ -24,9 +25,19 @@ struct AdventureView: View {
                         .onAppear { load() }
                 }
             }
+            .toolbar {
+                if content != nil {
+                    ToolbarItem { Button("Walk") { showingOverworld = true }.accessibilityIdentifier("walkButton") }
+                }
+            }
         }
         .fullScreenCover(item: $activeBattle) { run in
             BattleScreen(run: run)
+        }
+        .fullScreenCover(isPresented: $showingOverworld) {
+            if let content {
+                OverworldScreen(content: content, seed: seed)
+            }
         }
     }
 

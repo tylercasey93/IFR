@@ -1,5 +1,6 @@
 // AppUITests/SmokeTests.swift
 import XCTest
+import CoreGraphics
 import IFRCore
 
 final class SmokeTests: XCTestCase {
@@ -191,5 +192,20 @@ final class SmokeTests: XCTestCase {
         app.tabBars.buttons["Adventure"].tap()
         app.buttons["hallOfFame"].tap()
         XCTAssertTrue(app.staticTexts["hallOfFameEmpty"].waitForExistence(timeout: 15))
+    }
+
+    func testWalkingIntoCloudStartsBattleWithSeed() {
+        let app = XCUIApplication()
+        app.launchArguments += ["-adventureSeed", "7"]
+        app.launch()
+        app.tabBars.buttons["Adventure"].tap()
+        app.buttons["walkButton"].tap()
+        let overworld = app.otherElements["overworldScreen"]
+        XCTAssertTrue(overworld.waitForExistence(timeout: 15))
+        let cloudTarget = overworld.coordinate(withNormalizedOffset: CGVector(dx: 0.7, dy: 0.6))
+        for _ in 0..<20 {
+            cloudTarget.tap()
+        }
+        XCTAssertTrue(app.buttons["battleOption-0"].waitForExistence(timeout: 20))
     }
 }
