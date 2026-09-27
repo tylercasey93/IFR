@@ -12,15 +12,18 @@ public struct AdventureSave: Codable, Equatable, Sendable {
     public var battlesWon: Int
     public var battlesLost: Int
     public var visitedAirportIDs: Set<String>
+    public var defeatedTrainerIDs: Set<String>
 
     public static let new = AdventureSave(
         saveVersion: currentVersion, badges: [], badgeQuestionIDs: [:], eliteFourCleared: false,
-        championWins: 0, hallOfFame: [], battlesWon: 0, battlesLost: 0, visitedAirportIDs: []
+        championWins: 0, hallOfFame: [], battlesWon: 0, battlesLost: 0, visitedAirportIDs: [],
+        defeatedTrainerIDs: []
     )
 
     public init(
         saveVersion: Int, badges: Set<GymID>, badgeQuestionIDs: [String: [String]], eliteFourCleared: Bool,
-        championWins: Int, hallOfFame: [Date], battlesWon: Int, battlesLost: Int, visitedAirportIDs: Set<String>
+        championWins: Int, hallOfFame: [Date], battlesWon: Int, battlesLost: Int, visitedAirportIDs: Set<String>,
+        defeatedTrainerIDs: Set<String> = []
     ) {
         self.saveVersion = saveVersion
         self.badges = badges
@@ -31,11 +34,12 @@ public struct AdventureSave: Codable, Equatable, Sendable {
         self.battlesWon = battlesWon
         self.battlesLost = battlesLost
         self.visitedAirportIDs = visitedAirportIDs
+        self.defeatedTrainerIDs = defeatedTrainerIDs
     }
 
     private enum CodingKeys: String, CodingKey {
         case saveVersion, badges, badgeQuestionIDs, eliteFourCleared, championWins,
-             hallOfFame, battlesWon, battlesLost, visitedAirportIDs
+             hallOfFame, battlesWon, battlesLost, visitedAirportIDs, defeatedTrainerIDs
     }
 
     public init(from decoder: Decoder) throws {
@@ -53,5 +57,6 @@ public struct AdventureSave: Codable, Equatable, Sendable {
         self.battlesWon = try container.decodeIfPresent(Int.self, forKey: .battlesWon) ?? 0
         self.battlesLost = try container.decodeIfPresent(Int.self, forKey: .battlesLost) ?? 0
         self.visitedAirportIDs = try container.decodeIfPresent(Set<String>.self, forKey: .visitedAirportIDs) ?? []
+        self.defeatedTrainerIDs = try container.decodeIfPresent(Set<String>.self, forKey: .defeatedTrainerIDs) ?? []
     }
 }
