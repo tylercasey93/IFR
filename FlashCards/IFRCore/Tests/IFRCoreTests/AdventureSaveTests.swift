@@ -72,6 +72,12 @@ final class AdventureSaveTests: XCTestCase {
         XCTAssertEqual(decoded.defeatedTrainerIDs, [])
     }
 
+    func testOlderSaveWithoutInventoryDecodes() throws {
+        let json = "{\"badges\":[]}"
+        let decoded = try JSONDecoder().decode(AdventureSave.self, from: Data(json.utf8))
+        XCTAssertEqual(decoded.inventory, [:])
+    }
+
     func testSaveFromNewerVersionThrows() {
         let json = "{\"saveVersion\": 2}"
         XCTAssertThrowsError(try JSONDecoder().decode(AdventureSave.self, from: Data(json.utf8))) {

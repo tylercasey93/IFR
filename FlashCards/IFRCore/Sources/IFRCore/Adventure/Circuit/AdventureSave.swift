@@ -14,6 +14,7 @@ public struct AdventureSave: Codable, Equatable, Sendable {
     public var visitedAirportIDs: Set<String>
     public var defeatedTrainerIDs: Set<String>
     public var collectedItemIDs: Set<String>
+    public var inventory: [String: Int]
     public var repelStepsLeft: Int
     public var position: GridPoint?
     public var rivalEncountersDone: Set<Int>
@@ -21,15 +22,15 @@ public struct AdventureSave: Codable, Equatable, Sendable {
     public static let new = AdventureSave(
         saveVersion: currentVersion, badges: [], badgeQuestionIDs: [:], eliteFourCleared: false,
         championWins: 0, hallOfFame: [], battlesWon: 0, battlesLost: 0, visitedAirportIDs: [],
-        defeatedTrainerIDs: [], collectedItemIDs: [], repelStepsLeft: 0, position: nil,
+        defeatedTrainerIDs: [], collectedItemIDs: [], inventory: [:], repelStepsLeft: 0, position: nil,
         rivalEncountersDone: []
     )
 
     public init(
         saveVersion: Int, badges: Set<GymID>, badgeQuestionIDs: [String: [String]], eliteFourCleared: Bool,
         championWins: Int, hallOfFame: [Date], battlesWon: Int, battlesLost: Int, visitedAirportIDs: Set<String>,
-        defeatedTrainerIDs: Set<String> = [], collectedItemIDs: Set<String> = [], repelStepsLeft: Int = 0,
-        position: GridPoint? = nil, rivalEncountersDone: Set<Int> = []
+        defeatedTrainerIDs: Set<String> = [], collectedItemIDs: Set<String> = [], inventory: [String: Int] = [:],
+        repelStepsLeft: Int = 0, position: GridPoint? = nil, rivalEncountersDone: Set<Int> = []
     ) {
         self.saveVersion = saveVersion
         self.badges = badges
@@ -42,6 +43,7 @@ public struct AdventureSave: Codable, Equatable, Sendable {
         self.visitedAirportIDs = visitedAirportIDs
         self.defeatedTrainerIDs = defeatedTrainerIDs
         self.collectedItemIDs = collectedItemIDs
+        self.inventory = inventory
         self.repelStepsLeft = repelStepsLeft
         self.position = position
         self.rivalEncountersDone = rivalEncountersDone
@@ -50,7 +52,7 @@ public struct AdventureSave: Codable, Equatable, Sendable {
     private enum CodingKeys: String, CodingKey {
         case saveVersion, badges, badgeQuestionIDs, eliteFourCleared, championWins,
              hallOfFame, battlesWon, battlesLost, visitedAirportIDs, defeatedTrainerIDs,
-             collectedItemIDs, repelStepsLeft, position, rivalEncountersDone
+             collectedItemIDs, inventory, repelStepsLeft, position, rivalEncountersDone
     }
 
     public init(from decoder: Decoder) throws {
@@ -70,6 +72,7 @@ public struct AdventureSave: Codable, Equatable, Sendable {
         self.visitedAirportIDs = try container.decodeIfPresent(Set<String>.self, forKey: .visitedAirportIDs) ?? []
         self.defeatedTrainerIDs = try container.decodeIfPresent(Set<String>.self, forKey: .defeatedTrainerIDs) ?? []
         self.collectedItemIDs = try container.decodeIfPresent(Set<String>.self, forKey: .collectedItemIDs) ?? []
+        self.inventory = try container.decodeIfPresent([String: Int].self, forKey: .inventory) ?? [:]
         self.repelStepsLeft = try container.decodeIfPresent(Int.self, forKey: .repelStepsLeft) ?? 0
         self.position = try container.decodeIfPresent(GridPoint.self, forKey: .position)
         self.rivalEncountersDone = try container.decodeIfPresent(Set<Int>.self, forKey: .rivalEncountersDone) ?? []

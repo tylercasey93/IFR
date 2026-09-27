@@ -24,6 +24,21 @@ public enum BattleEngine {
         return (next, events)
     }
 
+    public static func useItem(_ state: BattleState, effect: ItemEffect) -> BattleState {
+        switch effect {
+        case .heal(let amount):
+            var next = state
+            next.playerHP = min(next.playerMaxHP, next.playerHP + amount)
+            return next
+        case .reviveOnce:
+            var next = state
+            next.reviveArmed = true
+            return next
+        case .repel, .directTo:
+            return state
+        }
+    }
+
     public static func forfeit(_ state: BattleState) -> (state: BattleState, events: [BattleEvent]) {
         guard state.outcome == nil else { return (state, []) }
         var next = state
