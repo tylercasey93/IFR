@@ -58,6 +58,8 @@ final class AdventureSaveTests: XCTestCase {
         XCTAssertEqual(decoded.battlesWon, 3)
         XCTAssertEqual(decoded.battlesLost, 1)
         XCTAssertEqual(decoded.visitedAirportIDs, ["KHYP", "KGYR"])
+        XCTAssertEqual(decoded.position, GridPoint(x: 14, y: 1))
+        XCTAssertEqual(decoded.facing, .right)
     }
 
     func testDecodingOlderSaveMissingKeysUsesDefaults() throws {
@@ -82,6 +84,13 @@ final class AdventureSaveTests: XCTestCase {
         let json = "{\"badges\":[]}"
         let decoded = try JSONDecoder().decode(AdventureSave.self, from: Data(json.utf8))
         XCTAssertEqual(decoded.rivalEncountersDone, [])
+    }
+
+    func testOlderSaveWithoutPositionDecodes() throws {
+        let json = "{\"badges\":[]}"
+        let decoded = try JSONDecoder().decode(AdventureSave.self, from: Data(json.utf8))
+        XCTAssertNil(decoded.position)
+        XCTAssertNil(decoded.facing)
     }
 
     func testSaveFromNewerVersionThrows() {

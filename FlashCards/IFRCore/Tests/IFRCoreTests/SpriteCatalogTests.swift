@@ -16,6 +16,12 @@ final class SpriteCatalogTests: XCTestCase {
         "airport", "cursor",
     ]
 
+    private let tileAndWalkerSpriteIDs = [
+        "tile-ground", "tile-airway", "tile-cloud", "tile-water", "tile-terrain", "tile-building",
+        "tile-door", "tile-sign", "walker-down-0", "walker-down-1", "walker-up-0", "walker-up-1",
+        "walker-left-0", "walker-left-1", "trainer-student", "path-marker",
+    ]
+
     func testEveryCatalogSpriteParses() {
         XCTAssertFalse(SpriteCatalog.all.isEmpty)
         for id in battleSpriteIDs + smallSpriteIDs {
@@ -36,6 +42,14 @@ final class SpriteCatalogTests: XCTestCase {
             let sprite = SpriteCatalog.sprite(named: id)
             XCTAssertEqual(sprite?.width, 8, id)
             XCTAssertEqual(sprite?.height, 8, id)
+        }
+    }
+
+    func testTileAndWalkerSpritesAreSixteenSquare() {
+        for id in tileAndWalkerSpriteIDs {
+            let sprite = SpriteCatalog.sprite(named: id)
+            XCTAssertEqual(sprite?.width, 16, id)
+            XCTAssertEqual(sprite?.height, 16, id)
         }
     }
 
