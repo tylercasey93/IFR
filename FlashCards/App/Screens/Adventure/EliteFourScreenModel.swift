@@ -40,7 +40,10 @@ final class EliteFourScreenModel {
 
     func battleDismissed() {
         activeBattle = nil
-        guard store.adventureSave.battlesWon > battlesWonBeforeBattle else { return }
+        guard store.adventureSave.battlesWon > battlesWonBeforeBattle else {
+            run = EliteFourRun.start(playerMaxHP: run.playerMaxHP)
+            return
+        }
         run = EliteFourRun(memberIndex: run.memberIndex + 1, playerHP: run.playerMaxHP, playerMaxHP: run.playerMaxHP)
         if run.isCleared {
             store.finishEliteFourRun(run)

@@ -66,6 +66,21 @@ final class EliteFourScreenModelTests: XCTestCase {
         XCTAssertTrue(model.run.isCleared)
     }
 
+    func testEliteFourLossRestartsAtMemberOne() throws {
+        let store = try makeStore()
+        let model = EliteFourScreenModel(content: fourMemberContent(), store: store)
+        model.challengeCurrentMember()
+        store.finishBattle(winBattle(try XCTUnwrap(model.activeBattle)))
+        model.battleDismissed()
+        XCTAssertEqual(model.run.memberIndex, 1)
+        model.challengeCurrentMember()
+        let second = try XCTUnwrap(model.activeBattle)
+        let started = BattleEngine.start(opponent: second.opponent, deck: second.deck, playerMaxHP: second.playerMaxHP)
+        store.finishBattle(BattleEngine.forfeit(started).state)
+        model.battleDismissed()
+        XCTAssertEqual(model.run.memberIndex, 0)
+    }
+
     func testEliteFourScreenLeavingAbandonsRun() throws {
         let store = try makeStore()
         let content = fourMemberContent()

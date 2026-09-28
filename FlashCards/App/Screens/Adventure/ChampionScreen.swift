@@ -16,6 +16,7 @@ struct ChampionScreen: View {
             Button("Challenge") { startChampionBattle() }
                 .accessibilityIdentifier("gym-champion")
         }
+        .accessibilityElement(children: .contain)
         .accessibilityIdentifier("championScreen")
         .onAppear { dialogue = content.dialogue[content.champion.dialogue.intro] }
         .fullScreenCover(item: $activeBattle) { run in

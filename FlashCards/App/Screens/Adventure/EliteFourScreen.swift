@@ -17,6 +17,7 @@ struct EliteFourScreen: View {
                     .onAppear { model = EliteFourScreenModel(content: content, store: store) }
             }
         }
+        .accessibilityElement(children: .contain)
         .accessibilityIdentifier("eliteFourScreen")
     }
 
