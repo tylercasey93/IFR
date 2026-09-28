@@ -4,8 +4,8 @@ import IFRCore
 
 final class PixelImageBuilderTests: XCTestCase {
     private func bytes(of image: CGImage) -> [UInt8] {
-        let data = image.dataProvider!.data as Data
-        return [UInt8](data)
+        guard let data = image.dataProvider?.data else { return [] }
+        return [UInt8](data as Data)
     }
 
     func testBuilderProducesTwoHundredFortyByOneSixtyImage() throws {
