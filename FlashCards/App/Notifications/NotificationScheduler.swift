@@ -14,8 +14,6 @@ final class NotificationScheduler {
 
     /// Idempotent: clears and reschedules both notifications from current state.
     /// Call at launch, on scene-background, and after settings changes.
-    /// Returns true when a rematch request was scheduled, so the caller can
-    /// stamp `AdventureSave.lastRematchNotice`.
     @MainActor
     @discardableResult
     func refresh(reminderEnabled: Bool, reminderHour: Int, reminderMinute: Int,

@@ -29,7 +29,6 @@ final class StudyStore {
     /// Task 7 (Game Center) assigns this to push fresh totals after XP changes.
     var onXPChanged: (() -> Void)?
 
-    /// M3-04 (Battle Tower) assigns this to push the tower leaderboard after a floor climb.
     var onTowerFloorReached: ((Int) -> Void)?
 
     init(context: ModelContext, bank: QuestionBank) {
@@ -285,8 +284,6 @@ final class StudyStore {
         return MasteryCalculator(scheduler: scheduler).readiness(bank: bank, states: cardStates, at: examDate)
     }
 
-    // MARK: - Adventure save
-
     private var adventureSaveRecord: AdventureSaveRecord {
         if let existing = try? context.fetch(FetchDescriptor<AdventureSaveRecord>()).first { return existing }
         let created = AdventureSaveRecord()
@@ -401,6 +398,7 @@ final class StudyStore {
         return Int(opponentID.dropFirst(prefix.count))
     }
 
+    @discardableResult
     func finishEliteFourRun(_ run: EliteFourRun) -> AdventureSave {
         var next = adventureSave
         if run.isCleared {
