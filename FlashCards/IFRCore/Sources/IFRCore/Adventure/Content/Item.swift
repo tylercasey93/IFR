@@ -53,4 +53,11 @@ public struct Item: Codable, Equatable, Sendable {
     public let name: String
     public let spriteID: String
     public let effect: ItemEffect
+
+    public init(id: String, name: String, spriteID: String, effect: ItemEffect) {
+        self.id = id
+        self.name = name
+        self.spriteID = spriteID
+        self.effect = effect
+    }
 }

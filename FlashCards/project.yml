@@ -52,6 +52,7 @@ targets:
     sources: [AppUITests]
     dependencies:
       - target: IFRFlashCards
+      - package: IFRCore
     settings:
       base:
         GENERATE_INFOPLIST_FILE: YES

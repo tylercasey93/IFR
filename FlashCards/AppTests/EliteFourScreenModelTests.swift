@@ -39,7 +39,7 @@ final class EliteFourScreenModelTests: XCTestCase {
 
     private func winBattle(_ run: BattleRun) -> BattleState {
         var state = BattleEngine.start(opponent: run.opponent, deck: run.deck, playerMaxHP: run.playerMaxHP)
-        while let question = state.currentQuestion {
+        while state.outcome == nil, let question = state.currentQuestion {
             (state, _) = BattleEngine.answer(state, selectedIndex: question.correctIndex!, answerSeconds: 10)
         }
         return state
