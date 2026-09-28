@@ -14,5 +14,5 @@ struct BattleRun: Identifiable {
     let loseDialogue: DialogueScript
     let firstTime: Bool
     let returnTo: GridPoint?
-    let items: [Item]
+    var items: [Item] = []
 }

@@ -17,10 +17,13 @@ final class BattleScreenModelTests: XCTestCase {
     }
 
     private func mcQuestion(_ id: String, difficulty: Int = 1) -> Question {
-        Question(id: id, category: .humanFactors, acsCodes: ["IR.I.A.K1"], format: .multipleChoice,
-                 front: "f", back: "b", options: ["a", "b", "c"], correctIndex: 0, explanation: "e",
-                 source: SourceRef(document: "d", section: "s", url: URL(string: "https://faa.gov")!),
-                 figure: nil, difficulty: difficulty)
+        let json = """
+        {"id": "\(id)", "category": "humanFactors", "acsCodes": ["IR.I.A.K1"], "format": "multipleChoice",
+         "front": "f", "back": "b", "options": ["a", "b", "c"], "correctIndex": 0, "explanation": "e",
+         "source": {"document": "d", "section": "s", "url": "https://faa.gov"}, "figure": null,
+         "difficulty": \(difficulty)}
+        """
+        return try! JSONDecoder().decode(Question.self, from: Data(json.utf8))
     }
 
     private func deck(_ count: Int) -> [Question] {

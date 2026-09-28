@@ -2,6 +2,10 @@ import Foundation
 
 public struct DialogueScript: Codable, Equatable, Sendable {
     public let pages: [String]
+
+    public init(pages: [String]) {
+        self.pages = pages
+    }
 }
 
 public enum SystemDialogueKey: String, CaseIterable, Sendable {

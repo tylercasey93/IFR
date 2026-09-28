@@ -9,11 +9,13 @@ struct BattleOptionsView: View {
 
     @State private var showsSource = false
 
+    private var options: [String] { question.options ?? [] }
+
     var body: some View {
         VStack(spacing: 8) {
             ScrollView {
                 VStack(spacing: 8) {
-                    ForEach(question.options.indices, id: \.self) { index in
+                    ForEach(options.indices, id: \.self) { index in
                         optionButton(index)
                     }
                 }
@@ -28,7 +30,7 @@ struct BattleOptionsView: View {
     }
 
     private func optionButton(_ index: Int) -> some View {
-        Button(question.options[index]) { onSelect(index) }
+        Button(options[index]) { onSelect(index) }
             .disabled(!isEnabled)
             .buttonStyle(.bordered)
             .accessibilityIdentifier("battleOption-\(index)")
