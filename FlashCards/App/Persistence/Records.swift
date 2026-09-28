@@ -108,7 +108,7 @@ final class BadgeRecord {
 @Model
 final class AdventureSaveRecord {
     var json: Data = Data()
-    var updatedOn: Date = .distantPast
+    var updatedOn: Date = Date.distantPast
 
     init() {}
 }
