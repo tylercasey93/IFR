@@ -14,21 +14,23 @@ struct HPBarView: View {
             Text(String(name.uppercased().prefix(7)))
                 .font(RetroTheme.pixelFont(size: fontSize))
                 .foregroundStyle(.black)
-                .position(point(for: plate.nameOrigin))
+                .offset(x: points(plate.nameOrigin.x), y: points(plate.nameOrigin.y))
             if let numbersRightEdge = plate.numbersRightEdge {
                 Text("\(hp)/\(maxHP)")
                     .font(RetroTheme.pixelFont(size: fontSize))
                     .foregroundStyle(.black)
-                    .position(point(for: numbersRightEdge))
+                    .frame(width: points(numbersRightEdge.x), alignment: .trailing)
+                    .offset(y: points(numbersRightEdge.y))
             }
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
     }
 
     private var fontSize: CGFloat {
         RetroTheme.pixelFontSize(scale: scale, displayScale: displayScale)
     }
 
-    private func point(for origin: GridPoint) -> CGPoint {
-        CGPoint(x: CGFloat(origin.x * scale) / displayScale, y: CGFloat(origin.y * scale) / displayScale)
+    private func points(_ logical: Int) -> CGFloat {
+        CGFloat(logical * scale) / displayScale
     }
 }

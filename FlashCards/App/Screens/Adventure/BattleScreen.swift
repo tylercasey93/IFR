@@ -30,6 +30,7 @@ struct BattleScreen: View {
             TimelineView(.animation) { context in
                 let scale = IntegerScaler.scale(viewWidth: geometry.size.width, viewHeight: geometry.size.height,
                                                 displayScale: displayScale)
+                let canvas = IntegerScaler.canvasSize(scale: scale, displayScale: displayScale)
                 let frame = renderedFrame(model: model, at: context.date)
                 VStack(spacing: 0) {
                     ZStack {
@@ -41,6 +42,7 @@ struct BattleScreen: View {
                                  hp: model.state.playerHP, maxHP: model.state.playerMaxHP,
                                  scale: scale, displayScale: displayScale)
                     }
+                    .frame(width: canvas.width, height: canvas.height)
                     .contentShape(Rectangle())
                     .onTapGesture { handleTap(model: model, at: context.date) }
                     if model.phase == .asking, let question = model.state.currentQuestion {
@@ -49,6 +51,7 @@ struct BattleScreen: View {
                                           onSelect: { index in model.answer(selectedIndex: index, at: context.date) })
                     }
                 }
+                .frame(width: geometry.size.width, height: geometry.size.height)
                 .onChange(of: context.date) { _, date in advance(model: model, at: date) }
                 .onChange(of: model.dismissed) { _, done in if done { dismiss() } }
                 .toolbar {
@@ -67,6 +70,7 @@ struct BattleScreen: View {
                 }
             }
         }
+        .background(Theme.panel)
     }
 
     private func renderedFrame(model: BattleScreenModel, at date: Date) -> PixelFrame {
