@@ -39,7 +39,7 @@ final class BattleScreenModel {
     }
 
     func frameIndex(at date: Date) -> Int {
-        max(0, Int(date.timeIntervalSince(phaseStart) * 60))
+        max(0, Int((date.timeIntervalSince(phaseStart) * 60).rounded()))
     }
 
     func advanceWipeIfComplete(at date: Date) {
