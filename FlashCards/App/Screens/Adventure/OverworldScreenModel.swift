@@ -43,7 +43,7 @@ final class OverworldScreenModel {
     }
 
     func frameIndex(at date: Date) -> Int {
-        max(0, Int(date.timeIntervalSince(stepPhaseStart) * 60))
+        max(0, Int((date.timeIntervalSince(stepPhaseStart) * 60).rounded()))
     }
 
     func tapped(at point: CGPoint, viewSize: CGSize, displayScale: Double) {
