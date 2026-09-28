@@ -28,6 +28,10 @@ struct DialogueBoxView: View {
             .multilineTextAlignment(.leading)
             .frame(maxWidth: .infinity, alignment: .leading)
             .contentShape(Rectangle())
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel(page.lines.joined(separator: " "))
+            .accessibilityAddTraits(.isStaticText)
+            .accessibilityIdentifier("dialogueBox")
             .onTapGesture { advance(atFrame: frame) }
         }
     }
@@ -37,7 +41,7 @@ struct DialogueBoxView: View {
     }
 
     private func frameIndex(at date: Date) -> Int {
-        max(0, Int(date.timeIntervalSince(phaseStart) * 60))
+        max(0, Int((date.timeIntervalSince(phaseStart) * 60).rounded()))
     }
 
     private func visibleLines(of page: TypewriterPage, atFrame frame: Int) -> [String] {
