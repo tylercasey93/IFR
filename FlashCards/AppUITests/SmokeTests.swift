@@ -38,11 +38,14 @@ final class SmokeTests: XCTestCase {
         return save
     }
 
-    private func tapUp(_ overworld: XCUIElement, times: Int = 10) {
-        let above = overworld.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.35))
-        for _ in 0..<times {
-            above.tap()
-        }
+    private func tapDoor(_ app: XCUIApplication, from player: GridPoint) {
+        let canvas = app.otherElements["overworldScreen"]
+        XCTAssertTrue(canvas.waitForExistence(timeout: 15))
+        let origin = Camera.origin(following: player, mapWidth: 40, mapHeight: 30)
+        let door = GridPoint(x: player.x, y: player.y - 1)
+        let offset = CGVector(dx: (Double(door.x - origin.x) + 0.5) / 15,
+                              dy: (Double(door.y - origin.y) + 0.5) / 10)
+        canvas.coordinate(withNormalizedOffset: offset).tap()
     }
 
     func testAppLaunches() {
@@ -126,7 +129,7 @@ final class SmokeTests: XCTestCase {
         app.tabBars.buttons["Adventure"].tap()
         let overworld = app.otherElements["overworldScreen"]
         XCTAssertTrue(overworld.waitForExistence(timeout: 15))
-        tapUp(overworld, times: 6)
+        tapDoor(app, from: GridPoint(x: 3, y: 15))
         XCTAssertTrue(app.buttons["gym-humanFactors"].waitForExistence(timeout: 15))
         app.buttons["gym-humanFactors"].tap()
         XCTAssertTrue(app.buttons["battleOption-0"].waitForExistence(timeout: 15))
@@ -141,7 +144,7 @@ final class SmokeTests: XCTestCase {
         app.tabBars.buttons["Adventure"].tap()
         let overworld = app.otherElements["overworldScreen"]
         XCTAssertTrue(overworld.waitForExistence(timeout: 15))
-        tapUp(overworld, times: 6)
+        tapDoor(app, from: GridPoint(x: 7, y: 15))
         XCTAssertTrue(app.staticTexts["You need the Oxygen Badge first."].waitForExistence(timeout: 15))
         XCTAssertFalse(app.buttons["gym-instrumentsAndSystems"].exists)
     }
@@ -151,7 +154,7 @@ final class SmokeTests: XCTestCase {
         app.tabBars.buttons["Adventure"].tap()
         let overworld = app.otherElements["overworldScreen"]
         XCTAssertTrue(overworld.waitForExistence(timeout: 15))
-        tapUp(overworld, times: 6)
+        tapDoor(app, from: GridPoint(x: 34, y: 15))
         XCTAssertTrue(app.otherElements["eliteFourScreen"].waitForExistence(timeout: 15))
     }
 
@@ -160,8 +163,8 @@ final class SmokeTests: XCTestCase {
         app.tabBars.buttons["Adventure"].tap()
         let overworld = app.otherElements["overworldScreen"]
         XCTAssertTrue(overworld.waitForExistence(timeout: 15))
-        tapUp(overworld, times: 6)
-        XCTAssertTrue(app.staticTexts["We finish the exam, pilot. Every question counts."].waitForExistence(timeout: 15))
+        tapDoor(app, from: GridPoint(x: 37, y: 15))
+        XCTAssertTrue(app.staticTexts["You must clear the Elite Four first."].waitForExistence(timeout: 15))
     }
 
     func testDirectToPickerOpensFromMapButton() {
@@ -171,7 +174,7 @@ final class SmokeTests: XCTestCase {
         app.tabBars.buttons["Adventure"].tap()
         XCTAssertTrue(app.buttons["regionMapButton"].waitForExistence(timeout: 15))
         app.buttons["regionMapButton"].tap()
-        XCTAssertTrue(app.otherElements["directToPicker"].waitForExistence(timeout: 15))
+        XCTAssertTrue(app.collectionViews["directToPicker"].waitForExistence(timeout: 15))
         XCTAssertTrue(app.buttons["directTo-KHYP"].exists)
     }
 
@@ -180,7 +183,7 @@ final class SmokeTests: XCTestCase {
         app.tabBars.buttons["Adventure"].tap()
         let overworld = app.otherElements["overworldScreen"]
         XCTAssertTrue(overworld.waitForExistence(timeout: 15))
-        tapUp(overworld, times: 6)
+        tapDoor(app, from: GridPoint(x: 34, y: 15))
         XCTAssertTrue(app.otherElements["eliteFourScreen"].waitForExistence(timeout: 15))
     }
 
@@ -189,7 +192,7 @@ final class SmokeTests: XCTestCase {
         app.tabBars.buttons["Adventure"].tap()
         let overworld = app.otherElements["overworldScreen"]
         XCTAssertTrue(overworld.waitForExistence(timeout: 15))
-        tapUp(overworld, times: 6)
+        tapDoor(app, from: GridPoint(x: 34, y: 15))
         XCTAssertTrue(app.staticTexts["You need the Charts Badge first."].waitForExistence(timeout: 15))
     }
 
@@ -198,8 +201,8 @@ final class SmokeTests: XCTestCase {
         app.tabBars.buttons["Adventure"].tap()
         let overworld = app.otherElements["overworldScreen"]
         XCTAssertTrue(overworld.waitForExistence(timeout: 15))
-        tapUp(overworld, times: 6)
-        XCTAssertTrue(app.staticTexts["We finish the exam, pilot. Every question counts."].waitForExistence(timeout: 15))
+        tapDoor(app, from: GridPoint(x: 37, y: 15))
+        XCTAssertTrue(app.staticTexts["You must clear the Elite Four first."].waitForExistence(timeout: 15))
     }
 
     func testChampionChallengeStartsSixtyQuestionBattleAsTheDPE() {
@@ -210,7 +213,7 @@ final class SmokeTests: XCTestCase {
         app.tabBars.buttons["Adventure"].tap()
         let overworld = app.otherElements["overworldScreen"]
         XCTAssertTrue(overworld.waitForExistence(timeout: 15))
-        tapUp(overworld, times: 6)
+        tapDoor(app, from: GridPoint(x: 37, y: 15))
         XCTAssertTrue(app.otherElements["championScreen"].waitForExistence(timeout: 15))
         app.buttons["gym-champion"].tap()
         XCTAssertTrue(app.buttons["battleOption-0"].waitForExistence(timeout: 15))
@@ -221,19 +224,19 @@ final class SmokeTests: XCTestCase {
         let app = launch(withSave: save(withBadges: 2))
         app.tabBars.buttons["Adventure"].tap()
         app.buttons["badgeCase"].tap()
-        XCTAssertTrue(app.cells["badgeSlot-approaches"].waitForExistence(timeout: 15))
+        XCTAssertTrue(app.staticTexts["badgeSlot-approaches"].waitForExistence(timeout: 15))
         for gymID in GymID.allCases {
-            XCTAssertTrue(app.cells["badgeSlot-\(gymID.rawValue)"].exists)
+            XCTAssertTrue(app.staticTexts["badgeSlot-\(gymID.rawValue)"].exists)
         }
-        XCTAssertEqual(app.cells["badgeSlot-humanFactors"].value as? String, "earned")
-        XCTAssertEqual(app.cells["badgeSlot-approaches"].value as? String, "locked")
+        XCTAssertEqual(app.staticTexts["badgeSlot-humanFactors"].value as? String, "earned")
+        XCTAssertEqual(app.staticTexts["badgeSlot-approaches"].value as? String, "locked")
     }
 
     func testHallOfFameListsChampionWinsNewestFirst() {
         let app = launch(withSave: hallOfFameSave())
         app.tabBars.buttons["Adventure"].tap()
         app.buttons["hallOfFame"].tap()
-        XCTAssertTrue(app.cells["hallOfFameEntry-0"].waitForExistence(timeout: 15))
+        XCTAssertTrue(app.staticTexts["hallOfFameEntry-0"].waitForExistence(timeout: 15))
     }
 
     func testHallOfFameIsEmptyBeforeFirstChampionWin() {
@@ -244,15 +247,22 @@ final class SmokeTests: XCTestCase {
     }
 
     func testWalkingIntoCloudStartsBattleWithSeed() {
+        var seeded = AdventureSave.new
+        seeded.position = GridPoint(x: 15, y: 18)
+        seeded.facing = .down
         let app = XCUIApplication()
         app.launchArguments += ["-adventureSeed", "7"]
+        let data = try! JSONEncoder().encode(seeded)
+        app.launchArguments += ["-adventureSaveJSON", String(data: data, encoding: .utf8)!]
         app.launch()
         app.tabBars.buttons["Adventure"].tap()
         let overworld = app.otherElements["overworldScreen"]
         XCTAssertTrue(overworld.waitForExistence(timeout: 15))
-        let cloudTarget = overworld.coordinate(withNormalizedOffset: CGVector(dx: 0.7, dy: 0.6))
-        for _ in 0..<20 {
-            cloudTarget.tap()
+        let left = overworld.coordinate(withNormalizedOffset: CGVector(dx: 6.5 / 15, dy: 5.5 / 10))
+        let right = overworld.coordinate(withNormalizedOffset: CGVector(dx: 8.5 / 15, dy: 5.5 / 10))
+        for step in 0..<30 {
+            guard !app.buttons["battleQuit"].exists else { break }
+            (step.isMultiple(of: 2) ? left : right).tap()
         }
         XCTAssertTrue(app.buttons["battleOption-0"].waitForExistence(timeout: 20))
     }

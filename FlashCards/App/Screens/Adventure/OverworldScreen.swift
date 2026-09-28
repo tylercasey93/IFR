@@ -20,7 +20,6 @@ struct OverworldScreen: View {
                 Color.clear.onAppear { model = makeModel() }
             }
         }
-        .accessibilityIdentifier("overworldScreen")
         .toolbar {
             ToolbarItem { Button("Map") { showingMap = true }.accessibilityIdentifier("regionMapButton") }
         }
@@ -39,13 +38,15 @@ struct OverworldScreen: View {
     private func canvas(model: OverworldScreenModel) -> some View {
         GeometryReader { geometry in
             TimelineView(.animation) { context in
+                let scale = canvasScale(in: geometry.size)
+                let size = canvasSize(scale: scale)
                 let frame = OverworldRenderer.frame(
                     map: model.map, state: model.state, trainers: content.trainers,
                     defeated: model.save.defeatedTrainerIDs, atFrame: model.frameIndex(at: context.date))
                 ZStack(alignment: .bottomLeading) {
                     GBAScreen(frame: frame)
                     if let dialogue = model.dialogue {
-                        DialogueBoxView(script: dialogue, scale: 1, displayScale: displayScale,
+                        DialogueBoxView(script: dialogue, scale: scale, displayScale: displayScale,
                                        onFinished: { model.dialogueFinished() })
                     }
                     if let gymID = model.challengeableGymID {
@@ -56,11 +57,16 @@ struct OverworldScreen: View {
                         DPadOverlay(onPress: { model.dpadStep($0) })
                     }
                 }
+                .frame(width: size.width, height: size.height)
                 .contentShape(Rectangle())
-                .gesture(tapGesture(model: model, geometry: geometry))
+                .gesture(tapGesture(model: model, viewSize: size))
+                .accessibilityElement(children: .contain)
+                .accessibilityIdentifier("overworldScreen")
+                .position(x: geometry.size.width / 2, y: geometry.size.height / 2)
                 .onChange(of: context.date) { _, date in model.advance(at: date) }
             }
         }
+        .background(Theme.panel)
         .onChange(of: scenePhase) { _, phase in if phase == .background { model.sceneDidEnterBackground() } }
         .onChange(of: model.showingEliteFour) { _, showing in if !showing { model.eliteFourDismissed() } }
         .onChange(of: model.showingChampion) { _, showing in if !showing { model.championDismissed() } }
@@ -72,9 +78,18 @@ struct OverworldScreen: View {
         }
     }
 
-    private func tapGesture(model: OverworldScreenModel, geometry: GeometryProxy) -> some Gesture {
+    private func canvasScale(in available: CGSize) -> Int {
+        IntegerScaler.scale(viewWidth: available.width, viewHeight: available.height, displayScale: displayScale)
+    }
+
+    private func canvasSize(scale: Int) -> CGSize {
+        let size = IntegerScaler.canvasSize(scale: scale, displayScale: displayScale)
+        return CGSize(width: size.width, height: size.height)
+    }
+
+    private func tapGesture(model: OverworldScreenModel, viewSize: CGSize) -> some Gesture {
         SpatialTapGesture().onEnded { event in
-            model.tapped(at: event.location, viewSize: geometry.size, displayScale: displayScale)
+            model.tapped(at: event.location, viewSize: viewSize, displayScale: displayScale)
         }
     }
 
