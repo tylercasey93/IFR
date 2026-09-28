@@ -27,6 +27,7 @@ targets:
         UILaunchScreen: {}
         UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
         ITSAppUsesNonExemptEncryption: false
+        UIAppFonts: [PressStart2P-Regular.ttf]
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.tylercasey.ifrflashcards
