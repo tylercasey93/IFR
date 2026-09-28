@@ -20,6 +20,12 @@ struct BattleScreen: View {
     }
 
     private func content(model: BattleScreenModel) -> some View {
+        NavigationStack {
+            battleBody(model: model)
+        }
+    }
+
+    private func battleBody(model: BattleScreenModel) -> some View {
         GeometryReader { geometry in
             TimelineView(.animation) { context in
                 let scale = IntegerScaler.scale(viewWidth: geometry.size.width, viewHeight: geometry.size.height,
@@ -47,7 +53,7 @@ struct BattleScreen: View {
                 .onChange(of: model.dismissed) { _, done in if done { dismiss() } }
                 .toolbar {
                     ToolbarItem(placement: .cancellationAction) {
-                        Button("Quit") { model.quit(at: context.date) }
+                        Button("Quit") { quit(model: model, at: context.date) }
                             .accessibilityIdentifier("battleQuit")
                     }
                     ToolbarItem {
@@ -74,6 +80,11 @@ struct BattleScreen: View {
         model.advanceIntroIfComplete(at: date)
         model.advanceResolving(at: date)
         if model.phase == .asking { model.stemDidFinishTyping() }
+    }
+
+    private func quit(model: BattleScreenModel, at date: Date) {
+        model.quit(at: date)
+        model.dismissEnded()
     }
 
     private func handleTap(model: BattleScreenModel, at date: Date) {
