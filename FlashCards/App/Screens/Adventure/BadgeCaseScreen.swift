@@ -12,6 +12,7 @@ struct BadgeCaseScreen: View {
                 Spacer()
                 Text(isEarned(gymID) ? "Earned" : "Locked")
             }
+            .accessibilityElement(children: .combine)
             .accessibilityIdentifier("badgeSlot-\(gymID.rawValue)")
             .accessibilityValue(isEarned(gymID) ? "earned" : "locked")
         }
