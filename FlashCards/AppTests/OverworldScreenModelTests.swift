@@ -22,7 +22,7 @@ final class OverworldScreenModelTests: XCTestCase {
 
     private func makeContent(
         rows: [String], spawn: GridPoint, warp: (at: GridPoint, airportID: String)? = nil,
-        area: (rect: GridRect, category: Category)? = nil, gymID: GymID? = nil
+        area: (rect: GridRect, category: IFRCore.Category)? = nil, gymID: GymID? = nil
     ) throws -> AdventureContent {
         let json: [String: Any] = [
             "version": 1,
@@ -66,7 +66,7 @@ final class OverworldScreenModelTests: XCTestCase {
 
     private func tileMapJSON(
         rows: [String], spawn: GridPoint, warp: (at: GridPoint, airportID: String)?,
-        area: (rect: GridRect, category: Category)?
+        area: (rect: GridRect, category: IFRCore.Category)?
     ) -> [String: Any] {
         var map: [String: Any] = [
             "width": rows.first?.count ?? 0, "height": rows.count, "rows": rows,

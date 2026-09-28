@@ -9,7 +9,7 @@ extension OverworldScreenModel {
                    dialogueRefs: gym.dialogue, firstTime: !save.badges.contains(gymID))
     }
 
-    func presentCloudBattle(category: Category) {
+    func presentCloudBattle(category: IFRCore.Category) {
         let deck = store.drawEncounterDeck(count: 1, categories: [category])
         guard let question = deck.first else { return }
         persist()
@@ -91,7 +91,7 @@ extension OverworldScreenModel {
         content.gyms.first { $0.id == gymID }
     }
 
-    func cloudOpponent(category: Category, question: Question) -> Opponent {
+    func cloudOpponent(category: IFRCore.Category, question: Question) -> Opponent {
         Opponent(id: "cloud-\(category.rawValue)", name: "Wild \(category.displayName)",
                 nameplateName: String(category.displayName.uppercased().prefix(7)),
                 spriteID: "cloud-\(category.rawValue)", tier: .cloud, maxHP: OpponentHP.cloud(for: question))
